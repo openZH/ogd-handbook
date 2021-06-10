@@ -7,5 +7,7 @@
 Publikationsleitlinien
 **********************
 
-Wie bereite ich Daten auf?
-==========================
+Wie bereite ich Daten als maschinenlesbare Ressourcen auf, die einfach nutzbar sind?
+====================================================================================
+
+...
