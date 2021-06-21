@@ -12,6 +12,5 @@ Wie bereite ich Daten als maschinenlesbare Ressourcen auf, die einfach nutzbar s
 
 ...
 
-%%% <br>
-Referenzen:
+Referenzen: <br>
 - https://twitter.com/opendatacharter/status/1406182475198517249?s=20
