@@ -14,4 +14,7 @@ Wie bereite ich Daten als maschinenlesbare Ressourcen auf, die einfach nutzbar s
 
 
 Referenzen:
+   - New Zealand: https://www.data.govt.nz/catalogue-guide/releasing-data-on-data-govt-nz/adding-datasets-to-data-govt-nz/
    - Catalunya: https://twitter.com/opendatacharter/status/1406182475198517249?s=20
+   - Ontario: https://www.ontario.ca/document/open-data-guidebook-guide-open-data-directive/open-data-publication#section-2
+   - Open Data Handbook: http://opendatahandbook.org/glossary/en/terms/machine-readable/
