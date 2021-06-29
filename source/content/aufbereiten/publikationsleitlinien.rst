@@ -18,4 +18,4 @@ Referenzen:
    - Catalunya: https://twitter.com/opendatacharter/status/1406182475198517249?s=20
    - Ontario: https://www.ontario.ca/document/open-data-guidebook-guide-open-data-directive/open-data-publication#section-2
    - Open Data Handbook: http://opendatahandbook.org/glossary/en/terms/machine-readable/
-   - The Daily Shaping of State Transparency: Standards, Machine-Readability and the Configuration of Open Government Data Policies: https://sciencetechnologystudies.journal.fi/article/view/60221/pdf_36
+   - The Daily Shaping of State Transparency: Standards, Machine-Readability and the Configuration of Open Government Data Policies: https://sciencetechnologystudies.journal.fi/article/view/60221/pdf_36 (referenziert in: https://blog.okfn.org/2019/02/20/open-data-governance-and-open-governance-interplay-or-disconnect/)
