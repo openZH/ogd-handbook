@@ -13,6 +13,9 @@ Wie bereite ich Daten als maschinenlesbare Ressourcen auf, die einfach nutzbar s
 ...
 
 
+Quellen:
+   - Umfrage unter Datenpraktiker:innen in der kantonalen Verwaltung ZH: https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit#heading=h.rmmdqtjncwag
+
 Referenzen:
    - New Zealand: https://www.data.govt.nz/catalogue-guide/releasing-data-on-data-govt-nz/adding-datasets-to-data-govt-nz/
    - Catalunya: https://twitter.com/opendatacharter/status/1406182475198517249?s=20
