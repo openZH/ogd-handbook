@@ -62,6 +62,8 @@ Wie möchten Sie beginnen?
 - :doc:`zh.ch/opendata verstehen – Für Erst-Publizierende <content/einfuehren/erstpublizierende>`
 - :doc:`Daten aufbereiten <content/aufbereiten/publikationsleitlinien>`
 - :doc:`Daten publizieren <content/publizieren/publizieren>`
+- :doc:`Daten aktualsieren <content/publizieren/aktualisieren>`
+- :doc:`Daten mittels API automatisiert publizieren und aktualisieren <content/publizieren/api>`
 
 Unterstützen sie die Verbesserung dieses Handbuchs.
 ===================================================
