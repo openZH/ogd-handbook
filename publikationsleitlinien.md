@@ -35,3 +35,8 @@ URLs aufrufbar ausschreiben im Format 'https://...'
 
 Werte, die unbekannt sind, als solche ausweisen (nicht als '0'), sondern als 'NA'.
 
+## Datenstruktur-Standards
+
+
+
+## Inhaltliche Standards
