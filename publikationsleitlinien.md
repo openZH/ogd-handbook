@@ -7,4 +7,4 @@ Für tabellarische Daten verwenden wir standardmässig das Format [CSV](http://o
 
 Variabeln und Werte trennen wir mittels Kommas ',' voneinander (nicht mittels Semikolons ';').
 
-CSV-Dateien speichern wir als [Unicode (UTF-8)](...) ab.
+CSV-Dateien speichern wir als [Unicode (UTF-8)](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md) ab.
