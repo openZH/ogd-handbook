@@ -39,7 +39,7 @@ Werte, die unbekannt sind, als solche ausweisen (nicht als '0'), sondern als 'NA
 
 Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 
-> Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle. 
+> Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.  
 > ``BFS_NR,GEBIET_NAME,INDIKATOR_JAHR,INDIKATOR_VALUE,EINHEIT_KURZ``  
 > ``1,Aeugst a.A.,1990,111,Fr./Einw.``  
 > ``1,Aeugst a.A.,1991,102,Fr./Einw.``  
