@@ -1,5 +1,5 @@
 
-# Leitlinien für einfach nutzbare Daten
+# Publikationsleitlinien für einfach nutzbare Daten
 
 ## Technische Vorgaben
 
