@@ -21,7 +21,7 @@ CSV-Dateien speichern wir als Unicode (UTF-8) ab.
 
 Pro Spalte ein Datentyp.
 
-Spaltenüberschriften
+Spaltenüberschriften:
 - beginnen nicht mit einer Zahl,
 - haben keine Leerzeichen, sondern sind zusammengeschrieben (Gross- und Kleinbuchsteben sind möglich) oder mittel 'Underline' verbunden (z.B. ',
 - haben keine Umlaute, sondern sind ausgeschrieben als 'ae', 'oe', 'ue' und
@@ -31,12 +31,22 @@ In Datumsangaben keine Zeichenketten (z.B. '24. Dez. 2021') verwenden, sondern s
 
 Zahlen einheitlich formatieren ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
 
-URLs aufrufbar ausschreiben im Format 'https://...'
+URLs aufrufbar ausschreiben im Format 'https://...'.
 
 Werte, die unbekannt sind, als solche ausweisen (nicht als '0'), sondern als 'NA'.
 
 ## Datenstruktur-Standards
 
+Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
+
+> Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle. 
+> ``BFS_NR,GEBIET_NAME,INDIKATOR_JAHR,INDIKATOR_VALUE,EINHEIT_KURZ``
+> ``1,Aeugst a.A.,1990,111,Fr./Einw.``
+> ``1,Aeugst a.A.,1991,102,Fr./Einw.``
+> ``1,Aeugst a.A.,1992,85,Fr./Einw.``
+
+Keine Spalten-Hierarchien (verbundene Zellen mit Überschrift, darunter Spalten als Unterkategorie)
+Auf unnötige Variablen (mit selben Wert über ganze Reihe) verzichten
 
 
 ## Inhaltliche Standards
