@@ -46,8 +46,17 @@ Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 > ``1,Aeugst a.A.,1991,102,Fr./Einw.``  
 > ``1,Aeugst a.A.,1992,85,Fr./Einw.``
 
-Keine Spalten-Hierarchien (verbundene Zellen mit Überschrift, darunter Spalten als Unterkategorie)
-Auf unnötige Variablen (mit selben Wert über ganze Reihe) verzichten
+Keine Leerzeilen.
 
+Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
+
+Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe).
+
+Keine Fussnoten und ähnliche Verweise.
+
+> Hinweise
+> - entweder in einer eigenen Spalte aufnehmen oder
+> - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource aufführen oder
+> - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei in den Metadaten unter "Weitere Informationen" referenzieren.
 
 ## Inhaltliche Standards
