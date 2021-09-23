@@ -21,11 +21,13 @@ CSV-Dateien speichern wir als Unicode (UTF-8) ab.
 
 Pro Spalte ein Datentyp.
 
-Spaltenüberschriften:
+Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
 - haben keine Leerzeichen, sondern sind zusammengeschrieben (Gross- und Kleinbuchsteben sind möglich) oder mittel 'Underline' verbunden (z.B. ',
 - haben keine Umlaute, sondern sind ausgeschrieben als 'ae', 'oe', 'ue' und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. 'prozent' statt '%').
+
+Werte, die Umlaute, Kommata oder Ähnliches enthalten mit rahmen wir mittels Anführungs- und Schlusszeichen ein (z.B. "Französisch, Deutsch").
 
 In Datumsangaben keine Zeichenketten (z.B. '24. Dez. 2021') verwenden, sondern standardmässig das Format 'YYYY-MM-DD' (z.B. '2021-12-24').
 
@@ -52,11 +54,17 @@ Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B
 
 Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe).
 
-Keine Fussnoten und ähnliche Verweise.
-
-> Hinweise
-> - entweder in einer eigenen Spalte aufnehmen oder
-> - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource aufführen oder
-> - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei in den Metadaten unter "Weitere Informationen" referenzieren.
+Keine Fussnoten und ähnliche Verweise. Hinweise:
+- entweder in einer eigenen Spalte aufnehmen oder
+- (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource aufführen oder
+- (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei in den Metadaten unter "Weitere Informationen" referenzieren.
 
 ## Inhaltliche Standards
+
+Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
+- (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
+- (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
+
+Wir führen keine Variabeln auf, die sich aus den in der Datei vorhandenen Variabeln selbst berechnen lassen.
+
+> - Ausser es gibt einen guten Grund.
