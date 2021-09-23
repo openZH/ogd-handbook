@@ -1,6 +1,5 @@
-DRAFT
 
-# Wie exportiere ich eine Datei mit tabellarischen Daten in eine UTF-8-kodierte CSV-Datei?
+# Wie exportiere ich eine Datei mit tabellarischen Daten in eine UTF-8-kodierte CSV-Datei? (ENTWURF)
 
 ## Windows
 
