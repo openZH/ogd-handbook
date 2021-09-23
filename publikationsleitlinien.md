@@ -65,6 +65,6 @@ Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre 
 - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
 - (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-Wir führen keine Variabeln auf, die sich aus den in der Datei vorhandenen Variabeln selbst berechnen lassen.
+Wir führen keine Variabeln auf, deren Werte sich aus den in der Datei vorhandenen Werten von Variabeln berechnen lassen (z.B. keine Prozentangaben als eigene Spalte, wenn Grundwerte in einer Spalte vorhanden sind).
 
 > - Ausser es gibt einen guten Grund.
