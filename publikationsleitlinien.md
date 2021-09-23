@@ -40,9 +40,9 @@ Werte, die unbekannt sind, als solche ausweisen (nicht als '0'), sondern als 'NA
 Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle. 
-> ``BFS_NR,GEBIET_NAME,INDIKATOR_JAHR,INDIKATOR_VALUE,EINHEIT_KURZ``
-> ``1,Aeugst a.A.,1990,111,Fr./Einw.``
-> ``1,Aeugst a.A.,1991,102,Fr./Einw.``
+> ``BFS_NR,GEBIET_NAME,INDIKATOR_JAHR,INDIKATOR_VALUE,EINHEIT_KURZ``  
+> ``1,Aeugst a.A.,1990,111,Fr./Einw.``  
+> ``1,Aeugst a.A.,1991,102,Fr./Einw.``  
 > ``1,Aeugst a.A.,1992,85,Fr./Einw.``
 
 Keine Spalten-Hierarchien (verbundene Zellen mit Überschrift, darunter Spalten als Unterkategorie)
