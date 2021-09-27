@@ -23,7 +23,7 @@ Pro Spalte ein Datentyp.
 
 Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
-- haben keine Leerzeichen, sondern sind zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittels 'Underline' verbunden (z.B. ',
+- haben keine Leerzeichen, sondern sind zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittel 'Underline' verbunden (z.B. ',
 - haben keine Umlaute, sondern sind ausgeschrieben als 'ae', 'oe', 'ue' und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. 'prozent' statt '%').
 
