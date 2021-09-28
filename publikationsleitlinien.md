@@ -1,5 +1,5 @@
 
-# Publikationsleitlinien für einfach nutzbare Daten (ENTWURF)
+# Kanton Zürich: Leitlinien zur Publikation einfach nutzbarer Daten (ENTWURF)
 
 ## Technische Vorgaben
 
