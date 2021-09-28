@@ -1,11 +1,11 @@
-title: Handbuch Metadaten-Diffusion (MDD) und Bereitstellung offener Behördendaten (OGD)
-description: Handbuch des Datenkatalogs des Kantons Zürich zur Metadaten-Diffusion (MDD) und Bereitstellung offener Behördendaten (OGD).
+title: Leitlinien zur Publikation einfach nutzbarer Daten
+description: Kanton Zürich, Fachausschuss Open Government Data - Status: ENTWURF
 markdown: kramdown
 # remote_theme: carlosperate/jekyll-theme-rtd
 theme: jekyll-theme-cayman
 
 # Theme settings:
-site_author: Fach- und Koordinationsstelle OGD
+site_author: Fach- und Koordinationsstelle Open Government Data, Statistisches Amt Kanton Zürich
 repo_url: "https://github.com/openZH/mdd-ogd-handbook"
 edit_on_github: true
 github_docs_folder: true
