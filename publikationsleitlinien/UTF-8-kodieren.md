@@ -13,7 +13,7 @@ Wir raten davon ab, Excel für den Export in eine CSV-Datei zu verwenden, da es 
 2. Wähle 'Speichern unter'
 3. Im daraufhin angezeigten Dialogfeld 'Speichern' sind drei Punkte zu aktualisieren:
     1. Dateityp: Ändere diesen zu 'Alle Dateien'
-    2. Dateiname: Gib der Datei einen Namen und füge die Erweiterung '.csv' hinzu (z.B.: 'kiesstatistik.csv')
+    2. Dateiname: Gib der Datei einen Namen und füge die Erweiterung `.csv` hinzu (z.B.: `kiesstatistik.csv`)
     3. Encoding: Klicke  auf das Dropdown-Menü und wähle 'UTF-8' aus
 4. Klicke 'Speichern'
 
