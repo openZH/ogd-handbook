@@ -1,11 +1,11 @@
-title: Read The Docs Jekyll Theme
-description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
+title: Handbuch Metadaten-Diffusion (MDD) und Bereitstellung offener Behördendaten (OGD)
+description: Handbuch des Datenkatalogs des Kantons Zürich zur Metadaten-Diffusion (MDD) und Bereitstellung offener Behördendaten (OGD).
 markdown: kramdown
 remote_theme: carlosperate/jekyll-theme-rtd
 
 # Theme settings:
-site_author: Carlos Pereira Atencio
-repo_url: "https://github.com/carlosperate/jekyll-theme-rtd"
+site_author: Fach- und Koordinationsstelle OGD
+repo_url: "https://github.com/openZH/mdd-ogd-handbook"
 edit_on_github: true
 github_docs_folder: true
 sticky_navigation: true
