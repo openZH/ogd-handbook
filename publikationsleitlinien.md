@@ -1,5 +1,6 @@
 
-# Kanton Zürich: Leitlinien zur Publikation einfach nutzbarer Daten (ENTWURF)
+# Kanton Zürich: Leitlinien zur Publikation einfach nutzbarer Daten
+Status: Entwurf
 
 ## Technische Vorgaben
 
