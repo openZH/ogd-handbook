@@ -6,7 +6,7 @@
 Für tabellarische Daten verwenden wir standardmässig das Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
 
 > - CSV ist besser als Excel, alle Formate sind besser als Word, PDF oder Fliesstext.
-> - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen übertragbar zu machen, ist das Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+> - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, ist das Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
 
 Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
 
