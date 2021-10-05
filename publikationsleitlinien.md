@@ -1,7 +1,7 @@
 
 ENTWURF
 
-# Kanton Zürich: Leitlinien zur Publikation einfach nutzbarer Daten
+# Formale Leitlinien zur Datenpublikation des Kantons Zürich
 
 ## Technische Vorgaben
 
