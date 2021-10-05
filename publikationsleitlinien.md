@@ -33,11 +33,13 @@ Spaltenüberschriften (Variabeln):
 - haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
 
-Werte, die Umlaute, Kommas oder Ähnliches enthalten klammern wir mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`).
+Werte, die Kommas enthalten klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`).
 
 In Datumsangaben verwenden wir keine Zeichenketten (z.B. `24. Dez. 2021`), sondern standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`).
 
 Zahlen formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
+
+Als Dezimaltrennzeichen verwenden wir einen Punkt.
 
 URLs schreiben wir aufrufbar aus im Format `https://...`.
 
