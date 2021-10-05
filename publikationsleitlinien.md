@@ -1,5 +1,8 @@
 
-ENTWURF
+Version: 1.0
+Status: ENTWURF, in öffentlicher Konsultation
+- Feedback bitte als Issues erfassen: https://github.com/openZH/mdd-ogd-handbook/issues
+
 
 # Formale Leitlinien zur Datenpublikation des Kantons Zürich
 
