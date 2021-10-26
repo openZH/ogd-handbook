@@ -7,7 +7,7 @@ Status: ENTWURF, in Bearbeitung
 
 # Handbuch zur Verwaltung des Datenkatalogs des Kantons Zürich
 
-## Scope (Kontext / Umfeld)
+## Zweck
 
 Verwaltungseinheiten und Organe des Kantons Zürich machen Datensätze im Web via öffentliche Datenkataloge für alle Interessierten einfach findbar und zugänglich.
 
@@ -26,3 +26,7 @@ Alle Datensätze haben eine permanente URL. Mit dieser URL können sie im Web re
 - als Download/Access auf eine bestimmte Ressource eines Datensatzes: zB. [Politanalysen](https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/politanalysen.html)
 
 > Der ZHweb-Zirkel berät bei der geeigneten Wahl der Referenzierung: datashop@statistik.zh.ch
+
+## Umfang
+
+Alle Daten, die nicht schützenswert sind, sollen *auch* als offene Daten bereitgestellt werden.
