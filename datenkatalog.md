@@ -15,7 +15,7 @@ Alle Datensätze mit *offenen Daten* (d.h. mit offenen Nutzungsbedingungen, in o
 - [zh.ch/opendata](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/home)
 - [opendata.swiss (Kanton Zürich)](https://opendata.swiss/de/organization/kanton-zuerich)
 
-> Der OGD-Zirkel berät bei allen Themen rund um offene Daten: mailto:info@open.zh.ch
+> Der OGD-Zirkel berät bei allen Themen rund um offene Daten: info@open.zh.ch
 
 Alle weiteren Datensätze (u.a. alle Publikationen des Statistischen Amts) sind im folgenden öffentlichen Datenkatalog verzeichnet:
 - [zh.ch/... (Daten und Publikationen)](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/home)
@@ -25,4 +25,4 @@ Alle Datensätze haben eine permanente URL. Mit dieser URL können sie im Web re
 - als Link auf einen Datensatz: zB. [https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/740@statistisches-amt-kanton-zuerich](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/740@statistisches-amt-kanton-zuerich)
 - als Download/Access auf eine bestimmte Ressource eines Datensatzes: zB. [Politanalysen](https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/politanalysen.html)
 
-> Der ZHweb-Zirkel berät bei der geeigneten Wahl der Referenzierung: mailto:datashop@statistik.zh.ch
+> Der ZHweb-Zirkel berät bei der geeigneten Wahl der Referenzierung: datashop@statistik.zh.ch
