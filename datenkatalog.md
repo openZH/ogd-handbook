@@ -30,3 +30,20 @@ Alle Datensätze haben eine permanente URL. Mit dieser URL können sie im Web re
 ## Umfang
 
 Alle Daten, die nicht schützenswert sind, sollen *auch* als offene Daten bereitgestellt werden.
+
+...
+
+(Datensatz / Ressource erklären)
+
+## Rollen
+
+...
+
+## (Aufgaben)
+
+Die fünf Schritte, um Daten als offene Behördendaten bereitzustellen, sind:
+- Daten als einfach nutzbare, maschinenlesbare Ressourcen aufbereiten.
+- Maschinenlesbare Ressourcen als Dateien zum Herunterladen bzw. als Schnittstellen zum Abfragen im Datenkatalog bereitstellen.
+- Daten mit Metadaten beschreiben und als Datensätze im Datenkatalog erfassen.
+- Datensätze mit Ressourcen im Datenkatalog zur Publikation freigeben.
+- Ressourcen und Metadaten aktualisieren, sobald neue Daten oder Änderungen vorliegen.
