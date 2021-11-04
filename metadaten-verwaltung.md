@@ -27,7 +27,7 @@ Die Datensätze haben eine permanente URL. Mit dieser URL können sie im Web ref
 ### Daten sind aktuell
 Verwaltungseinheiten und Organe des Kantons Zürich halten die Ressourcen der Datensätze aktuell, die sie im Web via öffentliche Datenkataloge bereitstellen.
 
-## 2. Rollen
+## 2. Rollen und Verantwortlichkeiten in der Metadaten-Verwaltung
 
 Um Umfang und Zweck für die Nutzenden gewährleisten zu können, nehmen Mitarbeitende von Verwaltungseinheiten und Organen des Kantons Zürich bestimmte Aufgaben in folgenden Rollen wahr:
 - **Data Steward**: Sie verwalten die Metadaten von *offenen* Datensätzen ihrer oder anderer Verwaltungseinheiten.
@@ -38,14 +38,14 @@ Um Umfang und Zweck für die Nutzenden gewährleisten zu können, nehmen Mitarbe
 > Die Rolle **Data Custodian** ist nicht in der Metadaten-Verwaltung abgebildet: Sie bereiten Daten gemäss [formaler Leitlinien zur Datenpublikation](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md), um maschinenlesbare Ressourcen aufzubereiten, die einfach nutzbar sind.
 
 Bevor Mitarbeitende eine Rolle erstmals übernehmen, erhalten sie eine Schulung bzw. einen Kurs: 
-- zu einer Schulung für Metadatenverwaltende (**Data Stewards**) anmelden: ...
+- zu einer Schulung für Metadatenverwaltende (**Data Stewards**) [anmelden](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/leitlinien.html#-792208150)
 - zu einem Kurs für Datenverwaltende (**Data Custodians**) [anmelden](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/leitlinien.html#-792458260)
 
 Danach erhalten die Mitarbeitenden in den jeweiligen Rollen entsprechende Unterstützung:
 - zu **offenen** Datensätzen (Open Government Data, OGD) in der [OGD-Community](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/community-open-government-data.html)
 - zu weiteren Datensätzen ... ((ZHweb-Zirkel tbd.))
 
-## (Aufgaben)
+## 3. Aufgaben in der Metadaten-Verwaltung
 
 Die fünf Schritte, um Daten als offene Behördendaten bereitzustellen, sind:
 - Daten als einfach nutzbare, maschinenlesbare Ressourcen aufbereiten.
@@ -57,8 +57,8 @@ Die fünf Schritte, um Daten als offene Behördendaten bereitzustellen, sind:
 ## Beratung und Unterstützung
 
 > Der OGD-Zirkel berät bei allen Fragen und Bedürfnissen rund um offene Daten: info@open.zh.ch
-
 > Der ZHweb-Zirkel berät bei der geeigneten Wahl der Referenzierung: datashop@statistik.zh.ch
+
 
 
 ======
