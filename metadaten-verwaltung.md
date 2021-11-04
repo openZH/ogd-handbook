@@ -10,7 +10,7 @@ Status: ENTWURF, in Bearbeitung
 ## 1. Umfang und Zweck der Metadaten-Verwaltung
 
 ### Datensätze sind einfach findbar und permanent zugänglich
-Verwaltungseinheiten und Organe des Kantons Zürich machen Datensätze im Web via öffentliche Datenkataloge für alle Interessierten einfach findbar und permanent zugänglich.
+Verwaltungseinheiten und Organe des Kantons Zürich machen 'Datensätze' ([Begriffsdefinition](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst)) im Web via öffentliche Datenkataloge für alle Interessierten einfach findbar und permanent zugänglich.
 
 Alle **offenen** Datensätze - d.h. Daten unter **offenen Nutzungsbedingungen** (CC-BY, Public Domain/CC-ZERO), in **offenen Datenformaten** (CSV, JSON, ...) und **ohne jegliche Zugangsbeschränkungen** (zugänglich ohne Login, ...) - sind in den folgenden öffentlichen Datenkatalogen verzeichnet:
 - im kantonalen Webauftritt unter [zh.ch/opendata](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/home) sowie zusätzlich in [thematisch vorgefilterten Katalogen wie zB. zum Thema 'COVID-19'](https://www.zh.ch/de/gesundheit/coronavirus/zahlen-fakten-covid-19.html?keyword=covid19#-1718033923) 
@@ -25,7 +25,7 @@ Die Datensätze haben eine permanente URL. Mit dieser URL können sie im Web ref
 - als Download/Access auf eine bestimmte Ressource eines Datensatzes: zB. [Politanalysen](https://www.zh.ch/de/politik-staat/wahlen-abstimmungen/politanalysen.html)
 
 ### Daten sind aktuell
-Verwaltungseinheiten und Organe des Kantons Zürich halten die Ressourcen der Datensätze aktuell, die sie im Web via öffentliche Datenkataloge bereitstellen.
+Verwaltungseinheiten und Organe des Kantons Zürich halten die 'Ressourcen' ([Begriffsdefinition](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst)) der Datensätze aktuell, die sie im Web via öffentliche Datenkataloge bereitstellen.
 
 ## 2. Rollen und Verantwortlichkeiten in der Metadaten-Verwaltung
 
@@ -58,17 +58,3 @@ Die fünf Schritte, um Daten als offene Behördendaten bereitzustellen, sind:
 
 > Der OGD-Zirkel berät bei allen Fragen und Bedürfnissen rund um offene Daten: info@open.zh.ch
 > Der ZHweb-Zirkel berät bei der geeigneten Wahl der Referenzierung: datashop@statistik.zh.ch
-
-
-
-======
-DEPOT
-======
-
-## Umfang
-
-Alle Daten, die nicht schützenswert sind, sollen *auch* als offene Daten bereitgestellt werden.
-
-...
-
-(Datensatz / Ressource erklären)
