@@ -45,8 +45,13 @@ Danach erhalten die Mitarbeitenden in den jeweiligen Rollen entsprechende Unters
 - zu **offenen** Datensätzen (Open Government Data, OGD) in der [OGD-Community](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/community-open-government-data.html)
 - zu weiteren Datensätzen ... ((ZHweb-Zirkel tbd.))
 
-## 3. Aufgaben in der Metadaten-Verwaltung
+## 3. Aufgaben je Rolle in der Metadaten-Verwaltung
 
+### Metadatenverwaltende ('Data Steward')
+
+### Metadatenverwaltende zh.ch ('Data Steward zh.ch')
+
+### ('Administrator')
 Die fünf Schritte, um Daten als offene Behördendaten bereitzustellen, sind:
 - Daten als einfach nutzbare, maschinenlesbare Ressourcen aufbereiten.
 - Maschinenlesbare Ressourcen als Dateien zum Herunterladen bzw. als Schnittstellen zum Abfragen im Datenkatalog bereitstellen.
