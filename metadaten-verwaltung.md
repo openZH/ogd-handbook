@@ -7,6 +7,12 @@ Status: ENTWURF, in Bearbeitung
 
 # Handbuch zur Metadaten-Verwaltung des Kantons Zürich
 
+1. [Aufgaben](...)
+2. [Rollen und Verantwortlichkeiten](...)
+3. [Zweck und Bedeutung](...)
+
+...
+
 ## 1. Umfang und Zweck der Metadaten-Verwaltung
 
 ### Datensätze sind einfach findbar und permanent zugänglich
