@@ -9,26 +9,20 @@ Status: bereit zur Review durch [Fachausschuss Open Government Data des Kantons 
 
 ## Datei-Formate
 
-**Maxime**
+**Maxime** <br>
 Das Datei-Format CSV ist besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
 
-**Vorgaben**
-Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
-**Anleitung:** [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
-Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+**Vorgaben** <br>
+1. Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
+2. CSV-Dateien speichern wir standardmässig als Unicode (UTF-8) ab.
 
+> **Anleitung** <br>
+> 1. [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
+> 2. [Wie speichere ich eine CSV-Datei als Unicode (UTF-8) ab](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)?
 
+**Empfehlungen** <br>
+- Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
 
-
-
-Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
-
-> - Ausser es gibt einen guten Grund.
-> - Standardeinstellungen eines Programms, wie z.B. Excel, sind kein guter Grund.
-
-CSV-Dateien speichern wir als Unicode (UTF-8) ab.
-
-> - Das geht [so](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md).
 
 
 TIDY DATA
@@ -39,6 +33,8 @@ Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.  
 
 Pro Variable eine Spalte heisst ...
+
+Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
 
 > Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
 > BSP: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
