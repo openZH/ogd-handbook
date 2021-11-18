@@ -49,10 +49,6 @@ Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Se
 Pro Beobachtung eine Zeile ...
 
 > BSP: Jahr ...
-
-
-![tidydata2](https://www.researchgate.net/publication/335456831/figure/fig1/AS:797054733410304@1567044065252/The-wide-versus-tidy-data-format-for-time-dependent-data-In-the-wide-spreadsheet-like.ppm)
-
 - Keine Leerzeilen.
 - Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
    - entweder in einer eigenen Spalte oder
