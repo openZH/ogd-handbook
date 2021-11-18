@@ -9,11 +9,15 @@ Status: bereit zur Review durch [Fachausschuss Open Government Data des Kantons 
 
 ## Datei-Formate
 
-1. Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
-Anleitung: [So erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)
-3. Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+**Maxime**
+Das Datei-Format CSV ist besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
 
-> Es gilt die Maxime: Das Datei-Format CSV ist besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
+**Vorgaben**
+Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
+**Anleitung:** [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
+Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+
+
 
 
 
