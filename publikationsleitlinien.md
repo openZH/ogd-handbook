@@ -10,6 +10,7 @@ Status: ENTWURF, in öffentlicher Konsultation
 ## Technische Vorgaben
 
 Für tabellarische Daten verwenden wir standardmässig das Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
+- [Wie erstelle ich aus einem XLS- eine CSV-Datei]()?
 
 > - CSV ist besser als Excel, alle Formate sind besser als Word, PDF oder Fliesstext.
 > - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, ist das Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
