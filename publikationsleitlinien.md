@@ -7,13 +7,13 @@ Status: ENTWURF, in öffentlicher Konsultation
 
 # Formale Leitlinien zur Datenpublikation des Kantons Zürich
 
-## Technische Vorgaben
+DATEI-FORMATE
 
-Für tabellarische Daten verwenden wir standardmässig das Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
-- [Wie erstelle ich aus einem XLS- eine CSV-Datei]()?
+Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
+- [Wie erstelle ich aus einem XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
 
-> - CSV ist besser als Excel, alle Formate sind besser als Word, PDF oder Fliesstext.
-> - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, ist das Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+>> - CSV ist besser als Excel, alle Formate sind besser als Word, PDF oder Fliesstext.
+>> - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, ist das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
 
 Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
 
@@ -24,29 +24,8 @@ CSV-Dateien speichern wir als Unicode (UTF-8) ab.
 
 > - Das geht [so](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md).
 
-## Formale Vorgaben
 
-Pro Spalte ein Datentyp.
-
-Spaltenüberschriften (Variabeln):
-- beginnen nicht mit einer Zahl,
-- haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittels 'Underline' verbunden (z.B. `anzahl_fahrzeuge`),
-- haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
-- haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
-
-Werte, die Kommas enthalten klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`).
-
-In Datumsangaben verwenden wir keine Zeichenketten (z.B. `24. Dez. 2021`), sondern standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`).
-
-Zahlen formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
-
-Als Dezimaltrennzeichen verwenden wir einen Punkt.
-
-URLs schreiben wir aufrufbar aus im Format `https://...`.
-
-Werte, die unbekannt sind, weisen wir als `NA` aus (nicht als `0`).
-
-## Datenstruktur-Standards
+TIDY DATA
 
 Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 
@@ -68,6 +47,40 @@ Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
 - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
 - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
+
+SPALTENÜBERSCHRIFTEN
+
+Spaltenüberschriften (Variabeln):
+- beginnen nicht mit einer Zahl,
+- haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittels 'Underline' verbunden (z.B. `anzahl_fahrzeuge`),
+- haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
+- haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
+
+
+
+ZELLEN
+
+Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
+- `Text`
+- Zahl
+- Datum
+- Zeit
+- URL.
+
+Einheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen.
+
+Werte mit Daten-Format `Text`, die Kommas enthalten, klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`). Das ist wichtig, damit diese Text-Inhalte (in der Fachsprache bezeichnet als `String` bzw. Zeichenkette) trotz Leerzeichen oder Kommas als zusammengehörend interpretiert werden.
+
+Werte mit Daten-Format `Zahl` formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
+- Als Dezimaltrennzeichen verwenden wir einen Punkt.
+
+Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`).
+
+Werte ... Zeit
+
+Werte ... URL ... href= // URLs schreiben wir aufrufbar aus im Format `https://...`.
+
+
 ## Inhaltliche Standards
 
 Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
@@ -77,3 +90,5 @@ Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre 
 Wir führen keine Variabeln auf, deren Werte sich aus den in der Datei vorhandenen Variabeln berechnen lassen (z.B. keine Prozentangaben als eigene Spalte, wenn die  Grundwerte in einer Spalte vorhanden sind).
 
 > - Ausser es gibt einen guten Grund.
+
+Werte, die unbekannt sind, weisen wir als `NA` aus (nicht als `0`).
