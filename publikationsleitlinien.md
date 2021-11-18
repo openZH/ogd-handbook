@@ -31,6 +31,8 @@ Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.   
 
+![tidydata](https://www.produnis.de/R/images/TidyData1.png)
+
 Pro Variable eine Spalte heisst ...
 
 Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
