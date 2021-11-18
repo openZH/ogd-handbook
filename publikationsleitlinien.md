@@ -27,7 +27,7 @@ Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programme
 TIDY DATA
 
 Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
-- Tidy Data ist ein Standard zur Organisation eines Datensets, welcher die Nutzung, den Austausch und die Interoperabilität von Daten vereinheitlicht und vereinfacht. Weitere Informationen dazu findest du [hier](https://vita.had.co.nz/papers/tidy-data.html) 
+- Tidy Data ist ein Standard zur Organisation eines Datensets, welcher die Nutzung, den Austausch und die Interoperabilität von Daten vereinheitlicht und vereinfacht. Weitere Informationen dazu findest du [hier](https://vita.had.co.nz/papers/tidy-data.html). 
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.  
 
