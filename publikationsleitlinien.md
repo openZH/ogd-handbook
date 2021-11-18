@@ -14,9 +14,9 @@ Das Datei-Format CSV ist besser als XLS, alle Datei-Formate sind besser als Word
 
 **Vorgabe** <br>
 1. Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
-**Anleitung:** [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
+> **Anleitung:** [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
 3. CSV-Dateien speichern wir standardmässig als Unicode (UTF-8) ab. <br>
-**Anleitung:** [Wie speichere ich eine CSV-Datei als Unicode (UTF-8) ab](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)?
+> **Anleitung:** [Wie speichere ich eine CSV-Datei als Unicode (UTF-8) ab](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)?
 
 **Empfehlung** <br>
 - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
