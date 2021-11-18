@@ -31,35 +31,28 @@ Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 - Das ist wichtig, damit ... .
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.  
-> 
-> ``BFS_NR,GEBIET_NAME,INDIKATOR_JAHR,INDIKATOR_VALUE,EINHEIT_KURZ``  
-> ``1,Aeugst a.A.,1990,111,Fr./Einw.``  
-> ``1,Aeugst a.A.,1991,102,Fr./Einw.``  
-> ``1,Aeugst a.A.,1992,85,Fr./Einw.``
 
-Keine Leerzeilen.
+Pro Variable eine Spalte heisst ...
 
-Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
-
-Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe).
-
-Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
-- entweder in einer eigenen Spalte oder
-- (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
-- (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
-
-
-SPALTENÜBERSCHRIFTEN
-
-Spaltenüberschriften (Variabeln):
+> Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
+> BSP: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
+- Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe).
+- Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
 - haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittels 'Underline' verbunden (z.B. `anzahl_fahrzeuge`),
 - haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
 
+Pro Beobachtung eine Zeile ...
 
+> BSP: Jahr ...
+- Keine Leerzeilen.
+- Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
+   - entweder in einer eigenen Spalte oder
+   - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
+   - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-ZELLEN
+Pro Wert eine Zelle ...
 
 Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
 - `Text`
