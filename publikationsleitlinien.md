@@ -7,13 +7,15 @@ Status: bereit zur Review durch [Fachausschuss Open Government Data des Kantons 
 
 # Formale Leitlinien zur Datenpublikation des Kantons Zürich
 
-DATEI-FORMATE
+## Datei-Formate
 
-Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
-- [Wie erstelle ich aus einem XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)?
+1. Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
+Anleitung: [So erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)
+3. Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
 
->> - CSV ist besser als Excel, alle Formate sind besser als Word, PDF oder Fliesstext.
->> - Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, ist das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+> Es gilt die Maxime: Das Datei-Format CSV ist besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
+
+
 
 Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
 
