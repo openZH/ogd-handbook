@@ -39,7 +39,7 @@ Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Se
 
 > Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
 > BSP: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
-- Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe).
+- Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. 
 - Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
 - haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittels 'Underline' verbunden (z.B. `anzahl_fahrzeuge`),
