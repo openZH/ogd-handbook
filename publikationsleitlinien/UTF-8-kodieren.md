@@ -5,7 +5,14 @@
 
 ### Wenn Du Excel verwendest
 
-Wir raten davon ab, Excel für den Export in eine CSV-Datei zu verwenden, da es dazu neigt, unlesbare Zeichen in CSV-Dateien zu erzeugen.
+Wir raten davon ab, Excel für den Export in eine CSV-Datei zu verwenden, da es dazu neigt, unlesbare Zeichen in CSV-Dateien zu erzeugen. Falls möglich, sollte ein anderes Programm für die Umwandlung genutzt werden (einige werden hier dargestellt). 
+
+In Excel: 
+1. Speichern unter 
+2. Titel eingeben und in der Leiste csv angeben
+3. Bei Warnmeldung auf Ja drücken
+4. Csv in Editor öffnen (nicht Excel, bspw. Sublime Text) und Semikolon durch , ersetzen (gehe auf ersetzen oder suchen & ersetzen, alle ersetzen) 
+5. Speichern
 
 ### Wenn Du Notepad verwendest
 
