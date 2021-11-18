@@ -28,6 +28,7 @@ CSV-Dateien speichern wir als Unicode (UTF-8) ab.
 TIDY DATA
 
 Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
+- Das ist wichtig, damit ... .
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.  
 > 
@@ -91,4 +92,4 @@ Wir führen keine Variabeln auf, deren Werte sich aus den in der Datei vorhanden
 
 > - Ausser es gibt einen guten Grund.
 
-Werte, die unbekannt sind, weisen wir als `NA` aus (nicht als `0`).
+Werte, die unbekannt sind, weisen wir als `NA` aus.
