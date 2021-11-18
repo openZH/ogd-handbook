@@ -70,6 +70,7 @@ Werte mit Daten-Format `Text`, die Kommas enthalten, klammern wir zwingend mitte
 
 Werte mit Daten-Format `Zahl` formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
 - Als Dezimaltrennzeichen verwenden wir einen Punkt.
+- Ob man rundet oder nicht, kommt auf den Datensatz und seine Nutzung an. Falls gerundet wird, muss dies aber in den Metadaten deklariert werden.
 
 Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`).
 
