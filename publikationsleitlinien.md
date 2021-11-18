@@ -1,8 +1,8 @@
 
 Version: 1.0 <br>
-Status: ENTWURF, in öffentlicher Konsultation
+Status: bereit zur Review durch [Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)
 
-> - Feedback (Hinweise, Wünsche und Fragen) bitte als Issues erfassen: https://github.com/openZH/mdd-ogd-handbook/issues
+> - Feedbacks (Hinweise, Wünsche und Fragen) bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
 
 # Formale Leitlinien zur Datenpublikation des Kantons Zürich
