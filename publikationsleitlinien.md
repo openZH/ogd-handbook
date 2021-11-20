@@ -1,20 +1,24 @@
 
-Version: 1.0 <br>
-**Status: bereit zur Review durch [Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
+Version: **1.0** <br>
+Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
 
-# Formale Leitlinien zur Datenpublikation des Kantons Zürich
+# Formale Leitlinien zur Publikation offener Daten des Kantons Zürich
+
+Maximen, Vorgaben und Empfehlungen, die dabei helfen, dass publizierte offene Daten ('Open (Government) Data', OGD) einfach genutzt werden können.
 
 ## Datei-Formate
 
 **Maxime** <br>
-Das Datei-Format CSV ist besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
+Für tabellarische Daten ist das Datei-Format CSV besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
 
 **Vorgabe** <br>
 Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
 > [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)? <br>
+
+Variabeln und Werte trennen wir standardmässig mittels Kommas `,` voneinander ab (nicht mittels Semikolons `;`). <br>
 
 CSV-Dateien speichern wir standardmässig als Unicode (UTF-8) ab. <br>
 > [Wie speichere ich eine CSV-Datei als Unicode (UTF-8) ab](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)?
@@ -22,11 +26,22 @@ CSV-Dateien speichern wir standardmässig als Unicode (UTF-8) ab. <br>
 **Empfehlung** <br>
 Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
 
+## Datenstruktur
+
+**Maxime** <br>
+Beim Definieren von Strukturen tabellarischer Daten gilt die Maxime 'Tidy Data'.
+
+**Vorgabe** <br>
+..
+
+**Empfehlung** <br>
+..
+
 ========================
 
 TIDY DATA
 
-Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
+
 - Tidy Data ist ein Standard zur Organisation eines Datensets, welcher die Nutzung, den Austausch und die Interoperabilität von Daten vereinheitlicht und vereinfacht. Weitere Informationen dazu findest du [hier](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). 
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.   
@@ -35,7 +50,7 @@ Wir bauen Datenstrukturen gemäss der Maxime 'Tidy Data' auf.
 
 Pro Variable eine Spalte heisst ...
 
-Variabeln und Werte trennen wir mittels Kommas `,` voneinander (nicht mittels Semikolons `;`).
+
 
 > Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
 > BSP: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
