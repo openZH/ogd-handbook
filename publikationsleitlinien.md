@@ -7,7 +7,7 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 
 # Formale Leitlinien zur Publikation offener Daten des Kantons Zürich
 
-Maximen, Vorgaben und Empfehlungen, die dabei helfen, dass publizierte offene Daten ('Open (Government) Data', OGD) einfach genutzt werden können.
+Maximen, Vorgaben und Empfehlungen, die helfen, dass publizierte offene Daten ('Open Data'/'Open Government Data', OGD) einfach genutzt werden können.
 
 ## Datei-Formate
 
