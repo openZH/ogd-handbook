@@ -1,4 +1,6 @@
-# Was steht hinter dem Prinzip Tidy Data? 
+# Was steht hinter dem Prinzip 'Tidy Data'? 
+
+Das Prinzip 'Tidy Data' vereinheitlicht und vereinfacht die Nutzung, den Austausch und die Interoperabilität von Daten.
 
 Eine kurze Zusammenfassung in Bildern. 
 
