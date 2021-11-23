@@ -13,8 +13,8 @@ Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD)
 
 ## Datei-Format
 
-**Maxime** <br>
-Für tabellarische Daten ist das Datei-Format CSV besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
+**Grundsatz** <br>
+Offene Daten stehen in einem nicht-proprietären, offenen Format zur Verfügung: tabellarische Daten als CSV (nicht als XLS).
 
 **Vorgabe** <br>
 Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
@@ -30,11 +30,11 @@ Für Daten mit komplexen Strukturen und/oder um Daten einfach zwischen Programme
 
 ## Datenstruktur
 
-**Maxime** <br>
-Beim Definieren von Strukturen tabellarischer Daten gilt die Maxime 'Tidy Data'.
+**Grundsatz** <br>
+Offene Daten stehen als strukturierte Daten zur Verfügung: CSV ist besser als XLS, alle strukturierten Formate sind besser als Word, PDF oder Fliesstext.
 
 **Vorgabe** <br>
-..
+Tabellarische Daten strukturieren wir standardmässig gemäss der Vorgabe von ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md).
 
 **Empfehlung** <br>
 ..
@@ -44,7 +44,7 @@ Beim Definieren von Strukturen tabellarischer Daten gilt die Maxime 'Tidy Data'.
 TIDY DATA
 
 
-- Tidy Data ist ein Standard zur Organisation eines Datensets, welcher die Nutzung, den Austausch und die Interoperabilität von Daten vereinheitlicht und vereinfacht. Weitere Informationen dazu findest du [hier](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). 
+- 
 
 > Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.   
 
