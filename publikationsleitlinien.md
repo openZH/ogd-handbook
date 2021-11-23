@@ -9,11 +9,11 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind.
 
-**Inhalt** <br>
-- [Datei-Formate](#datei-formate) <br>
+Maximen, Vorgaben und Empfehlungen zu:
+- [Datei-Format](#datei-format) <br>
 - [Datenstruktur](#datenstruktur)
 
-## Datei-Formate
+## Datei-Format
 
 **Maxime** <br>
 Für tabellarische Daten ist das Datei-Format CSV besser als XLS, alle Datei-Formate sind besser als Word, PDF oder Fliesstext.
