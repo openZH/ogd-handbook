@@ -5,9 +5,9 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
 
-# Formale Leitlinien zur Publikation offener Daten des Kantons Zürich
+# Leitlinien zur Publikation offener Behördendaten im Kanton Zürich
 
-Maximen, Vorgaben und Empfehlungen, die helfen, dass publizierte offene Daten ('Open Data'/'Open Government Data', OGD) einfach genutzt werden können.
+Handlungsleitende Normen, um einfach nutzbare offene Behördendaten ('Open Government Data', OGD) bereitzustellen.
 
 ## Datei-Formate
 
