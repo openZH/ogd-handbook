@@ -14,25 +14,27 @@ Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD)
 ## Datei-Format
 
 **Grundsatz** <br>
-Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung: tabellarische Daten als CSV (nicht als XLS).
+Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung.
 
 **Vorgabe** <br>
-Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
+Für tabellarische Daten verwenden wir das Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/) (**nicht** XLS). <br>
 
-Variabeln und Werte trennen wir mittels Kommata `,` voneinander ab (nicht mittels Semikolons `;`).
+Variabeln und Werte trennen wir mittels Kommata `,` (**nicht** mittels Semikolons `;`) voneinander ab.
 - [So erstelle ich aus einer XLS-Datei ein CSV.](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)
 - [So speichere ich ein CSV als Unicode (UTF-8) ab.](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)
 
 **Empfehlung** <br>
-Für Daten mit komplexen Strukturen und um sie einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Datei-Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+Für Daten mit komplexen Strukturen oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
 
 ## Datenstruktur
 
 **Grundsatz** <br>
-Offene Daten stehen als strukturierte Daten zur Verfügung: CSV ist besser als XLS, alle strukturierten Formate sind besser als Word, PDF oder Fliesstext.
+Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossary/en/terms/structured-data/) zur Verfügung: [CSV](http://opendatahandbook.org/glossary/en/terms/csv/) ist besser als XLS, alle strukturierten Formate (insbesondere [JSON](http://opendatahandbook.org/glossary/en/terms/json/) und [XML](http://opendatahandbook.org/glossary/en/terms/xml/)) sind besser als Word, PDF oder Fliesstext.
 
 **Vorgabe** <br>
-Tabellarische Daten strukturieren wir standardmässig gemäss der Vorgabe von ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md).
+Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
+
+Das heisst: pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.
 
 **Empfehlung** <br>
 ..
@@ -40,15 +42,9 @@ Tabellarische Daten strukturieren wir standardmässig gemäss der Vorgabe von ['
 ========================
 
 TIDY DATA
-
-
-- 
-
-> Das heisst: Pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.   
+  
 
 ![tidydata1](https://www.produnis.de/R/images/TidyData1.png)
-
-Pro Variable eine Spalte heisst ...
 
 
 
