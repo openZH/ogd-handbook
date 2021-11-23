@@ -14,7 +14,7 @@ Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD)
 ## Datei-Format
 
 **Grundsatz** <br>
-Offene Daten stehen in einem nicht-proprietären, [offenen](http://opendatahandbook.org/glossary/en/terms/open-format/) Format zur Verfügung: tabellarische Daten als CSV (nicht als XLS).
+Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung: tabellarische Daten als CSV (nicht als XLS).
 
 **Vorgabe** <br>
 Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
