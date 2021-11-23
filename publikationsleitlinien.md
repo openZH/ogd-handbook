@@ -7,9 +7,7 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 
 # Leitlinien zur Publikation offener Behördendaten im Kanton Zürich
 
-Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind.
-
-Maximen, Vorgaben und Empfehlungen zu:
+Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
 - [Datei-Format](#datei-format) <br>
 - [Datenstruktur](#datenstruktur)
 
