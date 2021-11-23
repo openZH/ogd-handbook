@@ -8,7 +8,7 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 # Leitlinien zur Publikation offener Behördendaten im Kanton Zürich
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
-- [Datei-Format](#datei-format) <br>
+- [Datei-Format](#datei-format)
 - [Datenstruktur](#datenstruktur)
 
 ## Datei-Format
@@ -17,10 +17,12 @@ Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD)
 Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung: tabellarische Daten als CSV (nicht als XLS).
 
 **Vorgabe** <br>
-Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
+Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/).
 - [Wie erstelle ich aus einer XLS- eine CSV-Datei](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)? <br>
 
-Variabeln und Werte trennen wir standardmässig mittels Kommas `,` voneinander ab (nicht mittels Semikolons `;`). CSV-Dateien speichern wir standardmässig als Unicode (UTF-8) ab. <br>
+Variabeln und Werte trennen wir mittels Kommata `,` voneinander ab (nicht mittels Semikolons `;`).
+
+CSV-Dateien speichern wir als Unicode (UTF-8) ab.
 - [Wie speichere ich eine CSV-Datei als Unicode (UTF-8) ab](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)?
 
 **Empfehlung** <br>
