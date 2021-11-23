@@ -24,12 +24,12 @@ Variabeln und Werte trennen wir mittels Kommata `,` (**nicht** mittels Semikolon
 - [So speichere ich ein CSV als Unicode (UTF-8) ab.](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)
 
 **Empfehlung** <br>
-Für Daten mit komplexen Strukturen oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignet sich das Format [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr gut.
+Für Daten mit komplexen Strukturen oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignen sich die Formate [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr und [XML](http://opendatahandbook.org/glossary/en/terms/xml/) gut.
 
 ## Datenstruktur
 
 **Grundsatz** <br>
-Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossary/en/terms/structured-data/) zur Verfügung: [CSV](http://opendatahandbook.org/glossary/en/terms/csv/) ist besser als XLS, alle strukturierten Formate (insbesondere [JSON](http://opendatahandbook.org/glossary/en/terms/json/) und [XML](http://opendatahandbook.org/glossary/en/terms/xml/)) sind besser als Word, PDF oder Fliesstext.
+Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossary/en/terms/structured-data/) zur Verfügung (**nicht** als Word, PDF oder Fliesstext).
 
 **Vorgabe** <br>
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
