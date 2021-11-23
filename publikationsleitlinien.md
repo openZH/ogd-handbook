@@ -18,6 +18,7 @@ Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://openda
 
 **Vorgabe** <br>
 Für tabellarische Daten verwenden wir standardmässig das Datei-Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/). <br>
+
 Variabeln und Werte trennen wir mittels Kommata `,` voneinander ab (nicht mittels Semikolons `;`).
 1. [Ich will aus einer XLS-Datei ein CSV erstellen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md).
 2. [So speichere ich ein CSV als Unicode (UTF-8) ab](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md).
