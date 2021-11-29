@@ -50,16 +50,14 @@ Spaltenüberschriften (Variabeln):
 
 Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. <br>
 
-
-
-*ProBeobachtung eine Zeile***
+*Pro Beobachtung eine Zeile***
 - Keine Leerzeilen.
 - Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
    - entweder in einer eigenen Spalte oder
    - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
    - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-***Pro Wert eine Zelle***
+*Pro Wert eine Zelle*
 Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
 - `Text`
 - `Zahl`
@@ -80,3 +78,10 @@ Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez.
 Werte mit Daten-Format `Zeit` geben wir standardmässig im Format `hh:mm:ss` an. Wir verwenden die Zeitzone `Bern, Zürich ...`. <br>
 
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
+
+**Empfehlungen**
+Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
+- (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
+- (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
+
+Werte, die unbekannt sind, weisen wir als `NA` aus.
