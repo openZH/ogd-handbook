@@ -38,7 +38,7 @@ Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy D
 Das heisst: pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle. <br>
 ![tidydata1](https://www.produnis.de/R/images/TidyData1.png)
 
-*Pro Variable eine Spalte*
+*Pro Variable eine Spalte* <br>
 Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
 - Beispiel: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
 
@@ -50,14 +50,14 @@ Spaltenüberschriften (Variabeln):
 
 Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. <br>
 
-*Pro Beobachtung eine Zeile***
+*Pro Beobachtung eine Zeile* <br>
 - Keine Leerzeilen.
 - Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
    - entweder in einer eigenen Spalte oder
    - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
    - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-*Pro Wert eine Zelle*
+*Pro Wert eine Zelle* <br>
 Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
 - `Text`
 - `Zahl`
@@ -79,7 +79,7 @@ Werte mit Daten-Format `Zeit` geben wir standardmässig im Format `hh:mm:ss` an.
 
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
 
-**Empfehlungen**
+**Empfehlungen** <br>
 Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
 - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
 - (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
