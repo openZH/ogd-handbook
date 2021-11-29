@@ -10,6 +10,7 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
 - [Datei-Format](#datei-format)
 - [Datenstruktur](#datenstruktur)
+- [Weiteres](#)
 
 ## Datei-Format
 
@@ -34,70 +35,48 @@ Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossa
 **Vorgabe** <br>
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
 
-Das heisst: pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle.
-
-**Empfehlung** <br>
-..
-
-========================
-
-TIDY DATA
-  
-
+Das heisst: pro Variable eine Spalte, pro Beobachtung eine Zeile, pro Wert eine Zelle. <br>
 ![tidydata1](https://www.produnis.de/R/images/TidyData1.png)
 
+*Pro Variable eine Spalte*
+Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
+- Beispiel: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
 
-
-> Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
-> BSP: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
-- Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. 
-- Spaltenüberschriften (Variabeln):
+Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
 - haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder mittels 'Underline' verbunden (z.B. `anzahl_fahrzeuge`),
 - haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
 
-Pro Beobachtung eine Zeile ...
+Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. <br>
 
-> BSP: Jahr ...
+
+
+*ProBeobachtung eine Zeile***
 - Keine Leerzeilen.
 - Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
    - entweder in einer eigenen Spalte oder
    - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
    - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-Pro Wert eine Zelle ...
-
+***Pro Wert eine Zelle***
 Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
 - `Text`
-- Zahl
-- Datum
-- Zeit
-- URL.
+- `Zahl`
+- `Datum`
+- `Zeit`
+- `URL`.
 
-Einheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen.
+Einheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen. <br>
 
-Werte mit Daten-Format `Text`, die Kommas enthalten, klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`). Das ist wichtig, damit diese Text-Inhalte (in der Fachsprache bezeichnet als `String` bzw. Zeichenkette) trotz Leerzeichen oder Kommas als zusammengehörend interpretiert werden. 
+Werte mit Daten-Format `Text`, die Kommas enthalten, klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`). Das ist wichtig, damit diese Text-Inhalte (in der Fachsprache bezeichnet als `String` bzw. Zeichenkette) trotz Leerzeichen oder Kommas als zusammengehörend interpretiert werden. <br>
 
 Werte mit Daten-Format `Zahl` formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
 - Als Dezimaltrennzeichen verwenden wir einen Punkt.
 - Ob man rundet oder nicht, kommt auf den Datensatz und seine Nutzung an. Falls gerundet wird, muss dies aber in den Metadaten deklariert werden.
 
-Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`).
+Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`). <br>
 
-Werte ... Zeit
+Werte mit Daten-Format `Zeit` geben wir standardmässig im Format `hh:mm:ss` an. Wir verwenden die Zeitzone `Bern, Zürich ...`. <br>
 
-Werte ... URL ... href= // URLs schreiben wir aufrufbar aus im Format `https://...`.
-
-
-## Inhaltliche Standards
-
-Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
-- (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
-- (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
-
-Wir führen keine Variabeln auf, deren Werte sich aus den in der Datei vorhandenen Variabeln berechnen lassen (z.B. keine Prozentangaben als eigene Spalte, wenn die  Grundwerte in einer Spalte vorhanden sind).
-
-> - Ausser es gibt einen guten Grund.
-
-Werte, die unbekannt sind, weisen wir als `NA` aus.
+Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
