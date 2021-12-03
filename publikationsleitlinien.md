@@ -34,7 +34,7 @@ Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossa
 ### Vorgaben
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
 
-Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), pro Beobachtung eine Zeile, pro Wert eine Zelle. <br>
+Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile), [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
 ![tidydata1](https://www.produnis.de/R/images/TidyData1.png)
 
 #### Pro Variable eine Spalte
@@ -49,14 +49,14 @@ Spaltenüberschriften (Variabeln):
 
 Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. <br>
 
-**Pro Beobachtung eine Zeile** <br>
+#### Pro Beobachtung eine Zeile
 - Keine Leerzeilen.
 - Keine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:
    - entweder in einer eigenen Spalte oder
    - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
    - (wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-**Pro Wert eine Zelle** <br>
+#### Pro Wert eine Zelle
 Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
 - `Text`
 - `Zahl`
