@@ -34,7 +34,7 @@ Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossa
 ### Vorgaben
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
 
-Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile), [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
+Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile) und [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
 ![tidydata1](https://www.produnis.de/R/images/TidyData1.png)
 
 #### Pro Variable eine Spalte
