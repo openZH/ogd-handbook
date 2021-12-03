@@ -9,7 +9,7 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
 - [Datei-Formate](#datei-formate)
-- [Daten-Strukturen](#datenstruktur)
+- [Daten-Strukturen](#daten-strukturen)
 
 ## Datei-Formate
 
