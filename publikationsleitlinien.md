@@ -8,10 +8,10 @@ Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kanton
 # Leitlinien zur Publikation offener Behördendaten im Kanton Zürich
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
-- [Datei-Format](#datei-format)
-- [Datenstruktur](#datenstruktur)
+- [Datei-Formate](#datei-formate)
+- [Daten-Strukturen](#datenstruktur)
 
-## Datei-Format
+## Datei-Formate
 
 ### Grundsatz
 Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung.
@@ -26,7 +26,7 @@ Variabeln und Werte trennen wir mittels Kommata `,` (**nicht** mittels Semikolon
 ### Empfehlungen
 Für Daten mit komplexen Strukturen oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignen sich die Formate [JSON](http://opendatahandbook.org/glossary/en/terms/json/) sehr und [XML](http://opendatahandbook.org/glossary/en/terms/xml/) gut.
 
-## Datenstruktur
+## Daten-Strukturen
 
 ### Grundsatz
 Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossary/en/terms/structured-data/) zur Verfügung (**nicht** als Word, PDF oder Fliesstext).
