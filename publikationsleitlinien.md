@@ -6,7 +6,7 @@ Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
 
-# Leitlinien zur Publikation offener Behördendaten im Kanton Zürich
+# Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
 - [Datei-Formate](#datei-formate)
