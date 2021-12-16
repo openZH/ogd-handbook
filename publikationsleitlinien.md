@@ -34,9 +34,26 @@ Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossa
 
 ### Vorgaben
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
-
+```
+jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt
+2013,Direktion der Justiz und des Innern,1,52,45
+2013,Sicherheitsdirektion,,12,4
+2013,Finanzdirektion,,14,14
+2013,Volkswirtschaftsdirektion,,3,2
+2013,Gesundheitsdirektion,1,45,8
+2013,Bildungsdirektion,6,25,10
+2013,Baudirektion,1,9,7
+2013,Staatskanzlei,,,
+2014,Direktion der Justiz und des Innern,11,31,19
+2014,Sicherheitsdirektion,,21,11
+2014,Finanzdirektion,,15,14
+2014,Volkswirtschaftsdirektion,,32,31
+2014,Gesundheitsdirektion,8,33,4
+2014,Bildungsdirektion,4,24,7
+2014,Baudirektion,1,7,8
+2014,Staatskanzlei,,1,1
+```
 Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile) und [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
-![tidydata1](https://www.produnis.de/R/images/TidyData1.png)
 
 #### Pro Variable eine Spalte
 Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
@@ -64,29 +81,29 @@ Wir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die g
 
 #### Pro Wert eine Zelle
 Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 
-- `Text`
-- `Zahl`
-- `Datum`
-- `Uhreit`
-- `URL`.
+1. `Text`
+2. `Zahl`
+3. `Datum`
+4. `Uhrzeit`
+5. `URL`.
 
 Einheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen. <br>
 
-##### Text 
+##### 1. Text 
 Werte mit Daten-Format `Text`, die Kommas enthalten, klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. `"Französisch, Deutsch"`). Das ist wichtig, damit diese Text-Inhalte (in der Fachsprache bezeichnet als `String` bzw. Zeichenkette) trotz Leerzeichen oder Kommas als zusammengehörend interpretiert werden. <br>
 
-##### Zahl 
+##### 2. Zahl 
 Werte mit Daten-Format `Zahl` formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen.
 - Als Dezimaltrennzeichen verwenden wir einen Punkt.
 - Ob man rundet oder nicht, kommt auf den Datensatz und seine Nutzung an. Falls gerundet wird, muss dies aber in den Metadaten deklariert werden.
 
-##### Datum 
+##### 3. Datum 
 Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden den [internationalen Standard ISO 8601](https://www.w3.org/TR/NOTE-datetime): `YYYY-MM-DD` (z.B. `2021-12-24`). <br>
 
-##### Uhrzeit 
+##### 4. Uhrzeit 
 Werte mit Daten-Format `Uhrzeit` geben wir dem [internationalen Standard ISO 8601](https://www.w3.org/TR/NOTE-datetime) gemäss an als `hh:mm:ss`. Wir verwenden die Zeitzone `UTC+1`: `YYYY-MM-DDThh:mm:ssTZD (z.B. 2021-12-24T19:20:30+01:00)`. <br>
 
-##### URL 
+##### 5. URL 
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
 
 ### Empfehlungen
