@@ -37,7 +37,7 @@ Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy D
 
 Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile) und [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
 
-Beispiel:
+Beispiel: <br>
 ![tidy_data_bsp](publikationsleitlinien/tidy_data_bsp.png)
 
 #### Pro Variable eine Spalte
