@@ -34,25 +34,8 @@ Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossa
 
 ### Vorgaben
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
-```
-jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt
-2013,Direktion der Justiz und des Innern,1,52,45
-2013,Sicherheitsdirektion,,12,4
-2013,Finanzdirektion,,14,14
-2013,Volkswirtschaftsdirektion,,3,2
-2013,Gesundheitsdirektion,1,45,8
-2013,Bildungsdirektion,6,25,10
-2013,Baudirektion,1,9,7
-2013,Staatskanzlei,,,
-2014,Direktion der Justiz und des Innern,11,31,19
-2014,Sicherheitsdirektion,,21,11
-2014,Finanzdirektion,,15,14
-2014,Volkswirtschaftsdirektion,,32,31
-2014,Gesundheitsdirektion,8,33,4
-2014,Bildungsdirektion,4,24,7
-2014,Baudirektion,1,7,8
-2014,Staatskanzlei,,1,1
-```
+![tidy_data_bsp](publikationsleitlinien/tidy_data_bsp.png)
+
 Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile) und [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
 
 #### Pro Variable eine Spalte
