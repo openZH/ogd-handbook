@@ -36,8 +36,7 @@ Offene Daten stehen als [strukturierte Daten](http://opendatahandbook.org/glossa
 Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy Data'](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md). <br>
 
 Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile) und [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
-
-![tidy_data_bsp](publikationsleitlinien/tidy_data_bsp.png)
+- Beispiel: ![tidy_data_bsp](publikationsleitlinien/tidy_data_bsp.png)
 
 #### Pro Variable eine Spalte
 Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
