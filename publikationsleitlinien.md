@@ -41,8 +41,7 @@ Beispiel: <br>
 ![tidy_data_bsp](publikationsleitlinien/tidy_data_bsp.png)
 
 #### Pro Variable eine Spalte
-Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte.
-- Beispiel: https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich
+Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte. <br>
 
 Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
