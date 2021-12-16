@@ -37,7 +37,7 @@ Tabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ['Tidy D
 
 Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobachtung eine Zeile](#pro-beobachtung-eine-zeile) und [pro Wert eine Zelle](#pro-wert-eine-zelle). <br>
 
-Beispiel: <br>
+[Beispiel](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/523@fachstelle-ogd-kanton-zuerich): <br>
 ![tidy_data_bsp](publikationsleitlinien/tidy_data_bsp.png)
 
 #### Pro Variable eine Spalte
@@ -108,14 +108,5 @@ jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschrae
 2013,Bildungsdirektion,6,25,10
 2013,Baudirektion,1,9,7
 2013,Staatskanzlei,,,
-2013,Total,9,160,90
-2014,Direktion der Justiz und des Innern,11,31,19
-2014,Sicherheitsdirektion,,21,11
-2014,Finanzdirektion,,15,14
-2014,Volkswirtschaftsdirektion,,32,31
-2014,Gesundheitsdirektion,8,33,4
-2014,Bildungsdirektion,4,24,7
-2014,Baudirektion,1,7,8
-2014,Staatskanzlei,,1,1
-2014,Total,30,164,95
+...
 ```
