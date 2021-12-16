@@ -1,6 +1,7 @@
 
-Version: **1.0** <br>
-Status: **in Kraft gesetzt am 16.12.2021 vom [Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
+Version, Datum: **v1.0**, 16.12.2021 <br>
+Status: **in Kraft**
+Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
