@@ -1,5 +1,5 @@
 
-Version (Datum): **v1.0** (2021-12-16) <br>
+Version, Datum: **v1.0, 2021-12-16** <br>
 Status: **in Kraft** <br>
 Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
 
