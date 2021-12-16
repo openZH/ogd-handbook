@@ -1,6 +1,6 @@
 
 Version: **1.0** <br>
-Status: **bereit zur Review durch [Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
+Status: **in Kraft gesetzt am 16.12.2021 vom [Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
@@ -83,4 +83,25 @@ Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre 
 - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
 - (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-Werte, die unbekannt sind, weisen wir als `NA` aus.
+Werte, die ausdrücklich unbekannt sind, weisen wir als `NA` aus. Zellen ohne Werte lassen wir leer:
+```
+jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt,zugang_teilweise_gewaehrt,zugang_vollstaendig_abgelehnt,anderweitige_erledigung,gesuche_haengig_dez
+2013,Direktion der Justiz und des Innern,1,52,45,4,2,,1
+2013,Sicherheitsdirektion,,12,4,,8,,
+2013,Finanzdirektion,,14,14,,,,
+2013,Volkswirtschaftsdirektion,,3,2,1,,,
+2013,Gesundheitsdirektion,1,45,8,6,24,,8
+2013,Bildungsdirektion,6,25,10,7,2,8,4
+2013,Baudirektion,1,9,7,1,1,,1
+2013,Staatskanzlei,,,,,,,
+2013,Total,9,160,90,19,37,8,14
+2014,Direktion der Justiz und des Innern,11,31,19,5,3,4,15
+2014,Sicherheitsdirektion,,21,11,2,8,,
+2014,Finanzdirektion,,15,14,,,,1
+2014,Volkswirtschaftsdirektion,,32,31,,,,1
+2014,Gesundheitsdirektion,8,33,4,1,21,6,10
+2014,Bildungsdirektion,4,24,7,10,2,5,4
+2014,Baudirektion,1,7,8,,,,
+2014,Staatskanzlei,,1,1,,,,
+2014,Total,30,164,95,18,34,15,31
+```
