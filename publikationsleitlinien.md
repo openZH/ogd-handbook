@@ -77,9 +77,9 @@ Werte mit Daten-Format `Zahl` formatieren wir einheitlich ohne Hochkommas, Leerz
 - Als Dezimaltrennzeichen verwenden wir einen Punkt.
 - Ob man rundet oder nicht, kommt auf den Datensatz und seine Nutzung an. Falls gerundet wird, muss dies aber in den Metadaten deklariert werden.
 
-Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden standardmässig das Format `YYYY-MM-DD` (z.B. `2021-12-24`). <br>
+Werte mit Daten-Format `Datum` geben wir nicht als Zeichenketten (z.B. `24. Dez. 2021`) an, sondern verwenden den [internationalen Standard ISO 8601](https://www.w3.org/TR/NOTE-datetime): `YYYY-MM-DD` (z.B. `2021-12-24`). <br>
 
-Werte mit Daten-Format `Zeit` geben wir standardmässig im Format `hh:mm:ss` an. Wir verwenden die Zeitzone `Bern, Zürich ...`. <br>
+Werte mit Daten-Format `Uhrzeit` geben wir dem [internationalen Standard ISO 8601](https://www.w3.org/TR/NOTE-datetime) gemäss an als `hh:mm:ss`. Wir verwenden die Zeitzone `Bern, Zürich ...`: `YYYY-MM-DDThh:mm:ssTZD (z.B. 2021-12-24T19:20:30+01:00)`. <br>
 
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
 
