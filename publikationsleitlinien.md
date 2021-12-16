@@ -83,7 +83,9 @@ Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre 
 - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
 - (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter "Weitere Informationen" referenzieren.
 
-Werte, die ausdrücklich unbekannt sind, weisen wir als `NA` aus. Zellen ohne Werte lassen wir leer:
+Werte, die ausdrücklich unbekannt sind, weisen wir als `NA` aus.
+
+Zellen ohne Werte lassen wir leer:
 ```
 jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt,zugang_teilweise_gewaehrt,zugang_vollstaendig_abgelehnt,anderweitige_erledigung,gesuche_haengig_dez
 2013,Direktion der Justiz und des Innern,1,52,45,4,2,,1
