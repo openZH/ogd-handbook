@@ -1,17 +1,19 @@
 
-Version: 1.0 <br>
-Status: ENTWURF, in Bearbeitung
+Version, Datum: **v1.0, 2022-01-27** <br>
+Status: **in Bearbeitung** <br>
+Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
 
-> - Feedback (Hinweise, Wünsche und Fragen) bitte als Issues erfassen: https://github.com/openZH/mdd-ogd-handbook/issues
+> **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
 
 # Handbuch zur Metadaten-Verwaltung des Kantons Zürich
 
-1. [Aufgaben](...)
-2. [Rollen und Verantwortlichkeiten](...)
-3. [Zweck und Bedeutung](...)
+Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
+- [Xyz xyz](#xyz-xyz)
 
-...
+## Xyz xyz
+
+
 
 ## 1. Umfang und Zweck der Metadaten-Verwaltung
 
