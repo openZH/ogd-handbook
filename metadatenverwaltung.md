@@ -9,15 +9,28 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 # Handbuch zur Metadaten-Verwaltung des Kantons Zürich
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
-1. [Sinn und Zweck der kantonalen Metadaten-Verwaltung](#sinn-und-zweck-der-kantonalen-metadaten-verwaltung)
-2. [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-3. [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
-4. [](#)
-5. [](#)
-6. [](#)
-7. [](#)
+1. [Grundlagen](#grundlagen)
+    1. [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
+    2. [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
+2. [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
+    1. ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
+    2. ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
+    3. ['Data Guides' beraten, unterstützen und vermitteln](#...)
+    4. [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
+3. [Schritte zum Bereitstellen, Publizieren und Aktualisieren offener Behördendaten](#...)
+    1. [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
+    2. ['Ressourcen' offen zugänglich bereitstellen](#...)
+    3. [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
+    4. [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
+    5. [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
+    6. [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
+4. [Beratung und Unterstützung](#...)
+    1. [Kontakte](#...)
+    2. [Hilfsmittel](#...)
 
-## Sinn und Zweck der kantonalen Metadaten-Verwaltung
+## Grundlagen
+
+### Sinn und Zweck der Metadaten-Verwaltung
 Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/2021](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates/rrb/regierungsratsbeschluss-1362-2021.html) beschlossen, dass 
 
 > "der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt]".
@@ -28,7 +41,7 @@ Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/
 >  - anreichern und bearbeiten,
 >  - kommerziell nutzen dürfen.
 
-Der Kanton Zürich stellt offene Beördendaten entsprechend unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung.
+Der Kanton Zürich stellt offene Behördendaten entsprechend unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung.
 
 Stehen die Daten unter einer
 
@@ -39,7 +52,7 @@ Damit die interessiete Öffentklichkeit alle offen verfügbaren Behördendaten e
 
 Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
 
-## Eigenschaften und Bedingungen offener Behördendaten
+### Eigenschaften und Bedingungen offener Behördendaten
 Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
 
 > "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
@@ -55,10 +68,57 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 
 ...
 
+### 'Data Custodians' bereiten Daten auf und stellen sie bereit
 
+...
 
+### 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie
 
+...
 
+### 'Data Guides' beraten, unterstützen und vermitteln
+
+...
+
+### Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'
+
+...
+
+## Schritte zum Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
+
+### Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
+
+...
+
+### 'Ressourcen' offen zugänglich bereitstellen
+
+...
+
+### Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
+
+...
+
+### Erstmalig erfasste 'Datensätze' zur Publikation freigeben
+
+...
+
+### Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
+
+...
+
+### Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
+
+...
+
+## Beratung und Unterstützung
+
+### Kontakte
+
+...
+
+### Hilfsmittel 
+
+...
 
 
 
