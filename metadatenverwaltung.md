@@ -9,10 +9,11 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 # Handbuch zur Metadaten-Verwaltung des Kantons Zürich
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
-1. [Grundlagen](#grundlagen)
-    1. [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
-    2. [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-2. [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
+
+[Grundlagen](#grundlagen)
+    [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
+    [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
+[Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
     1. ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
     2. ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
     3. ['Data Guides' beraten, unterstützen und vermitteln](#...)
