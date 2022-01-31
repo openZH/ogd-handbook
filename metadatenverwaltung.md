@@ -34,7 +34,6 @@ Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der
 Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich 'nicht schützenswerte' Daten, die unter ihrer Hoheit stehen, als offene Behördendaten publizieren.
 
 > 'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
-> 
 >  - nicht die Privatsphäre verletzen,
 >  - nicht sicherheitskritisch sind und 
 >  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
