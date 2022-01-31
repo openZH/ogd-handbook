@@ -14,20 +14,20 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
     - [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
     - [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
 - [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
-    1. ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
-    2. ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
-    3. ['Data Guides' beraten, unterstützen und vermitteln](#...)
-    4. [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
-3. [Schritte zum Bereitstellen, Publizieren und Aktualisieren offener Behördendaten](#...)
-    1. [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
-    2. ['Ressourcen' offen zugänglich bereitstellen](#...)
-    3. [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
-    4. [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
-    5. [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
-    6. [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
-4. [Beratung und Unterstützung](#...)
-    1. [Kontakte](#...)
-    2. [Hilfsmittel](#...)
+    - ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
+    - ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
+    - ['Data Guides' beraten, unterstützen und vermitteln](#...)
+    - [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
+- [Bereitstellen, Publizieren und Aktualisieren offener Behördendaten](#...)
+    - [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
+    - ['Ressourcen' offen zugänglich bereitstellen](#...)
+    - [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
+    - [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
+    - [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
+    - [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
+- [Beratung und Unterstützung finden](#...)
+    - [Kontakte](#...)
+    - [Hilfsmittel](#...)
 
 ## Grundlagen
 
@@ -85,7 +85,7 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 
 ...
 
-## Schritte zum Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
+## Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
 
 ### Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
 
@@ -111,7 +111,7 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 
 ...
 
-## Beratung und Unterstützung
+## Beratung und Unterstützung finden
 
 ### Kontakte
 
