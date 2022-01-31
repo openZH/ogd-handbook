@@ -18,14 +18,19 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 7. [](#)
 
 ## Sinn und Zweck der kantonalen Metadaten-Verwaltung
-Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/2021](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates/rrb/regierungsratsbeschluss-1362-2021.html) beschlossen, dass "der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt] und […] damit die Innovationskraft des Standorts [unterstützt]."
+Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/2021](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates/rrb/regierungsratsbeschluss-1362-2021.html) beschlossen, dass 
 
-Damit Nutzende alle offen verfügbaren Behördendaten einfach finden, werden die Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten (zh.ch/opendata)](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten (opendata.swiss)](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
+> "der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt]".
 
-Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen 'Datensätze' ([Begriffsdefinition](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst)) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-'Ressourcen' ([Begriffsdefinition](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst)) bereitzustellen.
+Damit Nutzende alle offen verfügbaren Behördendaten einfach finden, werden die Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
+
+Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst)) bereitzustellen.
 
 ## Eigenschaften offener Behördendaten
-Offene Behördendaten ('Open Government Data', OGD) sind "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert  und  maschinenlesbar  bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können" ([Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)).
+Offene Behördendaten ('Open Government Data', OGD) sind 
+
+> "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können"
+>  ([Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)).
 
 
 
