@@ -22,7 +22,18 @@ Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/
 
 > "der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt]".
 
-Damit Nutzende alle offen verfügbaren Behördendaten einfach finden, werden die Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
+'Freie Nutzung' bedeutet, dass alle Interessierten die Daten
+
+>  - vervielfältigen, verbreiten und weiter zugänglich machen,
+>  - anreichern und bearbeiten,
+>  - kommerziell nutzen dürfen.
+
+Der Kanton Zürich stellt offene Beördendaten entsprechend unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung. Stehen die Daten unter der
+
+>  - [Creative Commons (CC) BY 4.0 Lizenz]() müssen Nutzende die Quelle der Daten (das heisst den Namen der Organisation, die sie publiziert) zwingend nennen;
+>  - [Creative Commons (CC) Public Domain (PD) Lizenz]() wird den Nutzenden lediglich empfohlen , die Quelle anzugeben. 
+
+Damit die interessiete Öffentklichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
 
 Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
 
@@ -38,7 +49,7 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 >  - nicht sicherheitskritisch sind und 
 >  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
 
-...
+
 
 
 
