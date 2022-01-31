@@ -10,8 +10,8 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 1. [Sinn und Zweck der kantonalen Metadaten-Verwaltung](#sinn-und-zweck-der-kantonalen-metadaten-verwaltung)
-2. [Eigenschaften offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-3. [](#)
+2. [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
+3. [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
 4. [](#)
 5. [](#)
 6. [](#)
@@ -28,10 +28,12 @@ Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/
 >  - anreichern und bearbeiten,
 >  - kommerziell nutzen dürfen.
 
-Der Kanton Zürich stellt offene Beördendaten entsprechend unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung. Stehen die Daten unter der
+Der Kanton Zürich stellt offene Beördendaten entsprechend unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung.
 
->  - [Creative Commons (CC) BY 4.0 Lizenz]() müssen Nutzende die Quelle der Daten (das heisst den Namen der Organisation, die sie publiziert) zwingend nennen;
->  - [Creative Commons (CC) Public Domain (PD) Lizenz]() wird den Nutzenden lediglich empfohlen , die Quelle anzugeben. 
+Stehen die Daten unter einer
+
+>  - [Creative Commons (CC) BY 4.0 Lizenz](...) müssen Nutzende die Quelle der Daten (das heisst den Namen der Organisation, die sie publiziert) zwingend nennen;
+>  - [Creative Commons (CC) Public Domain (PD) Lizenz](...) wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
 
 Damit die interessiete Öffentklichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
 
@@ -49,9 +51,9 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 >  - nicht sicherheitskritisch sind und 
 >  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
 
+## Rollen und Verantwortlichkeiten im Publikationsprozess
 
-
-
+...
 
 
 
