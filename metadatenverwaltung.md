@@ -10,10 +10,10 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 
-[Grundlagen](#grundlagen)
-    [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
-    [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-[Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
+- [Grundlagen](#grundlagen)
+    - [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
+    - [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
+- [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
     1. ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
     2. ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
     3. ['Data Guides' beraten, unterstützen und vermitteln](#...)
