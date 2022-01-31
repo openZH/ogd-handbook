@@ -10,7 +10,7 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 1. [Sinn und Zweck der kantonalen Metadaten-Verwaltung](#sinn-und-zweck-der-kantonalen-metadaten-verwaltung)
-2. [Eigenschaften offener Behördendaten](#eigenschaften-offener-behoerdendaten)
+2. [Eigenschaften offener Behördendaten](#eigenschaften-offener-behordendaten)
 3. [](#)
 4. [](#)
 5. [](#)
@@ -26,16 +26,20 @@ Damit Nutzende alle offen verfügbaren Behördendaten einfach finden, werden die
 
 Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
 
-## Eigenschaften offener Behördendaten
-Offene Behördendaten ('Open Government Data', OGD) sind 
+## Eigenschaften und Bedingungen offener Behördendaten
+Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
 
-> "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können"
+> "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
+
+Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich nicht schützenswerte Daten, die unter ihrer Hoheit stehen, als offene Behördendaten publizieren.
+
+> 'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
 > 
->  ([Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)).
+>  - nicht die Privatsphäre verletzen,
+>  - nicht sicherheitskritisch sind und 
+>  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
 
-
-
-
+...
 
 
 
