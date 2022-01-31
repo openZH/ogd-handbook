@@ -10,7 +10,7 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 1. [Sinn und Zweck der kantonalen Metadaten-Verwaltung](#sinn-und-zweck-der-kantonalen-metadaten-verwaltung)
-2. [Eigenschaften offener Behördendaten](#eigenschaften-offener-behordendaten)
+2. [Eigenschaften offener Behördendaten](#eigenschaften-und-bedingungen-offener-behordendaten)
 3. [](#)
 4. [](#)
 5. [](#)
@@ -31,7 +31,7 @@ Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der
 
 > "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
 
-Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich nicht schützenswerte Daten, die unter ihrer Hoheit stehen, als offene Behördendaten publizieren.
+Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich 'nicht schützenswerte' Daten, die unter ihrer Hoheit stehen, als offene Behördendaten publizieren.
 
 > 'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
 > 
