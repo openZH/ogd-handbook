@@ -3,9 +3,9 @@
 Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax).
 
 ## Hilfsmittel
-- 1. [Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md)
-- 2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
-- 3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
+1. [Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md)
+2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
+3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
 
 ## Dokumentation zur Erstellung einzelner Hilfsmittel
 
