@@ -107,8 +107,8 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 ...
 
 ### Hilfsmittel 
-
-...
+- Begriffsdefinitionen im [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
+- Technische und formale Grundsätze, Vorgaben und Empfehlungen zur Aufbereitung von Ressourcen in den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
 
 
 
