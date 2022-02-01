@@ -29,6 +29,7 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
     - [1. Kontakte](#kontakte)
     - [2. Hilfsmittel](#hilfsmittel)
 
+
 ## A. Grundlagen
 
 ### 1. Sinn und Zweck der Metadaten-Verwaltung
@@ -61,6 +62,7 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 
 Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offenen Nutzungsbedingungen bzw. Lizenzen](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#2105459599) zur Verfügung. 
 
+
 ## B. Rollen und Verantwortlichkeiten im Publikationsprozess
 ![Rollen und Aufgaben beim Bereitstellen von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Datenkatalog_MDD_OGD-Rollen_Aufgaben.png.zhweb-transform/content-picture-small-large/Datenkatalog_MDD_OGD-Rollen_Aufgaben.1636051109668.png "Rollen und Aufgaben")
 
@@ -76,37 +78,26 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 ## C. Offene Behördendaten bereitstellen, publizieren und aktualisieren
 ![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
 
-### Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
+### 1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
 
-...
+### 2. 'Ressourcen' offen zugänglich bereitstellen
 
-### 'Ressourcen' offen zugänglich bereitstellen
+### 3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
 
-...
+### 4. Erstmalig erfasste 'Datensätze' zur Publikation freigeben
 
-### Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
+### 5. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
 
-...
+### 6. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
 
-### Erstmalig erfasste 'Datensätze' zur Publikation freigeben
 
-...
+## D. Beratung und Unterstützung
 
-### Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
+### 1. Kontakte
+- Für Fragen und Bedürfnisse zu offenen Behördendaten steht die Fach- und Koordinationsstelle OGD zur Verfügung: info@open.zh.ch
+- Für Fragen und Bedürfnisse zur Metadaten-Verwaltung und zu Behördendaten generell steht die Abteilung 'Data Shop' des Statistischen Amts zur Verfügung: datashop@statistik.zh.ch
 
-...
-
-### Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
-
-...
-
-## Beratung und Unterstützung
-
-### Kontakte
-
-...
-
-### Hilfsmittel 
+### 2. Hilfsmittel 
 - Begriffsdefinitionen im [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
 - Technische und formale Grundsätze, Vorgaben und Empfehlungen zur Aufbereitung von Ressourcen in den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
 
@@ -164,8 +155,3 @@ Die fünf Schritte, um Daten als offene Behördendaten bereitzustellen, sind:
 - Daten mit Metadaten beschreiben und als Datensätze im Datenkatalog erfassen.
 - Datensätze mit Ressourcen im Datenkatalog zur Publikation freigeben.
 - Ressourcen und Metadaten aktualisieren, sobald neue Daten oder Änderungen vorliegen.
-
-## Beratung und Unterstützung
-
-> Der OGD-Zirkel berät bei allen Fragen und Bedürfnissen rund um offene Daten: info@open.zh.ch
-> Der ZHweb-Zirkel berät bei der geeigneten Wahl der Referenzierung: datashop@statistik.zh.ch
