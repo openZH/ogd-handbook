@@ -13,23 +13,21 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 - [Grundlagen](#grundlagen)
     - [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
     - [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-- [Rollen und Verantwortlichkeiten im Publikationsprozess](#...)
+- [Rollen und Verantwortlichkeiten im Publikationsprozess](#rollen-und-verantwortlichkeiten-im-publikationsprozess)
     - ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
     - ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
     - ['Data Guides' beraten, unterstützen und vermitteln](#...)
     - [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
-<br>
-[Bereitstellen, Publizieren und Aktualisieren offener Behördendaten](#...) <br>
-1. [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
-2. ['Ressourcen' offen zugänglich bereitstellen](#...)
-3. [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
-4. [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
-5. [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
-6. [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
-<br>
-[Beratung und Unterstützung](#...) <br>
-- [Kontakte](#...)
-- [Hilfsmittel](#...)
+- [Offene Behördendaten verfügbar machen](#...)
+    - [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
+    - ['Ressourcen' offen zugänglich bereitstellen](#...)
+    - [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
+    - [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
+    - [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
+    - [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
+- [Beratung und Unterstützung](#...)
+    - [Kontakte](#...)
+    - [Hilfsmittel](#...)
 
 ## Grundlagen
 
