@@ -60,8 +60,9 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 >  - kommerziell nutzen dürfen.
 
 Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung: Stehen die Daten unter
-- a. der [Creative Commons (CC) BY 4.0 Lizenz](...), müssen die Nutzenden die Quelle der Daten zwingend nennen (das heisst: den Namen der Organisation, die sie publiziert);
-- b. der [Creative Commons (CC) Public Domain (PD) Lizenz](...), wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
+
+> - der [Creative Commons (CC) BY 4.0 Lizenz](...), müssen die Nutzenden die Quelle der Daten zwingend nennen (das heisst: den Namen der Organisation, die sie publiziert);
+> - der [Creative Commons (CC) Public Domain (PD) Lizenz](...), wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
 
 ## B. Rollen und Verantwortlichkeiten im Publikationsprozess
 ![Rollen und Aufgaben beim Bereitstellen von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Datenkatalog_MDD_OGD-Rollen_Aufgaben.png.zhweb-transform/content-picture-small-large/Datenkatalog_MDD_OGD-Rollen_Aufgaben.1636051109668.png "Rollen und Aufgaben")
