@@ -13,7 +13,7 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 Behördendaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Es handelt sich um strukturierte Sammlungen von Daten, in Form von beispielsweise Tabellen oder Datenbanken.
 
 ## 'Data Custodian' (Datenverwaltende)
-Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt. Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](#ressource) auf. Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
+Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt. Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](#ressource-resource-oder-distribution) auf. Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
 
 ## 'Data Guide'
 Rolle, die ['Data Custodians'](#data-custodian-datenverwaltende) und ['Data Stewards'](#data-steward-metadatenverwaltende) bei der effizienten Organisation und Erfüllung ihrer Aufgaben beraten, unterstützen und (auf Wunsch) vertreten.
