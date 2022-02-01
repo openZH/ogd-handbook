@@ -114,12 +114,30 @@ Handelt es sich um eine Ressource, die Nutzende als Datei herunterladen können,
 
 ### 3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
 
+Melden Sie sich als 'Data Steward' mit Ihrem Login in der Metadaten-Verwaltung an: [zh.ch/metadatenverwaltung](https://www.web.statistik.zh.ch/ogd/datenkatalog-verwaltung/app/#/auth/login).
+
+Klicken Sie rechts oben auf "Neuen Datensatz erstellen".
+
+> - Wählen Sie einen aussagekräftigen Titel, ergänzt um den geografischen Bezug (zB. "... des Kantons Zürich" oder "... der Stadt Uster") und - sofern es sich um eine Zeitreihe handelt - um das Startdatum der Zeitreihe (zB. "... ab 2011" oder "... ab Juni 2011" oder "... ab 13.06.2011".
+> - Wählen Sie als "Publisher" die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
+> - Wählen Sie als Kontakt diejenige Stelle, die fachliche Auskunft zu den entsprechenden Daten geben können.
+> - Wählen Sie mindestens eine der Themenkatagorien aus.
+
+Klicken Sie auf "Erstellen". Sie haben nun einen Entwurf eines neuen Datensatzes in der Metadaten-Verwaltung angelegt.
+
+...
+
 ### 4. Erstmalig erfasste 'Datensätze' zur Publikation freigeben
+
+...
 
 ### 5. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
 
+...
+
 ### 6. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
 
+...
 
 ## D. Beratung und Unterstützung
 
