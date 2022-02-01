@@ -7,15 +7,15 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
 3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
 
-## Making-of einzelner Hilfsmittel
+## Making-of
 
 ### Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Unsere Forschungsfrage lautet: "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
 
-User Research: [Ergebnisse unserer Umfrage und Interviews mit ‘Data Custodians’ von Verwaltungseinheiten des Kantons Zürich](https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit?usp=sharing)
+Eigene User Research: [Ergebnisse unserer Umfrage und Interviews mit ‘Data Custodians’ von Verwaltungseinheiten des Kantons Zürich](https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit?usp=sharing)
 
-Weitere Quellen:
+Andere Quellen:
    - New Zealand: [Releasing data on data.govt.nz](https://www.data.govt.nz/catalogue-guide/releasing-data-on-data-govt-nz)
    - Catalonia: [Implementation guide for the homogenization of metadata in the Open Data Catalog of the Government of Catalonia](https://medium.com/opendatacharter/implementation-guide-for-the-homogenization-of-metadata-in-the-open-data-catalog-of-the-government-f5459543f262)
    - Ontario: [Open data publication](https://www.ontario.ca/document/open-data-guidebook-guide-open-data-directive/open-data-publication#section-2), Step 3 "Prepare Data and Metadata"
