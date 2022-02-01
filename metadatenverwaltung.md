@@ -68,7 +68,11 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 
 ### 1. 'Data Custodians' bereiten Daten auf und stellen sie bereit
 
-Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt. Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf. Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
+Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt.
+
+Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf. 
+
+Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
 
 ### 2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie
 
