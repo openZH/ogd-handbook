@@ -6,7 +6,7 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
 
-# Handbuch des Kantons Zürich zur Metadaten-Verwaltung
+# Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 
