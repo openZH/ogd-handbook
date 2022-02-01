@@ -11,8 +11,8 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 
 - [A. Grundlagen](#a-grundlagen)
-    - [1. Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
-    - [2. Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
+    - [1. Sinn und Zweck der Metadaten-Verwaltung](#1-sinn-und-zweck-der-metadaten-verwaltung)
+    - [2. Definition, Bedingungen und Eigenschaften offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
 - [B. Rollen und Verantwortlichkeiten im Publikationsprozess](#rollen-und-verantwortlichkeiten-im-publikationsprozess)
     - [1. 'Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
     - [2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
@@ -31,10 +31,27 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 
 ## A. Grundlagen
 
-### Sinn und Zweck der Metadaten-Verwaltung
+### 1. Sinn und Zweck der Metadaten-Verwaltung
 Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/2021](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates/rrb/regierungsratsbeschluss-1362-2021.html) beschlossen, dass 
 
 > "der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt]".
+
+Damit die interessiete Öffentlichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
+
+Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
+
+### 2. Definition, Bedingungen und Eigenschaften offener Behördendaten
+Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
+
+> "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
+
+Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich 'nicht schützenswerte' Daten, die unter ihrer Hoheit stehen, zur 'freien Nutzung' als offene Behördendaten publizieren.
+
+'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
+
+>  - nicht die Privatsphäre verletzen,
+>  - nicht sicherheitskritisch sind und 
+>  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
 
 'Freie Nutzung' bedeutet, dass alle Interessierten die Daten
 
@@ -42,26 +59,9 @@ Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/
 >  - anreichern und bearbeiten,
 >  - kommerziell nutzen dürfen.
 
-Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung. Stehen die Daten unter einer
-- [Creative Commons (CC) BY 4.0 Lizenz](...), müssen Nutzende die Quelle der Daten (das heisst den Namen der Organisation, die sie publiziert) zwingend nennen;
-- [Creative Commons (CC) Public Domain (PD) Lizenz](...), wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
-
-Damit die interessiete Öffentklichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
-
-Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
-
-### Eigenschaften und Bedingungen offener Behördendaten
-Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
-
-> "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
-
-Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich 'nicht schützenswerte' Daten, die unter ihrer Hoheit stehen, als offene Behördendaten publizieren.
-
-'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
-
->  - nicht die Privatsphäre verletzen,
->  - nicht sicherheitskritisch sind und 
->  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
+Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung: Stehen die Daten unter
+- a. der [Creative Commons (CC) BY 4.0 Lizenz](...), müssen die Nutzenden die Quelle der Daten zwingend nennen (das heisst: den Namen der Organisation, die sie publiziert);
+- b. der [Creative Commons (CC) Public Domain (PD) Lizenz](...), wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
 
 ## Rollen und Verantwortlichkeiten im Publikationsprozess
 
