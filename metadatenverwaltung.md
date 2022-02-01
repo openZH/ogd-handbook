@@ -12,8 +12,8 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 
 - [A. Grundlagen](#a-grundlagen)
     - [1. Sinn und Zweck der Metadaten-Verwaltung](#1-sinn-und-zweck-der-metadaten-verwaltung)
-    - [2. Definition, Bedingungen und Eigenschaften offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-- [B. Rollen und Verantwortlichkeiten im Publikationsprozess](#rollen-und-verantwortlichkeiten-im-publikationsprozess)
+    - [2. Definition, Bedingungen und Eigenschaften offener Behördendaten](#2-definition-bedingungen-und-eigenschaften-offener-behördendaten)
+- [B. Rollen und Verantwortlichkeiten im Publikationsprozess](#b-rollen-und-verantwortlichkeiten-im-publikationsprozess)
     - [1. 'Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
     - [2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
     - [3. 'Data Guides' beraten, unterstützen und vermitteln](#...)
@@ -63,28 +63,19 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzu
 - a. der [Creative Commons (CC) BY 4.0 Lizenz](...), müssen die Nutzenden die Quelle der Daten zwingend nennen (das heisst: den Namen der Organisation, die sie publiziert);
 - b. der [Creative Commons (CC) Public Domain (PD) Lizenz](...), wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
 
-## Rollen und Verantwortlichkeiten im Publikationsprozess
-
+## B. Rollen und Verantwortlichkeiten im Publikationsprozess
 ![Rollen und Aufgaben beim Bereitstellen von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Datenkatalog_MDD_OGD-Rollen_Aufgaben.png.zhweb-transform/content-picture-small-large/Datenkatalog_MDD_OGD-Rollen_Aufgaben.1636051109668.png "Rollen und Aufgaben")
 
-### 'Data Custodians' bereiten Daten auf und stellen sie bereit
+### 1. 'Data Custodians' bereiten Daten auf und stellen sie bereit
 
-...
+### 2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie
 
-### 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie
+### 3. 'Data Guides' beraten, unterstützen und vermitteln
 
-...
+### 4. Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'
 
-### 'Data Guides' beraten, unterstützen und vermitteln
 
-...
-
-### Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'
-
-...
-
-## Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
-
+## C. Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
 ![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
 
 ### Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
