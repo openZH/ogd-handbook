@@ -57,14 +57,15 @@ Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der
 
 Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich 'nicht schützenswerte' Daten, die unter ihrer Hoheit stehen, als offene Behördendaten publizieren.
 
-> 'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
+'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
+
 >  - nicht die Privatsphäre verletzen,
 >  - nicht sicherheitskritisch sind und 
 >  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
 
 ## Rollen und Verantwortlichkeiten im Publikationsprozess
 
-...
+![Rollen und Aufgaben beim Bereitstellen von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Datenkatalog_MDD_OGD-Rollen_Aufgaben.png.zhweb-transform/content-picture-small-large/Datenkatalog_MDD_OGD-Rollen_Aufgaben.1636051109668.png "Rollen und Aufgaben")
 
 ### 'Data Custodians' bereiten Daten auf und stellen sie bereit
 
@@ -83,6 +84,8 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 ...
 
 ## Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
+
+![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
 
 ### Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
 
