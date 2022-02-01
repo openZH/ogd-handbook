@@ -16,7 +16,7 @@ Behördendaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, er
 Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt. Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](#ressource-resource-oder-distribution) auf. Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
 
 ## 'Data Guide'
-Rolle, die ['Data Custodians'](#data-custodian-datenverwaltende) und ['Data Stewards'](#data-steward-metadatenverwaltende) bei der effizienten Organisation und Erfüllung ihrer Aufgaben beraten, unterstützen und (auf Wunsch) vertreten.
+Rolle, die ['Data Custodians'](#data-custodian-datenverwaltende) und ['Data Stewards'](#data-steward-metadatenverwaltende) bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt.
 
 ## 'Data Steward' (Metadatenverwaltende)
 Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet. Sie beschreibt [Datensätze](#datensatz) und [Ressourcen](#ressource) in der [Metadaten-Verwaltung](#metadaten-verwaltung) gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#780472813) und macht Behördendaten so einfach findbar. Im Austausch mit der ['Data Custodian'](#data-custodian-datenverwaltende)-Rolle organisiert sie die laufende Aktualisierung der publizierten Datensätze.
