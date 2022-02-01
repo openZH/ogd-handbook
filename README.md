@@ -9,7 +9,16 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 
 ## Making-of
 
-### Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
+### 1. Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten
+
+Unsere Forschungsfrage lautet: "Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
+
+Eigene User Research:
+- mit den Anwendenden der Metadaten-Verwaltung 'on the job'
+- Suchbegriffe der Nutzenden der Datenkataloge (Web Analytics)
+- ...
+
+### 2. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Unsere Forschungsfrage lautet: "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
 
