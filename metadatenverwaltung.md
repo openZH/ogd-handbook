@@ -70,27 +70,47 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 
 Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt.
 
-Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf. 
+Um einfach nutzbare Behördendaten bereitzustellen, bereiten sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf. 
 
-Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
+Sie halten die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
 
 ### 2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie
 
-Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet. Sie beschreibt [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) und [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) in der Metadaten-Verwaltung gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#780472813) und macht Behördendaten so einfach findbar. Im Austausch mit den ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) organisiert sie die laufende Aktualisierung der publizierten Datensätze.
+Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet.
+
+Sie beschreiben [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) und [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) in der Metadaten-Verwaltung gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#780472813) und machen Behördendaten so einfach findbar. 
+
+Im Austausch mit den ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) organisieren sie die laufende Aktualisierung der publizierten Datensätze.
 
 ### 3. 'Data Guides' beraten, unterstützen und vermitteln
 
-Rolle, die ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) und ['Data Stewards'](#2-data-stewards-beschreiben-daten-mit-metadaten-und-publizieren-sie) bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt. 'Data Guides' verfügen in der Metadaten-Verwaltung über Administratoren-Rechte. Sie prüfen erstmalig erfasste Metadatensätze auf ihre Konformität zum geltenden [DCAT-AP CH](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#dcat-ap-bzw-dcat-ap-ch)-Metadatenstandard und erstmalig bereitgestellte Daten-[Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf ihre Konformität zu den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md).
+Rolle, die ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) und ['Data Stewards'](#2-data-stewards-beschreiben-daten-mit-metadaten-und-publizieren-sie) bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt. 
+
+'Data Guides' verfügen in der Metadaten-Verwaltung über Administrator-Rechte. Sie prüfen erstmalig erfasste Metadatensätze auf ihre Konformität zum geltenden [DCAT-AP CH](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#dcat-ap-bzw-dcat-ap-ch)-Metadatenstandard und erstmalig bereitgestellte [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf ihre Konformität zu den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md).
+
+Ist alles bereit, erstmals publiziert zu werden, planen sie mit den 'Data Stewards', per wann die Publikation erfolgend soll.
 
 ### 4. Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'
 
+'Data Stewards zh.ch' verfügen über zusätzliche Rechte, in der Metadaten-Verwaltung auch nicht offene Datensätze verwalten zu können.
+
+'Guests' haben lediglich Lese-Zugang zur Metadaten-Verwaltung. Sie interessieren sich unter Umständen für die Übernahme einer Rolle, haben aber noch keine entsprechende Schulung gemacht.
 
 ## C. Offene Behördendaten bereitstellen, publizieren und aktualisieren
 ![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
 
 ### 1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
 
+Handelt es sich um tabellarische Daten, folgen Sie bei der Aufbereitung den technischen und formalen Grundsätzen, Vorgaben und Empfehlungen in den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md).
+
+Handelt es sich um Daten mit anderen und/oder komplexen Strukturen, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
+
 ### 2. 'Ressourcen' offen zugänglich bereitstellen
+
+Handelt es sich um eine Ressource, die Nutzende als Datei herunterladen können, 
+
+> - teilen Sie diese mit einem 'Data Steward' Ihrer Verwaltungseinheit bzw. Organisation, damit sie via die Metadaten-Verwaltung bereitgesetllt werden kann, oder
+> - stellen sie diese selbst auf einen frei im Web zugänglichen Server bereit, der unter Ihrer Hoheit steht. Teilen Sie darauf einem 'Data Steward' Ihrer Verwaltungseinheit bzw. Organisation die entsprechende Download-URL mit (Wichtig: Die Download-URLs müssen permament bleiben.),
 
 ### 3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
 
