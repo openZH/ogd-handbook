@@ -39,7 +39,7 @@ Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/
 
 Damit die interessiete Öffentlichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
 
-Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
+Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) weitgehend selbständig zu erfassen und zu aktualisieren sowie die entsprechenden Daten-[Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) bereitzustellen.
 
 ### 2. Definition und Bedingungen von offenen Behördendaten
 Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
@@ -68,9 +68,15 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 
 ### 1. 'Data Custodians' bereiten Daten auf und stellen sie bereit
 
+Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt. Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) als maschinenlesbare [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf. Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.
+
 ### 2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie
 
+Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet. Sie beschreibt [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) und [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) in der Metadaten-Verwaltung gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#780472813) und macht Behördendaten so einfach findbar. Im Austausch mit den ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) organisiert sie die laufende Aktualisierung der publizierten Datensätze.
+
 ### 3. 'Data Guides' beraten, unterstützen und vermitteln
+
+Rolle, die ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) und ['Data Stewards'](#2-data-stewards-beschreiben-daten-mit-metadaten-und-publizieren-sie) bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt. 'Data Guides' verfügen in der Metadaten-Verwaltung über Administratoren-Rechte. Sie prüfen erstmalig erfasste Metadatensätze auf ihre Konformität zum geltenden [DCAT-AP CH](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#dcat-ap-bzw-dcat-ap-ch)-Metadatenstandard und erstmalig bereitgestellte Daten-[Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) auf ihre Konformität zu den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md).
 
 ### 4. Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'
 
