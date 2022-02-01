@@ -93,9 +93,9 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 
 ## D. Beratung und Unterstützung
 
-### 1. Kontakte
-- Für Fragen und Bedürfnisse zu offenen Behördendaten steht die [Fach- und Koordinationsstelle OGD](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) zur Verfügung: info@open.zh.ch
-- Für Fragen und Bedürfnisse zur Metadaten-Verwaltung und zu Behördendaten generell steht die [Abteilung 'Data Shop' des Statistischen Amts](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data-shop.html) zur Verfügung: datashop@statistik.zh.ch
+### 1. Kontakte für Fragen und Bedürfnisse
+- Zu offenen Behördendaten steht die [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) zur Verfügung: info@open.zh.ch
+- Zur Metadaten-Verwaltung und zu Behördendaten generell steht die [Abteilung 'Data Shop' im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data-shop.html) zur Verfügung: datashop@statistik.zh.ch
 
 ### 2. Hilfsmittel 
 - Begriffsdefinitionen im [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
