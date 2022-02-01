@@ -16,18 +16,18 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 - [B. Rollen und Verantwortlichkeiten im Publikationsprozess](#b-rollen-und-verantwortlichkeiten-im-publikationsprozess)
     - [1. 'Data Custodians' bereiten Daten auf und stellen sie bereit](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit)
     - [2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#2-data-stewards-beschreiben-daten-mit-metadaten-und-publizieren-sie)
-    - [3. 'Data Guides' beraten, unterstützen und vermitteln](#3-data-guides-beraten-unterst%C3%BCtzen-und-vermitteln)
+    - [3. 'Data Guides' beraten, unterstützen und vermitteln](#3-data-guides-beraten-unterstützen-und-vermitteln)
     - [4. 'Data Stewards zh.ch' und 'Guests'](#4-data-stewards-zhch-und-guests)
-- [C. Offene Behördendaten bereitstellen, publizieren und aktualisieren](#...)
+- [C. Offene Behördendaten bereitstellen, publizieren und aktualisieren](#c-offene-behördendaten-bereitstellen-publizieren-und-aktualisieren)
     - [1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
     - [2. 'Ressourcen' offen zugänglich bereitstellen](#...)
     - [3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
     - [4. Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
     - [5. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
     - [6. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
-- [D. Beratung und Unterstützung](#...)
-    - [1. Kontakte](#...)
-    - [2. Hilfsmittel](#...)
+- [D. Beratung und Unterstützung](#d-beratung-und-unterstützung)
+    - [1. Kontakte](#kontakte)
+    - [2. Hilfsmittel](#hilfsmittel)
 
 ## A. Grundlagen
 
