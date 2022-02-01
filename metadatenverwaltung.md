@@ -10,26 +10,26 @@ Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Z
 
 Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu machen, dass sie einfach findbar sind, und gut verständlich ist, was sie beinhalten:
 
-- [Grundlagen](#grundlagen)
-    - [Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
-    - [Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
-- [Rollen und Verantwortlichkeiten im Publikationsprozess](#rollen-und-verantwortlichkeiten-im-publikationsprozess)
-    - ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
-    - ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
-    - ['Data Guides' beraten, unterstützen und vermitteln](#...)
-    - [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
-- [Offene Behördendaten verfügbar machen](#...)
-    - [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
-    - ['Ressourcen' offen zugänglich bereitstellen](#...)
-    - [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
-    - [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
-    - [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
-    - [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
-- [Beratung und Unterstützung](#...)
-    - [Kontakte](#...)
-    - [Hilfsmittel](#...)
+- [A. Grundlagen](#a-grundlagen)
+    - [1. Sinn und Zweck der Metadaten-Verwaltung](#sinn-und-zweck-der-metadaten-verwaltung)
+    - [2. Eigenschaften und Bedingungen offener Behördendaten](#eigenschaften-und-bedingungen-offener-behördendaten)
+- [B. Rollen und Verantwortlichkeiten im Publikationsprozess](#rollen-und-verantwortlichkeiten-im-publikationsprozess)
+    - [1. 'Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
+    - [2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
+    - [3. 'Data Guides' beraten, unterstützen und vermitteln](#...)
+    - [4. Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
+- [C. Offene Behördendaten verfügbar machen](#...)
+    - [1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
+    - [2. 'Ressourcen' offen zugänglich bereitstellen](#...)
+    - [3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
+    - [4. Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
+    - [5. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
+    - [6. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
+- [D. Beratung und Unterstützung](#...)
+    - [1. Kontakte](#...)
+    - [2. Hilfsmittel](#...)
 
-## Grundlagen
+## A. Grundlagen
 
 ### Sinn und Zweck der Metadaten-Verwaltung
 Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/2021](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates/rrb/regierungsratsbeschluss-1362-2021.html) beschlossen, dass 
