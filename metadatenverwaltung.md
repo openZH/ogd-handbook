@@ -12,13 +12,13 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 
 - [A. Grundlagen](#a-grundlagen)
     - [1. Sinn und Zweck der Metadaten-Verwaltung](#1-sinn-und-zweck-der-metadaten-verwaltung)
-    - [2. Definition, Bedingungen und Eigenschaften offener Behördendaten](#2-definition-bedingungen-und-eigenschaften-offener-behördendaten)
+    - [2. Definition und Bedingungen von offenen Behördendaten](#2-definition-und-bedingungen-von-offenen-behördendaten)
 - [B. Rollen und Verantwortlichkeiten im Publikationsprozess](#b-rollen-und-verantwortlichkeiten-im-publikationsprozess)
-    - [1. 'Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
-    - [2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
-    - [3. 'Data Guides' beraten, unterstützen und vermitteln](#...)
-    - [4. Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
-- [C. Offene Behördendaten verfügbar machen](#...)
+    - [1. 'Data Custodians' bereiten Daten auf und stellen sie bereit](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit)
+    - [2. 'Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#2-data-stewards-beschreiben-daten-mit-metadaten-und-publizieren-sie)
+    - [3. 'Data Guides' beraten, unterstützen und vermitteln](#3-data-guides-beraten-unterst%C3%BCtzen-und-vermitteln)
+    - [4. 'Data Stewards zh.ch' und 'Guests'](#4-data-stewards-zhch-und-guests)
+- [C. Offene Behördendaten bereitstellen, publizieren und aktualisieren](#...)
     - [1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
     - [2. 'Ressourcen' offen zugänglich bereitstellen](#...)
     - [3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
@@ -40,7 +40,7 @@ Damit die interessiete Öffentlichkeit alle offen verfügbaren Behördendaten ei
 
 Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen ['Datensätze'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) weitgehend selbständig zu erfassen und zu aktualisieren sowie ihre entsprechenden Daten-['Ressourcen'](https://github.com/openZH/mdd-ogd-handbook/blob/main/source/content/glossar/begriffe.rst) bereitzustellen.
 
-### 2. Definition, Bedingungen und Eigenschaften offener Behördendaten
+### 2. Definition und Bedingungen von offenen Behördendaten
 Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
 
 > "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
@@ -59,7 +59,9 @@ Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage de
 >  - anreichern und bearbeiten,
 >  - kommerziell nutzen dürfen.
 
-Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung: Stehen die Daten unter
+Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzungsbedingungen bzw. Lizenzen zur Verfügung.
+
+Stehen die Daten unter
 
 > - der [Creative Commons (CC) BY 4.0 Lizenz](...), müssen die Nutzenden die Quelle der Daten zwingend nennen (das heisst: den Namen der Organisation, die sie publiziert);
 > - der [Creative Commons (CC) Public Domain (PD) Lizenz](...), wird den Nutzenden lediglich empfohlen, die Quelle anzugeben. 
@@ -76,7 +78,7 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzu
 ### 4. Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'
 
 
-## C. Bereitstellen, Publizieren und Aktualisieren offener Behördendaten
+## C. Offene Behördendaten bereitstellen, publizieren und aktualisieren
 ![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
 
 ### Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
@@ -103,7 +105,7 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei Nutzu
 
 ...
 
-## Beratung und Unterstützung finden
+## Beratung und Unterstützung
 
 ### Kontakte
 
