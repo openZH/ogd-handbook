@@ -30,30 +30,18 @@ Ein Metadatensatz entspricht einem Eintrag in einem [Datenkatalog](#datenkatalog
 ## 'DCAT-AP' bzw. 'DCAT-AP CH'
 DCAT-AP ist ein Anwendungsprofil des 'Data Catalog Vocabulary' (DCAT) und dient zur Beschreibung der in Metadaten-Katalogen verzeichneten [Datensätze](#datensatz) und [Ressourcen](#ressource). Es richtet sich insbesondere an die Betreiber von Katalogen für offene Behördendaten. Die Schweizerische Ableitung [DCAT-AP CH](https://dcat-ap.ch/) ist ein E-Government-Standard (eCH-0200). Er wird im Rahmen der eCH-Fachgruppe 'Open Government Data' weiterentwickelt.
 
+## 'Distribution'
+
+Siehe [Ressource](#ressource-resource-oder-distribution).
+
 ## Metadaten-Verwaltung
-Der für die Öffentlichkeit nicht sichtbare Teil der [Datenkataloge](#datenkataloge), in dem die dazu berechtigten Rollen die [Datensätze](#datensatz) und [Ressourcen](#ressource) von Verwaltungseinheiten und Organisationen verwalten.
+Der für die Öffentlichkeit nicht sichtbare Teil des [Datenkatalogs](#datenkatalog), in dem die dazu berechtigten Rollen die [Datensätze](#datensatz) und [Ressourcen](#ressource) von Verwaltungseinheiten und Organisationen verwalten.
 
 ## Offene Behördendaten ('Open Government Data', OGD)
 Nicht schützenswerte, strukturierte und maschinenlesbare [Behördendaten](#behördendaten), die staatliche oder Organisationen mit einem staatlichen Auftrag der Öffentlichkeit unter offenen Nutzungsbedingungen (bzw. Lizenzen) zur freien Nutzung zur Verfügung stellen; siehe auch [Definition und Bedingungen von offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md#2-definition-und-bedingungen-von-offenen-beh%C3%B6rdendaten).
 
-## Datensatz ('Dataset')
-Ein Metadatensatz entspricht einem Eintrag in einem [Datenkatalog](#datenkatalog). Er wird von einer Verwaltungseinheit bzw. Organisation bereitgestellt und umfasst mindestens eine oder mehrere [Ressourcen](#ressource).
+## Ressource ('Resource' oder 'Distribution')
+Eine physische Verkörperung respektive Repräsentanz eines [Datensatzes](#datensatz) in einem bestimmten Datei-Format, mit einer bestimmten Daten-Struktur. Die [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) vermitteln technische und formale Grundsätze, Vorgaben und Empfehlungen zur Aufbereitung von Ressourcen. 
 
-
-Ressource (Distribution)
-    Eine physische Verkörperung respektive Repräsentanz
-    eines Datensatzes in einem spezifischen Format.
-    Eine Ressource (oder auch «Distribution») ist eine
-    spezifische Repräsentierung eines Datensatzes. Dies 
-    können unterschiedliche Bereitstellungsformen eines 
-    Datensatzes (z.B. ein bestimmtes Format), 
-    unterschiedliche Zeitreihen oder auch unterschiedliche 
-    Aggregationsstufen sein.
-
-  Slug
-    Maschinenlesbarer Name eines Datensatzes, der auf 
-    opendata.swiss sprechender Bestandteil seiner URL 
-    ist. Der Slug ergibt sich aus dem gewählte Titel des 
-    Datensatzes. Er bleibt nach seiner erstmaligen Freigabe 
-    permanent (auch wenn der Titel später geändert werden 
-    sollte). 
+## Slug
+Maschinenlesbarer Name eines [Datensatzes](#datensatz), der auf opendata.swiss sprechender Bestandteil der Datensatz-URL ist. Der Slug ergibt sich aus dem in der [Metadaten-Verwaltung](#metadaten-verwaltung) gewählten Titel des Datensatzes. Er bleibt mit seiner erstmaligen Publikation im [Datenkatalog](#datenkatalog) permanent (selbst wenn der Titel später geändert werden sollte). 
