@@ -2,14 +2,14 @@
 
 Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax).
 
-## Ressourcen
-- [Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md)
-- [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
-- [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
+## Hilfsmittel
+- 1. [Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md)
+- 2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
+- 3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
 
-## Notizen zur Erstellung der Hilfsmittel
+## Dokumentation zur Erstellung einzelner Hilfsmittel
 
-### Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
+### 2. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Unsere Forschungsfrage lautet: "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
 
