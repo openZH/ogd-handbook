@@ -17,15 +17,15 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
     - ['Data Custodians' bereiten Daten auf und stellen sie bereit](#...)
     - ['Data Stewards' beschreiben Daten mit Metadaten und publizieren sie](#...)
     - ['Data Guides' beraten, unterstützen und vermitteln](#...)
-    - [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...)
+    - [Weitere Rollen: 'Data Stewards zh.ch' und 'Guests'](#...) <br>
 [Bereitstellen, Publizieren und Aktualisieren offener Behördendaten](#...) <br>
 1. [Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
 2. ['Ressourcen' offen zugänglich bereitstellen](#...)
 3. [Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
 4. [Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
 5. [Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
-6. [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
-[Beratung und Unterstützung](#...)
+6. [Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...) <br>
+[Beratung und Unterstützung](#...) <br>
 - [Kontakte](#...)
 - [Hilfsmittel](#...)
 
