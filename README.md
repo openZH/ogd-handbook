@@ -11,20 +11,22 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 
 ### 1. Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten
 
-Unsere Forschungsfrage lautet: "Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
+#### Forschungsfrage
+"Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
 
-User Research:
+#### User Research Methoden & Ressourcen
 - Interviews & User Testing mit den Anwendenden der Metadaten-Verwaltung (SOLL)
 - User Testing & Interviews mit Nutzenden der Datenkataloge (IST) im kantonalen Webauftritt
 - Suchbegriffe der Nutzenden der Datenkataloge (IST) im kantonalen Webauftritt
 
 ### 2. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
-Unsere Forschungsfrage lautet: "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
+#### Forschungsfrage
+"Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
 
-User Research: [Ergebnisse unserer Umfrage und Interviews mit ‘Data Custodians’ von Verwaltungseinheiten des Kantons Zürich](https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit?usp=sharing)
-
-Andere Quellen:
+#### User Research Methoden & Ressourcen
+- [Ergebnisse einer Umfrage unter & Interviews mit ‘Data Custodians’ von Verwaltungseinheiten des Kantons Zürich](https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit?usp=sharing)
+- Weitere Quellen:
    - New Zealand: [Releasing data on data.govt.nz](https://www.data.govt.nz/catalogue-guide/releasing-data-on-data-govt-nz)
    - Catalonia: [Implementation guide for the homogenization of metadata in the Open Data Catalog of the Government of Catalonia](https://medium.com/opendatacharter/implementation-guide-for-the-homogenization-of-metadata-in-the-open-data-catalog-of-the-government-f5459543f262)
    - Ontario: [Open data publication](https://www.ontario.ca/document/open-data-guidebook-guide-open-data-directive/open-data-publication#section-2), Step 3 "Prepare Data and Metadata"
