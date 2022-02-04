@@ -1,4 +1,4 @@
-# Hilfsmittel des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten (Open Government Data, OGD)
+# Hilfsmittel und Dienste des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offenen Behördendaten (Open Government Data, OGD)
 
 Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax).
 
@@ -7,13 +7,17 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
 3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
 
+## Dienste
+1. [Kantonale Metadaten-Verwaltung](https://zh.ch/metadatenverwaltung) - restricted
+2. [Datenkataloge (im kantonalen Webauftritt](https://zh.ch/opendata) - open
+
 ## Making-of
 
 ### 1. Kantonale Metadaten-Verwaltung
 
 (Dokumentation folgt)
 
-### 2. Kantonale Datenkataloge
+### 2. Datenkataloge (im kantonalen Webauftritt)
 
 #### Forschungsfrage
 "Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
@@ -43,6 +47,7 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
    - [Interoperability: A practitioner’s guide to joining-up data in the development sector](https://www.data4sdgs.org/resources/interoperability-practitioners-guide-joining-data-development-sector), Chapter 4 "Open data formats and standard interfaces"
 
 ## Kontakt
-**[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
+Statistisches Amt des Kantons Zürich <br>
+**[Fach- und Koordinationsstelle Open Government Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
