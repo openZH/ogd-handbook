@@ -11,13 +11,12 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 1. [Kantonale Metadaten-Verwaltung](https://zh.ch/metadatenverwaltung) - restricted
 2. [Datenkataloge (im kantonalen Webauftritt](https://zh.ch/opendata) - open
 
-## Making-of
+## Making-of (nutzendenzentrierte Konzeption und Entwicklung)
 
-### 1. Kantonale Metadaten-Verwaltung
+### Kantonale Metadaten-Verwaltung
+(folgt)
 
-(Dokumentation folgt)
-
-### 2. Datenkataloge (im kantonalen Webauftritt)
+### Datenkataloge (im kantonalen Webauftritt)
 
 #### Forschungsfrage
 "Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
@@ -31,7 +30,7 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
    - gefiltert: https://www.web.statistik.zh.ch/ogd/datenkatalog/app/#/?keywords=bildung
    - gefiltert ohne Suchmaske: https://www.web.statistik.zh.ch/ogd/datenkatalog/app/#/?keywords=bildung&filtered=false
 
-### 3. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
+### Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 #### Forschungsfrage
 "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
