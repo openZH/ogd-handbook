@@ -2,14 +2,14 @@
 
 Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax).
 
-## Hilfsmittel
-1. [Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md)
-2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md)
-3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
+## Hilfsmittel ('- Status')
+1. [Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/metadatenverwaltung.md) - v1.0 in Review (seit 2022-01-31)
+2. [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md) - v1.0 in Kraft (seit 2021-12-16)
+3. [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md) - v1.0 in Review (seit 2022-01-31)
 
-## Dienste
-1. [Kantonale Metadaten-Verwaltung](https://zh.ch/metadatenverwaltung) - restricted
-2. [Datenkataloge (im kantonalen Webauftritt](https://zh.ch/opendata) - open
+## Dienste ('- Status')
+1. [Kantonale Metadaten-Verwaltung](https://zh.ch/metadatenverwaltung) - v1.0 live (seit 2021-11-05)
+2. [Datenkataloge (im kantonalen Webauftritt)](https://zh.ch/opendata) - v1.0 live (seit 2020-07-06) / v2.0 in Umsetzung
 
 ## Making-of (nutzendenzentrierte Konzeption und Entwicklung)
 
