@@ -13,16 +13,16 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 
 Unsere Forschungsfrage lautet: "Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
 
-Eigene User Research:
-- mit den Anwendenden der Metadaten-Verwaltung 'on the job'
-- Suchbegriffe der Nutzenden der Datenkataloge (Web Analytics)
-- ...
+User Research:
+- Interviews & User Testing mit den Anwendenden der Metadaten-Verwaltung (SOLL)
+- User Testing & Interviews mit Nutzenden der Datenkataloge (IST) im kantonalen Webauftritt
+- Suchbegriffe der Nutzenden der Datenkataloge (IST) im kantonalen Webauftritt
 
 ### 2. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Unsere Forschungsfrage lautet: "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
 
-Eigene User Research: [Ergebnisse unserer Umfrage und Interviews mit ‘Data Custodians’ von Verwaltungseinheiten des Kantons Zürich](https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit?usp=sharing)
+User Research: [Ergebnisse unserer Umfrage und Interviews mit ‘Data Custodians’ von Verwaltungseinheiten des Kantons Zürich](https://docs.google.com/document/d/1IFRJPMRtX1rD5O8Sdqb1F3I-Sv3Y-V5-z3Kew6ywEkY/edit?usp=sharing)
 
 Andere Quellen:
    - New Zealand: [Releasing data on data.govt.nz](https://www.data.govt.nz/catalogue-guide/releasing-data-on-data-govt-nz)
