@@ -9,22 +9,25 @@ Dokumentiert in [Markdown Basic Syntax](https://www.markdownguide.org/basic-synt
 
 ## Making-of
 
-### 1. Kantonale Metadaten-Verwaltung und Datenkataloge
+### 1. Kantonale Metadaten-Verwaltung
+
+(Dokumentation folgt)
+
+### 2. Kantonale Datenkataloge
 
 #### Forschungsfrage
 "Wie sind Daten mit Metadaten so beschrieben, dass sie gut findbar sind, und schnell und klar verständlich ist, was sie beinhalten?"
 
 #### User Research Methoden & Ressourcen
-- Interviews mit potenziellen Nutzenden der Metadaten-Verwaltung (SOLL)
-- User Testing & Interviews mit realen Nutzenden der [Datenkataloge](https://zh.ch/opendata) (IST) im kantonalen Webauftritt
-- Analyse der Suchbegriffe der realen Nutzenden der [Datenkataloge](https://zh.ch/opendata) (IST) im kantonalen Webauftritt
-- User Testing des [klickbaren Prototyps](https://www.figma.com/proto/HIhNaQOTqrPj8xH0HBGPNS/KTZH-Statistisches-Amt?page-id=14478%3A73959&node-id=16234%3A635&viewport=1215%2C-1722%2C0.43184879422187805&scaling=min-zoom) & Interviews mit potenziellen Nutzenden der Datenkataloge (SOLL) im kantonalen Webauftritt (Hinweis: Im Edge- oder Chrome-Browser öffnen)
-- Review der **laufenden Entwicklung** der Datenkataloge (SOLL) im kantonalen Webauftritt (Hinweis: Im Firefox-Browser jeweils ctrl-r drücken beim Hin- und Herwechseln zwischen den Modi, um den Cache zu löschen):
+1. User Testing & Interviews mit realen Nutzenden der [Datenkataloge](https://zh.ch/opendata) (IST) im kantonalen Webauftritt
+2. Analyse der Suchbegriffe der realen Nutzenden der [Datenkataloge](https://zh.ch/opendata) (IST) im kantonalen Webauftritt
+3. User Testing des [klickbaren Prototyps](https://www.figma.com/proto/HIhNaQOTqrPj8xH0HBGPNS/KTZH-Statistisches-Amt?page-id=14478%3A73959&node-id=16234%3A635&viewport=1215%2C-1722%2C0.43184879422187805&scaling=min-zoom) & Interviews mit potenziellen Nutzenden der Datenkataloge (SOLL) im kantonalen Webauftritt (Hinweis: Im Edge- oder Chrome-Browser öffnen)
+4. Review der **laufenden Entwicklung** der Datenkataloge (SOLL) im kantonalen Webauftritt (Hinweis: Im Firefox-Browser jeweils ctrl-r drücken beim Hin- und Herwechseln zwischen den Modi, um den Cache zu löschen):
    - ungefiltert: https://www.web.statistik.zh.ch/ogd/datenkatalog/app/#/
    - gefiltert: https://www.web.statistik.zh.ch/ogd/datenkatalog/app/#/?keywords=bildung
    - gefiltert ohne Suchmaske: https://www.web.statistik.zh.ch/ogd/datenkatalog/app/#/?keywords=bildung&filtered=false
 
-### 2. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
+### 3. Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 #### Forschungsfrage
 "Wie sind Daten als maschinenlesbare Ressourcen aufbereitet, damit sie einfach nutzbar sind?"
