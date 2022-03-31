@@ -70,6 +70,7 @@ Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind:
 3. `Datum`
 4. `Uhrzeit`
 5. `URL`.
+6. `Geografische Lage`
 
 Einheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen. <br>
 
@@ -89,6 +90,11 @@ Werte mit Daten-Format `Uhrzeit` geben wir dem [internationalen Standard ISO 860
 
 ##### 5. URL 
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
+
+##### 6. Geografische Lage 
+Werte mit Daten-Format `Geokoordinaten` geben wir dem [globalen geodätischen Referenzsystem WGS 84](https://www.w3.org/TR/sdw-bp/) gemäss an als:
+- `latitude` (z.B. `47.3786314`) und
+- `longitude` (z.B. `8.54110776`).
 
 ### Empfehlungen
 Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
