@@ -70,7 +70,6 @@ Alle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind:
 3. `Datum`
 4. `Uhrzeit`
 5. `URL`.
-6. `Geografische Lage`
 
 Einheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen. <br>
 
@@ -91,11 +90,6 @@ Werte mit Daten-Format `Uhrzeit` geben wir dem [internationalen Standard ISO 860
 ##### 5. URL 
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
 
-##### 6. Geografische Lage 
-Werte mit Daten-Format `Geokoordinaten` geben wir dem [globalen geodätischen Referenzsystem WGS 84](https://www.w3.org/TR/sdw-bp/#CRS-background) gemäss an als:
-- `latitude` (z.B. `47.3786314`) und
-- `longitude` (z.B. `8.54110776`).
-
 ### Empfehlungen
 Wir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir:
 - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder
@@ -114,5 +108,18 @@ jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschrae
 2013,Bildungsdirektion,6,25,10
 2013,Baudirektion,1,9,7
 2013,Staatskanzlei,,,
+...
+```
+
+Wir empfehlen, Werte mit Daten-Format `Geokoordinaten` dem [globalen geodätischen Referenzsystem WGS 84](https://www.w3.org/TR/sdw-bp/#CRS-background) gemäss anzugeben als:
+```
+latitude_WGS84,longitude_WGS84
+47.3786314,8.54110776
+...
+```
+Wenn alternativ der [Bezugsrahmen der neuen Landesvermessung LV95 (Bezugssystem CH1903+)](https://www.zh.ch/de/planen-bauen/geoinformation/geodaten/koordinatensystem.html) verwendet wird, ist das wie folgt anzugeben:
+```
+latitude_LV95,longitude_LV95
+1'248'117.48,2'683'256.46
 ...
 ```
