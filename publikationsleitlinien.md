@@ -92,7 +92,7 @@ Werte mit Daten-Format `Uhrzeit` geben wir dem [internationalen Standard ISO 860
 Werte mit Daten-Format `URL` schreiben wir standardmässig aufrufbar aus im Format `https://...`. <br>
 
 ##### 6. Geografische Lage 
-Werte mit Daten-Format `Geokoordinaten` geben wir dem [globalen geodätischen Referenzsystem WGS 84](https://www.w3.org/TR/sdw-bp/) gemäss an als:
+Werte mit Daten-Format `Geokoordinaten` geben wir dem [globalen geodätischen Referenzsystem WGS 84](https://www.w3.org/TR/sdw-bp/#CRS-background) gemäss an als:
 - `latitude` (z.B. `47.3786314`) und
 - `longitude` (z.B. `8.54110776`).
 
