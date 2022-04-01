@@ -120,6 +120,6 @@ latitude_WGS84,longitude_WGS84
 Wenn alternativ der [Bezugsrahmen der neuen Landesvermessung LV95 (Bezugssystem CH1903+)](https://www.zh.ch/de/planen-bauen/geoinformation/geodaten/koordinatensystem.html) verwendet wird, ist das wie folgt anzugeben:
 ```
 latitude_LV95,longitude_LV95
-1'248'117.48,2'683'256.46
+1248117.48,2683256.46
 ...
 ```
