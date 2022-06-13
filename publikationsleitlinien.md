@@ -9,10 +9,10 @@ Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://
 # Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
-- [Datei-Formate](#datei-formate)
+- [Datei-Formate](#daten-formate)
 - [Daten-Strukturen](#daten-strukturen)
 
-## Datei-Formate
+## Daten-Formate
 
 ### Grundsatz
 Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung.
