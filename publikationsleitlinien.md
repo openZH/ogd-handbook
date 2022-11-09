@@ -44,6 +44,7 @@ Das heisst: [pro Variable eine Spalte](#pro-variable-eine-spalte), [pro Beobacht
 Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte. <br>
 
 Spaltenüberschriften (Variabeln):
+- sind keine alleinstehenden Jahreszahlen oder andere Datumsangaben,
 - beginnen nicht mit einer Zahl,
 - haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder besser mittels 'Underline' verbunden (z.B. `gesuche_total`),
 - haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
