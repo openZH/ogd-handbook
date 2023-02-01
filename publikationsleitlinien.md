@@ -110,3 +110,16 @@ jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschrae
 2013,Staatskanzlei,,,
 ...
 ```
+
+Wir empfehlen, Werte mit Daten-Format `Geokoordinaten` dem [globalen geodätischen Referenzsystem WGS 84](https://www.w3.org/TR/sdw-bp/#CRS-background) gemäss anzugeben als:
+```
+latitude_WGS84,longitude_WGS84
+47.3786314,8.54110776
+...
+```
+Wenn alternativ der [Bezugsrahmen der neuen Landesvermessung LV95 (Bezugssystem CH1903+)](https://www.zh.ch/de/planen-bauen/geoinformation/geodaten/koordinatensystem.html) verwendet wird, ist das wie folgt anzugeben:
+```
+latitude_LV95,longitude_LV95
+1248117.48,2683256.46
+...
+```
