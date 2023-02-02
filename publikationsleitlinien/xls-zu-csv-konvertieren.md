@@ -2,7 +2,7 @@
 
 Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den Datenstandards von w3c entsprechend als kommaseparierte csv-Dateien, die UTF-8 codiert sind. So lassen sich die Dateien ohne Kompatibilitätsprobleme aus allen Programmen öffnen und die Daten weiterverarbeiten. Microsoft speichert im deutschen Sprachraum csv-Dateien mit einem Semikolon als Trennzeichen  - um aus Microsoftsystemen mit Sprach- und Regionaleinstellung "Deutsch" kommaseparierte csvs speichern zu können, sind einige Schritte nötig:
 
-##Option 1: (Kurzfristiges) Umstellen der Sprachregion
+## Option 1: (Kurzfristiges) Umstellen der Sprachregion
 1. Windows Start-Menü öffnen
 2. nach "Region" suchen
 3. Einstellungen -> Region -> Regionales Format öffnen
@@ -10,7 +10,7 @@ Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den 
 ![Darstellung Regionales Format = Englisch in Windows 10](https://user-images.githubusercontent.com/71826877/209157607-4b1c9e60-0402-44e5-95dd-f52091c7b17d.png)
 5. evtl die Sprachregion wieder umstellen auf "Deutsch (Schweiz)". Auswirkung wenn nicht wieder zurückgestellt: die Datumsanzeige und Systemuhr unten rechts ist in internationalem Format.
 
-##Option 2: Grundsätzliches Ändern des Trennzeichens
+## Option 2: Grundsätzliches Ändern des Trennzeichens
 1. Windows Start-Menü öffnen
 2. nach "Sprache" suchen
 3. Einstellungen -> Sprache öffnen
@@ -22,7 +22,7 @@ Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den 
 
 -> man kann die Schritte 1-4 überspringen und direkt bei Schritt 5 einsteigen, indem man im Windows Start-Menü nach "intl.cpl" sucht und öffnet.
 
-##Speichern als csv, UTF-8
+## Speichern als csv, UTF-8
 Egal welche Option Du gewählt hast, kannst du jetzt das Excel als csv abspeichern:
 1. den künftigen OGD-Datensatz in Excel öffnen
 2. Speichern unter -> Dateityp csv **oder** csv UTF-8 (diese Option gibt es erst für Users, die bereits auf den DAP migriert sind)
