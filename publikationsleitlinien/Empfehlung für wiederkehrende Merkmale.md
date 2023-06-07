@@ -1,17 +1,6 @@
 # Empfehlung
 In Ergänzung zu den Publikationsleitlinien empfehlen wir oft wiederkehrende Variablen/Merkmale einheitlich zu benennen und und anzugeben. Dies dient der Interoperabilität und letztlich der einfachen Nutzung der Daten. Wir empfehlen diese Form dann, wenn das Umformen von Daten mit wenig Aufwand im Daten Management oder vor der Publikation zu machen ist.
 
-## 1. Template
-
-**Data** <br>
-
->**https://github.com/openZH/environmental_report_ZH/blob/master/template/template_ogd.csv** <br>
->*Description:* .. <br>
->*Update frequency:* .. <br>
->*Spatial unit:* mixed <br>
->*Format:* csv <br>
-
-**Metadata**
 
 | Fieldname / Spaltenname                       | Description (EN)                               | Beschreibung (DE)                        | Format     |
 |-----------------------------------------------|------------------------------------------------|------------------------------------------|------------|
