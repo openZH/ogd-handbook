@@ -11,6 +11,7 @@ Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
 - [Daten-Formate](#daten-formate)
 - [Daten-Strukturen](#daten-strukturen)
+- [Metadaten](#metadaten)
 
 ## Daten-Formate
 
@@ -111,3 +112,9 @@ jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschrae
 ...
 ```
 Merkmale, die oft in Datensätzen vorkommen (beispielsweise Koordinaten) benennen und messen wir einheitlich. Einige Empfehlungen hierzu liegen in einem [separaten Dokument](https://github.com/openZH/ogd-handbook/blob/main/publikationsleitlinien/Empfehlung-fuer-wiederkehrende-Merkmale.md).
+
+## Metadaten
+
+Metadaten beschreiben einen Datensatz, sie setzen ihn in Kontext. Sie beschreiben, wofür die Daten erhoben wurden, welche Einschränkungen oder Brüche in der Erhebung zu beachten sind, die zeitliche und räumliche Abdeckung und geben Hinweise auf weitere Hintergrundinformationen. Der Kanton Zürich hält sich an die Schweizer Version des internationalen Metadatenstandards [DCAT AP CH](https://www.dcat-ap.ch/). Für deren Erfassung steht den Behörden und behördennahen Organisationen auf dem Kantonsgebiet Zürich die [Metadatenverwaltung]( zur Verfügung. Mit der Benutzung der Metadatenverwaltung ist die Einhaltung von DCAT AP CH gewährleistet.
+
+DCAT AP CH und die Metadatenverwaltung bieten momentan keine Möglichkeit, die Merkmale systematisch zu erfassen. Bis wir dafür eine Lösung gefunden haben, bedienen wir uns verschiedener Übergangslösungen. Sie sind hier beschrieben.
