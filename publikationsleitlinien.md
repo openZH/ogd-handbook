@@ -46,7 +46,7 @@ Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B
 
 Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
-- haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder besser mittels 'Underline' verbunden (z.B. `gesuche_total`),
+- haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder besser mittels 'Underscore' verbunden (z.B. `gesuche_total`),
 - haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
 ```
