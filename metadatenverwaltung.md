@@ -21,10 +21,11 @@ Anleitung, um Daten in der kantonalen Metadaten-Verwaltung so verfügbar zu mach
 - [C. Offene Behördendaten bereitstellen, publizieren und aktualisieren](#c-offene-behördendaten-bereitstellen-publizieren-und-aktualisieren)
     - [1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten](#...)
     - [2. 'Ressourcen' offen zugänglich bereitstellen](#...)
-    - [3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
-    - [4. Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
-    - [5. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
-    - [6. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
+    - [3. Einen neuen 'Publisher' erstellen](#3-einen-neuen-publisher-erstellen)
+    - [4. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben](#...)
+    - [5. Erstmalig erfasste 'Datensätze' zur Publikation freigeben](#...)
+    - [6. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren](#...)
+    - [7. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen](#...)
 - [D. Beratung und Unterstützung](#d-beratung-und-unterstützung)
     - [1. Kontakte](#kontakte)
     - [2. Hilfsmittel](#hilfsmittel)
@@ -112,7 +113,16 @@ Handelt es sich um eine Ressource, die Nutzende als Datei herunterladen können,
 > - teilen Sie diese mit einem 'Data Steward' Ihrer Verwaltungseinheit bzw. Organisation, damit sie via die Metadaten-Verwaltung bereitgesetllt werden kann, oder
 > - stellen sie diese selbst auf einen frei im Web zugänglichen Server bereit, der unter Ihrer Hoheit steht. Teilen Sie darauf einem 'Data Steward' Ihrer Verwaltungseinheit bzw. Organisation die entsprechende Download-URL mit (Wichtig: Die Download-URLs müssen permament bleiben.),
 
-### 3. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
+### 3. Einen neuen 'Publisher' erstellen
+
+Ist eine Organisationseinheit noch nicht in der kantonalen Metadatenverwaltung erfasst, erstellt ein 'Data Guide' im Menu "Einstellungen" unter "Organisationen" eine neue 'Organisation'.
+
+> - Der offizielle Name der Organisation (zB. "Statistisches Amt") wird einheitlich ergänzt um den geografischen Bezug "... des Kantons Zürich" oder "... der Stadt Uster".
+> - **Wichtig:** Darauf beim Erstellen des 'Publisher'-Slugs darauf achten, alle Umlaute im Slug zu änern auf `ae`, `oe`, `ue`.
+> - Allfällige Abteilungen der Organisation hinzufügen, sofern diese als Kontakt für einzelne 'Datensätze' erscheinen sollen.
+> - Kontakt-eMail-Adressen zur Oragnisation und allen Abteilungen hinzufügen.
+
+### 4. Daten als 'Datensätze' erfassen und mit Metadaten beschreiben
 
 Melden Sie sich als 'Data Steward' mit Ihrem Login in der Metadaten-Verwaltung an: [zh.ch/metadatenverwaltung](https://www.web.statistik.zh.ch/ogd/datenkatalog-verwaltung/app/#/auth/login).
 
@@ -127,15 +137,15 @@ Klicken Sie auf "Erstellen". Sie haben nun einen Entwurf eines neuen Datensatzes
 
 ...
 
-### 4. Erstmalig erfasste 'Datensätze' zur Publikation freigeben
+### 5. Erstmalig erfasste 'Datensätze' zur Publikation freigeben
 
 ...
 
-### 5. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
+### 6. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
 
 ...
 
-### 6. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
+### 7. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
 
 ...
 

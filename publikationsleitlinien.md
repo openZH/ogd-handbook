@@ -1,5 +1,5 @@
 
-Version, Datum: **v1.0, 2021-12-16** <br>
+Version, Datum: **v1.1, 2022-06-19** <br>
 Status: **in Kraft** <br>
 Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
 
@@ -9,19 +9,20 @@ Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://
 # Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten
 
 Handlungsleitende Normen, um offene Behördendaten ('Open Government Data', OGD) bereitzustellen, die einfach nutzbar sind:
-- [Datei-Formate](#datei-formate)
+- [Daten-Formate](#daten-formate)
 - [Daten-Strukturen](#daten-strukturen)
+- [Metadaten](#metadaten)
 
-## Datei-Formate
+## Daten-Formate
 
 ### Grundsatz
 Offene Daten stehen in einem nicht-proprietären, [offenen Format](http://opendatahandbook.org/glossary/en/terms/open-format/) zur Verfügung.
 
 ### Vorgaben
-Für tabellarische Daten verwenden wir das Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/) (**nicht** XLS). <br>
+Für tabellarische Daten verwenden wir das Format [CSV](http://opendatahandbook.org/glossary/en/terms/csv/) (**nicht** XLS) mit UTF-8 Codierung. <br>
 
 Variabeln und Werte trennen wir mittels Kommata `,` (**nicht** mittels Semikolons `;`) voneinander ab.
-- [So erstelle ich aus einer XLS-Datei ein CSV.](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)
+- [So erstelle ich aus einer XLS-Datei ein CSV.](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)
 - [So speichere ich ein CSV als Unicode (UTF-8) ab.](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien/UTF-8-kodieren.md)
 
 ### Empfehlungen
@@ -45,7 +46,7 @@ Keine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B
 
 Spaltenüberschriften (Variabeln):
 - beginnen nicht mit einer Zahl,
-- haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder besser mittels 'Underline' verbunden (z.B. `gesuche_total`),
+- haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder besser mittels 'Underscore' verbunden (z.B. `gesuche_total`),
 - haben keine Umlaute, sondern sind ausgeschrieben als `ae`, `oe`, `ue` und
 - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. `prozent` statt `%`).
 ```
@@ -123,3 +124,11 @@ latitude_LV95,longitude_LV95
 1248117.48,2683256.46
 ...
 ```
+
+Merkmale, die oft in Datensätzen vorkommen (beispielsweise Koordinaten) benennen und messen wir einheitlich. Einige Empfehlungen hierzu liegen in einem [separaten Dokument](https://github.com/openZH/ogd-handbook/blob/main/publikationsleitlinien/Empfehlung-fuer-wiederkehrende-Merkmale.md).
+
+## Metadaten
+
+Metadaten beschreiben einen Datensatz, sie setzen ihn in Kontext. Sie beschreiben, wofür die Daten erhoben wurden, welche Einschränkungen oder Brüche in der Erhebung zu beachten sind, die zeitliche und räumliche Abdeckung und geben Hinweise auf weitere Hintergrundinformationen. Der Kanton Zürich hält sich an die Schweizer Version des internationalen Metadatenstandards [DCAT AP CH](https://www.dcat-ap.ch/). Für deren Erfassung steht den Behörden und behördennahen Organisationen auf dem Kantonsgebiet Zürich die [Metadatenverwaltung](https://github.com/openZH/ogd-handbook/blob/main/metadatenverwaltung.md) zur Verfügung. Mit der Benutzung der Metadatenverwaltung ist die Einhaltung von DCAT AP CH gewährleistet.
+
+DCAT AP CH und die Metadatenverwaltung bieten momentan keine Möglichkeit, die Merkmale systematisch zu erfassen. Bis wir dafür eine Lösung gefunden haben, bedienen wir uns verschiedener Übergangslösungen. Sie sind [hier](https://github.com/openZH/ogd-handbook/blob/main/publikationsleitlinien/weitergehende-metadaten.md) beschrieben.
