@@ -1,0 +1,4 @@
+indikator_name,raumeinheit,gebiet_name,bfs_nr,jahr,nutzung,energiequelle,value,einheit,latitude_WGS84,longitude_WGS84,latitude_LV95,longitude_LV95
+Energieproduktion,Kanton,Zürich,,2010,Waerme,Kehricht,703000,MWh,,,,
+Energieproduktion,Kanton,Zürich,,2010,Strom,Kehricht,408000,MWh,,,,
+Energieproduktion,Kanton,Zürich,,2010,Waerme,Biomasse (einschliesslich Holz),7000,MWh,,,,
