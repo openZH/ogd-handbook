@@ -17,6 +17,6 @@ In Ergänzung zu den Publikationsleitlinien empfehlen wir oft wiederkehrende Var
 | latitude_LV95                                 | latitude in [Swiss coordinate system](https://en.wikipedia.org/wiki/Swiss_coordinate_system)            | Breitengrad nach [LV95](https://de.wikipedia.org/wiki/Schweizer_Landeskoordinaten)                      | numeric         |
 | longitude_LV95          | longitude in [Swiss coordinate system](https://en.wikipedia.org/wiki/Swiss_coordinate_system)            | Längengrad nach [LV95](https://de.wikipedia.org/wiki/Schweizer_Landeskoordinaten)                      | numeric         |
 
-Wir empfehlen die Variabelnamen so beizubehalten. Eine Ausnahme bildet messgegenstand/qualität/massnahme/etc. Diese Variable sollte sprechend benannt werden um aufzuzeigen, worum es sich beim Messobjekt/subjekt handelt bspw. energiequelle, wald_typ. Siehe [example.csv](https://github.com/openZH/environmental_report_ZH/blob/master/template/example.csv)
+Wir empfehlen die Variabelnamen so beizubehalten. Eine Ausnahme bildet messgegenstand/qualität/massnahme/etc. Diese Variable sollte sprechend benannt werden um aufzuzeigen, worum es sich beim Messobjekt/subjekt handelt bspw. energiequelle, wald_typ. Siehe [example.csv](source/example.csv)
 
 Die Angabe der Koordinaten im internationalen Bezugssystem WGS84 wird gegenüber dem Schweizerischen LV95 bevorzugt.
