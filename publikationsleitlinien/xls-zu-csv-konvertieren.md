@@ -52,12 +52,16 @@ Wenn Du Excel für Mac verwendest, empfehlen wir Dir dringend, Deine Datei mit t
 6. Klicke auf 'Weiter'
 7. Klicke 'Speichern'
 
-### Wenn Du Google Sheets verwendest
+## Wenn Du Google Sheets verwendest
 
 1. Klicke auf 'Datei'
 2. Klicke auf oder bewege den Mauszeiger über 'Herunterladen als'
 3. Wähle  die Option 'Kommagetrennte Werte (.csv, aktuelles Blatt)'
 4. Nachdem Du auf diese Option geklickt hast, wird die Datei automatisch auf Deinen Computer heruntergeladen
 
+## Wenn du OpenRefine verwendest 
+1. Lade das Excel-File nach OpenRefine
+2. Klicke auf Export und
+3. wähle "Comma-separated value"
 
 Mehr **Hintergrundinfos** und eine generelle Anleitung (für PCs ausserhalb der Kantonsverwaltung Zürich): https://www.pctipp.ch/praxis/office/trickli-damit-excel-richtige-csv-dateien-schreibt-1996442.html
