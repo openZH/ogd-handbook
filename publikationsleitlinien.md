@@ -1,5 +1,5 @@
 
-Version, Datum: **v1.1, 2022-06-19** <br>
+Version, Datum: **v1.2, 2024-08-14** <br>
 Status: **in Kraft** <br>
 Verwalterin: **[Fachausschuss Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#910522844)**
 
@@ -120,7 +120,7 @@ latitude_WGS84,longitude_WGS84
 ```
 Wenn alternativ der [Bezugsrahmen der neuen Landesvermessung LV95 (Bezugssystem CH1903+)](https://www.zh.ch/de/planen-bauen/geoinformation/geodaten/koordinatensystem.html) verwendet wird, ist das wie folgt anzugeben:
 ```
-latitude_LV95,longitude_LV95
+north_coordinate_lv95,east_coordinate_lv95
 1248117.48,2683256.46
 ...
 ```
