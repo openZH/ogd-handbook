@@ -4,31 +4,18 @@ Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den 
 
 ## Ich benutze Excel in Windows:
 
-### Option 1: (Kurzfristiges) Umstellen der Sprachregion
+### Ändern des Trennzeichens
 1. Windows Start-Menü öffnen
-2. nach "Region" suchen
-3. Einstellungen -> Region -> Regionales Format öffnen
-4. das **Regionale Format** umstellen auf Englisch (egal welches Land)
-![Darstellung Regionales Format = Englisch in Windows 10](https://user-images.githubusercontent.com/71826877/209157607-4b1c9e60-0402-44e5-95dd-f52091c7b17d.png)
-5. evtl die Sprachregion wieder umstellen auf "Deutsch (Schweiz)". Auswirkung wenn nicht wieder zurückgestellt: die Datumsanzeige und Systemuhr unten rechts ist in internationalem Format.
-
-## Option 2: Grundsätzliches Ändern des Trennzeichens
-1. Windows Start-Menü öffnen
-2. nach "Sprache" suchen
-3. Einstellungen -> Sprache öffnen
-4. rechts unter "Verwandte Einstellungen" die Administrativen Sprachoptionen öffnen
-![Administrative Sprachoptionen in Windows 10](https://user-images.githubusercontent.com/71826877/209162146-e21f3785-05f0-4a8e-90ca-487fc79f5469.png)
-5. im neuen Fenster Tab wechseln zu "Formate" -> Weitere Einstellungen
-6. Listentrennzeichen ändern auf ','
-7. mit OK bestätigen, Fenster schliesst sich, dann **mit Übernehmen** bestätigen
-
--> man kann die Schritte 1-4 überspringen und direkt bei Schritt 5 einsteigen, indem man im Windows Start-Menü nach "intl.cpl" sucht und öffnet.
+2. nach "intl.cpl" suchen und öffnen 
+3. im neuen Fenster "Weitere Einstellungen" öffnen
+4. Listentrennzeichen ändern auf ','
+5. mit **mit Übernehmen** bestätigen
 
 ### Excel als csv exportieren
-Egal welche Option Du gewählt hast, kannst du jetzt das Excel als csv abspeichern:
+Du kannst jetzt das Excel als csv abspeichern:
 1. den künftigen OGD-Datensatz in Excel öffnen
 2. stelle sicher, dass die Daten im tidy Format [Tidy-Format?](warum_tidy_data.md) sind
-3. Speichern unter -> Dateityp CSV UTF-8 (diese Option gibt es erst für Users, die bereits auf den DAP migriert sind)
+3. Speichern unter -> Dateityp CSV **UTF-8** (diese Option gibt es erst für Users, die bereits auf den DAP migriert sind)
 4. Speichern
 
 ### Überprüfen ob Datei korrekt exportiert wurde
