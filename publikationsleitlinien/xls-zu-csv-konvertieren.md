@@ -5,6 +5,7 @@ Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den 
 ## Ich benutze Excel in Windows:
 
 ### Ändern des Trennzeichens
+Dies muss nur einmal gemacht werden und bleibt dann so gespeichert.
 1. Windows Start-Menü öffnen
 2. nach "intl.cpl" suchen und öffnen 
 3. im neuen Fenster "Weitere Einstellungen" öffnen
