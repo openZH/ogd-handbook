@@ -9,7 +9,7 @@ Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den 
 2. nach "intl.cpl" suchen und öffnen 
 3. im neuen Fenster "Weitere Einstellungen" öffnen
 4. Listentrennzeichen ändern auf ','
-5. mit **mit Übernehmen** bestätigen
+5. in **beiden** Fenstern mit **mit Übernehmen** bestätigen
 
 ### Excel als csv exportieren
 Du kannst jetzt das Excel als csv abspeichern:
