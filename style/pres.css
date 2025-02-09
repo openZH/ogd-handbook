@@ -1,0 +1,24 @@
+/*-- scss:rules --*/
+.reveal section figcaption {
+    color: black;
+}
+
+.figure-source {
+  font-size: 50%;
+  text-align: left;
+}
+
+#title-slide {
+  .title {
+    color: #0070B4;
+    font-size: 200%;
+  }
+
+  .subtitle {
+    color: #FFFFFF;
+  }
+
+  .quarto-title-author {
+    color: #FFFFFF;
+  }
+}

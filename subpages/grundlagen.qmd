@@ -1,0 +1,33 @@
+# Grundlagen 📌
+
+## Sinn und Zweck
+Der Regierungsrat des Kantons Zürich hat mit dem [Regierungsratsbeschluss 1362/2021](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates/rrb/regierungsratsbeschluss-1362-2021.html) beschlossen, dass 
+
+> "der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt]".
+
+Damit die interessiete Öffentlichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im [kantonalen Metadatenkatalog der offenen Behördendaten](https://www.zh.ch/opendata) und im [nationalen Portal für offene Behördendaten](https://opendata.swiss/de/organization/kanton-zuerich) veröffentlicht.
+
+Die Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) weitgehend selbständig zu erfassen und zu aktualisieren sowie die entsprechenden Daten-[Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) bereitzustellen.
+
+## Definition
+Offene Behördendaten ('Open Government Data', OGD) sind gemäss [Definition der Fachstelle OGD Kanton Basel-Stadt](https://www.opendata.bs.ch/definitionen.html)
+
+> "Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und  maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können".
+
+Verwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des [Gesetzes über die Information und den Datenschutz (IDG)](http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=170.4) dürfen Verwaltungseinheiten und Organe des Kantons Zürich 'nicht schützenswerte' Daten, die unter ihrer Hoheit stehen, zur 'freien Nutzung' als offene Behördendaten publizieren.
+
+'Nicht schützenswert' bedeutet, dass die bereitgestellten Daten
+
+>  - nicht die Privatsphäre verletzen,
+>  - nicht sicherheitskritisch sind und 
+>  - keinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.
+
+'Freie Nutzung' bedeutet, dass alle Interessierten die Daten
+
+>  - vervielfältigen, verbreiten und weiter zugänglich machen,
+>  - anreichern und bearbeiten,
+>  - kommerziell nutzen dürfen.
+
+Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offenen Nutzungsbedingungen bzw. Lizenzen](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#2105459599) zur Verfügung. 
+
+

@@ -1,0 +1,54 @@
+# Leitlinien für Metadaten 🏷️
+
+## Grundlagen
+Metadaten sind **Daten zu Daten** und essenziell, um Datensätze auffindbar, verständlich und sinnvoll nutzbar zu machen. Sie liefern strukturierte Informationen über den Inhalt, die Struktur und den Kontext eines Datensatzes. Der Kanton Zürich orientiert sich für die Beschreibung von Open Government Data an den **DCAT-AP CH**-Standard, ergänzt durch zusätzlich spezifische Erweiterungen für den Kanton Zürich.
+
+Gewisse Attribute sind für eine konsistente und standardisierte Erfassung zwingend auszufüllen. Diese sind im Handbuch als **(🔴 Pflichtfeld)** markiert. Die anderen Attribute sind erwünscht. 
+
+
+## Metadaten-Handbuch
+
+::: {.panel-tabset}
+
+### 📂 **Datensatz**
+| **Attribut**          | **Beschreibung** |
+|-----------------------|-----------------|
+| **Titel 🔴 **             | Der Titel des Datensatzes sollte präzise und aussagekräftig sein, um eine einfache Auffindbarkeit zu gewährleisten. Er kann Buchstaben, Zahlen, Sonderzeichen und ein Datum enthalten. Maximal 160 Zeichen. |
+| **Beschreibung 🔴 **      | Präzise Zusammenfassung des Datensatzes mit relevanten Suchbegriffen. Maximal 4000 Zeichen. Umbrüche sind erlaubt und werden angezeigt.       |
+| **Publisher 🔴 **         | Die Organisation, die für die Verwaltung und Bereitstellung des Datensatzes zuständig ist. |
+| **Kontaktstelle 🔴 **     | Eine regelmässig genutzte E-Mail-Adresse für Anfragen zum Datensatz. Es können mehrere Kontaktstellen angegeben werden, solange sie zur Organisation gehören, die als Publisher des Datensatzes eingetragen ist. |
+| **Periodizität 🔴 **      | Gibt an, wie oft der Datensatz aktualisiert wird. Das Intervall muss aus einer normierten Liste ausgewählt werden.
+| **Rechtsgrundlage 🔴  ** | Verweis auf die rechtliche Grundlage für die Datenhaltung in Form einer URL. Dazu zählen Regierungsratsbeschlüsse, Gesetze, Erlasse oder Verordnungen |
+| **Startdatum 🔴 ** | Beginn der Zeitspanne, die der Datensatz abdeckt. Muss im Format `YYYY-MM-DD` angegeben werden (z. B. `2024-12-19`).|
+| **Vertraulichkeit 🔴 ** | Gibt den Vertraulichkeitsgrad (Öffentlich, Intern, Vertraulich) der Distribution gemäss der Klassifikationsstufe des Kantons Zürich an. |
+| **Datenkollektion** | Eine Datenkollektion umfasst mehrere thematisch zusammenhängende Datensätze und dient als Filter für entsprechende ZHweb-Seiten. Die Auswahl erfolgt aus einem normierten Vokabular. |
+| **Dokumentation** | Link zu einer Seite oder einem Dokument mit weiterführenden Informationen zum Datensatz. |
+| **Enddatum** | Gibt das Ende der Zeitspanne an, die der Datensatz abdeckt, falls bekannt. Muss im Format `YYYY-MM-DD` angegeben werden (z. B. `2025-03-01`). |
+| **Anwendungen** | Links zu Anwendungen oder Praxisbeispielen, die die Nutzung des Datensatzes veranschaulichen. |
+| **Interne Notiz** | Freitextfeld für interne Kommentare, sichtbar nur für Personen derselben Organisation sowie für Super User und Data Guides. |
+| **Konform mit** | Verlinkt den angewandten Datenstandard, das Modell, das Schema, die Ontologie oder eine ähnliche Spezifikation. Ergänzt in der Regel Angaben zum Medientyp oder Format. |
+| **Landing Page** | Verweist auf die Webseite der Organisation, die den Zugriff auf die Originaldaten ermöglicht. |
+| **Nächste Aktualisierung** | Datum der geplanten nächsten Aktualisierung des Datensatzes. Muss im Format `YYYY-MM-DD` angegeben werden (z. B. `2024-12-21`). |
+| **Verwandte Datensätze** | Verlinkt verwandte Datensätze und beschreibt ihre Beziehung. |
+| **Räumliche Abdeckung** | Beschreibt mit einem kontrollierten Vokabular, welche geografischen Gebiete die betreffenden Daten abdecken: Kanton Zürich (falls die Daten für den gesamten Kanton aggregiert sind), Gemeinden des Kantons Zürich (falls alle Gemeinden des Kantons einzeln erfasst sind) oder eine oder mehrere spezifische Gemeinden. |
+| **Schlagwörter** | Ein oder mehrere Schlagwörter aus einer vorgegebenen Liste zur Beschreibung des Datensatzes.|
+| **Themen** | Eine oder mehrere Thematiken aus einer vorgegebenen Liste, denen der Datensatz zugeordnet ist. Diese dienen als Grundlage für Filtermöglichkeiten. |
+| **Version** | Gibt den Entwicklungsstand des Datensatzes an und besteht aus maximal drei Ebenen: Major (grundlegende Änderungen), Minor (Erweiterungen) und Patch (kleinere Korrekturen oder Fehlerbehebungen). Die Versionsnummer darf nur Zahlen und Punkte enthalten und folgende Formate haben: X (z. B. 2), X.X (z. B. 2.1) oder X.X.X (z. B. 2.11.8). |
+| **Versionshinweis** | Enthält Hinweise und zusätzliche Informationen zu Änderungen gegenüber der vorherigen Version. |
+
+### 📄 **Distribution**
+| **Attribut**         | **Beschreibung** |
+|----------------------|-----------------|
+| **Titel 🔴 **             | Der Titel der Distribution sollte präzise und aussagekräftig sein, um eine einfache Auffindbarkeit zu gewährleisten. Er kann Buchstaben, Zahlen, Sonderzeichen und ein Datum enthalten. Maximal 160 Zeichen. Beinhaltet ein Datensatz nur eine Distribution, kann der gleiche Titel gewählt werden. |
+| **Beschreibung 🔴 **      | Präzise Zusammenfassung der Distribution mit relevanten Suchbegriffen. Maximal 4000 Zeichen. Umbrüche sind erlaubt und werden angezeigt.       |
+| **Lizenz 🔴** | Gibt an, unter welcher Creative Commons Lizenz die Open Data bereitgestellt werden. Standardmässig gilt **CC Zero (CC0)**, es sei denn, eine gesetzliche Grundlage verlangt eine andere Lizenz, welche nur von berechtigten Personen gesetzt werden kann. |
+| **Personendaten-Status 🔴** | Gibt an, ob die Distribution keine Personendaten, Personendaten oder besonders schützenswerte Personendaten enthält. |
+| **URL 🔴** | Die Internetadresse, über die die Distribution bezogen werden kann. Obligatorisch, falls es sich um Open Government Data (OGD) handelt. |
+| **Vertraulichkeit 🔴** | Gibt den Vertraulichkeitsgrad (Öffentlich, Intern, Vertraulich) der Distribution gemäss der Klassifikationsstufe des Kantons Zürich an. Der Wert wird standardmässig von der Datensatzebene übernommen, kann jedoch für Distributionen weiter eingeschränkt, aber nicht gelockert werden. |
+| **Dokumentation** | Verlinkt die Dokumentation der Attribute dieser Distribution. |
+| **Format** | Gibt das Dateiformat der Distribution an. Wird beim Hochladen der Datei automatisch erkannt oder kann bei extern gehosteten Distributionen manuell eingetragen werden. |
+| **Verfügbarkeit** | Gibt an, ob die Daten dauerhaft stabil sind oder sich noch in einer experimentellen Phase befinden. |
+| **Zeitliche Auflösung** | Gibt die kleinste Zeiteinheit an, die in der Distribution enthalten ist.|
+
+
+:::

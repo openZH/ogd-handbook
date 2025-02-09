@@ -1,0 +1,13 @@
+# Neuigkeiten 🚀
+
+Der erste Datenkatalog des Kantons Zürich wurde im Jahr 2019 veröffentlicht. Wesentliche Weiterentwicklungen und Änderungen ab 2025 werden hier dokumentiert.
+
+::: {.callout-note}
+### 📝 Weiteretnwicklung X
+Erklärung
+:::
+
+::: {.callout-note}
+### 📝 Weiteretnwicklung Y
+Erklärung
+:::

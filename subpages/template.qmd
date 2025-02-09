@@ -1,0 +1,216 @@
+# Markdown Template
+
+Quarto-Dokumente sind grundsätzlich in Markdown verfasst.
+
+::: {.callout-note}
+## Empfehlung
+
+Elemente und Syntax gemäss <https://www.markdownguide.org/basic-syntax> verwenden.
+:::
+
+## Absätze
+
+Um Absätze zu erstellen, verwende eine Leerzeile zwischen zwei Absätzen.
+
+```md
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Nulla consequat massa quis enim.
+```
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Nulla consequat massa quis enim.
+
+## Zeilenumbrüche
+
+Um einen Zeilenumbruch bzw. eine neue Zeile zu erzeugen, beende eine Zeile mit zwei oder mehr Leerzeichen.
+
+```md
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Nulla consequat massa quis enim.
+```
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.   
+Nulla consequat massa quis enim.
+
+## Textauszeichnungen
+
+### Kursiv und Fett
+
+Um Text kursiv zu setzen, einen *Asterisk* oder einen _Unterstrich_ vor und nach einem Wort oder Satz einsetzen. Um die Mitte eines Wortes kursiv zu setzen, einen Ast*er*isk ohne Leerzeichen um die Buchstaben einfügen.
+
+```md
+*Asterisk*
+_Unterstrich_
+Ast*er*isk
+```
+
+Um Text fett zu setzen, zwei **Asterisks** oder zwei __Unterstriche__ vor und nach einem Wort oder Satz einsetzen. Um die Mitte eines Wortes fett zu setzen, zwei Ast**er**isks ohne Leerzeichen um die Buchstaben einfügen.
+
+```md
+**Asterisk**
+__Unterstrich__
+Ast**er**isk
+```
+
+Um Text fett und kursiv zu setzen, drei ***Asterisks*** oder drei ___Unterstriche___ vor und nach einem Wort oder Satz einsetzen. Um die Mitte eines Wortes fett zu setzen, drei Ast***er***isks ohne Leerzeichen um die Buchstaben einfügen.
+
+```md
+***Asterisk***
+___Unterstrich___
+Ast***er***isk
+```
+
+### Durchgestrichen
+
+Um Wörter durchgestrichen darzustellen, zwei ~~Tilde-Symbole~~ vor und nach den Wörtern setzen.
+
+```md
+~~Tilde-Symbole~~
+```
+
+### Hoch- und Tiefgestellt
+
+Einige Markdown-Prozessoren ermöglichen die Verwendung von Hoch- Tiefstellung
+
+Um ein oder mehrere Zeichen hochgestellt zu positionieren, ein ^Caret-Symbol^ davor und danach verwenden. (z.B. X^2^)
+
+```md
+^Caret-Symbol^
+X^2^
+```
+
+Um ein oder mehrere Zeichen tiefgestellt zu positionieren, ein ~Tilde-Symbol~ davor und danach verwenden. (z.B. H~2~O)
+
+```md
+~Tilde-Symbol~
+H~2~O
+```
+
+### Hervorgehoben
+
+Einige Markdown-Prozessoren ermöglichen es, Text besonders hervorzuheben.
+
+Um Wörter hervorzuheben, zwei ==Gleichheitszeichen== vor und nach den Wörtern verwenden.
+
+:::{.callout-caution}
+Unser Setup mit RStudio, Pandoc und Quarto ermöglicht keine Hervorhebungen!
+:::
+
+## Listen
+
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
+
+```md
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
+```
+
+1. First item
+2. Second item
+3. Third item
+    a. Indented item
+    b. Indented item
+4. Fourth item
+
+```md
+1. First item
+2. Second item
+3. Third item
+    a. Indented item
+    b. Indented item
+4. Fourth item
+```
+
+Einige Markdown-Prozessoren ermöglichen es, Definitionslisten mit Begriffen und den dazugehörigen Definitionen zu erstellen. Um eine Definitionsliste zu erstellen, den Begriff in die erste Zeile eingeben und in die nächste Zeile einen Doppelpunkt, gefolgt von einem Leerzeichen und der Definition, schreiben.
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+```md
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+```
+
+## Blockzitate
+
+> Um ein Blockzitat zu erstellen, ein `>` vor einem Absatz einfügen.
+
+```md
+> Um ein Blockzitat zu erstellen, ein `>` vor einem Absatz einfügen.
+```
+
+> Blockzitate können mehrere Absätze enthalten.
+> 
+> In den Leerzeilen zwischen den Absätzen ein `>` einfügen.
+
+```md
+> Blockzitate können mehrere Absätze enthalten.
+> 
+> In den Leerzeilen zwischen den Absätzen ein `>` einfügen.
+```
+
+Blockzitate können andere Markdown-formatierte Elemente enthalten. Es können nicht alle Elemente verwendet werden. Man muss experimentieren, um herauszufinden, welche Elemente funktionieren.
+
+## Links
+
+Um eine URL oder E-Mail-Adresse schnell in einen Link zu verwandeln, schliesse sie in spitze Klammern ein.
+
+<https://www.zh.ch/de/bildungsdirektion.html>  
+<bildungsplanung@bi.zh.ch>
+
+```md
+<https://www.zh.ch/de/bildungsdirektion.html>
+<bildungsplanung@bi.zh.ch>
+```
+
+Einige Markdown-Prozessoren verwandeln URLs automatisch in Links, so dass keine spitze Klammern verwendet werden müssen.
+
+:::{.callout-caution}
+Unser Setup mit RStudio, Pandoc und Quarto erstellt nicht automatisch Links! Es müssen also spitze Klammern verwendet werden.
+:::
+
+Um einen Link zu erstellen, den Linktext in eckige Klammern einschliessen und die URL in Klammern anschliessen.
+
+[Bildungsplanung des Kantons Zürich](https://www.zh.ch/de/bildungsdirektion/generalsekretariat-der-bildungsdirektion/bildungsplanung.html)
+
+```markdown
+[Bildungsplanung des Kantons Zürich](https://www.zh.ch/de/bildungsdirektion/generalsekretariat-der-bildungsdirektion/bildungsplanung.html)
+```
+
+In HTML-Dokumenten ist es teilweise sinnvoll, dass Links in einem neuen Tab oder Fenster geöffnet werden. Die Markdown-Syntax für Links erlaubt es nicht, ein sogenanntes Zielattribut anzugeben. In Quarto-Dokumenten kann aber HTML verwendet werden, um solche Links zu erstellen.
+
+<a href="https://www.zh.ch/de/bildungsdirektion/generalsekretariat-der-bildungsdirektion/bildungsplanung.html" target="_blank">Bildungsplanung des Kantons Zürich</a>
+
+```html
+<a href="https://www.zh.ch/de/bildungsdirektion/generalsekretariat-der-bildungsdirektion/bildungsplanung.html" target="_blank">Bildungsplanung des Kantons Zürich</a>
+```
+
+Innerhalb von Quarto-Dokumenten kann auf sogenannte IDs verlinkt werden.
+
+vgl. @sec-references-internal  
+vgl. [Querverweise](#sec-references-internal)
+
+```md
+vgl. @sec-references-internal  
+vgl. [Querverweise](#sec-references-internal)
+```
+

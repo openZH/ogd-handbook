@@ -1,0 +1,53 @@
+---
+title: "Open Government Data Dokumentation des Kantons Zürich"
+subtitle: ""
+description: ""
+author: 
+  - name: "Tabea Eggler"
+    email: "tabea.eggler@zh.ch"
+    affiliation: "Statistisches Amt Kanton Zürich"
+  - name: "Laure Stadler"
+    email: "laure.stadler@zh.ch"
+date: last-modified
+abstract: "Willkommen im Open Government Data Handbuch des Kantons Zürich! Das Handbuch unterstützt Verwaltungseinheiten dabei, ihre Daten im Datenkatalog als Open Government Data (OGD) bereitzustellen und zu aktualisieren. Es wird von der Fach- und Koordinationsstelle OGD im Statistischen Amt betreut und als dynamisches Dokument laufend weiterentwickelt."
+lang: de
+format: 
+    html:
+        theme: style/bipla.scss
+        embed-resources: true
+        standalone: true
+toc: true
+toc-location: left
+toc-title: "Inhalt"
+
+number-sections: true
+number-depth: 3
+code-fold: false
+
+title-block-banner: "#0076BD"
+css: style/logo.css
+
+fig-cap-location: top
+fig-align: "left"
+
+engine: knitr
+execute:
+  warning: false
+params:
+    classification: "Vertraulich"
+---
+
+::: {.callout-warning}
+# Achtung: Beta-Version
+Dies ist eine Beta-Version der Leitlinien. Sie tritt erst mit der neuen **Metadatenverwaltung v2**, die für **Sommer/Herbst 2025** geplant ist, in Kraft.
+:::
+
+{{< include subpages/dienste.qmd >}}
+{{< include subpages/grundlagen.qmd >}}
+{{< include subpages/rollen.qmd >}}
+{{< include subpages/leitlinien_daten.qmd >}}
+{{< include subpages/leitlinien_metadaten.qmd >}}
+{{< include subpages/rpackage.qmd >}}
+{{< include subpages/neuigkeiten.qmd >}}
+{{< include subpages/beratung.qmd >}}
+

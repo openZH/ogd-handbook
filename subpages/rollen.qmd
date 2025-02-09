@@ -1,0 +1,17 @@
+# Rollen 👥
+
+Im Publikationsprozess für Open Government Data (OGD) im Kanton Zürich gibt es verschiedene Rollen mit spezifischen Rechten und Aufgaben.
+
+> **Data Custodian**  
+> Erhebt und bereinigt Daten für eine Verwaltungseinheit oder Organisation.
+
+> **Guest**  
+> Kann die Metadateneinträge der eigenen Organisation einsehen, jedoch keine Änderungen vornehmen.  
+
+> **Data Steward**  
+> Erfasst, ändert und aktualisiert Datensätze sowie Distributionen der eigenen Organisation.  
+> Stellt sicher, dass die Metadaten vollständig und aktuell sind.  
+
+> **Data Guide**  
+> Unterstützt Data Stewards und Guests bei Fragen zum Publikationsprozess und erstellt deren Accounts.  
+> Publiziert Datensätze erstmalig und verwaltet Normwortschätze sowie Organisationsangaben.  

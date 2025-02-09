@@ -1,0 +1,115 @@
+# Leitlinien für Daten 📂
+
+
+Im Publikationsprozess für Open Government Data (OGD) im Kanton Zürich gibt es klare Leitlinien für Datenformate und -strukturen. Diese gewährleisten eine konsistente und maschinenlesbare Veröffentlichung von Daten.
+
+## Datenformate
+
+> **Tabellarische Daten:**  
+> Verwenden das **CSV-Format** (nicht XLS) mit **UTF-8-Codierung**.
+> Spalten werden mit **Kommas (,)** getrennt, nicht mit Semikolons (;). Sie folgen dem **Tidy Data**-Prinzip. 
+
+> **Strukturierte Daten:**
+> JSON ist besonders gut für komplexe Datenstrukturen geeignet, XML ist ebenfalls möglich.
+>
+
+::: {.callout-note}
+# Excel zu CSV
+Falls eine Konvertierung von Excel nach CSV nötig ist, hilft diese Anleitung 👉 [XLS zu CSV konvertieren](https://github.com/openZH/ogd-handbook/blob/main/publikationsleitlinien/xls-zu-csv-konvertieren.md)  
+:::
+
+::: {.callout-note}
+# Tidy Data Prinzip
+
+- Pro Variable eine Spalte
+- Pro Beobachtung eine Zeile
+- Pro Wert eine Zelle
+
+Mehr dazu 👉 [Warum 'Tidy Data'?](https://github.com/openZH/ogd-handbook/blob/main/publikationsleitlinien/warum_tidy_data.md)  
+:::
+
+
+
+## Tidy Data: Pro Variable eine Spalte  
+
+> **Keine Spalten-Hierarchien:**  
+> Ober- und Unterkategorien werden nicht durch zusammengeführte Zellen dargestellt, sondern jeweils in separaten Spalten.  
+
+> **Anforderungen an Spaltenüberschriften (Variablen):**  
+> - Keine alleinstehenden Jahreszahlen oder Datumsangaben  
+> - Kein Beginn mit einer Zahl  
+> - Keine Leerzeichen (stattdessen `unterstriche_verwenden`)  
+> - Keine Umlaute (`ä` → `ae`, `ü` → `ue`)  
+> - Keine Sonderzeichen (`%` → `prozent`)  
+
+**Beispiel für eine korrekte CSV-Datei:**  
+```md
+jahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt
+2013,Direktion der Justiz und des Innern,1,52,45
+2014,Direktion der Justiz und des Innern,11,31,19
+```
+
+::: {.callout-note}
+# Empfehlung: Einheitliche Benennung von Spalten  
+
+Für eine bessere Interoperabilität und Nutzung der Daten empfehlen wir, oft wiederkehrende Variablen standardisiert zu benennen.  
+
+Mehr dazu 👉 [Empfehlung für wiederkehrende Merkmale](https://github.com/openZH/ogd-handbook/blob/main/publikationsleitlinien/Empfehlung-fuer-wiederkehrende-Merkmale.md)  
+:::
+
+
+## Tidy Data: Pro Beobachtung eine Zeile  
+
+> **Keine Leerzeilen:**  
+> Jede Zeile enthält eine vollständige Beobachtung und darf nicht leer bleiben.  
+
+> **Keine Fussnoten oder Verweise innerhalb der Tabelle:**  
+> Hinweise werden stattdessen folgendermassen vermittelt:  
+> 
+> - In einer eigenen Spalte, falls die Information datenbezogen ist.  
+> - In der Metadaten-Beschreibung, falls es sich um eine kurze Erläuterung handelt.  
+> - Als separate Distribution (HTML-, TXT- oder PDF-Datei), falls die Erklärung ausführlicher ist.  
+
+
+
+## Tidy Data: Pro Wert eine Zelle  
+
+Alle Zellen innerhalb einer Spalte haben dasselbe Datenformat. Einheitsangaben dürfen nicht mit Werten in derselben Zelle stehen.
+Die häufigsten Daten-Formate sind:
+
+> **Text**  
+> Enthält ein Wert Kommas, wird dieser in Anführungszeichen gesetzt. Dadurch bleibt der Text-Inhalt als eine Einheit interpretiert.
+> Beispiel: `"Französisch, Deutsch"`  
+
+> **Zahl**  
+> Zahlen werden ohne Hochkommas, Leerzeichen oder 1000er-Trennzeichen gespeichert.  
+> Als Dezimaltrennzeichen wird ein Punkt (`.`) verwendet.  
+> Falls Werte gerundet werden, muss dies in den Metadaten deklariert werden.  
+
+> **Datum**  
+> Das [ISO 8601-Format](https://www.w3.org/TR/NOTE-datetime) wird für Datumsangaben verwendet.  
+> Beispiel: `YYYY-MM-DD` → `2021-12-24`
+
+> **Uhrzeit**  
+> Das [ISO 8601-Format](https://www.w3.org/TR/NOTE-datetime) wird auch für Zeitangaben verwendet.  
+> Beispiel: `hh:mm:ss` → `19:20:30`  
+> Falls eine Zeitzone benötigt wird, folgt das Format:  
+> Beispiel: `YYYY-MM-DDThh:mm:ssTZD` → `2021-12-24T19:20:30+01:00`  
+
+> **URL**  
+> URLs werden standardmässig in vollständiger, aufrufbarer Form angegeben.  
+> Beispiel: `https://example.com`  
+
+> **Geokoordinaten**  
+> Geokoordinaten werden bevorzugt im globalen geodätischen Referenzsystem WGS 84 angegeben. Beispiel:
+> `latitude_WGS84,longitude_WGS84`  
+> `47.3786314,8.54110776`  
+>   
+> Alternativ kann der Bezugsrahmen LV95 (CH1903+) verwendet werden. Beispiel:
+> `north_coordinate_lv95,east_coordinate_lv95`  
+> `1248117.48,2683256.46`  
+
+::: {.callout-note}
+# Unbekannte Werte
+Werte, die ausdrücklich unbekannt sind, werden als `NA` gekennzeichnet. Zellen ohne Werte bleiben leer.  
+:::

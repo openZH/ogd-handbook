@@ -1,0 +1,118 @@
+.quarto-title-block .quarto-title-banner {
+  background-image: url(../images/logo_negativ.svg);
+  background-size: 75px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-origin: content-box;
+  min-height: 85px;
+}
+
+.quarto-title  {
+  margin-left: 55px;
+  hyphens: auto;
+}
+
+@media(min-width: 768px) {
+
+  .quarto-title-block .quarto-title-banner {
+    background-size: 150px;
+    padding-left: 20px;
+    min-height: 160px;
+  }
+
+  .quarto-title  {
+    margin-left: 0px;
+  }
+}
+
+.reveal .slide-logo {
+  display: block;
+  position: absolute;
+  bottom: unset !important;
+  right: unset !important;
+  top: 12px;
+  left: 12px;
+  height: 9vw !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  z-index: -2 !important;
+}
+
+.print-pdf .reveal .slide-logo {
+  display: none;
+}
+
+.reveal .title-slide-logo {
+  display:block;
+  position: absolute;
+  bottom: unset !important;
+  right: unset !important;
+  top: 12px;
+  left: 12px;
+  height: 9vw !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  transform: none;
+}
+
+.print-pdf .reveal .title-slide-logo {
+  top: 20px;
+  /*left: -30px;*/
+  height: 100px !important;
+}
+
+.reveal .title-slide-spikel {
+  display:block;
+  position: absolute;
+  bottom: 0px;
+  top: unset !important;
+  right: unset !important;
+  left: 0px;
+  max-width: unset !important;
+  max-height: unset !important;
+  transform: none;
+  height: 50vh;
+  margin: 0px;
+}
+
+.reveal .title-slide-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.print-pdf .reveal .title-slide-logo-container {
+  /*gap: -10px;*/
+}
+
+.print-pdf #title-logo-text {
+  /*margin-left:-50px; */
+  font-size:25px;
+}
+
+.reveal .title-slide-logo img,
+.reveal .title-slide-logo svg {
+  height: 9vw !important;
+  
+}
+
+.print-pdf .reveal .title-slide-logo img,
+.print-pdf .reveal .title-slide-logo svg {
+  height: 100px !important;
+  width: auto;
+}
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 15/9) {
+  .reveal.has-logo .slides {
+    inset: 50% auto auto 54.7% !important;
+  }
+}
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/4) {
+  .reveal.has-logo .slides {
+    inset: 50% auto auto 50% !important;
+  }
+}

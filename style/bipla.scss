@@ -1,0 +1,199 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: InterRegular,Helvetica,sans-serif !default;
+
+// colors
+$blue:    #0070B4 !default;
+$indigo:  #54268E !default;
+$purple:  #7F3DA7 !default;
+$pink:    #D40053 !default;
+$red:     #D93C1A !default;
+$orange:  #DC7700 !default;
+$yellow:  #FFCC00 !default;
+$green:   #8A8C00 !default;
+$teal:    #0FA693 !default;
+$cyan:    #009EE0 !default;
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$body-bg: $white;
+$body-color: rgba(0,0,0,.6) !default;
+$link-color: $blue;
+$selection-bg: $blue;
+$callout-color-note: $blue;
+
+// headings
+$headings-font-family: InterBlack,"Arial Black",Helvetica,sans-serif !default;
+$presentation-heading-font: InterBlack,"Arial Black",Helvetica,sans-serif !default;
+$h2-color: $blue;
+$presentation-heading-color: $black;
+
+$headings-font-weight: 400 !important;
+$presentation-heading-font-weight: 400 !default;
+$headings-color: $black;
+
+/*-- scss:rules --*/
+
+// make the main title of reports white (blue background)
+h1.title {
+    color: $white;
+}
+
+h2 {
+    border-bottom: 0px;
+}
+
+// make standard buttons black without a box shadow
+.btn-quarto,
+.btn-quarto:focus {
+    color: #fefefe;
+    background-color: $black !important;
+    border-color: $black !important;
+    box-shadow: none !important;
+}
+
+
+// keep the main title on presentations black (white background)
+// #title-slide h1.title {
+//     color: $black;
+// }
+
+.reveal a {
+    line-height: 1.3em;
+}
+
+//dispay content outside of the div in observable cell (for example tiptools)
+.cell-output-display:not(.no-overflow-x), .knitsql-table:not(.no-overflow-x) {
+    overflow-x: visible;
+}
+
+// tabset
+$nav-pills-link-active-bg: $black;
+
+// imitating tabsets according to the zhweb design standards
+
+.nav-pills .nav-tabs .nav-item {
+    margin: 8px 8px 8px 0px;
+
+    .nav-link {
+        background-color: #CCCCCC;
+        font-family: InterRegular,Helvetica,sans-serif;
+        color: #333333;
+
+        &.active {
+            background-color: $black;
+            font-family: InterBlack,"Arial Black",Helvetica,sans-serif;
+            color: $white;
+
+        }
+
+    }
+
+}
+
+.observablehq {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.scrollable {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.figure-source, .table-source{
+    font-size: 80%;
+}
+
+// left-aligned title for tables (wip)
+
+figcaption, caption, .table-caption, .figure-caption,
+figure.quarto-float-tbl figcaption.quarto-float-caption-top, 
+figure.quarto-float-tbl figcaption.quarto-float-caption-bottom  {
+    text-align: left;
+    font-weight: bold;
+    color: $black;
+    font-family: InterBlack,"Arial Black",Helvetica,sans-serif;
+    font-size: 1.2rem !important;
+}
+
+:not(.fullscreen) > .title.figure-caption {
+    font-size: 1.2rem !important;
+    margin-bottom: 0rem;
+    padding-top: 0.5rem;
+    line-height: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0px;
+}
+
+:not(.fullscreen) > .subtitle.figure-caption {
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    padding-top: 0rem;
+}
+
+//custom layout for integrating girafe charts in zhweb
+.page-layout-custom {
+    max-width: 816px;
+    margin:auto;
+}
+
+.page-layout-custom .quarto-figure {
+    margin-bottom: 0rem;
+}
+
+.page-layout-custom .figure .figure-caption {
+    margin-top: 0rem;
+}
+
+section .footer {
+    display: none;
+}
+
+.presentation-title-logo-text {
+    font-family: InterBlack,"Arial Black",Helvetica,sans-serif;
+    color: $white;
+}
+
+.presentation-title-logo-text-black {
+    font-family: InterBlack,"Arial Black",Helvetica,sans-serif;
+    color: $black;
+}
+
+.reveal #title-slide.white .title {
+    color: $white;
+}
+
+.reveal #title-slide.black .subtitle,
+.reveal #title-slide.black .quarto-title-authors,
+.reveal #title-slide.black .quarto-title-author {
+    color: $black;
+}
+
+
+
+
+// CUSTOM CSS
+
+table {
+    width: 100% !important;
+    table-layout: fixed !important;
+}
+
+th:first-child, td:first-child {
+    width: 20% !important;  /* Erste Spalte für Attribut: 30% */
+}
+
+th:last-child, td:last-child {
+    width: 80% !important;  /* Zweite Spalte für Beschreibung: 70% */
+}

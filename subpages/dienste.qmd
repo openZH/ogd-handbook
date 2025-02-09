@@ -1,0 +1,9 @@
+# Dienste 🔗
+
+Die Fach- und Koordinationsstelle OGD im Statistischen Amt bietet folgende Dienste für den Zugang und die Verwaltung von Behördendaten des Kantons Zürich.
+
+**Datenkatalog**: Öffentlicher Katalog für Behördendaten 👉 [https://zh.ch/daten](https://zh.ch/daten)
+
+
+**Metadatenverwaltung**: Der für die Öffentlichkeit nicht sichtbare Teil des Datenkatalogs für die Verwaltung der Daten und Metadaten 👉
+[https://www.web.statistik.zh.ch/ogd/datenkatalog-verwaltung/app](https://www.web.statistik.zh.ch/ogd/datenkatalog-verwaltung/app)

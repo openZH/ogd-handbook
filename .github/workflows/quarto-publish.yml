@@ -1,0 +1,44 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: quarto-handbook
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install R
+        run: |
+          sudo apt update
+          sudo apt install -y r-base
+
+      - name: Set Up R Library Path
+        run: |
+          mkdir -p ~/R/library
+          echo 'R_LIBS_USER="~/R/library"' >> ~/.Renviron
+
+      - name: Install Required R Packages
+        run: |
+          Rscript -e 'install.packages(c("rmarkdown", "knitr"), lib="~/R/library", repos="http://cran.rstudio.com")'
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Verify R Installation
+        run: Rscript -e "sessionInfo()"
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
