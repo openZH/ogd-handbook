@@ -2,42 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/beratung.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.581Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/leitlinien_metadaten.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.582Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/dienste.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.581Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/template.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.582Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/rollen.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/metadatenverwaltung.html</loc>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/publikationsleitlinien.html</loc>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/publikationsleitlinien/xls-zu-csv-konvertieren.html</loc>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/publikationsleitlinien/Empfehlung-fuer-wiederkehrende-Merkmale.html</loc>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/publikationsleitlinien/warum_tidy_data.html</loc>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/publikationsleitlinien/weitergehende-metadaten.html</loc>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openZH.github.io/ogd-handbook/glossar.html</loc>
+    <lastmod>2025-02-09T21:21:42.579Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/index.html</loc>
-    <lastmod>2025-02-09T21:05:31.736Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.580Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/rpackage.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.582Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/neuigkeiten.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.582Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/leitlinien_daten.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.582Z</lastmod>
   </url>
   <url>
     <loc>https://openZH.github.io/ogd-handbook/subpages/grundlagen.html</loc>
-    <lastmod>2025-02-09T21:05:31.737Z</lastmod>
+    <lastmod>2025-02-09T21:21:42.581Z</lastmod>
   </url>
 </urlset>

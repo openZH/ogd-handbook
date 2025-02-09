@@ -91,6 +91,251 @@
     "text": "Rollen 👥\nIm Publikationsprozess für Open Government Data (OGD) im Kanton Zürich gibt es verschiedene Rollen mit spezifischen Rechten und Aufgaben.\n\nData Custodian\nErhebt und bereinigt Daten für eine Verwaltungseinheit oder Organisation.\n\n\nGuest\nKann die Metadateneinträge der eigenen Organisation einsehen, jedoch keine Änderungen vornehmen.\n\n\nData Steward\nErfasst, ändert und aktualisiert Datensätze sowie Distributionen der eigenen Organisation.\nStellt sicher, dass die Metadaten vollständig und aktuell sind.\n\n\nData Guide\nUnterstützt Data Stewards und Guests bei Fragen zum Publikationsprozess und erstellt deren Accounts.\nPubliziert Datensätze erstmalig und verwaltet Normwortschätze sowie Organisationsangaben."
   },
   {
+    "objectID": "metadatenverwaltung.html",
+    "href": "metadatenverwaltung.html",
+    "title": "Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten",
+    "section": "",
+    "text": "Version, Datum: v1.0, 2022-01-31  Status: in Review  Verwalterin: Fach- und Koordinationsstelle Open Government Data des Kantons Zürich"
+  },
+  {
+    "objectID": "metadatenverwaltung.html#a.-grundlagen",
+    "href": "metadatenverwaltung.html#a.-grundlagen",
+    "title": "Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten",
+    "section": "A. Grundlagen",
+    "text": "A. Grundlagen\n\n1. Sinn und Zweck der Metadaten-Verwaltung\nDer Regierungsrat des Kantons Zürich hat mit dem Regierungsratsbeschluss 1362/2021 beschlossen, dass\n\n“der Kanton alle vorhandenen nicht schützenswerten Daten der Öffentlichkeit maschinenlesbar zur freien Nutzung zur Verfügung [stellt]”.\n\nDamit die interessiete Öffentlichkeit alle offen verfügbaren Behördendaten einfach findet, werden deren Metadaten laufend aktualisiert im kantonalen Metadatenkatalog der offenen Behördendaten und im nationalen Portal für offene Behördendaten veröffentlicht.\nDie Metadaten-Verwaltung ermöglicht es den Verwaltungseinheiten und Organen (auch Gemeinden) des Kantons Zürich, die Metadaten ihrer offenen Datensätze weitgehend selbständig zu erfassen und zu aktualisieren sowie die entsprechenden Daten-Ressourcen bereitzustellen.\n\n\n2. Definition und Bedingungen von offenen Behördendaten\nOffene Behördendaten (‘Open Government Data’, OGD) sind gemäss Definition der Fachstelle OGD Kanton Basel-Stadt\n\n“Daten (Rohdaten, Datensätze, Datenbestände, Datensammlungen, Digital Content, Statistikdaten, Geodaten, Inventare …), die strukturiert und maschinenlesbar bereitgestellt werden, so dass sie gesichtet, durchsucht, gefiltert, aufbereitet, nachgeführt und weiterverarbeitet werden können”.\n\nVerwaltungseinheiten und Organe des Kantons Zürich dürfen auf der Grundlage des Gesetzes über die Information und den Datenschutz (IDG) dürfen Verwaltungseinheiten und Organe des Kantons Zürich ‘nicht schützenswerte’ Daten, die unter ihrer Hoheit stehen, zur ‘freien Nutzung’ als offene Behördendaten publizieren.\n‘Nicht schützenswert’ bedeutet, dass die bereitgestellten Daten\n\n\nnicht die Privatsphäre verletzen,\nnicht sicherheitskritisch sind und\nkeinen Drittrechten (wie zum Beispiel Copyrights) unterliegen.\n\n\n‘Freie Nutzung’ bedeutet, dass alle Interessierten die Daten\n\n\nvervielfältigen, verbreiten und weiter zugänglich machen,\nanreichern und bearbeiten,\nkommerziell nutzen dürfen.\n\n\nDementsprechend stellt der Kanton Zürich offene Behördendaten unter zwei offenen Nutzungsbedingungen bzw. Lizenzen zur Verfügung."
+  },
+  {
+    "objectID": "metadatenverwaltung.html#b.-rollen-und-verantwortlichkeiten-im-publikationsprozess",
+    "href": "metadatenverwaltung.html#b.-rollen-und-verantwortlichkeiten-im-publikationsprozess",
+    "title": "Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten",
+    "section": "B. Rollen und Verantwortlichkeiten im Publikationsprozess",
+    "text": "B. Rollen und Verantwortlichkeiten im Publikationsprozess\n\n\n\nRollen und Aufgaben beim Bereitstellen von offenen Behördendaten\n\n\n\n1. ‘Data Custodians’ bereiten Daten auf und stellen sie bereit\nRolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt.\nUm einfach nutzbare Behördendaten bereitzustellen, bereiten sie Daten gemäss technischen und formalen Grundsätzen, Vorgaben und Empfehlungen als maschinenlesbare Ressourcen auf.\nSie halten die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher.\n\n\n2. ‘Data Stewards’ beschreiben Daten mit Metadaten und publizieren sie\nRolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet.\nSie beschreiben Datensätze und Ressourcen in der Metadaten-Verwaltung gemäss des Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH) und machen Behördendaten so einfach findbar.\nIm Austausch mit den ‘Data Custodians’ organisieren sie die laufende Aktualisierung der publizierten Datensätze.\n\n\n3. ‘Data Guides’ beraten, unterstützen und vermitteln\nRolle, die ‘Data Custodians’ und ‘Data Stewards’ bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt.\n‘Data Guides’ verfügen in der Metadaten-Verwaltung über Administrator-Rechte. Sie prüfen erstmalig erfasste Metadatensätze auf ihre Konformität zum geltenden DCAT-AP CH-Metadatenstandard und erstmalig bereitgestellte Ressourcen auf ihre Konformität zu den Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten.\nIst alles bereit, erstmals publiziert zu werden, planen sie mit den ‘Data Stewards’, per wann die Publikation erfolgend soll.\n\n\n4. Weitere Rollen: ‘Data Stewards zh.ch’ und ‘Guests’\n‘Data Stewards zh.ch’ verfügen über zusätzliche Rechte, in der Metadaten-Verwaltung auch nicht offene Datensätze verwalten zu können.\n‘Guests’ haben lediglich Lese-Zugang zur Metadaten-Verwaltung. Sie interessieren sich unter Umständen für die Übernahme einer Rolle, haben aber noch keine entsprechende Schulung gemacht."
+  },
+  {
+    "objectID": "metadatenverwaltung.html#c.-offene-behördendaten-bereitstellen-publizieren-und-aktualisieren",
+    "href": "metadatenverwaltung.html#c.-offene-behördendaten-bereitstellen-publizieren-und-aktualisieren",
+    "title": "Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten",
+    "section": "C. Offene Behördendaten bereitstellen, publizieren und aktualisieren",
+    "text": "C. Offene Behördendaten bereitstellen, publizieren und aktualisieren\n\n\n\nFünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten\n\n\n\n1. Daten als einfach nutzbare, maschinenlesbare ‘Ressourcen’ aufbereiten\nHandelt es sich um tabellarische Daten, folgen Sie bei der Aufbereitung den technischen und formalen Grundsätzen, Vorgaben und Empfehlungen in den Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten.\nHandelt es sich um Daten mit anderen und/oder komplexen Strukturen, nehmen Sie bitte mit der Fach- und Koordinationsstelle OGD im Statistischen Amt Kontakt auf: info@open.zh.ch\n\n\n2. ‘Ressourcen’ offen zugänglich bereitstellen\nHandelt es sich um eine Ressource, die Nutzende als Datei herunterladen können,\n\n\nteilen Sie diese mit einem ‘Data Steward’ Ihrer Verwaltungseinheit bzw. Organisation, damit sie via die Metadaten-Verwaltung bereitgesetllt werden kann, oder\nstellen sie diese selbst auf einen frei im Web zugänglichen Server bereit, der unter Ihrer Hoheit steht. Teilen Sie darauf einem ‘Data Steward’ Ihrer Verwaltungseinheit bzw. Organisation die entsprechende Download-URL mit (Wichtig: Die Download-URLs müssen permament bleiben.),\n\n\n\n\n3. Einen neuen ‘Publisher’ erstellen\nIst eine Organisationseinheit noch nicht in der kantonalen Metadatenverwaltung erfasst, erstellt ein ‘Data Guide’ im Menu “Einstellungen” unter “Organisationen” eine neue ‘Organisation’.\n\n\nDer offizielle Name der Organisation (zB. “Statistisches Amt”) wird einheitlich ergänzt um den geografischen Bezug “… des Kantons Zürich” oder “… der Stadt Uster”.\nWichtig: Darauf beim Erstellen des ‘Publisher’-Slugs darauf achten, alle Umlaute im Slug zu änern auf ae, oe, ue.\nAllfällige Abteilungen der Organisation hinzufügen, sofern diese als Kontakt für einzelne ‘Datensätze’ erscheinen sollen.\nKontakt-eMail-Adressen zur Oragnisation und allen Abteilungen hinzufügen.\n\n\n\n\n4. Daten als ‘Datensätze’ erfassen und mit Metadaten beschreiben\nMelden Sie sich als ‘Data Steward’ mit Ihrem Login in der Metadaten-Verwaltung an: zh.ch/metadatenverwaltung.\nKlicken Sie rechts oben auf “Neuen Datensatz erstellen”.\n\n\nWählen Sie einen aussagekräftigen Titel, ergänzt um den geografischen Bezug (zB. “… des Kantons Zürich” oder “… der Stadt Uster”) und - sofern es sich um eine Zeitreihe handelt - um das Startdatum der Zeitreihe (zB. “… ab 2011” oder “… ab Juni 2011” oder “… ab 13.06.2011”.\nWählen Sie als “Publisher” die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der Fach- und Koordinationsstelle OGD im Statistischen Amt Kontakt auf: info@open.zh.ch\nWählen Sie als Kontakt diejenige Stelle, die fachliche Auskunft zu den entsprechenden Daten geben können.\nWählen Sie mindestens eine der Themenkatagorien aus.\n\n\nKlicken Sie auf “Erstellen”. Sie haben nun einen Entwurf eines neuen Datensatzes in der Metadaten-Verwaltung angelegt.\n…\n\n\n5. Erstmalig erfasste ‘Datensätze’ zur Publikation freigeben\n…\n\n\n6. Publizierte ‘Datensätze’ und ‘Ressourcen’ aktualisieren\n…\n\n\n7. Aktualisierung von ‘Datensätzen’ und ‘Ressourcen’ abbrechen\n…"
+  },
+  {
+    "objectID": "metadatenverwaltung.html#d.-beratung-und-unterstützung",
+    "href": "metadatenverwaltung.html#d.-beratung-und-unterstützung",
+    "title": "Handbuch des Kantons Zürich zur Metadaten-Verwaltung und Bereitstellung offener Behördendaten",
+    "section": "D. Beratung und Unterstützung",
+    "text": "D. Beratung und Unterstützung\n\n1. Kontakte für Fragen und Bedürfnisse\n\nZu offenen Behördendaten steht die Fach- und Koordinationsstelle OGD im Statistischen Amt zur Verfügung: info@open.zh.ch\nZur Metadaten-Verwaltung und zu Behördendaten generell steht die Abteilung ‘Data Shop’ im Statistischen Amt zur Verfügung: datashop@statistik.zh.ch\n\n\n\n2. Hilfsmittel\n\nBegriffsdefinitionen im Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten\nTechnische und formale Grundsätze, Vorgaben und Empfehlungen zur Aufbereitung von Ressourcen in den Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten"
+  },
+  {
+    "objectID": "publikationsleitlinien.html",
+    "href": "publikationsleitlinien.html",
+    "title": "Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten",
+    "section": "",
+    "text": "Version, Datum: v1.2, 2024-08-14  Status: in Kraft  Verwalterin: Fachausschuss Open Government Data des Kantons Zürich"
+  },
+  {
+    "objectID": "publikationsleitlinien.html#daten-formate",
+    "href": "publikationsleitlinien.html#daten-formate",
+    "title": "Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten",
+    "section": "Daten-Formate",
+    "text": "Daten-Formate\n\nGrundsatz\nOffene Daten stehen in einem nicht-proprietären, offenen Format zur Verfügung.\n\n\nVorgaben\nFür tabellarische Daten verwenden wir das Format CSV (nicht XLS) mit UTF-8 Codierung. \nVariabeln und Werte trennen wir mittels Kommata , (nicht mittels Semikolons ;) voneinander ab. - So erstelle ich aus einer Excel-Datei ein maschinenlesbares CSV.\n\n\nEmpfehlungen\nFür Daten mit komplexen Strukturen oder um Daten einfach zwischen Programmen und Systemen zu übertragen, eignen sich die Formate JSON sehr und XML gut."
+  },
+  {
+    "objectID": "publikationsleitlinien.html#daten-strukturen",
+    "href": "publikationsleitlinien.html#daten-strukturen",
+    "title": "Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten",
+    "section": "Daten-Strukturen",
+    "text": "Daten-Strukturen\n\nGrundsatz\nOffene Daten stehen als strukturierte Daten zur Verfügung (nicht als Word, PDF oder Fliesstext).\n\n\nVorgaben\nTabellarische Daten im Format CSV strukturieren wir gemäss dem Prinzip ‘Tidy Data’. \nDas heisst: pro Variable eine Spalte, pro Beobachtung eine Zeile und pro Wert eine Zelle. \nBeispiel:  \n\nPro Variable eine Spalte\nKeine Spalten-Hierarchien, also keine miteinander zusammengeführten Zellen (z.B. um Ober- und Unterkategorien zu repräsentieren), sondern Oberkategorien in einer ersten Spalte, Unterkategorien in einer zweiten Spalte. \nSpaltenüberschriften (Variabeln): - sind keine alleinstehenden Jahreszahlen oder andere Datumsangaben, - beginnen nicht mit einer Zahl, - haben keine Leerzeichen, sondern sind entweder zusammengeschrieben (Gross- und Kleinbuchstaben sind möglich) oder besser mittels ‘Underscore’ verbunden (z.B. gesuche_total), - haben keine Umlaute, sondern sind ausgeschrieben als ae, oe, ue und - haben keine Sonderzeichen, sondern sind ausgeschrieben (z.B. prozent statt %).\njahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt\n2013,Direktion der Justiz und des Innern,1,52,45\n2014,Direktion der Justiz und des Innern,11,31,19\n...\nWir verzichten auf überflüssige Variablen (z.B. mit denselben Wert über die gesamte Reihe). Die Anzahl Variablen ist nicht beschränkt. Dabei spielt es keine Rolle, wenn man in der Fensteransicht nicht mehr alle Variablen auf einmal sieht. \n\n\nPro Beobachtung eine Zeile\n\nKeine Leerzeilen.\nKeine Fussnoten und ähnliche Verweise. Hinweise vermitteln wir:\n\nentweder in einer eigenen Spalte oder\n(wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder\n(wenn ausführlicher) als HTML-Page, TXT- oder PDF-Datei, die wir in den Metadaten unter “Weitere Informationen” referenzieren.\n\n\n\n\nPro Wert eine Zelle\nAlle Zellen einer Spalte haben dasselbe Daten-Format. Die häufigsten sind: 1. Text 2. Zahl 3. Datum 4. Uhrzeit 5. URL.\nEinheitsangaben dürfen nicht zusammen mit Werten in derselben Zelle stehen. \n\n1. Text\nWerte mit Daten-Format Text, die Kommas enthalten, klammern wir zwingend mittels Anführungs- und Schlusszeichen ein (z.B. \"Französisch, Deutsch\"). Das ist wichtig, damit diese Text-Inhalte (in der Fachsprache bezeichnet als String bzw. Zeichenkette) trotz Leerzeichen oder Kommas als zusammengehörend interpretiert werden. \n\n\n2. Zahl\nWerte mit Daten-Format Zahl formatieren wir einheitlich ohne Hochkommas, Leerzeichen oder andere 1000er-Trennzeichen. - Als Dezimaltrennzeichen verwenden wir einen Punkt. - Ob man rundet oder nicht, kommt auf den Datensatz und seine Nutzung an. Falls gerundet wird, muss dies aber in den Metadaten deklariert werden.\n\n\n3. Datum\nWerte mit Daten-Format Datum geben wir nicht als Zeichenketten (z.B. 24. Dez. 2021) an, sondern verwenden den internationalen Standard ISO 8601: YYYY-MM-DD (z.B. 2021-12-24). \n\n\n4. Uhrzeit\nWerte mit Daten-Format Uhrzeit geben wir dem internationalen Standard ISO 8601 gemäss an als hh:mm:ss. Wir verwenden die Zeitzone UTC+1: YYYY-MM-DDThh:mm:ssTZD (z.B. 2021-12-24T19:20:30+01:00). \n\n\n5. URL\nWerte mit Daten-Format URL schreiben wir standardmässig aufrufbar aus im Format https://.... \n\n\n\n\nEmpfehlungen\nWir wählen möglichst aussagekräftige Spaltenüberschriften (Variabeln). Ihre Bedeutung erklären wir: - (wenn kurz) in der Metadaten-Beschreibung der entsprechenden Daten-Ressource oder - (wenn ausführlicher) auf einer HTML-Page, in einer TXT- oder PDF-Datei, die wir in den Metadaten unter “Weitere Informationen” referenzieren.\nWerte, die ausdrücklich unbekannt sind, weisen wir als NA aus.\nZellen ohne Werte lassen wir leer:\njahr,organisationseinheit,gesuche_haengig_jan,gesuche_total,zugang_uneingeschraenkt_gewaehrt\n2013,Direktion der Justiz und des Innern,1,52,45\n2013,Sicherheitsdirektion,,12,4\n2013,Finanzdirektion,,14,14\n2013,Volkswirtschaftsdirektion,,3,2\n2013,Gesundheitsdirektion,1,45,8\n2013,Bildungsdirektion,6,25,10\n2013,Baudirektion,1,9,7\n2013,Staatskanzlei,,,\n...\nWir empfehlen, Werte mit Daten-Format Geokoordinaten dem globalen geodätischen Referenzsystem WGS 84 gemäss anzugeben als:\nlatitude_WGS84,longitude_WGS84\n47.3786314,8.54110776\n...\nWenn alternativ der Bezugsrahmen der neuen Landesvermessung LV95 (Bezugssystem CH1903+) verwendet wird, ist das wie folgt anzugeben:\nnorth_coordinate_lv95,east_coordinate_lv95\n1248117.48,2683256.46\n...\nMerkmale, die oft in Datensätzen vorkommen (beispielsweise Koordinaten) benennen und messen wir einheitlich. Einige Empfehlungen hierzu liegen in einem separaten Dokument."
+  },
+  {
+    "objectID": "publikationsleitlinien.html#metadaten",
+    "href": "publikationsleitlinien.html#metadaten",
+    "title": "Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten",
+    "section": "Metadaten",
+    "text": "Metadaten\nMetadaten beschreiben einen Datensatz, sie setzen ihn in Kontext. Sie beschreiben, wofür die Daten erhoben wurden, welche Einschränkungen oder Brüche in der Erhebung zu beachten sind, die zeitliche und räumliche Abdeckung und geben Hinweise auf weitere Hintergrundinformationen. Der Kanton Zürich hält sich an die Schweizer Version des internationalen Metadatenstandards DCAT AP CH. Für deren Erfassung steht den Behörden und behördennahen Organisationen auf dem Kantonsgebiet Zürich die Metadatenverwaltung zur Verfügung. Mit der Benutzung der Metadatenverwaltung ist die Einhaltung von DCAT AP CH gewährleistet.\nDCAT AP CH und die Metadatenverwaltung bieten momentan keine Möglichkeit, die Merkmale systematisch zu erfassen. Bis wir dafür eine Lösung gefunden haben, bedienen wir uns verschiedener Übergangslösungen. Sie sind hier beschrieben."
+  },
+  {
+    "objectID": "publikationsleitlinien/xls-zu-csv-konvertieren.html",
+    "href": "publikationsleitlinien/xls-zu-csv-konvertieren.html",
+    "title": "Excel Datei als CSV speichern",
+    "section": "",
+    "text": "Um die Offenen Behördendaten einheitlich zu gestalten, publizieren wir sie den Datenstandards von w3c entsprechend als kommaseparierte csv-Dateien, die UTF-8 codiert sind. So lassen sich die Dateien ohne Kompatibilitätsprobleme aus allen Programmen öffnen und die Daten weiterverarbeiten. Microsoft speichert im deutschen Sprachraum csv-Dateien mit einem Semikolon als Trennzeichen - um aus Microsoftsystemen mit Sprach- und Regionaleinstellung “Deutsch” kommaseparierte csvs speichern zu können, sind einige Schritte nötig:\n\n\n\n\nDies muss nur einmal gemacht werden und bleibt dann so gespeichert. 1. Windows Start-Menü öffnen 2. nach “intl.cpl” suchen und öffnen 3. im neuen Fenster “Weitere Einstellungen” öffnen 4. Listentrennzeichen ändern auf ‘,’  5. in beiden Fenstern mit mit Übernehmen bestätigen\n\n\n\nDu kannst jetzt das Excel als csv abspeichern: 1. den künftigen OGD-Datensatz in Excel öffnen 2. stelle sicher, dass die Daten im tidy Format Tidy-Format? sind 3. Speichern unter -&gt; Dateityp CSV UTF-8 (diese Option gibt es erst für Users, die bereits auf den DAP migriert sind) 4. Speichern\n\n\n\n\ncsv-File mit Rechtsklick anwählen\nöffnen mit: entweder Editor oder Notepad++ und sicherstellen, dass die Datenstruktur tidy ist und die Felder mit Kommas separiert sind\nUTF-8 Codierung einstellen (wenn das nicht direkt aus Excel heraus ging)\n\n\nDatei -&gt; Speichern unter -&gt; Codierung: UTF-8\n\n\nDatei ist fertig und kann als OGD veröffentlicht werden\n\n\n\n\n\nWenn Du Excel für Mac verwendest, empfehlen wir Dir dringend, Deine Datei mit tabellarischen Daten in Numbers oder Google Sheets zu öffnen, um die endgültige CSV-Datei in die UTF-8-Kodierung zu konvertieren und zu exportieren. Excel für Mac unterstützt den Import oder Export von UTF-8-kodierten Dateien nicht von Haus aus.\n\n\n\nKlicke auf ‘Datei’\nBewege den Mauszeiger über ‘Export’\nWähle im angezeigten Untermenü ‘CSV’\nKlicke auf ‘Erweiterte Optionen’, um das Dropdown-Menü ‘Textkodierung’ anzuzeigen\nWähle im Dropdown-Menu ‘Unicode (UTF-8)’ aus\nKlicke auf ‘Weiter’\nKlicke ‘Speichern’\n\n\n\n\n\n\nKlicke auf ‘Datei’\nKlicke auf oder bewege den Mauszeiger über ‘Herunterladen als’\nWähle die Option ‘Kommagetrennte Werte (.csv, aktuelles Blatt)’\nNachdem Du auf diese Option geklickt hast, wird die Datei automatisch auf Deinen Computer heruntergeladen\n\n\n\n\n\nLade das Excel-File nach OpenRefine\nKlicke auf Export und\nwähle “Comma-separated value”\n\nMehr Hintergrundinfos und eine generelle Anleitung (für PCs ausserhalb der Kantonsverwaltung Zürich): https://www.pctipp.ch/praxis/office/trickli-damit-excel-richtige-csv-dateien-schreibt-1996442.html"
+  },
+  {
+    "objectID": "publikationsleitlinien/xls-zu-csv-konvertieren.html#ich-benutze-excel-in-windows",
+    "href": "publikationsleitlinien/xls-zu-csv-konvertieren.html#ich-benutze-excel-in-windows",
+    "title": "Excel Datei als CSV speichern",
+    "section": "",
+    "text": "Dies muss nur einmal gemacht werden und bleibt dann so gespeichert. 1. Windows Start-Menü öffnen 2. nach “intl.cpl” suchen und öffnen 3. im neuen Fenster “Weitere Einstellungen” öffnen 4. Listentrennzeichen ändern auf ‘,’  5. in beiden Fenstern mit mit Übernehmen bestätigen\n\n\n\nDu kannst jetzt das Excel als csv abspeichern: 1. den künftigen OGD-Datensatz in Excel öffnen 2. stelle sicher, dass die Daten im tidy Format Tidy-Format? sind 3. Speichern unter -&gt; Dateityp CSV UTF-8 (diese Option gibt es erst für Users, die bereits auf den DAP migriert sind) 4. Speichern\n\n\n\n\ncsv-File mit Rechtsklick anwählen\nöffnen mit: entweder Editor oder Notepad++ und sicherstellen, dass die Datenstruktur tidy ist und die Felder mit Kommas separiert sind\nUTF-8 Codierung einstellen (wenn das nicht direkt aus Excel heraus ging)\n\n\nDatei -&gt; Speichern unter -&gt; Codierung: UTF-8\n\n\nDatei ist fertig und kann als OGD veröffentlicht werden"
+  },
+  {
+    "objectID": "publikationsleitlinien/xls-zu-csv-konvertieren.html#ich-benutze-mac",
+    "href": "publikationsleitlinien/xls-zu-csv-konvertieren.html#ich-benutze-mac",
+    "title": "Excel Datei als CSV speichern",
+    "section": "",
+    "text": "Wenn Du Excel für Mac verwendest, empfehlen wir Dir dringend, Deine Datei mit tabellarischen Daten in Numbers oder Google Sheets zu öffnen, um die endgültige CSV-Datei in die UTF-8-Kodierung zu konvertieren und zu exportieren. Excel für Mac unterstützt den Import oder Export von UTF-8-kodierten Dateien nicht von Haus aus.\n\n\n\nKlicke auf ‘Datei’\nBewege den Mauszeiger über ‘Export’\nWähle im angezeigten Untermenü ‘CSV’\nKlicke auf ‘Erweiterte Optionen’, um das Dropdown-Menü ‘Textkodierung’ anzuzeigen\nWähle im Dropdown-Menu ‘Unicode (UTF-8)’ aus\nKlicke auf ‘Weiter’\nKlicke ‘Speichern’"
+  },
+  {
+    "objectID": "publikationsleitlinien/xls-zu-csv-konvertieren.html#wenn-du-google-sheets-verwendest",
+    "href": "publikationsleitlinien/xls-zu-csv-konvertieren.html#wenn-du-google-sheets-verwendest",
+    "title": "Excel Datei als CSV speichern",
+    "section": "",
+    "text": "Klicke auf ‘Datei’\nKlicke auf oder bewege den Mauszeiger über ‘Herunterladen als’\nWähle die Option ‘Kommagetrennte Werte (.csv, aktuelles Blatt)’\nNachdem Du auf diese Option geklickt hast, wird die Datei automatisch auf Deinen Computer heruntergeladen"
+  },
+  {
+    "objectID": "publikationsleitlinien/xls-zu-csv-konvertieren.html#wenn-du-openrefine-verwendest",
+    "href": "publikationsleitlinien/xls-zu-csv-konvertieren.html#wenn-du-openrefine-verwendest",
+    "title": "Excel Datei als CSV speichern",
+    "section": "",
+    "text": "Lade das Excel-File nach OpenRefine\nKlicke auf Export und\nwähle “Comma-separated value”\n\nMehr Hintergrundinfos und eine generelle Anleitung (für PCs ausserhalb der Kantonsverwaltung Zürich): https://www.pctipp.ch/praxis/office/trickli-damit-excel-richtige-csv-dateien-schreibt-1996442.html"
+  },
+  {
+    "objectID": "publikationsleitlinien/Empfehlung-fuer-wiederkehrende-Merkmale.html",
+    "href": "publikationsleitlinien/Empfehlung-fuer-wiederkehrende-Merkmale.html",
+    "title": "Empfehlung",
+    "section": "",
+    "text": "Empfehlung\nIn Ergänzung zu den Publikationsleitlinien empfehlen wir oft wiederkehrende Variablen/Merkmale einheitlich zu benennen und und anzugeben. Dies dient der Interoperabilität und letztlich der einfachen Nutzung der Daten. Wir empfehlen diese Form dann, wenn das Umformen von Daten mit wenig Aufwand im Daten Management oder vor der Publikation zu machen ist.\n\n\n\nFieldname / Spaltenname\nDescription (EN)\nBeschreibung (DE)\nFormat\n\n\n\n\nindikator_name\nwhat this indicator describes\nwas dieser Indikator beschreibt\ncharacter\n\n\nraumeinheit\nspatial level: municipality, district, canton\nräumliche Ebene: Gemeinde, Bezirk, Kanton\ncharacter\n\n\ngebiet_name\nName of raumeinheit\nName der Raumeinheit\ncharacter\n\n\nbfs_nr\nNumber given to municipality by BFS\nGemeindenummer des BFS\ninteger\n\n\njahr\nyyyy\nyyyy\ninteger\n\n\nmessgegenstand/etc.\nspecifics of this observation. Choose the name of this variable as descriptive as possible. Several variables of this kind possible per dataset\nDetails dieses Datenpunkts. Wähle einen möglichst sprechenden Namen. Diese Variabelart kann mehrfach vorkommen.\ncharacter\n\n\nvalue\nvalue of this obersvation\nWert dieses Datenpunkts\nnumeric\n\n\neinheit\nmeasuring unit of value\nMesseinheit von value\ncharacter\n\n\nlatitude_WGS84\n(preferred) latitude in World Geodetic System\n(bevorzugt) Breitengrad nach World Geodetic System\nnumeric\n\n\nlongitude_WGS84\n(preferred) longitude in World Geodetic System\n(bevorzugt) Längengrad nach World Geodetic System\nnumeric\n\n\nnorth_coordinate_lv95\nlatitude in Swiss coordinate system\nBreitengrad/Nord-Koordinate nach LV95\nnumeric\n\n\neast_coordinate_lv95\nlongitude in Swiss coordinate system\nLängengrad/Ost-Koordinate nach LV95\nnumeric\n\n\n\nWir empfehlen die Variabelnamen so beizubehalten. Eine Ausnahme bildet messgegenstand/qualität/massnahme/etc. Diese Variable sollte sprechend benannt werden um aufzuzeigen, worum es sich beim Messobjekt/subjekt handelt bspw. energiequelle, wald_typ. Siehe example.csv\nDie Angabe der Koordinaten im internationalen Bezugssystem WGS84 wird gegenüber dem Schweizerischen LV95 bevorzugt."
+  },
+  {
+    "objectID": "publikationsleitlinien/warum_tidy_data.html",
+    "href": "publikationsleitlinien/warum_tidy_data.html",
+    "title": "Was steht hinter dem Prinzip ‘Tidy Data’?",
+    "section": "",
+    "text": "Das Prinzip ‘Tidy Data’ vereinheitlicht und vereinfacht die Nutzung, den Austausch und die Interoperabilität von Daten.\nEine kurze Zusammenfassung in Bildern.\nQuelle: https://www.openscapes.org/blog/2020/10/12/tidy-data/\n\n\n\ntidydata1\n\n\n\n\n\n\n\ntidydata2\n\n\n\n\n\n\n\n\n\n\ntidydata3\n\n\n\n\n\n\n\n\ntidydata4\n\n\n\n\n\n\n\n\ntidydata5"
+  },
+  {
+    "objectID": "publikationsleitlinien/warum_tidy_data.html#darum-tidy-data-als-lösungsbringer-für.",
+    "href": "publikationsleitlinien/warum_tidy_data.html#darum-tidy-data-als-lösungsbringer-für.",
+    "title": "Was steht hinter dem Prinzip ‘Tidy Data’?",
+    "section": "",
+    "text": "tidydata3\n\n\n\n\n\n\n\n\ntidydata4\n\n\n\n\n\n\n\n\ntidydata5"
+  },
+  {
+    "objectID": "publikationsleitlinien/weitergehende-metadaten.html",
+    "href": "publikationsleitlinien/weitergehende-metadaten.html",
+    "title": "Metadaten über DCAT AP CH hinaus: best practice",
+    "section": "",
+    "text": "Metadaten beschreiben einen Datensatz, sie setzen ihn in Kontext. Sie beschreiben, wofür die Daten erhoben wurden, welche Einschränkungen oder Brüche in der Erhebung zu beachten sind, die zeitliche und räumliche Abdeckung und geben Hinweise auf weitere Hintergrundinformationen. Der Kanton Zürich hält sich an die Schweizer Version des internationalen Metadatenstandards DCAT AP CH. Für deren Erfassung steht den Behörden und behördennahen Organisationen auf dem Kantonsgebiet Zürich die Metadatenverwaltung zur Verfügung. Mit der Benutzung der Metadatenverwaltung ist die Einhaltung von DCAT AP CH gewährleistet.\nDCAT AP CH und die Metadatenverwaltung bieten noch keine Möglichkeit, die einzelnen Merkmale systematisch zu beschreiben. Merkmale/Variablen werden von den Data Stewards im Kanton Zürich verschieden dokumentiert. Die folgenden drei Optionen scheinen uns besonders praktisch. Je nach Anspruch bietet sich eine andere Variante an:\n\n\nBeschreibung von nicht selbsterklärenden Merkmalen in der Beschreibung der Ressource. Beschrieben werden sollte beispielsweise, wie ein Wert gemessen oder berechnet wird, welche Information erhoben wird, wie Leerwerte zu deuten sind oder wenn im Zeitverlauf Variablen anders genutzt werden. In der Beschreibung werden nur einzelne Merkmale beschrieben, nicht systematisch alle.\nBesonders geeignet, wenn ein Datensatz aus wenigen Merkmalen besteht oder nur wenige der Merkmale nicht selbsterklärend sind. Der Vorteil hier ist die Übersichtlichkeit.\nBeispiel: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/2022@fachstelle-ogd-kanton-zuerich\n\n\n\nEine vollständige Merkmals- bzw. Variabeldokumentation in einem Textfile. Das kann ein offenes Format wie .txt sein oder ein fürs menschliche Auge gut lesbares Format wie html oder pdf. Dieses File kann analog einer Ressource verlinkt oder direkt via Metadatenverwaltung auf unseren Server geladen werden. In der Beschreibung des Datasets oder der Ressourcen verweisen wir dann auf die separate Dokumentation.\nBesonders geeignet für grössere Datensätzen mit komplexen Merkmalen. Der Vorteil hier ist die Vollständigkeit und Lesbarkeit.\nBeispiel: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/563@awel-kanton-zuerich\n\n\n\nEine vollständige Merkmals- bzw. Variabeldokumentation auf Github. Diese kann laufend fortgeführt werden und kann so auch Datensätzen gerecht werden, die sich weiterentwickeln. Frühere Varianten der Dokumentation sind über die git-Versionierung weiterhin abrufbar. Die Github-Repos sollten mindestens pro Publisher getrennt sein, die vollständige Dokumentation eines Datensatzes aber in einem File zu finden. Bei Bedarf kann das Hosting des Repos über https://github.com/openZH gemacht werden. Für die Aktualisierung der Dokumentation sind die Datenpublisher zuständig.\nBesonders geeignet für Datensätze, deren Variablen sich über die Zeit verändern.\nBeispiel: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/729@gesundheitsdirektion-kanton-zuerich (readme in den Links, kann auch als Ressource verlinkt werden)\n\n\n\nDCAT AP CH V2.00 enthält eine eigene property “documentation”. Diese sieht eine Verlinkung (IRI) vor und ist mit allen oben beschriebenen Optionen kompatibel. Eine systematische Erfassung von Merkmalen, beispielsweise als linked data, streben wir in Ergänzung zu DCAT AP CH an. Hinweise für die Umsetzung nehmen wir noch so gerne an :)"
+  },
+  {
+    "objectID": "publikationsleitlinien/weitergehende-metadaten.html#option-1-minimale-beschreibung",
+    "href": "publikationsleitlinien/weitergehende-metadaten.html#option-1-minimale-beschreibung",
+    "title": "Metadaten über DCAT AP CH hinaus: best practice",
+    "section": "",
+    "text": "Beschreibung von nicht selbsterklärenden Merkmalen in der Beschreibung der Ressource. Beschrieben werden sollte beispielsweise, wie ein Wert gemessen oder berechnet wird, welche Information erhoben wird, wie Leerwerte zu deuten sind oder wenn im Zeitverlauf Variablen anders genutzt werden. In der Beschreibung werden nur einzelne Merkmale beschrieben, nicht systematisch alle.\nBesonders geeignet, wenn ein Datensatz aus wenigen Merkmalen besteht oder nur wenige der Merkmale nicht selbsterklärend sind. Der Vorteil hier ist die Übersichtlichkeit.\nBeispiel: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/2022@fachstelle-ogd-kanton-zuerich"
+  },
+  {
+    "objectID": "publikationsleitlinien/weitergehende-metadaten.html#option-2-als-angefügtes-textdokument",
+    "href": "publikationsleitlinien/weitergehende-metadaten.html#option-2-als-angefügtes-textdokument",
+    "title": "Metadaten über DCAT AP CH hinaus: best practice",
+    "section": "",
+    "text": "Eine vollständige Merkmals- bzw. Variabeldokumentation in einem Textfile. Das kann ein offenes Format wie .txt sein oder ein fürs menschliche Auge gut lesbares Format wie html oder pdf. Dieses File kann analog einer Ressource verlinkt oder direkt via Metadatenverwaltung auf unseren Server geladen werden. In der Beschreibung des Datasets oder der Ressourcen verweisen wir dann auf die separate Dokumentation.\nBesonders geeignet für grössere Datensätzen mit komplexen Merkmalen. Der Vorteil hier ist die Vollständigkeit und Lesbarkeit.\nBeispiel: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/563@awel-kanton-zuerich"
+  },
+  {
+    "objectID": "publikationsleitlinien/weitergehende-metadaten.html#option-3-in-einem-github-repos",
+    "href": "publikationsleitlinien/weitergehende-metadaten.html#option-3-in-einem-github-repos",
+    "title": "Metadaten über DCAT AP CH hinaus: best practice",
+    "section": "",
+    "text": "Eine vollständige Merkmals- bzw. Variabeldokumentation auf Github. Diese kann laufend fortgeführt werden und kann so auch Datensätzen gerecht werden, die sich weiterentwickeln. Frühere Varianten der Dokumentation sind über die git-Versionierung weiterhin abrufbar. Die Github-Repos sollten mindestens pro Publisher getrennt sein, die vollständige Dokumentation eines Datensatzes aber in einem File zu finden. Bei Bedarf kann das Hosting des Repos über https://github.com/openZH gemacht werden. Für die Aktualisierung der Dokumentation sind die Datenpublisher zuständig.\nBesonders geeignet für Datensätze, deren Variablen sich über die Zeit verändern.\nBeispiel: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/729@gesundheitsdirektion-kanton-zuerich (readme in den Links, kann auch als Ressource verlinkt werden)"
+  },
+  {
+    "objectID": "publikationsleitlinien/weitergehende-metadaten.html#weiterentwicklung",
+    "href": "publikationsleitlinien/weitergehende-metadaten.html#weiterentwicklung",
+    "title": "Metadaten über DCAT AP CH hinaus: best practice",
+    "section": "",
+    "text": "DCAT AP CH V2.00 enthält eine eigene property “documentation”. Diese sieht eine Verlinkung (IRI) vor und ist mit allen oben beschriebenen Optionen kompatibel. Eine systematische Erfassung von Merkmalen, beispielsweise als linked data, streben wir in Ergänzung zu DCAT AP CH an. Hinweise für die Umsetzung nehmen wir noch so gerne an :)"
+  },
+  {
+    "objectID": "glossar.html",
+    "href": "glossar.html",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "",
+    "text": "Version, Datum: v1.0, 2022-01-31  Status: in Review  Verwalterin: Fach- und Koordinationsstelle Open Government Data des Kantons Zürich"
+  },
+  {
+    "objectID": "glossar.html#behördendaten",
+    "href": "glossar.html#behördendaten",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Behördendaten",
+    "text": "Behördendaten\nBehördendaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Es handelt sich um strukturierte Sammlungen von Daten, in Form von beispielsweise Tabellen oder Datenbanken."
+  },
+  {
+    "objectID": "glossar.html#data-custodian-datenverwaltende",
+    "href": "glossar.html#data-custodian-datenverwaltende",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "‘Data Custodian’ (Datenverwaltende)",
+    "text": "‘Data Custodian’ (Datenverwaltende)\nRolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder bereinigt. Um einfach nutzbare Behördendaten bereitzustellen, bereitet sie Daten gemäss technischen und formalen Grundsätzen, Vorgaben und Empfehlungen als maschinenlesbare Ressourcen auf. Sie hält die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit sicher."
+  },
+  {
+    "objectID": "glossar.html#data-guide",
+    "href": "glossar.html#data-guide",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "‘Data Guide’",
+    "text": "‘Data Guide’\nRolle, die ‘Data Custodians’ und ‘Data Stewards’ bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt."
+  },
+  {
+    "objectID": "glossar.html#data-steward-metadatenverwaltende",
+    "href": "glossar.html#data-steward-metadatenverwaltende",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "‘Data Steward’ (Metadatenverwaltende)",
+    "text": "‘Data Steward’ (Metadatenverwaltende)\nRolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet. Sie beschreibt Datensätze und Ressourcen in der Metadaten-Verwaltung gemäss des Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH) und macht Behördendaten so einfach findbar. Im Austausch mit der ‘Data Custodian’-Rolle organisiert sie die laufende Aktualisierung der publizierten Datensätze."
+  },
+  {
+    "objectID": "glossar.html#datenkatalog",
+    "href": "glossar.html#datenkatalog",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Datenkatalog",
+    "text": "Datenkatalog\nÖffentlich zugänglicher Metadaten-Katalog, in dem Interessierte Behördendaten finden und beziehen können."
+  },
+  {
+    "objectID": "glossar.html#datensatz-dataset",
+    "href": "glossar.html#datensatz-dataset",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Datensatz (‘Dataset’)",
+    "text": "Datensatz (‘Dataset’)\nEin Metadatensatz entspricht einem Eintrag in einem Datenkatalog. Er wird von einer Verwaltungseinheit bzw. Organisation bereitgestellt und umfasst mindestens eine oder mehrere Ressourcen."
+  },
+  {
+    "objectID": "glossar.html#dcat-ap-bzw.-dcat-ap-ch",
+    "href": "glossar.html#dcat-ap-bzw.-dcat-ap-ch",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "‘DCAT-AP’ bzw. ‘DCAT-AP CH’",
+    "text": "‘DCAT-AP’ bzw. ‘DCAT-AP CH’\nDCAT-AP ist ein Anwendungsprofil des ‘Data Catalog Vocabulary’ (DCAT) und dient zur Beschreibung der in Metadaten-Katalogen verzeichneten Datensätze und Ressourcen. Es richtet sich insbesondere an die Betreiber von Katalogen für offene Behördendaten. Die Schweizerische Ableitung DCAT-AP CH ist ein E-Government-Standard (eCH-0200). Er wird im Rahmen der eCH-Fachgruppe ‘Open Government Data’ weiterentwickelt."
+  },
+  {
+    "objectID": "glossar.html#distribution",
+    "href": "glossar.html#distribution",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "‘Distribution’",
+    "text": "‘Distribution’\nSiehe Ressource."
+  },
+  {
+    "objectID": "glossar.html#metadaten-verwaltung",
+    "href": "glossar.html#metadaten-verwaltung",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Metadaten-Verwaltung",
+    "text": "Metadaten-Verwaltung\nDer für die Öffentlichkeit nicht sichtbare Teil des Datenkatalogs, in dem die dazu berechtigten Rollen die Datensätze und Ressourcen von Verwaltungseinheiten und Organisationen verwalten."
+  },
+  {
+    "objectID": "glossar.html#offene-behördendaten-open-government-data-ogd",
+    "href": "glossar.html#offene-behördendaten-open-government-data-ogd",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Offene Behördendaten (‘Open Government Data’, OGD)",
+    "text": "Offene Behördendaten (‘Open Government Data’, OGD)\nNicht schützenswerte, strukturierte und maschinenlesbare Behördendaten, die staatliche oder Organisationen mit einem staatlichen Auftrag der Öffentlichkeit unter offenen Nutzungsbedingungen (bzw. Lizenzen) zur freien Nutzung zur Verfügung stellen; siehe auch Definition und Bedingungen von offenen Behördendaten."
+  },
+  {
+    "objectID": "glossar.html#ressource-resource-oder-distribution",
+    "href": "glossar.html#ressource-resource-oder-distribution",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Ressource (‘Resource’ oder ‘Distribution’)",
+    "text": "Ressource (‘Resource’ oder ‘Distribution’)\nNutzbare Daten zu einem Datensatz in einem bestimmten Datei-Format, mit einer bestimmten Daten-Struktur, beschrieben mit Metadaten. Die Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten vermitteln technische und formale Grundsätze, Vorgaben und Empfehlungen zur Aufbereitung von Ressourcen."
+  },
+  {
+    "objectID": "glossar.html#slug",
+    "href": "glossar.html#slug",
+    "title": "Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten",
+    "section": "Slug",
+    "text": "Slug\nMaschinenlesbarer Name eines Datensatzes, der auf opendata.swiss sprechender Bestandteil der Datensatz-URL ist. Der Slug ergibt sich aus dem in der Metadaten-Verwaltung gewählten Titel des Datensatzes. Er bleibt mit seiner erstmaligen Publikation im Datenkatalog permanent (selbst wenn der Titel später geändert werden sollte)."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Open Government Data Dokumentation des Kantons Zürich",
