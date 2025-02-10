@@ -1,0 +1,10 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+
+format:
+  html:
+    theme: default
+    toc: true
