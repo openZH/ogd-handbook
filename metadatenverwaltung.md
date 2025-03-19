@@ -128,26 +128,16 @@ Melden Sie sich als 'Data Steward' mit Ihrem Login in der Metadaten-Verwaltung a
 
 Klicken Sie rechts oben auf "Neuen Datensatz erstellen".
 
-> - Wählen Sie einen aussagekräftigen Titel, ergänzt um den geografischen Bezug (zB. "... des Kantons Zürich" oder "... der Stadt Uster") und - sofern es sich um eine Zeitreihe handelt - um das Startdatum der Zeitreihe (zB. "... ab 2011" oder "... ab Juni 2011" oder "... ab 13.06.2011".
+> - Wählen Sie einen aussagekräftigen Titel, ergänzt um den geografischen Bezug (zB. "... des Kantons Zürich" oder "... der Stadt Uster") und allenfalls weitere abgrenzende Merkmale zu anderen Datensätzen.
 > - Wählen Sie als "Publisher" die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
 > - Wählen Sie als Kontakt diejenige Stelle, die fachliche Auskunft zu den entsprechenden Daten geben können.
 > - Wählen Sie mindestens eine der Themenkatagorien aus.
 
 Klicken Sie auf "Erstellen". Sie haben nun einen Entwurf eines neuen Datensatzes in der Metadaten-Verwaltung angelegt.
 
-...
-
 ### 5. Erstmalig erfasste 'Datensätze' zur Publikation freigeben
 
-...
-
-### 6. Publizierte 'Datensätze' und 'Ressourcen' aktualisieren
-
-...
-
-### 7. Aktualisierung von 'Datensätzen' und 'Ressourcen' abbrechen
-
-...
+Neue Datensätze und Ressourcen werden im 4-Augenprinzip von Data Guides geprüft. Dies dient der Datenqualität und der Auffindbarkeit der Daten. Geben Sie dazu ihren Entwurf in Prüfung. Wir melden uns bei Ihnen mit Feedback.
 
 ## D. Beratung und Unterstützung
 
