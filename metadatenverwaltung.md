@@ -1,6 +1,6 @@
 
-Version, Datum: **v1.0, 2022-01-31** <br>
-Status: **in Review** <br>
+Version, Datum: **v1.1, 2025-03-19** <br>
+Status: **in Kraft** <br>
 Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
