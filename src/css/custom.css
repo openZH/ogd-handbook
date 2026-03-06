@@ -1,0 +1,127 @@
+/* ============================================
+   Kanton Zürich – Offizielles Corporate Design
+   Hauptfarbe:  Türkis  #00797B
+   Bordeaux:    #B01657
+   Blau:        #00407C
+   Schrift:     Helvetica Neue
+   ============================================ */
+
+:root {
+  --kzh-teal:         #00797B;
+  --kzh-teal-light:   #E8F3F2;
+  --kzh-bordeaux:     #B01657;
+  --kzh-bordeaux-light: #F6E3EA;
+  --kzh-blue:         #00407C;
+  --kzh-blue-light: #EDF5FA;
+  --kzh-violet:       #7F3DA7;
+  --kzh-violet-light: #ECE2F1;
+  --kzh-black:        #1A1A1A;
+  --kzh-grey:         #555555;
+  --kzh-grey-light:   #F0F0F0;
+  --kzh-border:       #CCCCCC;
+  --kzh-white:        #FFFFFF;
+
+  --ifm-color-primary:            #00797B;
+  --ifm-color-primary-dark:       #006B6D;
+  --ifm-color-primary-darker:     #005C5E;
+  --ifm-color-primary-darkest:    #004E50;
+  --ifm-color-primary-light:      #008789;
+  --ifm-color-primary-lighter:    #009597;
+  --ifm-color-primary-lightest:   #00A3A5;
+
+  --ifm-font-family-base:         'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ifm-heading-font-family:      'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ifm-font-size-base:           16px;
+  --ifm-line-height-base:         1.65;
+
+  --ifm-navbar-background-color:  var(--kzh-teal);
+  --ifm-navbar-link-color:        #FFFFFF;
+  --ifm-navbar-link-hover-color:  rgba(255,255,255,0.75);
+  --ifm-navbar-height:            56px;
+
+  --ifm-footer-background-color:  #1A1A1A;
+  --ifm-border-radius:            2px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 121, 123, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00A3A5;
+  --ifm-background-color: #1A1A1A;
+  --ifm-navbar-background-color: #005C5E;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--kzh-teal);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 0 1.5rem;
+}
+
+.navbar__logo { height: 32px; margin-right: 0.5rem; }
+
+.navbar__title {
+  color: white;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.navbar__title::after {
+  content: ' › Open Government Data Handbuch';
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.navbar__link { color: white !important; font-size: 0.9rem; }
+.navbar__link:hover { color: rgba(255,255,255,0.75) !important; }
+.navbar__link--active { font-weight: 700; }
+
+/* SIDEBAR */
+.menu__link--active:not(.menu__link--sublist) {
+  color: var(--kzh-teal);
+  font-weight: 700;
+  border-left: 3px solid var(--kzh-teal);
+  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 3px);
+  background-color: var(--kzh-teal-light);
+}
+.menu__link:hover { color: var(--kzh-teal); background-color: var(--kzh-teal-light); }
+
+/* HEADINGS */
+h1 {
+  font-size: 1.9rem; font-weight: 700; color: var(--kzh-black);
+  border-bottom: 3px solid var(--kzh-teal);
+  padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+}
+h2 { font-size: 1.35rem; font-weight: 700; color: var(--kzh-teal-dark); margin-top: 2.5rem; }
+h3 { font-size: 1.1rem; font-weight: 700; color: var(--kzh-black); }
+
+/* LINKS */
+a { color: var(--kzh-teal); }
+a:hover { color: var(--kzh-blue); }
+
+/* TABLES */
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1.5rem 0; }
+th { background-color: var(--kzh-teal); color: white; font-weight: 700; padding: 0.6rem 1rem; text-align: left; }
+td { padding: 0.55rem 1rem; border-bottom: 1px solid var(--kzh-border); vertical-align: top; }
+tr:nth-child(even) td { background-color: var(--kzh-teal-light); }
+tr:hover td { background-color: #C8E8E8; }
+
+/* CODE */
+code {
+  background-color: #E8F5F5; color: var(--kzh-blue);
+  border: 1px solid #B0D8D8; border-radius: 2px;
+  padding: 0.1em 0.35em; font-size: 0.88em;
+}
+
+/* ADMONITIONS */
+.alert--info { border-left-color: var(--kzh-violet); background-color: var(--kzh-violet-light); }
+.alert--warning { border-left-color: var(--kzh-bordeaux); }
+.alert--danger { border-left-color: var(--kzh-bordeaux); background-color: #FAE8EF; }
+.alert--tip { border-left-color: var(--kzh-blue); background-color: #E0EAF4; }
+
+/* FOOTER */
+.footer__link-item { color: rgba(255,255,255,0.75); }
+.footer__link-item:hover { color: white; }
+
+/* PAGINATION */
+.pagination-nav__link { border-color: var(--kzh-border); }
+.pagination-nav__link:hover { border-color: var(--kzh-teal); }
