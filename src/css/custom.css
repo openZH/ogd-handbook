@@ -76,22 +76,50 @@
 .navbar__link--active { font-weight: 700; }
 
 /* SIDEBAR */
-.menu__link--active:not(.menu__link--sublist) {
-  color: var(--kzh-teal);
-  font-weight: 700;
-  border-left: 3px solid var(--kzh-teal);
-  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 3px);
-  background-color: var(--kzh-teal-light);
+.menu__link:hover {
+  background-image: linear-gradient(120deg, #E0F2F2 0%, #E0F2F2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 45%;
+  background-position: 0 95%;
+  color: var(--kzh-teal-dark);
+  background-color: transparent !important;
 }
-.menu__link:hover { color: var(--kzh-teal); background-color: var(--kzh-teal-light); }
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-image: linear-gradient(120deg, #E0F2F2 0%, #E0F2F2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 45%;
+  background-position: 0 95%;
+  color: var(--kzh-teal-dark);
+  background-color: transparent !important;
+  font-weight: 700;
+}
 
 /* HEADINGS */
 h1 {
-  font-size: 1.9rem; font-weight: 700; color: var(--kzh-black);
-  border-bottom: 3px solid var(--kzh-teal);
-  padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--kzh-teal-dark);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  display: inline-block;
+  background: linear-gradient(120deg, #E0F2F2 0%, #E0F2F2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-position: 0 90%;
 }
-h2 { font-size: 1.35rem; font-weight: 700; color: var(--kzh-teal-dark); margin-top: 2.5rem; }
+h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--kzh-teal-dark);
+  margin-top: 1.5rem; 
+  display: inline-block;
+  background: linear-gradient(120deg, #E8D5F5 0%, #E8D5F5 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-position: 0 90%;
+}
 h3 { font-size: 1.1rem; font-weight: 700; color: var(--kzh-black); }
 
 /* LINKS */
@@ -113,7 +141,7 @@ code {
 }
 
 /* ADMONITIONS */
-.alert--info { border-left-color: var(--kzh-violet); background-color: var(--kzh-violet-light); }
+.alert--info { border-left-color: var(--kzh-grey); background-color: var(--kzh-grey-light); }
 .alert--warning { border-left-color: var(--kzh-bordeaux); }
 .alert--danger { border-left-color: var(--kzh-bordeaux); background-color: #FAE8EF; }
 .alert--tip { border-left-color: var(--kzh-blue); background-color: #E0EAF4; }
@@ -125,3 +153,5 @@ code {
 /* PAGINATION */
 .pagination-nav__link { border-color: var(--kzh-border); }
 .pagination-nav__link:hover { border-color: var(--kzh-teal); }
+
+
