@@ -8,6 +8,9 @@ sidebar_position: 1
 import CarrotStepper from '@site/src/components/CarrotStepper';
 
 # Was ist Open Government Data?
+Dieses Kapitel erklärt, was offene Behördendaten (OGD) sind, warum sie wichtig sind und wo sie genutzt werden können.
+
+## Einführung Open Government Data
 
 Für die Verwaltungsarbeit werden Daten benötigt. In der öffentlichen Verwaltung entstehen zahlreiche Daten, die zur Erfüllung gesetzlicher Aufgaben erhoben und verarbeitet werden. Ein Teil dieser Daten ist nicht schützenswert und kann offen bereitgestellt werden. Dieses Konzept wird als **Open Government Data** (Offene Behördendaten) bezeichnet.
 
@@ -22,8 +25,9 @@ Ausgeschlossen sind insbesondere personenbezogene, vertrauliche oder sicherheits
 :::
 
 
-<CarrotStepper />
+## Produktsicht auf Daten
 
+<CarrotStepper />
 
 
 ## Beispiele: OGD in der Praxis
