@@ -21,13 +21,48 @@ Open Government Data tragen zu einer transparenten und effizienten Verwaltung be
 - Die Daten lassen sich direkt in Prozesse und Anwendungen einbinden – das ist effizient und weniger fehleranfällig.
 
 :::info Nicht alle Verwaltungsdaten sind OGD
-Ausgeschlossen sind insbesondere personenbezogene, vertrauliche oder sicherheitsrelevante Daten.
+Ausgeschlossen sind insbesondere schützenswerte, vertrauliche oder sicherheitsrelevante Daten.
 :::
 
 
 ## Produktsicht auf Daten
 
-<CarrotStepper />
+export const carrotSteps = [
+  {
+    title: 'Was haben Rüebli mit Daten zu tun?',
+    img: '/img/rüebli_all.png',
+    text: 'Rüebli können roh, gewaschen oder weiterverarbeitet sein. Mit Daten verhält es sich ähnlich.',
+    cta: 'Finde es heraus →',
+    isIntro: true,
+  },
+  {
+    title: '1) Rohe Rüebli - Rohdaten',
+    img: '/img/rüebli_1.png',
+    text: 'Direkt aus der Quelle: unstrukturiert, ungesäubert, ungeprüft. Diese Daten sind intern oder noch nicht bereitgestellt.',
+    cta: 'Weiter →',
+  },
+  {
+    title: '2) Gewaschene Rüebli - Rohmaterial als Produkt',
+    img: '/img/rüebli_2.png',
+    text: 'Strukturierte, qualitätsgesicherte, maschinenlesbare und frei zugängliche Daten. Bereit zur Weiterverwendung, aber noch nicht interpretiert.',
+    cta: 'Weiter →',
+  },
+  {
+    title: '3) Verarbeitete Rüebli - Datenprodukt',
+    img: '/img/rüebli_3.png',
+    text: 'Verarbeitete Daten in Form von Anwendungen, Berichten, Dashboards oder Auswertungen. Hier werden Daten interpretiert, kombiniert und visualisiert.',
+    cta: 'Weiter →',
+  },
+  {
+    title: 'Und wo befinden wir uns mit OGD?',
+    img: '/img/rüebli_2.png',
+    text: <><strong>OGD sind die gewaschenen Rüebli:</strong> Open Government Data sind strukturierte und qualitätsgesicherte Rohdaten. Sie bilden die Grundlage für Datenprodukte wie Anwendungen, Berichte und Analysen, sind jedoch selbst keine fertigen Auswertungen.</>,
+    cta: null,
+    isLast: true,
+  },
+];
+
+<CarrotStepper steps={carrotSteps} />
 
 
 ## Beispiele: OGD in der Praxis

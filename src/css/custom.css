@@ -113,7 +113,7 @@ h2 {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--kzh-teal-dark);
-  margin-top: 1.5rem; 
+  margin-top: 1.6rem; 
   display: inline-block;
   background: linear-gradient(120deg, #E8D5F5 0%, #E8D5F5 100%);
   background-repeat: no-repeat;
@@ -141,7 +141,7 @@ code {
 }
 
 /* ADMONITIONS */
-.alert--info { border-left-color: var(--kzh-grey); background-color: var(--kzh-grey-light); }
+.alert--info { border-left-color: var(--kzh-grey); background-color: var(--kzh-grey-light);}
 .alert--warning { border-left-color: var(--kzh-bordeaux); }
 .alert--danger { border-left-color: var(--kzh-bordeaux); background-color: #FAE8EF; }
 .alert--tip { border-left-color: var(--kzh-blue); background-color: #E0EAF4; }
