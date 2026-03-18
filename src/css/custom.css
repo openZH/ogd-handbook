@@ -208,5 +208,6 @@ code {
 /* PAGINATION */
 .pagination-nav__link { border-color: var(--kzh-border); }
 .pagination-nav__link:hover { border-color: var(--kzh-blue); }
+.pagination-nav { margin-bottom: 2rem; }
 
 
