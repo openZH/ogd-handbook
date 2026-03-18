@@ -104,7 +104,7 @@ const config = {
         copyright: `
           <div class="ft-wrap">
             <div class="ft-title">Fach- und Koordinationsstelle OGD</div>
-            <div">@2026 Kanton Zürich</div>
+            <div class="ft-copyright">©2026 Kanton Zürich</div>
           </div>
         `,
       },
