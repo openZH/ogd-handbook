@@ -1,18 +1,13 @@
-/* ============================================
-   Kanton Zürich – Offizielles Corporate Design
-   Hauptfarbe:  Türkis  #00797B
-   Bordeaux:    #B01657
-   Blau:        #00407C
-   Schrift:     Helvetica Neue
-   ============================================ */
+@import './1_ogd_grundlagen.css';
 
 :root {
   --kzh-teal:         #00797B;
   --kzh-teal-light:   #E8F3F2;
   --kzh-bordeaux:     #B01657;
   --kzh-bordeaux-light: #F6E3EA;
-  --kzh-blue:         #00407C;
-  --kzh-blue-light: #EDF5FA;
+  --kzh-blue:         #0070B4;
+  --kzh-blue-light  : #EDF5FA;
+  --kzh-blue-dark:    #00407C;
   --kzh-violet:       #7F3DA7;
   --kzh-violet-light: #ECE2F1;
   --kzh-black:        #1A1A1A;
@@ -21,20 +16,12 @@
   --kzh-border:       #CCCCCC;
   --kzh-white:        #FFFFFF;
 
-  --ifm-color-primary:            #00797B;
-  --ifm-color-primary-dark:       #006B6D;
-  --ifm-color-primary-darker:     #005C5E;
-  --ifm-color-primary-darkest:    #004E50;
-  --ifm-color-primary-light:      #008789;
-  --ifm-color-primary-lighter:    #009597;
-  --ifm-color-primary-lightest:   #00A3A5;
-
   --ifm-font-family-base:         'Helvetica Neue', Helvetica, Arial, sans-serif;
   --ifm-heading-font-family:      'Helvetica Neue', Helvetica, Arial, sans-serif;
   --ifm-font-size-base:           16px;
   --ifm-line-height-base:         1.65;
 
-  --ifm-navbar-background-color:  var(--kzh-teal);
+  --ifm-navbar-background-color:  var(--kzh-blue);
   --ifm-navbar-link-color:        #FFFFFF;
   --ifm-navbar-link-hover-color:  rgba(255,255,255,0.75);
   --ifm-navbar-height:            56px;
@@ -52,7 +39,7 @@
 
 /* NAVBAR */
 .navbar {
-  background-color: var(--kzh-teal);
+  background-color: var(--kzh-blue);
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   padding: 0 1.5rem;
 }
@@ -77,34 +64,33 @@
 
 /* SIDEBAR */
 .menu__link:hover {
-  background-image: linear-gradient(120deg, #E0F2F2 0%, #E0F2F2 100%);
+  background-image: linear-gradient(120deg, var(--kzh-blue-light) 0%, var(--kzh-blue-light) 100%);
   background-repeat: no-repeat;
   background-size: 100% 45%;
   background-position: 0 95%;
-  color: var(--kzh-teal-dark);
   background-color: transparent !important;
+  font-weight: 500;
 }
 
 .menu__link--active:not(.menu__link--sublist) {
-  background-image: linear-gradient(120deg, #E0F2F2 0%, #E0F2F2 100%);
+  background-image: linear-gradient(120deg, var(--kzh-blue-light) 0%, var(--kzh-blue-light) 100%);
   background-repeat: no-repeat;
   background-size: 100% 45%;
   background-position: 0 95%;
-  color: var(--kzh-teal-dark);
   background-color: transparent !important;
   font-weight: 700;
+  color: var(--kzh-black)
 }
 
 /* HEADINGS */
 h1 {
   font-size: 1.9rem;
   font-weight: 700;
-  color: var(--kzh-teal-dark);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
   margin-top: 2rem;
   display: inline-block;
-  background: linear-gradient(120deg, #E0F2F2 0%, #E0F2F2 100%);
+  background: linear-gradient(120deg, var(--kzh-blue-light) 0%, var(--kzh-blue-light) 100%);
   background-repeat: no-repeat;
   background-size: 100% 40%;
   background-position: 0 90%;
@@ -112,8 +98,8 @@ h1 {
 h2 {
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--kzh-teal-dark);
   margin-top: 1.6rem; 
+  margin-bottom: 0.75rem;
   display: inline-block;
   background: linear-gradient(120deg, #E8D5F5 0%, #E8D5F5 100%);
   background-repeat: no-repeat;
@@ -123,15 +109,15 @@ h2 {
 h3 { font-size: 1.1rem; font-weight: 700; color: var(--kzh-black); }
 
 /* LINKS */
-a { color: var(--kzh-teal); }
+a { color: var(--kzh-blue); }
 a:hover { color: var(--kzh-blue); }
 
 /* TABLES */
 table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1.5rem 0; }
-th { background-color: var(--kzh-teal); color: white; font-weight: 700; padding: 0.6rem 1rem; text-align: left; }
+th { background-color: var(--kzh-blue); color: white; font-weight: 700; padding: 0.6rem 1rem; text-align: left; }
 td { padding: 0.55rem 1rem; border-bottom: 1px solid var(--kzh-border); vertical-align: top; }
-tr:nth-child(even) td { background-color: var(--kzh-teal-light); }
-tr:hover td { background-color: #C8E8E8; }
+tr:nth-child(even) td { background-color: var(--kzh-blue-light); }
+tr:hover td { background-color: #C8D8EC; }
 
 /* CODE */
 code {
@@ -141,6 +127,7 @@ code {
 }
 
 /* ADMONITIONS */
+.alert { margin-bottom: 1.5rem; }
 .alert--info { border-left-color: var(--kzh-grey); background-color: var(--kzh-grey-light);}
 .alert--warning { border-left-color: var(--kzh-bordeaux); }
 .alert--danger { border-left-color: var(--kzh-bordeaux); background-color: #FAE8EF; }
@@ -152,6 +139,6 @@ code {
 
 /* PAGINATION */
 .pagination-nav__link { border-color: var(--kzh-border); }
-.pagination-nav__link:hover { border-color: var(--kzh-teal); }
+.pagination-nav__link:hover { border-color: var(--kzh-blue); }
 
 
