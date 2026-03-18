@@ -30,32 +30,32 @@ Ausgeschlossen sind insbesondere schützenswerte, vertrauliche oder sicherheitsr
 export const carrotSteps = [
   {
     title: 'Was haben Rüebli mit Daten zu tun?',
-    img: '/img/rüebli_all.png',
+    img: require('@site/static/img/rüebli_all.png').default,
     text: 'Rüebli können roh, gewaschen oder weiterverarbeitet sein. Mit Daten verhält es sich ähnlich.',
     cta: 'Finde es heraus →',
     isIntro: true,
   },
   {
     title: '1) Rohe Rüebli - Rohdaten',
-    img: '/img/rüebli_1.png',
+    img: require('@site/static/img/rüebli_1.png').default,
     text: 'Direkt aus der Quelle: unstrukturiert, ungesäubert, ungeprüft. Diese Daten sind intern oder noch nicht bereitgestellt.',
     cta: 'Weiter →',
   },
   {
     title: '2) Gewaschene Rüebli - Rohmaterial als Produkt',
-    img: '/img/rüebli_2.png',
+    img: require('@site/static/img/rüebli_2.png').default,
     text: 'Strukturierte, qualitätsgesicherte, maschinenlesbare und frei zugängliche Daten. Bereit zur Weiterverwendung, aber noch nicht interpretiert.',
     cta: 'Weiter →',
   },
   {
     title: '3) Verarbeitete Rüebli - Datenprodukt',
-    img: '/img/rüebli_3.png',
+    img: require('@site/static/img/rüebli_3.png').default,
     text: 'Verarbeitete Daten in Form von Anwendungen, Berichten, Dashboards oder Auswertungen. Hier werden Daten interpretiert, kombiniert und visualisiert.',
     cta: 'Weiter →',
   },
   {
     title: 'Und wo befinden wir uns mit OGD?',
-    img: '/img/rüebli_2.png',
+    img: require('@site/static/img/rüebli_2.png').default,
     text: <><strong>OGD sind die gewaschenen Rüebli:</strong> Open Government Data sind strukturierte und qualitätsgesicherte Rohdaten. Sie bilden die Grundlage für Datenprodukte wie Anwendungen, Berichte und Analysen, sind jedoch selbst keine fertigen Auswertungen.</>,
     cta: null,
     isLast: true,
