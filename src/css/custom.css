@@ -26,9 +26,13 @@
   --ifm-navbar-link-hover-color:  rgba(255,255,255,0.75);
   --ifm-navbar-height:            56px;
 
-  --ifm-footer-background-color:  #333333;
-  --ifm-border-radius:            2px;
+  --ifm-footer-background-color:              #333333;
+  --ifm-border-radius:                        2px;
+  --ifm-color-success-contrast-background:    var(--kzh-violet-light);
+  --ifm-color-success-contrast-foreground:    var(--kzh-violet);
+  --ifm-color-success-dark:                   var(--kzh-violet);
   --docusaurus-highlighted-code-line-bg: rgba(0, 121, 123, 0.08);
+
 }
 
 [data-theme='dark'] {
@@ -114,10 +118,10 @@ a:hover { color: var(--kzh-blue); }
 
 /* TABLES */
 table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1.5rem 0; }
-th { background-color: var(--kzh-blue); color: white; font-weight: 700; padding: 0.6rem 1rem; text-align: left; }
+th { background-color: var(--kzh-grey-light); color: var(--kzh-black); font-weight: 700; padding: 0.6rem 1rem; text-align: left; border-bottom: 2px solid var(--kzh-border); }
 td { padding: 0.55rem 1rem; border-bottom: 1px solid var(--kzh-border); vertical-align: top; }
-tr:nth-child(even) td { background-color: var(--kzh-blue-light); }
-tr:hover td { background-color: #C8D8EC; }
+tr:nth-child(even) td { background-color: #FAFAFA; }
+tr:hover td { background-color: #F0F0F0; }
 
 /* CODE */
 code {
@@ -128,10 +132,11 @@ code {
 
 /* ADMONITIONS */
 .alert { margin-bottom: 1.5rem; }
-.alert--info { border-left-color: var(--kzh-grey); background-color: var(--kzh-grey-light);}
-.alert--warning { border-left-color: var(--kzh-bordeaux); }
-.alert--danger { border-left-color: var(--kzh-bordeaux); background-color: #FAE8EF; }
-.alert--tip { border-left-color: var(--kzh-blue); background-color: #E0EAF4; }
+.alert--info    { --ifm-alert-border-color: var(--kzh-grey);      --ifm-alert-background-color: var(--kzh-grey-light); }
+.alert--tip     { --ifm-alert-border-color: var(--kzh-violet); --ifm-alert-background-color: var(--kzh-violet-light); --ifm-color-success-contrast-background: var(--kzh-violet-light); --ifm-color-success-contrast-foreground: var(--kzh-violet); background-color: var(--kzh-violet-light) !important; }
+.alert--warning { --ifm-alert-border-color: var(--kzh-bordeaux);  --ifm-alert-background-color: #FAE8EF; }
+.alert--danger  { --ifm-alert-border-color: var(--kzh-bordeaux);  --ifm-alert-background-color: #FAE8EF; }
+
 
 /* FOOTER */
 .footer__brand { font-size: 1.25rem; display: block; margin-bottom: 0.4rem; }

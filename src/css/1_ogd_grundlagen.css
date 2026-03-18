@@ -29,6 +29,53 @@
 }
 
 /* 1_2 Prinzipien */
+.principle-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.principle-card {
+  background: var(--kzh-blue);
+  border-radius: 4px;
+  padding: 1.5rem;
+  color: white;
+}
+
+.principle-card .principle-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.principle-card .principle-icon img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.principle-card strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  color: white;
+}
+
+.principle-card p {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+@media (max-width: 768px) {
+  .principle-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .principle-grid { grid-template-columns: 1fr; }
+}
 
 /* 1_3 FAIR & CARE */
 
