@@ -7,7 +7,7 @@ sidebar_position: 3
 
 # Leitmotiv "Fair & Care"
 
-Die Leitmotive "FAIR & CARE" konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Dieses Leitmotiv verbindet technische Offenheit mit verantwortungsvollem Handeln.
+Die Leitmotive "[FAIR](https://en.wikipedia.org/wiki/FAIR_data) & [CARE](https://www.gida-global.org/care)" konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Dieses Leitmotiv verbindet technische Offenheit mit verantwortungsvollem Handeln.
 
 ## FAIR
 
