@@ -101,7 +101,12 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `<span class="footer__brand">Fach- und Koordinationsstelle OGD<br/>©2016 Kanton Zürich &nbsp;&nbsp;</span>`,
+        copyright: `
+          <div class="ft-wrap">
+            <div class="ft-title">Fach- und Koordinationsstelle OGD</div>
+            <div">@2026 Kanton Zürich</div>
+          </div>
+        `,
       },
       prism: {
         theme: prismThemes.github,
