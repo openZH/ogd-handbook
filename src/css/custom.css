@@ -26,7 +26,7 @@
   --ifm-navbar-link-hover-color:  rgba(255,255,255,0.75);
   --ifm-navbar-height:            56px;
 
-  --ifm-footer-background-color:  #1A1A1A;
+  --ifm-footer-background-color:  #333333;
   --ifm-border-radius:            2px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 121, 123, 0.08);
 }
@@ -134,6 +134,7 @@ code {
 .alert--tip { border-left-color: var(--kzh-blue); background-color: #E0EAF4; }
 
 /* FOOTER */
+.footer__brand { font-size: 1.25rem; display: block; margin-bottom: 0.4rem; }
 .footer__link-item { color: rgba(255,255,255,0.75); }
 .footer__link-item:hover { color: white; }
 
