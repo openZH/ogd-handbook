@@ -67,15 +67,21 @@ export const carrotSteps = [
 
 ## Beispiele: OGD in der Praxis
 
+<div className="example-grid">
+<div className="example-card">
+
 ### Fahrplandaten des öffentlichen Verkehrs
 
 Der öffentliche Verkehr veröffentlicht Fahrplan- und Echtzeitdaten als OGD – darunter Haltestellen, Linienverläufe, Fahrpläne sowie aktuelle Positions- und Verspätungsinformationen. [opentransportdata.swiss](https://opentransportdata.swiss) stellt diese Daten zur freien Weiterverwendung bereit.
 
 Auf dieser Grundlage entstehen u.a.:
-- Fahrplan-Apps (z.B. sbb.ch)
+- Fahrplan-Apps (z.B. [sbb.ch](https://sbb.ch)) 
 - Echtzeit-Visualisierungen von Bussen und Trams
-- Digitale Abfahrtsanzeigen
+- Digitale Abfahrtsanzeigen (z.B. [tramli.ch](https://tramli.com/))
 - Mobilitätsanalysen und wissenschaftliche Auswertungen
+
+</div>
+<div className="example-card">
 
 ### Wetterdaten
 
@@ -86,3 +92,6 @@ Auf dieser Grundlage entstehen u.a.:
 - Visualisierungen von Unwettern
 - Entscheidungsgrundlagen für Landwirtschaft, Bauwesen und Energieversorgung
 - Forschung zu Klima- und Umweltveränderungen
+
+</div>
+</div>

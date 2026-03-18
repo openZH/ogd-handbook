@@ -1,0 +1,37 @@
+/* =============================================
+   1. OGD Grundlagen
+   ============================================= */
+
+/* 1_1 Was ist OGD? */
+.example-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.example-card {
+  border: 1px solid var(--kzh-border);
+  border-top: 4px solid var(--kzh-blue);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  background: white;
+}
+
+.example-card h3 {
+  font-size: 1rem;
+  margin: 0 0 0.75rem 0;
+  border: none !important;
+}
+
+@media (max-width: 640px) {
+  .example-grid { grid-template-columns: 1fr; }
+}
+
+/* 1_2 Prinzipien */
+
+/* 1_3 FAIR & CARE */
+
+/* 1_4 OGD Landschaft */
+
+/* 1_5 OGD Nutzen */
