@@ -9,23 +9,29 @@ sidebar_position: 5
 
 Offene Daten entfalten ihren Nutzen erst, wenn sie auch tatsächlich verwendet werden. Ein aktiver Feedbackloop zwischen Nutzenden und Datenpublizierenden ist dabei zentral: Nur so können fehlende Datensätze identifiziert, bestehende verbessert und das Angebot gezielt weiterentwickelt werden.
 
-:::tip Feedback erwünscht
-Wer Daten nutzt, ist eingeladen, Rückmeldungen zu geben – direkt an die publizierende Stelle oder über den Datenkatalog.
+:::info Feedback erwünscht
+Wer Daten nutzt, ist eingeladen, an die publizierende Stelle Rückmeldungen zu geben.
 :::
 
-## Nutzungsbedingungen
+## 1.5.1 Nutzungsbedingungen
 
-Offene Daten sind nicht schützenswerte Daten. Sie verletzen nicht die Privatsphäre, sind nicht sicherheitskritisch und unterliegen keinen Drittrechten. Offene Daten dürfen:
+Offene Daten sind nicht schützenswerte Daten. Sie verletzen nicht die Privatsphäre, sind nicht sicherheitskritisch und unterliegen keinen Drittrechten (wie Copyrights). Offene Daten dürfen:
 
 - vervielfältigt, verbreitet und weiter zugänglich gemacht werden
 - angereichert und bearbeitet werden
 - kommerziell genutzt werden
 
-## Lizenzen
+## 1.5.2 Quellenangaben und Lizenzen
 
 Offene Daten stehen unter verschiedenen Lizenzen zur Verfügung:
 
-| Lizenz | Anforderung |
-|---|---|
-| **Creative Commons CC BY 4.0** | Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz. |
-| **Creative Commons CC Public Domain** | Keine Pflicht zur Quellenangabe, aber empfohlen. |
+<div className="example-grid">
+  <div className="example-card">
+    <h3>Creative Commons Lizenz CC0 1.0</h3>
+    <p>Eine Quellenangabe wird empfohlen.</p>
+  </div>
+  <div className="example-card">
+    <h3>Creative Commons Lizenz BY 4.0</h3>
+    <p>Die Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz.</p>
+  </div>
+</div>
