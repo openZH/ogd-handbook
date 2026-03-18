@@ -15,4 +15,4 @@ Die Daten fliessen damit von unten nach oben: von den veröffentlichenden Stelle
 
 Den strategischen Rahmen für diese Landschaft in der Schweiz bildet der [**OGD-Masterplan 2024–2027**](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie/masterplan.html). Mit dem Inkrafttreten des **EMBAG** (Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben) wurde das Prinzip «Open by Default» erstmals rechtlich verankert: Bundesverwaltungen sind seither verpflichtet, ihre Daten standardmässig als OGD zu veröffentlichen. Der Masterplan dient gleichzeitig als Referenzdokument für Kantone, Gemeinden und staatsnahe Betriebe.
 
-<img src="/img/ogd_masterplan_bund.png" alt="OGD-Masterplan Bund" width="750" />
+<img src={require('@site/static/img/ogd_masterplan_bund.png').default} alt="OGD-Masterplan Bund" width="750" />
