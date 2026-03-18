@@ -5,32 +5,60 @@ sidebar_label: Leitmotiv FAIR & CARE
 sidebar_position: 3
 ---
 
-# Leitmotiv FAIR & CARE
+# Leitmotiv "Fair & Care"
 
-Die Leitmotive **FAIR & CARE** konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Sie verbinden technische Offenheit mit verantwortungsvollem Handeln.
+Die Leitmotive "FAIR & CARE" konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Dieses Leitmotiv verbindet technische Offenheit mit verantwortungsvollem Handeln.
 
-## FAIR – Qualitätsanforderungen
+## FAIR
 
-FAIR beschreibt die Qualitätsanforderungen an offene Daten. Offene Verwaltungsdaten sollen nicht nur veröffentlicht, sondern so bereitgestellt werden, dass sie wirklich nutzbar sind.
+FAIR beschreibt die Qualitätsanforderungen an offene Daten. Offene Verwaltungsdaten sollen nicht nur veröffentlicht, sondern so bereitgestellt werden, dass sie auffindbar, ohne individuelle Zugangsbeschränkung zugänglich, technisch verarbeitbar und wiederverwendbar sind.
 
-| Buchstabe | Begriff | Bedeutung |
-|---|---|---|
-| **F** | Findable – auffindbar | Daten sind mit eindeutigen Identifikatoren und beschreibenden Metadaten versehen, damit sie gefunden werden können. |
-| **A** | Accessible – zugänglich | Daten sind ohne individuelle Zugangsbeschränkung abrufbar, idealerweise über offene Schnittstellen. |
-| **I** | Interoperable – interoperabel | Daten verwenden standardisierte Formate und Vokabulare, damit sie mit anderen Datensätzen kombiniert werden können. |
-| **R** | Reusable – wiederverwendbar | Daten sind klar lizenziert und dokumentiert, damit sie für verschiedene Zwecke weiterverwendet werden können. |
+<div className="acronym-grid">
+  <div className="acronym-card">
+    <div className="acronym-letter">F</div>
+    <strong>Findable</strong>
+    <span>auffindbar</span>
+  </div>
+  <div className="acronym-card">
+    <div className="acronym-letter">A</div>
+    <strong>Accessible</strong>
+    <span>zugänglich</span>
+  </div>
+  <div className="acronym-card">
+    <div className="acronym-letter">I</div>
+    <strong>Interoperable</strong>
+    <span>interoperabel</span>
+  </div>
+  <div className="acronym-card">
+    <div className="acronym-letter">R</div>
+    <strong>Reusable</strong>
+    <span>wiederverwendbar</span>
+  </div>
+</div>
 
-## CARE – Gesellschaftliche Verantwortung
+## CARE
 
-CARE ergänzt FAIR um eine gesellschaftliche Perspektive. Offenheit endet dort, wo Schutzrechte, Datenschutz oder ethische Grundsätze berührt sind.
+CARE ergänzt FAIR um eine gesellschaftliche Perspektive. Offenheit endet dort, wo Schutzrechte, Datenschutz oder ethische Grundsätze berührt sind. Open Government Data stehen daher im Spannungsfeld zwischen Transparenz und Verantwortung.
 
-| Buchstabe | Begriff | Bedeutung |
-|---|---|---|
-| **C** | Collective Benefit – Nutzen für die Allgemeinheit | Daten sollen dem gesellschaftlichen Wohl dienen und nicht nur einzelnen Interessen. |
-| **A** | Authority to Control – Wahrung von Zuständigkeiten | Zuständigkeiten und Rechte über Daten werden respektiert. |
-| **R** | Responsibility – Verantwortung | Der Umgang mit Daten erfolgt verantwortungsvoll und mit Blick auf mögliche Auswirkungen. |
-| **E** | Ethics – Ethik | Ethische Grundsätze leiten die Erhebung, Bereitstellung und Nutzung von Daten. |
-
-:::info Spannungsfeld
-Open Government Data stehen im Spannungsfeld zwischen Transparenz und Verantwortung. FAIR & CARE helfen, dieses Gleichgewicht zu finden.
-:::
+<div className="acronym-grid">
+  <div className="acronym-card">
+    <div className="acronym-letter">C</div>
+    <strong>Collective Benefit</strong>
+    <span>Nutzen für die Allgemeinheit</span>
+  </div>
+  <div className="acronym-card">
+    <div className="acronym-letter">A</div>
+    <strong>Authority to Control</strong>
+    <span>Wahrung von Zuständigkeiten und Rechten</span>
+  </div>
+  <div className="acronym-card">
+    <div className="acronym-letter">R</div>
+    <strong>Responsibility</strong>
+    <span>verantwortungsvoller Umgang</span>
+  </div>
+  <div className="acronym-card">
+    <div className="acronym-letter">E</div>
+    <strong>Ethics</strong>
+    <span>ethische Grundsätze</span>
+  </div>
+</div>
