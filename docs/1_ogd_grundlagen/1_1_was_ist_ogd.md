@@ -16,9 +16,9 @@ Für die Verwaltungsarbeit werden Daten benötigt. In der öffentlichen Verwaltu
 
 Open Government Data tragen zu einer transparenten und effizienten Verwaltung bei:
 
-- Die Daten machen die Arbeit der Verwaltung nachvollziehbar – das stärkt Transparenz und Vertrauen.
+- Die Daten machen die Arbeit der Verwaltung nachvollziehbar - das stärkt Transparenz und Vertrauen.
 - Auf Basis der Daten können sich alle eine eigene Meinung bilden und innovative Lösungen für die öffentliche Hand oder die Privatwirtschaft entwickeln.
-- Die Daten lassen sich direkt in Prozesse und Anwendungen einbinden – das ist effizient und weniger fehleranfällig.
+- Die Daten lassen sich direkt in Prozesse und Anwendungen einbinden - das ist effizient und weniger fehleranfällig.
 
 :::info Nicht alle Verwaltungsdaten sind OGD
 Ausgeschlossen sind insbesondere schützenswerte, vertrauliche oder sicherheitsrelevante Daten.
@@ -72,7 +72,7 @@ export const carrotSteps = [
 
 ### Fahrplandaten des öffentlichen Verkehrs
 
-Der öffentliche Verkehr veröffentlicht Fahrplan- und Echtzeitdaten als OGD – darunter Haltestellen, Linienverläufe, Fahrpläne sowie aktuelle Positions- und Verspätungsinformationen. [opentransportdata.swiss](https://opentransportdata.swiss) stellt diese Daten zur freien Weiterverwendung bereit.
+Der öffentliche Verkehr veröffentlicht Fahrplan- und Echtzeitdaten als OGD - darunter Haltestellen, Linienverläufe, Fahrpläne sowie aktuelle Positions- und Verspätungsinformationen. [opentransportdata.swiss](https://opentransportdata.swiss) stellt diese Daten zur freien Weiterverwendung bereit.
 
 Auf dieser Grundlage entstehen u.a.:
 - Fahrplan-Apps (z.B. [sbb.ch](https://sbb.ch)) 
@@ -85,7 +85,7 @@ Auf dieser Grundlage entstehen u.a.:
 
 ### Wetterdaten
 
-MeteoSchweiz stellt zahlreiche Wetter- und Klimadaten zur freien Weiterverwendung bereit – Temperatur- und Niederschlagsmessungen, Wind- und Luftdruckdaten aus verschiedenen Wetterstationen.
+MeteoSchweiz stellt zahlreiche Wetter- und Klimadaten zur freien Weiterverwendung bereit - Temperatur- und Niederschlagsmessungen, Wind- und Luftdruckdaten aus verschiedenen Wetterstationen.
 
 Auf dieser Grundlage entstehen u.a.:
 - Wetter-Apps und Online-Prognosen

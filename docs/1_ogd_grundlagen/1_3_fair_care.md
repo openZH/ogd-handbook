@@ -17,22 +17,22 @@ FAIR beschreibt die Qualitätsanforderungen an offene Daten. Offene Verwaltungsd
   <div className="acronym-card">
     <div className="acronym-letter">F</div>
     <strong>Findable</strong>
-    <span>auffindbar</span>
+    <span>Auffindbar</span>
   </div>
   <div className="acronym-card">
     <div className="acronym-letter">A</div>
     <strong>Accessible</strong>
-    <span>zugänglich</span>
+    <span>Zugänglich</span>
   </div>
   <div className="acronym-card">
     <div className="acronym-letter">I</div>
     <strong>Interoperable</strong>
-    <span>interoperabel</span>
+    <span>Interoperabel</span>
   </div>
   <div className="acronym-card">
     <div className="acronym-letter">R</div>
     <strong>Reusable</strong>
-    <span>wiederverwendbar</span>
+    <span>Wiederverwendbar</span>
   </div>
 </div>
 
@@ -54,11 +54,11 @@ CARE ergänzt FAIR um eine gesellschaftliche Perspektive. Offenheit endet dort, 
   <div className="acronym-card">
     <div className="acronym-letter">R</div>
     <strong>Responsibility</strong>
-    <span>verantwortungsvoller Umgang</span>
+    <span>Verantwortungsvoller Umgang</span>
   </div>
   <div className="acronym-card">
     <div className="acronym-letter">E</div>
     <strong>Ethics</strong>
-    <span>ethische Grundsätze</span>
+    <span>Ethische Grundsätze</span>
   </div>
 </div>
