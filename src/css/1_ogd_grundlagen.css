@@ -78,6 +78,47 @@
 }
 
 /* 1_3 FAIR & CARE */
+.acronym-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.acronym-card {
+  border: 1px solid var(--kzh-border);
+  border-top: 4px solid var(--kzh-blue);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  background: white;
+}
+
+.acronym-card .acronym-letter {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--kzh-blue);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.acronym-card strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.acronym-card span {
+  font-size: 0.88rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+@media (max-width: 768px) {
+  .acronym-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .acronym-grid { grid-template-columns: 1fr; }
+}
 
 /* 1_4 OGD Landschaft */
 
