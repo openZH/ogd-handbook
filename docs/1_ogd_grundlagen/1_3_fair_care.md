@@ -36,6 +36,7 @@ FAIR beschreibt die Qualitätsanforderungen an offene Daten. Offene Verwaltungsd
   </div>
 </div>
 
+
 ## CARE
 
 CARE ergänzt FAIR um eine gesellschaftliche Perspektive. Offenheit endet dort, wo Schutzrechte, Datenschutz oder ethische Grundsätze berührt sind. Open Government Data stehen daher im Spannungsfeld zwischen Transparenz und Verantwortung.
