@@ -1,7 +1,7 @@
 ---
-id: transparenz
-title: Transparenz in der Verwaltung
-sidebar_label: Transparenz in der Verwaltung
+id: zugang
+title: Informations- und Datenzugang
+sidebar_label: Informations- und Datenzugang
 sidebar_position: 1
 ---
 
@@ -9,13 +9,15 @@ import BoatStaircase from '@site/src/components/BoatStaircase';
 import { CardGrid, Card } from '@site/src/components/CardGrid';
 
 
-# Transparenz in der Verwaltung
+# Informations- und Datenzugang im Kanton Zürich
+
+## Vom Amtsgeheimnis zur offenen Verwaltung
 
 <BoatStaircase />
 
 Der Kanton Zürich kennt seit 2006 das [Öffentlichkeitsprinzip](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html), das Verwaltungshandeln auch für Aussenstehende nachvollziehbar machen will. Mit Einführung des Öffentlichkeitsprinzip fiel auch das Amtsgeheimnis, das Verwaltungshandeln bis dahin prägte. Heute wird unterschieden zwischen Information die öffentlich sein darf, Information, die intern bleiben sollte, Information, die vertraulich ist und Information, die geheim bleiben muss. Diese Klassifizierung bestimmt den Personenkreis, dem die Information per se zugänglich ist. Das Öffentlichkeitsprinzip verpflichtet einerseits staatliche Stellen, mit Information von **allgemeinem Interesse** von sich aus an die Öffentlichkeit zu gelangen, also eine aktive Informationspolitik zu betreiben. Andererseits hat jede Person grundsätzlich das Recht auf Zugang zu Informationen, die bei staatlichen Stellen vorhanden sind. Angefragte staatliche Stellen sind verpflichtet, solche Anfragen zu beantworten.
 
-Unter den juristischen Begriff der Information fallen auch Daten. Um sich die Arbeit zu erleichtern, darf die Verwaltung nicht-schützenswerte Daten proaktiv und offen publizieren. Bei Anfragen kann sie auf die open data verweisen, datenbasierte Prozesse können auf die Daten aufbauen.s
+Unter den juristischen Begriff der Information fallen auch Daten. Um sich die Arbeit zu erleichtern, darf die Verwaltung nicht-schützenswerte Daten proaktiv und offen publizieren. Bei Anfragen kann sie auf die open data verweisen, datenbasierte Prozesse können auf die Daten aufbauen.
 
 ## Open Data im Kanton Zürich
 
@@ -32,7 +34,7 @@ Im Kanton Zürich publizieren die Städte [Winterthur](https://stadt.winterthur.
 Für Open Data, die über die Metadatenverwaltung publiziert werden, erhebt die Fach- und Koordinationsstelle Open Government Data Nutzungszahlen und publiziert sie als [OGD](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2522@statistisches-amt-kanton-zuerich) und visualisiert sie in einem [Dashboard](https://openzh.shinyapps.io/OGD_Analytics/).
 
 
-## Weitere Datenprodukte im Kanton Zürich
+## Weitere Informations- und Datenzugänge im Kanton Zürich
 Open Government Data folgen den [FAIR-Prinzipien](/ogd_grundlagen/fair-care): sie sind im Datenkatalog findbar, sie sind frei zugänglich, sie sind interoperabel aufbereitet und dank Metadaten und maschinenlesbarem Format gut wiederverwendbar. Der Kanton Zürich kommt seinem Informationsauftrag auch mit Datenprodukten nach, die teilweise nicht auf Open Data basieren:
 
 <CardGrid cols={3}>

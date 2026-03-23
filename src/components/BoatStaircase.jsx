@@ -36,8 +36,6 @@ export default function BoatStaircase() {
 
   return (
     <figure className={styles.figure}>
-      <p className={styles.heading}>Warum Daten öffnen?</p>
-
       {/* Outer wrapper gives boats room to overflow */}
       <div className={styles.outer}>
         {/* Bars — laid out in normal flow */}
