@@ -6,6 +6,7 @@ sidebar_position: 1
 ---
 
 import BoatStaircase from '@site/src/components/BoatStaircase';
+import { CardGrid, Card } from '@site/src/components/CardGrid';
 
 
 # Transparenz in der Verwaltung
@@ -34,73 +35,48 @@ Für Open Data, die über die Metadatenverwaltung publiziert werden, erhebt die 
 ## Weitere Datenprodukte im Kanton Zürich
 Open Government Data folgen den [FAIR-Prinzipien](/ogd_grundlagen/fair-care): sie sind im Datenkatalog findbar, sie sind frei zugänglich, sie sind interoperabel aufbereitet und dank Metadaten und maschinenlesbarem Format gut wiederverwendbar. Der Kanton Zürich kommt seinem Informationsauftrag auch mit Datenprodukten nach, die teilweise nicht auf Open Data basieren:
 
-<div className="principle-grid">
-
-<div className="example-card">
-
-[Geschäftsberichte und Rechnungen](https://www.zh.ch/de/steuern-finanzen/kantonsfinanzen/geschaeftsbericht-rechnung.html)
+<CardGrid cols={3}>
+<Card title="Geschäftsberichte und Rechnungen" href="https://www.zh.ch/de/steuern-finanzen/kantonsfinanzen/geschaeftsbericht-rechnung.html">
 
 Die Kantonsregierung mit ihren Direktionen und der Staatskanzlei berichtet über die wesentlichen Leistungen des Geschäftsjahres.
 
-</div>
+</Card>
+<Card title="Verzeichnis der Behörden" href="https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/behoerdenverzeichnis.html">
 
-<div className="example-card">
+Das digitale Nachschlagewerk der Zürcher Behörden mit Kontaktstellen.
 
-[Verzeichnis der Behörden](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/behoerdenverzeichnis.html)
-
-Das digitale Nachschlagewerk der Zürcher Behörden mit Kontaktstellen. 
-
-</div>
-
-<div className="example-card">
-
-[Geodaten auf Karten](https://geo.zh.ch/maps?x=2682088&y=1253620&scale=282230&basemap=arelkbackgroundzh)
+</Card>
+<Card title="Geodaten auf Karten" href="https://geo.zh.ch/maps?x=2682088&y=1253620&scale=282230&basemap=arelkbackgroundzh">
 
 Räumliche Daten des Kantons visualisiert.
 
-</div>
-
-<div className="example-card">
-
-[Informationsbestände gemäss IDG](https://www.zh.ch/de.html)
+</Card>
+<Card title="Informationsbestände gemäss IDG" href="https://www.zh.ch/de.html">
 
 Verzeichnisse pro Amt und Organisationseinheit auf der kantonalen Webseite.
 
-</div>
-
-<div className="example-card">
-
-[Statistische Analysen und Datenerhebungen](https://www.zh.ch/de/politik-staat/statistik-daten.html)
+</Card>
+<Card title="Statistische Analysen und Datenerhebungen" href="https://www.zh.ch/de/politik-staat/statistik-daten.html">
 
 Datenanalysen und Webapplikationen zu kantonalen Statistiken.
 
-</div>
+</Card>
+<Card title="Zahlen und Fakten zur Bildung" href="https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten.html?page=1">
 
-<div className="example-card">
+Kennzahlen und Visualisierungen zum Zürcher Bildungssystem.
 
-[Zahlen und Fakten zur Bildung](https://www.zh.ch/de/bildung/bildungssystem/zahlen-fakten.html?page=1)
-
-Kennzahlen UND Visualisierungen zum Zürcher Bildungssystem.
-
-</div>
-
-<div className="example-card">
-
-[Zürcher Gemeinden in Zahlen](https://zgz.statistik.zh.ch/?gtc=1&gc=1)
+</Card>
+<Card title="Zürcher Gemeinden in Zahlen" href="https://zgz.statistik.zh.ch/?gtc=1&gc=1">
 
 Statistikportal mit Kennzahlen und Visualisierungen zu Zürcher Gemeinden, Bezirke und Regionen.
 
-</div>
-
-<div className="example-card">
-
-[Zürcher Wirtschaftszahlen](https://www.zh.ch/de/wirtschaft-arbeit/zuercher-wirtschaftszahlen.html)
+</Card>
+<Card title="Zürcher Wirtschaftszahlen" href="https://www.zh.ch/de/wirtschaft-arbeit/zuercher-wirtschaftszahlen.html">
 
 Zahlen zu Konjunktur, Wirtschaft und Arbeitsmarkt.
 
-</div>
-
-</div>
+</Card>
+</CardGrid>
 
 :::info Daten nicht gefunden?
 Findest Du die gesuchten Daten nicht? Melde Dich mit deiner [Datenanfrage](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/) bei uns. Viele Open Data werden bedarfsorientiert publiziert, eine Meldung ist hilfreich.
