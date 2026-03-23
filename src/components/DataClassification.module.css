@@ -1,0 +1,169 @@
+.figure {
+  margin: 1.5rem 0 2rem 0;
+  font-size: 0.88rem;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--kzh-black);
+}
+
+.arrow {
+  font-size: 1.1rem;
+  color: var(--kzh-black);
+}
+
+.careBadge {
+  background-color: var(--kzh-blue);
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 3px;
+}
+
+.subtitle {
+  margin-bottom: 0.75rem;
+  color: var(--kzh-black);
+}
+
+/* ── Grid layout ── */
+.grid {
+  border: 1px solid var(--kzh-border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.headerRow,
+.contentRow,
+.accessRow,
+.bottomRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Header */
+.headerCell {
+  font-weight: 700;
+  text-align: center;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--kzh-border);
+  border-right: 1px solid var(--kzh-border);
+}
+
+.headerCell:last-child {
+  border-right: none;
+}
+
+/* Content (bullets) */
+.contentCell {
+  padding: 0.6rem 0.75rem;
+  border-right: 1px solid var(--kzh-border);
+}
+
+.contentCell:last-child {
+  border-right: none;
+}
+
+.bulletList {
+  margin: 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+  color: var(--kzh-black);
+}
+
+.bulletList li {
+  margin-bottom: 0.25rem;
+  line-height: 1.45;
+}
+
+/* Access row */
+.accessRow {
+  border-top: 1px solid var(--kzh-border);
+  border-bottom: 1px solid var(--kzh-border);
+}
+
+.accessCell {
+  text-align: center;
+  padding: 0.35rem 0.5rem;
+  color: var(--kzh-black);
+  border-right: 1px solid var(--kzh-border);
+}
+
+.accessCell:last-child {
+  border-right: none;
+}
+
+/* FAIR banner */
+.fairBanner {
+  background-color: var(--kzh-white);
+  color: var(--kzh-black);
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 0.35rem 0.5rem;
+  letter-spacing: 0.03em;
+}
+
+/* Bottom row */
+.bottomRow {
+  border-top: 1px solid var(--kzh-border);
+}
+
+.bottomCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.6rem;
+  min-height: 48px;
+  text-align: center;
+  border-right: 1px solid var(--kzh-border);
+}
+
+.bottomCell:last-child {
+  border-right: none;
+}
+
+.shieldFill {
+  fill: var(--kzh-grey);
+  opacity: 0.18;
+  stroke: var(--kzh-grey);
+}
+
+.shieldStroke {
+  stroke: var(--kzh-grey);
+}
+
+.openDataTag {
+  background-color: var(--kzh-violet);
+  color: white;
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.bottomText {
+  color: var(--kzh-dark-grey);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 600px) {
+  .headerRow,
+  .contentRow,
+  .accessRow,
+  .bottomRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
