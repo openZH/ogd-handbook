@@ -5,17 +5,38 @@ sidebar_label: Offene Daten publizieren
 sidebar_position: 5
 ---
 
+import ProcessStepper from '@site/src/components/ProcessStepper';
+
 # Offene Daten publizieren
 
 ## Fünf Schritte, um Daten offen verfügbar zu machen
 
-{/* TODO: Grafik oder interaktiver Bereich */}
-
-1. **Daten aufbereiten** — Daten als maschinenlesbare Distribution aufbereiten. → Kapitel Daten
-2. **Metadaten beschreiben** — Daten mit aussagekräftigen Metadaten beschreiben. → Kapitel Metadaten
-3. **In der Metadaten-Verwaltung erfassen** — Daten und Metadaten manuell in der Metadaten-Verwaltung erfassen oder per Skript automatisiert einspielen. → Kapitel MDV & R-Package
-4. **Zur Prüfung freigeben** — Datensatz mit Distributionen zur Prüfung freigeben. Eine erfahrene Person, die Datensätze bei ihrer erstmaligen Publikation prüfen, gibt Feedback oder publiziert direkt.
-5. **Aktualisieren** — Distributionen und Metadaten laufend aktualisieren (manuell oder per Skript) sobald neue Daten oder Änderungen vorliegen. → Kapitel MDV & R-Package
+<ProcessStepper steps={[
+  {
+    title: "Daten aufbereiten",
+    text: "Daten als maschinenlesbare Distribution aufbereiten.",
+    link: { label: "Kapitel Daten", href: "#" }
+  },
+  {
+    title: "Metadaten beschreiben",
+    text: "Daten mit aussagekräftigen Metadaten beschreiben.",
+    link: { label: "Kapitel Metadaten", href: "#" }
+  },
+  {
+    title: "In der MDV erfassen",
+    text: "Daten und Metadaten manuell in der Metadaten-Verwaltung erfassen oder per Skript automatisiert einspielen.",
+    link: { label: "Kapitel MDV & R-Package", href: "#" }
+  },
+  {
+    title: "Zur Prüfung freigeben",
+    text: "Datensatz mit Distributionen zur Prüfung freigeben. Eine erfahrene Person prüft den Datensatz bei seiner erstmaligen Publikation und gibt Feedback oder publiziert direkt."
+  },
+  {
+    title: "Aktualisieren",
+    text: "Distributionen und Metadaten laufend aktualisieren (manuell oder per Skript) sobald neue Daten oder Änderungen vorliegen.",
+    link: { label: "Kapitel MDV & R-Package", href: "#" }
+  }
+]} />
 
 ## Du möchtest Daten veröffentlichen?
 
