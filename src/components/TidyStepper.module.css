@@ -1,0 +1,152 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card {
+  border: 1px solid #CCCCCC;
+  border-top: 4px solid #0070B4;
+  border-radius: 4px;
+  padding: 2rem 2.5rem;
+  width: 100%;
+  max-width: 680px;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 64, 124, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+  align-self: flex-start;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin: 0;
+  border: none !important;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  margin: 0rem 0;
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  width: 100%;
+}
+
+.table th {
+  background: #F0F0F0;
+  color: #333;
+  font-weight: 600;
+  padding: 0.45rem 0.75rem;
+  text-align: left;
+  border: 1px solid #CCCCCC;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #CCCCCC;
+  color: #333;
+  white-space: nowrap;
+}
+
+.table tr:nth-child(even) td {
+  background: #F8F8F8;
+}
+
+.reason {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  background: #F8F8F8;
+  border-left: 3px solid #CCCCCC;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0 2px 2px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btnPrimary {
+  background: #0070B4;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+
+.btnPrimary:hover {
+  background: #005A90;
+}
+
+.btnSecondary {
+  background: white;
+  color: #0070B4;
+  border: 2px solid #0070B4;
+  padding: 0.6rem 1.25rem;
+  border-radius: 2px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.btnSecondary:hover {
+  background: #EDF5FA;
+}
+
+.dots {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 680px;
+  justify-content: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #0070B4;
+  background: white;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.2s;
+}
+
+.dotActive {
+  background: #0070B4;
+  transform: scale(1.2);
+}
+
+.dotDone {
+  background: #B0C8E0;
+  border-color: #B0C8E0;
+}
