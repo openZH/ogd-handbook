@@ -120,7 +120,7 @@ a:hover { color: var(--kzh-blue); }
 /* TABLES */
 table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1.5rem 0; }
 th { background-color: var(--kzh-grey-light); color: var(--kzh-black); font-weight: 700; padding: 0.6rem 1rem; text-align: left; border-bottom: 2px solid var(--kzh-border); }
-td { padding: 0.55rem 1rem; border-bottom: 1px solid var(--kzh-border); vertical-align: top; }
+td { padding: 0.55rem 1rem; border-bottom: 1px solid var(--kzh-border); vertical-align: top; line-height: 1.35; }
 tr:nth-child(even) td { background-color: #FAFAFA; }
 tr:hover td { background-color: #F0F0F0; }
 
