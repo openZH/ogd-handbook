@@ -14,27 +14,41 @@ import ProcessStepper from '@site/src/components/ProcessStepper';
 <ProcessStepper steps={[
   {
     title: "Daten aufbereiten",
+    emoji: "📂",
     text: "Daten als maschinenlesbare Distribution aufbereiten.",
-    link: { label: "Kapitel Daten", href: "#" }
+    links: [
+        { label: "→Struktur & Format", href: "#" },
+        { label: "→ Daten mit R aufbereiten", href: "#" }
+    ]
   },
   {
     title: "Metadaten beschreiben",
+    emoji: "🏷️",
     text: "Daten mit aussagekräftigen Metadaten beschreiben.",
-    link: { label: "Kapitel Metadaten", href: "#" }
+    links: [{ label: "→ Metadaten", href: "#" }]
   },
   {
     title: "In der MDV erfassen",
-    text: "Daten und Metadaten manuell in der Metadaten-Verwaltung erfassen oder per Skript automatisiert einspielen.",
-    link: { label: "Kapitel MDV & R-Package", href: "#" }
+    emoji: "✏️",
+    text: "Daten und Metadaten manuell in der Metadaten-Verwaltung (MDV) erfassen oder per Skript automatisiert einspielen.",
+    links: [
+      { label: "→ Manuell: MDV Tutorial", href: "#" },
+      { label: "→ Skript: R-Package", href: "#" }
+    ]
   },
   {
     title: "Zur Prüfung freigeben",
+    emoji: "🔍",
     text: "Datensatz mit Distributionen zur Prüfung freigeben. Eine erfahrene Person prüft den Datensatz bei seiner erstmaligen Publikation und gibt Feedback oder publiziert direkt."
   },
   {
     title: "Aktualisieren",
+    emoji: "🔄",
     text: "Distributionen und Metadaten laufend aktualisieren (manuell oder per Skript) sobald neue Daten oder Änderungen vorliegen.",
-    link: { label: "Kapitel MDV & R-Package", href: "#" }
+    links: [
+      { label: "→ Manuell: MDV Tutorial", href: "#" },
+      { label: "→ Skript: R-Package", href: "#" }
+    ]
   }
 ]} />
 
