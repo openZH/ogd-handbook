@@ -126,7 +126,7 @@ tr:hover td { background-color: #F0F0F0; }
 
 /* CODE */
 code {
-  background-color: #E8F5F5; color: var(--kzh-blue);
+  background-color: var(--kzh-blue-light); color: var(--kzh-blue);
   border: 1px solid #B0D8D8; border-radius: 2px;
   padding: 0.1em 0.35em; font-size: 0.88em;
 }
