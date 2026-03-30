@@ -1,5 +1,5 @@
 ---
-id: daten-nachvollziehbar-aufbereiten
+id: r-skript-beispiel
 title: Daten nachvollziehbar aufbereiten
 sidebar_label: R-Skript Beispiel
 sidebar_position: 1
