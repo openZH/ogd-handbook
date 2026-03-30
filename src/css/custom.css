@@ -117,6 +117,9 @@ h3 { font-size: 1.1rem; font-weight: 700; color: var(--kzh-black); }
 a { color: var(--kzh-blue); }
 a:hover { color: var(--kzh-blue); }
 
+/* LAYOUT */
+[class*="docMainContainer"] { padding-left: 2rem; }
+
 /* DATA CARD */
 .data-card-content table { width: max-content !important; margin: 0; }
 
