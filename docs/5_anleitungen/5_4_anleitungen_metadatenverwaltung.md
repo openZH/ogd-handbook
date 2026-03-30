@@ -21,13 +21,13 @@ Ein Datensatz durchläuft folgende Schritte bis zur Publikation:
 ### Datensatz erstellen
 
 <video controls width="100%" style={{marginBottom:'1.5rem'}}>
-  <source src="/ogd-handbook/video/MDV Tutorial_Datensatz erstellen.mov" />
+  <source src="/ogd-handbook/video/MDV Tutorial_Datensatz erstellen.mp4" />
 </video>
 
 ### Datensatz bearbeiten
 
 <video controls width="100%" style={{marginBottom:'1.5rem'}}>
-  <source src="/ogd-handbook/video/MDV Tutorial_Datensatz bearbeiten.mov" />
+  <source src="/ogd-handbook/video/MDV Tutorial_Datensatz bearbeiten.mp4" />
 </video>
 
 ### Datenkomponente im zhWeb einfügen
