@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# 7. Kontakt
+# 6. Kontakt
 
 
 ## Fach- und Koordinationsstelle OGD
@@ -12,15 +12,15 @@ Mehr Informationen zu unserem Auftrag, dem Team, den Mitgliedern des Fachausschu
 
 <div style={{display: 'flex', gap: '2rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <div style={{textAlign: 'center', width: '150px'}}>
-    <img src={require('/img/avatar_ls.png').default} style={{borderRadius: '50%', width: '100px', height: '100px', objectFit: 'cover'}} />
+    <img src={require('/img/avatar_ls.png').default} style={{borderRadius: '50%', width: '120px', height: '120px', objectFit: 'cover'}} />
     <p><strong>Laure Stadler</strong><br/>Lead FK OGD</p>
   </div>
   <div style={{textAlign: 'center', width: '150px'}}>
-    <img src={require('/img/avatar_pb.png').default} style={{borderRadius: '50%', width: '100px', height: '100px', objectFit: 'cover'}} />
+    <img src={require('/img/avatar_pb.png').default} style={{borderRadius: '50%', width: '120px', height: '120px', objectFit: 'cover'}} />
     <p><strong>Philipp Bosch</strong><br/>Stv. Lead FK OGD, Data Community</p>
   </div>
   <div style={{textAlign: 'center', width: '150px'}}>
-    <img src={require('/img/avatar_te.png').default} style={{borderRadius: '50%', width: '100px', height: '100px', objectFit: 'cover'}} />
+    <img src={require('/img/avatar_te.png').default} style={{borderRadius: '50%', width: '120px', height: '120px', objectFit: 'cover'}} />
     <p><strong>Tabea Eggler</strong><br/>Data Scientist</p>
   </div>
 </div>
