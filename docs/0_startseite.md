@@ -31,7 +31,7 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
   <a href="/ogd-handbook/grundlagen/was-ist-ogd" className="startseite-card-link">
     <div className="startseite-card">
-      <div className="startseite-card-emoji">📖</div>
+      <div className="startseite-card-emoji">💡</div>
       <strong>1. OGD Grundlagen</strong>
       <p>Grundlagen zu Open Government Data, Prinzipien, FAIR & CARE, Schweizer OGD-Landschaft und Nutzung offener Daten.</p>
     </div>
@@ -39,7 +39,7 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
   <a href="/ogd-handbook/zugang" className="startseite-card-link">
     <div className="startseite-card">
-      <div className="startseite-card-emoji">🏛️</div>
+      <div className="startseite-card-emoji">🦁</div>
       <strong>2. OGD im Kanton Zürich</strong>
       <p>Transparenz, Datenkatalog und weitere Datenzugänge, Data Governance, rechtliche Grundlagen, Datenschutz und Datenpublikationsprozess.</p>
     </div>
@@ -71,7 +71,7 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
   <a href="/ogd-handbook/kontakt" className="startseite-card-link">
     <div className="startseite-card">
-      <div className="startseite-card-emoji">💬</div>
+      <div className="startseite-card-emoji">💌</div>
       <strong>6. Kontakt</strong>
       <p>Das Team der Fach- und Koordinationsstelle OGD, Community-Events und Fachgremien.</p>
     </div>
