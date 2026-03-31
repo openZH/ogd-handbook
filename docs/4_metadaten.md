@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-sidebar_label: 5. Metadaten
+sidebar_label: 4. Metadaten
 ---
 
 # Metadaten
