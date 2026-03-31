@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+sidebar_label: 6. Kontakt
 ---
 
 # 6. Kontakt
