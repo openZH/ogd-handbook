@@ -13,10 +13,12 @@ import Tag from '@site/src/components/Tag';
 
 | Empfehlung | <Tag text="✓ Gut" color="#00797B" bg="#E8F3F2" /> | <Tag text="✗ Vermeiden" color="#B01657" bg="#F6E3EA" /> |
 |------------|------------------------------------------------|------------------------------------------------------|
+| Keine reine Zahlen | `code_xy_2023` | `2023` |
 | Beginnen nicht mit einer Zahl | `bevölkerung_absolut` | `1_bevölkerung` |
 | Eindeutig und selbsterklärend | `bevölkerung_absolut` | `wert` |
-| Keine alleinstehenden Jahreszahlen | `code_xy_2023` | `2023` |
 | Konsequent Kleinbuchstaben | `bevölkerung_absolut` | `Bevölkerung_Absolut` |
 | Keine Leerzeichen. Wörter mit Underscore verbinden | `gesuche_total` | `gesuche total` |
 | Keine Sonderzeichen | `anteil_prozent` | `anteil_%` |
+| Keine Formatierungszeichen (z.B. Zeilenumbrüche) | `bevölkerung_absolut` | `bevölkerung\nabsolut` |
 | Umlaute sind erlaubt | `bevölkerung` | – |
+| Maximal 32 Zeichen lang | `bevölkerung_absolut` | `anzahl_der_einwohnerinnen_und_einwohner_absolut` |

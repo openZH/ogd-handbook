@@ -15,6 +15,10 @@ Die Metadaten sind gemäss DCAT in Datensatz und zugehörige Distributionen gegl
 
 ## Metadatenattribute
 
+:::tip Wo Metadaten erfasst werden
+Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere Metadaten können in einer separaten TXT-Distribution ergänzt werden. Ein Beispiel dazu findet sich [hier](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/3062@tiefbauamt-kanton-zuerich).
+:::
+
 ### Datensatz
 
 | Attribut | Beschreibung | Beispiel | Typische Stolpersteine / Hinweise |
@@ -44,3 +48,5 @@ Die Metadaten sind gemäss DCAT in Datensatz und zugehörige Distributionen gegl
 | **Medientyp** | MIME-Type der Datei. | text/csv | Wird beim Hochladen einer Datei automatisch erkannt. |
 | **Dateigrösse** | Grösse der Datei in Bytes. | 2 MB | Wird beim Hochladen einer Datei automatisch erkannt. |
 | **Möchtest Du diese Daten als Offene Behördendaten veröffentlichen?** | Sollen die Daten auf opendata.swiss veröffentlicht werden? Bei "Ja" werden die Metadaten automatisch an opendata.swiss weitergeleitet. | | |
+
+
