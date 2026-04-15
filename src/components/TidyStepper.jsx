@@ -3,7 +3,7 @@ import styles from './TidyStepper.module.css';
 
 const STATUS = {
   bad:  { label: '✗ Nicht tidy', color: '#B01657', bg: '#F6E3EA' },
-  ok:   { label: '~ Fast tidy',  color: '#7F3DA7', bg: '#ECE2F1' },
+  ok:   { label: '~ Almost tidy',  color: '#7F3DA7', bg: '#ECE2F1' },
   good: { label: '✓ Tidy',       color: '#00797B', bg: '#E8F3F2' },
 };
 
