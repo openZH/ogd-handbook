@@ -8,9 +8,10 @@ export function CardGrid({ cols = 2, children }) {
   );
 }
 
-export function Card({ title, href, icon, style, children }) {
+export function Card({ title, href, icon, emoji, style, children }) {
   return (
     <div className={styles.card} style={style}>
+      {emoji && <div className={styles.emoji}>{emoji}</div>}
       {icon && (
         <div className={styles.icon}>
           <img src={icon} alt="" />

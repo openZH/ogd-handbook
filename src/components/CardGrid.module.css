@@ -36,6 +36,11 @@
 
 .body p { margin: 0; }
 
+.emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .icon {
   display: inline-flex;
   align-items: center;
