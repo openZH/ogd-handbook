@@ -60,7 +60,7 @@ import TidyStepper from '@site/src/components/TidyStepper';
     status: 'bad',
     title: 'Regel 2 verletzt "Jede Beobachtung bildet eine Zeile"',
     table: {
-      headers: ['gemeinde', 'jahr', 'bevölkerung'],
+      headers: ['gemeinde', 'jahr', 'bevoelkerung'],
       rows: [
         ['Winterthur & Uster', '2023', "118989 / 36279"],
       ]
@@ -71,44 +71,44 @@ import TidyStepper from '@site/src/components/TidyStepper';
     status: 'bad',
     title: 'Regel 3 verletzt: Jede Zelle enthält genau einen Wert',
     table: {
-      headers: ['gemeinde', 'jahr', 'bevölkerung'],
+      headers: ['gemeinde', 'jahr', 'bevoelkerung'],
       rows: [
         ['Winterthur', '2023', "118989 (bevölkerung)"],
         ['Winterthur', '2023', "2% (wachstum)"],
       ]
     },
-    reason: 'Die Zelle "bevölkerung" enthält zwei Informationen: den Zahlenwert und die Enheit. Die Einheit gehört in eine eigene Spalte.'
+    reason: 'Die Zelle "bevölkerung" enthält zwei Informationen: den Zahlenwert und die Einheit. Die Einheit gehört in eine eigene Spalte.'
   },
   {
     status: 'ok',
-    title: 'Fast Tidy - akzeptabel wenn Spalten konsistent bleiben',
+    title: 'Akmost Tidy - akzeptabel, wenn Spalten konsistent bleiben',
     table: {
-      headers: ['gemeinde', 'jahr', 'bevölkerung_absolut', 'bevölkerungswachstum_prozent'],
+      headers: ['gemeinde', 'jahr', 'bevoelkerung_reformiert', 'bevoelkerung_katholisch'],
       rows: [
-        ['Winterthur', '2023', "118989", '2'],
-        ['Winterthur', '2024', "120136", '1'],
-        ['Uster',      '2023', "36279", '1.6'],
-        ['Uster',      '2024', "36457", '0.5'],
+        ['Winterthur', '2023', '28390', '21464'],
+        ['Winterthur', '2024', '29269', '22089'],
+        ['Uster', '2023', '9615', '8164'],
+        ['Uster', '2024', '9334', '7983'],
       ]
     },
-    reason: 'Die Variable "Bevölkerung" ist auf zwei Spalten aufgeteilt, weil zwei verschiedene Einheiten existieren. Streng genommen nicht tidy – da die Spalten aber eindeutig benannt sind und konsistent bleiben, ist dies in der Praxis akzeptabel.'
+    reason: 'Die Konfession (reformiert, katholisch) steckt im Spaltennamen statt in einer eigenen Spalte - da die Spalten aber eindeutig benannt sind und konsistent bleiben, ist dies in der Praxis akzeptabel.'
   },
-  {
-    status: 'good',
-    title: 'Perfectly Tidy',
-    table: {
-      headers: ['gemeinde', 'jahr', 'messgrösse', 'bevölkerung'],
-      rows: [
-        ['Winterthur', '2023', 'bevölkerung_absolut',  "118989"],
-        ['Winterthur', '2023', 'bevölkerungswachstum_prozent',  '2'],
-        ['Winterthur', '2024', 'bevölkerung_absolut',  "120136"],
-        ['Winterthur', '2024', 'bevölkerungswachstum_prozent',  '1'],
-        ['Uster',      '2023', 'bevölkerung_absolut',  "36279"],
-        ['Uster',      '2023', 'bevölkerungswachstum_prozent',  '1.6'],
-        ['Uster',      '2024', 'bevölkerung_absolut',  "36457"],
-        ['Uster',      '2024', 'bevölkerungswachstum_prozent',  '0.5'],
-      ]
-    },
-    reason: 'Jede Variable hat genau eine Spalte, jede Beobachtung genau eine Zeile, jede Zelle genau einen Wert. Die Messgrösse ist explizit als Variable erfasst – neue Messgrössen lassen sich ohne Strukturänderung ergänzen.'
+{
+  status: 'good',
+  title: 'Perfectly Tidy',
+  table: {
+    headers: ['gemeinde', 'jahr', 'konfession', 'bevoelkerung'],
+    rows: [
+      ['Winterthur', '2023', 'reformiert', '28390'],
+      ['Winterthur', '2023', 'katholisch',  '21464'],
+      ['Winterthur', '2024', 'reformiert', '29269'],
+      ['Winterthur', '2024', 'katholisch',  '22089'],
+      ['Uster',      '2023', 'reformiert',  '9615'],
+      ['Uster',      '2023', 'katholisch',   '8164'],
+      ['Uster',      '2024', 'reformiert',  '9334'],
+      ['Uster',      '2024', 'katholisch',   '7983'],
+    ]
   },
+  reason: 'Jede Variable hat genau eine Spalte, jede Beobachtung genau eine Zeile, jede Zelle genau einen Wert. Die Konfession ist explizit als Variable erfasst - neue Konfessionen lassen sich ohne Strukturänderung ergänzen.'
+},
 ]} />
