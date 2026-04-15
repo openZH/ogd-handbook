@@ -54,5 +54,5 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
 ## Herausgeberin
 
-Dieses Handbuch wird herausgegeben vom **Amt für Statistik und Daten** durch die [**Fach- und Koordinationsstelle OGD**](/ogd-handbook/kontakt).
+Dieses Handbuch wird herausgegeben vom **Statistischen Amt des Kanton Zürich** durch die [**Fach- und Koordinationsstelle OGD**](/ogd-handbook/kontakt).
 
