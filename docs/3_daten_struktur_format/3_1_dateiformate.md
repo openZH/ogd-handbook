@@ -26,6 +26,7 @@ CSV ist das **Standardformat** für tabellarische Daten und wird für die meiste
 - **Trennzeichen:** Komma `,` (kein Semikolon)
 - **Dezimaltrennzeichen:** Punkt `.` (kein Komma)
 - **Erste Zeile:** Spaltenüberschriften (Header)
+- **Zeilenlänge:** Nicht übermässig lang (technisch max. ~8000 Zeichen)
 
 </td>
 </tr>
