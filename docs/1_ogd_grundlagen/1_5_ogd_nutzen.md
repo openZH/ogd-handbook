@@ -29,13 +29,9 @@ Offene Daten stehen unter verschiedenen Lizenzen zur Verfügung:
 
 <CardGrid>
 <Card title="Creative Commons Lizenz CC0 1.0">
-
-Eine Quellenangabe wird empfohlen.
-
+    Eine Quellenangabe wird empfohlen.
 </Card>
 <Card title="Creative Commons Lizenz BY 4.0">
-
-Die Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz.
-
+    Die Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz.
 </Card>
 </CardGrid>
