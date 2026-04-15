@@ -538,6 +538,58 @@ print(utils::head(ogd_daten, 20))
 
 </DataCard>
 
+
+## R-Script für den automatisierten Upload in den Datenkatalog
+
+Die oben erstellte CSV-Datei wäre nun bereit um als OGD-Ressource in die Metadatenverwaltung hochgeladen zu werden. Wozu aber noch mühsam händisch die Datei hochladen, wenn wir doch auch alles in einem Rutsch per R-Skript machen könnten?
+
+Mit nur wenigen Zeilen Code haben wir auch den Upload erledigt. Das Code-Beispiel folgt dabei grösstenteils dem readme des von uns zur Verfügung gestellten zhapir-Packages. Dieses findest du [hier](https://github.com/openZH/zhapir).
+
+
+<DataCard title="zhapir Beispiel" previewHeight={500}>
+
+
+```r
+# -----------------------------
+# 18) Optional: Distribution in der MDV aktualisieren
+# -----------------------------
+# Dieser Schritt ist optional.
+# Wenn du die fertige CSV-Datei direkt in der MDV nachführen willst,
+# kannst du dafür das Paket zhapir verwenden.
+#
+# WICHTIG:
+# - Du brauchst dafür einen gültigen API Key. Wie du diesen bekommst, steht im readme des Packages auf Github.
+# - Der API Key muss als ZHAPIR_API_KEY in deiner .Renviron-Datei stehen.
+# - Für produktive Änderungen immer use_dev = FALSE setzen.
+#
+# Installation bei Bedarf:
+# remotes::install_github("openZH/zhapir")
+#
+# Trage hier die ID deiner bestehenden Distribution ein.
+# Diese ID findest du in der grafischen Oberfläche des MDV.
+
+distribution_id <- 12345
+
+# Optional: nächstes geplantes Aktualisierungsdatum
+naechstes_update <- "2026-01-01"
+
+# Optional: Enddatum des aktuell beschriebenen Datenstands
+enddatum <- "2025-12-31"
+
+# Distribution aktualisieren und neue Datei hochladen
+verteilung_update <- zhapir::update_distribution(
+  id = distribution_id,
+  file_path = pfad_csv,
+  modified_next = naechstes_update,
+  end_date = enddatum,
+  use_dev = FALSE
+)
+
+print(verteilung_update)
+cat("Die Distribution in der MDV wurde aktualisiert.\n")
+```
+</DataCard>
+
 ## Erklärung der wichtigsten Schritte
 
 ### Warum lesen wir die Excel-Datei zuerst roh ein?
@@ -599,6 +651,16 @@ Beispiel: `Can't select columns that don't exist`
 
 Dann stimmen die Spaltennamen im Skript nicht mehr zur Excel-Datei. Prüfe mit: `names(excel_relevant)`.
 Passe danach die Namen oder die Auswahl im Skript an.
+
+### Fehler 5: zhapir kann nicht auf die MDV zugreifen. Fehler 401, 404 oder 500. 
+
+Prüfe in diesem Fall:
+
+- Ist das Paket `zhapir` installiert?
+- Ist dein API Key als `ZHAPIR_API_KEY` in der `.Renviron` gespeichert?
+- Hast du die R-Session nach dem Eintrag in `.Renviron` neu gestartet?
+- Verwendest du die richtige ID für Datensatz oder Distribution?
+- Ist `use_dev = FALSE` gesetzt, wenn du produktiv arbeiten willst?
 
 
 ## Gute OGD-Praxis
