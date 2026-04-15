@@ -3,6 +3,8 @@ sidebar_position: 1
 slug: /
 ---
 
+import { CardGrid, Card } from '@site/src/components/CardGrid';
+
 # Los geht's
 
 <div className="startseite-hero">
@@ -27,57 +29,26 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
 ## Inhalte
 
-<div className="startseite-cards">
-
-  <a href="/ogd-handbook/grundlagen/was-ist-ogd" className="startseite-card-link">
-    <div className="startseite-card">
-      <div className="startseite-card-emoji">💡</div>
-      <strong>1. OGD Grundlagen</strong>
-      <p>Grundlagen zu Open Government Data, Prinzipien, FAIR & CARE, Schweizer OGD-Landschaft und Nutzung offener Daten.</p>
-    </div>
-  </a>
-
-  <a href="/ogd-handbook/zugang" className="startseite-card-link">
-    <div className="startseite-card">
-      <div className="startseite-card-emoji">🦁</div>
-      <strong>2. OGD im Kanton Zürich</strong>
-      <p>Transparenz, Datenkatalog und weitere Datenzugänge, Data Governance, rechtliche Grundlagen, Datenschutz und Datenpublikationsprozess.</p>
-    </div>
-  </a>
-
-  <a href="/ogd-handbook/dateiformate" className="startseite-card-link">
-    <div className="startseite-card">
-      <div className="startseite-card-emoji">🗂️</div>
-      <strong>3. Daten</strong>
-      <p>Dateiformate, Datenstruktur, Spaltenüberschriften, Datentypen, geografische Referenzierung und Aktualisierungsstrategien.</p>
-    </div>
-  </a>
-
-  <a href="/ogd-handbook/metadaten" className="startseite-card-link">
-    <div className="startseite-card">
-      <div className="startseite-card-emoji">🏷️</div>
-      <strong>4. Metadaten</strong>
-      <p>Metadaten setzen einen Datensatz in Kontext - welche Attribute nötig sind und wie sie korrekt nach DCAT-AP CH erfasst werden.</p>
-    </div>
-  </a>
-
-  <a href="/ogd-handbook/r-skript-beispiel" className="startseite-card-link">
-    <div className="startseite-card">
-      <div className="startseite-card-emoji">🛠️</div>
-      <strong>5. Anleitungen</strong>
-      <p>Schritt-für-Schritt-Anleitungen: Daten mit R automatisiert aufbereiten, Excel zu CSV, Anleitungen für die Metadatenverwaltung-Applikation.</p>
-    </div>
-  </a>
-
-  <a href="/ogd-handbook/kontakt" className="startseite-card-link">
-    <div className="startseite-card">
-      <div className="startseite-card-emoji">💌</div>
-      <strong>6. Kontakt</strong>
-      <p>Das Team der Fach- und Koordinationsstelle OGD, Community-Events und Fachgremien.</p>
-    </div>
-  </a>
-
-</div>
+<CardGrid cols={3}>
+  <Card title="1. OGD Grundlagen" href="/ogd-handbook/grundlagen/was-ist-ogd" emoji="💡">
+    Grundlagen zu Open Government Data, Prinzipien, FAIR & CARE, Schweizer OGD-Landschaft und Nutzung offener Daten.
+  </Card>
+  <Card title="2. OGD im Kanton Zürich" href="/ogd-handbook/zugang" emoji="🦁">
+    Transparenz, Datenkatalog und weitere Datenzugänge, Data Governance, rechtliche Grundlagen, Datenschutz und Datenpublikationsprozess.
+  </Card>
+  <Card title="3. Daten" href="/ogd-handbook/dateiformate" emoji="🗂️">
+    Dateiformate, Datenstruktur, Spaltenüberschriften, Datentypen, geografische Referenzierung und Aktualisierungsstrategien.
+  </Card>
+  <Card title="4. Metadaten" href="/ogd-handbook/metadaten" emoji="🏷️">
+    Metadaten setzen einen Datensatz in Kontext – welche Attribute nötig sind und wie sie korrekt nach DCAT-AP CH erfasst werden.
+  </Card>
+  <Card title="5. Anleitungen" href="/ogd-handbook/r-skript-beispiel" emoji="🛠️">
+    Schritt-für-Schritt-Anleitungen: Daten mit R automatisiert aufbereiten, Excel zu CSV, Anleitungen für die Metadatenverwaltung-Applikation.
+  </Card>
+  <Card title="6. Kontakt" href="/ogd-handbook/kontakt" emoji="💌">
+    Das Team der Fach- und Koordinationsstelle OGD, Community-Events und Fachgremien.
+  </Card>
+</CardGrid>
 
 ---
 
