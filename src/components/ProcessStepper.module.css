@@ -1,167 +1,126 @@
 .outerWrapper {
-  margin: 1rem 0 2rem;
+  margin: 1.5rem 0 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  gap: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* ── Circle ring container ── */
-.ring {
-  position: relative;
-  flex-shrink: 0;
-}
-
-.svg {
-  position: absolute;
-  top: 0;
-  left: 0;
+/* ── Track row: nav buttons + circles ── */
+.trackRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   width: 100%;
-  height: 100%;
 }
 
-/* ── Step bubbles on the ring ── */
-.bubble {
-  position: absolute;
-  border-radius: 50%;
-  border: 2px solid var(--kzh-violet-light);
-  background: white;
-  color: var(--kzh-violet);
-  cursor: pointer;
+/* ── Track: circles + connectors ── */
+.track {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.stepWrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.stepWrapper:first-child {
+  flex: 0 0 auto;
+}
+
+.connector {
+  flex: 1;
+  height: 2px;
+  background: var(--kzh-violet-light, #ECE2F1);
+  margin-bottom: 24px;
+  transition: background 0.2s;
+}
+
+.connectorDone {
+  background: var(--kzh-violet, #7F3DA7);
+}
+
+.stepCol {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
+}
+
+/* ── Bubbles ── */
+.bubble {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--kzh-violet-light, #ECE2F1);
+  background: white;
+  color: var(--kzh-violet, #7F3DA7);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 4px;
-  gap: 2px;
   box-sizing: border-box;
-  transition: background 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 .bubble:focus-visible {
-  outline: 2px solid var(--kzh-violet);
+  outline: 2px solid var(--kzh-violet, #7F3DA7);
   outline-offset: 3px;
 }
 
 .bubbleDone {
-  border-color: var(--kzh-violet);
-  color: var(--kzh-violet);
-  background: var(--kzh-violet-light);
+  border-color: var(--kzh-violet, #7F3DA7);
+  background: var(--kzh-violet-light, #ECE2F1);
+  color: var(--kzh-violet, #7F3DA7);
 }
 
 .bubbleActive {
-  background: var(--kzh-violet);
+  background: var(--kzh-violet, #7F3DA7);
   color: white;
-  border-color: var(--kzh-violet);
-  box-shadow: 0 0 0 5px rgba(127, 61, 167, 0.18);
+  border-color: var(--kzh-violet, #7F3DA7);
 }
 
 .bubbleNum {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .bubbleLabel {
-  font-size: 0.68rem;
-  font-weight: 600;
-  line-height: 1.25;
-  text-align: center;
-  max-width: 84px;
-}
-
-.bubbleEmoji {
-  font-size: 1.1rem;
-  line-height: 1;
-}
-
-/* ── Center circle ── */
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 28px;
-  box-sizing: border-box;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.centerNum {
   font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--kzh-violet);
-  letter-spacing: 0.05em;
-  margin-bottom: 4px;
-}
-
-.centerTitle {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--kzh-violet);
+  font-weight: 500;
+  color: #888;
+  text-align: center;
+  max-width: 80px;
   line-height: 1.3;
-  margin-bottom: 8px;
 }
 
-.centerText {
-  font-size: 0.82rem;
-  color: #555;
-  line-height: 1.5;
-  margin-bottom: 6px;
+.bubbleLabelActive {
+  color: var(--kzh-violet, #7F3DA7);
+  font-weight: 700;
 }
 
-.centerLink {
-  font-size: 0.72rem;
-  font-family: inherit;
-  color: var(--kzh-violet);
-  font-weight: 600;
-  text-decoration: underline;
-  pointer-events: all;
-  display: inline-block;
-  margin-top: 2px;
-}
 
-.centerLink:hover {
-  color: var(--kzh-violet);
-  opacity: 0.7;
-}
-
-/* ── Nav buttons ── */
-.nav {
-  display: flex;
-  gap: 0.75rem;
-  margin-top: -1rem;
-  width: 500px;
-  justify-content: center;
-  position: relative;
-}
 
 .navBtn {
   background: none;
-  color: var(--kzh-violet);
+  color: var(--kzh-violet, #7F3DA7);
   border: none;
-  padding: 0;
-  font-size: 0.75rem;
-  font-weight: 600;
+  padding: 0 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
   cursor: pointer;
   font-family: inherit;
-  transition: color 0.2s;
-}
-
-.navBtn:hover:not(:disabled) {
-  color: var(--kzh-violet);
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+  margin-bottom: 24px;
 }
 
 .navBtn:disabled {
-  opacity: 0.3;
+  opacity: 0.2;
   cursor: default;
 }

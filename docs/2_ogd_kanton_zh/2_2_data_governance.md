@@ -86,20 +86,20 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
       <td>
         <ul>
           <li>Du erhebst und/oder bereinigst Daten für deine oder eine andere Verwaltungseinheit.</li>
-          <li>Du bereitest Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/741%40fachstelle-ogd-kanton-zuerich) zu einfach nutzbaren Behördendaten auf.</li>
+          <li>Du bereitest Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](/ogd-handbook/daten_struktur_format/dateiformate) zu einfach nutzbaren Behördendaten auf.</li>
           <li>Du hältst die aufbereiteten Daten aktuell und stellst ihre Zugänglichkeit sicher.</li>
         </ul>
       </td>
       <td>
         <ul>
           <li>Du planst und leitest die Publikation offener Behördendaten deiner Verwaltungseinheit.</li>
-          <li>Du beschreibst Datensätze gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.dcat-ap.ch/releases/v3/3.0.0.html) und machst sie damit einfach auffindbar.</li>
+          <li>Du beschreibst Datensätze gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](/ogd-handbook/metadaten/metadaten) und machst sie damit einfach auffindbar.</li>
           <li>Mit den 'Data Custodians' deiner Verwaltungseinheit organisierst du die Aufbereitung und laufende Aktualisierung einfach nutzbarer Behördendaten.</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Du berätst und unterstützt 'Data Custodians' und 'Data Stewards bei der effizienten Organisation und Erfüllung ihrer Aufgaben.</li>
+          <li>Du berätst und unterstützt 'Data Custodians' und 'Data Stewards' bei der effizienten Organisation und Erfüllung ihrer Aufgaben.</li>
           <li>Du gibst Schulungen, vermittelst Kurse und entwickelst Anleitungen und Hilfsmittel weiter.</li>
           <li>Du analysierst und vermittelst Bedürfnisse und Feedback von Nutzenden.</li>
         </ul>
@@ -138,4 +138,4 @@ Die Data Governance kennt weitere Rollen.
 
 ## Governance von Open Data
 
-Der OGD-Fachausschuss (TODO (Link zu den Mitgliedern in Kontakte)) verankert Open Government Data in den Direktionen, steuert die OGD-Initiative des Kantons Zürich, entscheidet über gemeinsame Standards und entscheidet in unklaren oder strittigen Fällen über die Publikation von Daten. Die Fach- und Koordinationsstelle OGD organisiert den Fachausschuss, berät, arbeitet Vorschläge aus und sorgt für die Vernetzung und Bekanntmachung von OGD in der Verwaltung und in der Öffentlichkeit.
+Der [OGD-Fachausschuss](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) verankert Open Government Data in den Direktionen, steuert die OGD-Initiative des Kantons Zürich, entscheidet über gemeinsame Standards und entscheidet in unklaren oder strittigen Fällen über die Publikation von Daten. Die Fach- und Koordinationsstelle OGD organisiert den Fachausschuss, berät, arbeitet Vorschläge aus und sorgt für die Vernetzung und Bekanntmachung von OGD in der Verwaltung und in der Öffentlichkeit.
