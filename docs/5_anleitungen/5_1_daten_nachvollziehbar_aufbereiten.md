@@ -34,7 +34,7 @@ export const DataCard = ({ title, header, children, previewHeight = 220 }) => {
   );
 };
 
-# R-Skript Vorlage: Daten nachvollziehbar aufbereiten
+# R-Skript Tutorial: Daten nachvollziehbar aufbereiten
 Die Daten, die du als OGD veröffentlichen möchtest, liegen jährlich (oder in anderen regelmässigen Abständen) vor? Du möchtest selbst nachvollziehen, wie du die Daten das letzte Jahr aufbereitet hast oder deine Datenaufbereitung in Zukunft einfach übergeben können?
 
 Hier findest du für diesen Fall einige Beispiele, wie du aus einer relativ unstrukturierten Excel-Tabelle in nachvollziehbarer Art und Weise OGD erstellen kannst. Das beste daran? Du kannst die Daten auch direkt per Code in den Datenkatalog laden, ohne den Umweg über die grafische Oberfläche zu nehmen.

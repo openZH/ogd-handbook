@@ -1,11 +1,11 @@
 ---
-id: anleitungen-mdv
-title: Anleitungen Metadatenverwaltung
-sidebar_label: Anleitungen MDV
+id: metadatenverwaltung
+title: Metadatenverwaltung Tutorials
+sidebar_label: Metadatenverwaltung
 sidebar_position: 3
 ---
 
-# Anleitungen Metadatenverwaltung
+# Metadatenverwaltung Tutorials
 Metadaten und Daten werden im kantonalen Tool [Metadatenverwaltung](https://mdv.statistik.zh.ch/#/login) verwaltet. Die Logindetails erhältst du in der Data Steward Einführung.
 
 ## Status und Publikationsfluss
