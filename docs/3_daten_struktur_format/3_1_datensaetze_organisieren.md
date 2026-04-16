@@ -1,5 +1,5 @@
 ---
-id: datensaetze_organisieren
+id: datensaetze-organisieren
 title: Datensätze organisieren
 sidebar_label: Datensätze organisieren
 sidebar_position: 1

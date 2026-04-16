@@ -1,5 +1,5 @@
 ---
-id: spaltenüberschriften
+id: spaltenuberschriften
 title: Header und Datenzeilen
 sidebar_label: Header und Datenzeilen
 sidebar_position: 4

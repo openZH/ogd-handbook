@@ -109,6 +109,7 @@ const config = {
         copyright: `
           <div class="ft-wrap">
             <div class="ft-title">Fach- und Koordinationsstelle OGD</div>
+            <div class="ft-email"><a href="mailto:info@open.zh.ch">info@open.zh.ch</a></div>
             <div class="ft-copyright">©2026 Kanton Zürich</div>
           </div>
         `,
