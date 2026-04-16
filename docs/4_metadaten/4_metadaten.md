@@ -24,26 +24,26 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 | Attribut | Beschreibung | Beispiel | Typische Stolpersteine / Hinweise |
 |----------|--------------|---------|---------|
 | **Titel** | Knapp und allgemein verständlicher Titel. Nennt den Inhalt (z. B. „...Verkehrszähldaten Veloverkehr"), den geografischen Raum (z. B. „…im Kanton Zürich") und falls nötig eine zeitliche Abgrenzung (z. B. „…bis 2022"). | Verkehrszähldaten Veloverkehr im Kanton Zürich | Keine Abkürzungen |
-| **Beschreibung** | Überblick zu Inhalt, Kontext, Erhebungsmethode und allfälligen Einschränkungen. Titel und Beschreibung sollen unterschiedlich formuliert sein (verbessert SEO). | Der Datensatz enthält stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich. Die Daten werden mittels automatischer Sensoren erhoben und umfassen alle permanenten Zählstellen des Kantons seit 2016. Es handelt sich um Rohdaten, die weder plausibilisiert noch korrigiert sind. Technische Ausfälle oder temporäre Ausserbetriebnahme der Sensoren können zu Messlücken führen. | Brüche in Zeitreihen, Lücken oder Qualitätsprobleme explizit erwähnen. Eine Hilfestellung für eine sinnvolle Beschreibungen findet sich unter: Streamlit. |
+| **Beschreibung** | Überblick zu Inhalt, Kontext, Erhebungsmethode und allfälligen Einschränkungen. Titel und Beschreibung sollen unterschiedlich formuliert sein (verbessert SEO). | Der Datensatz enthält stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich. Die Daten werden mittels automatischer Sensoren erhoben und umfassen alle permanenten Zählstellen des Kantons seit 2016. Es handelt sich um Rohdaten, die weder plausibilisiert noch korrigiert sind. Technische Ausfälle oder temporäre Ausserbetriebnahme der Sensoren können zu Messlücken führen. | Brüche in Zeitreihen, Lücken oder Qualitätsprobleme explizit erwähnen. <br /> **Eine Hilfestellung für eine sinnvolle Beschreibung: [metafairy.datazh.ch](https://metafairy.datazh.ch/).** |
 | **Periodizität** | In welchem Intervall werden die Daten aktualisiert? | Jährlich | Falls die Daten kontinuierlich aktualisiert werden, das Attribut "Nächste Aktualisierung" entsprechend aktuell halten. |
-| **Nächste Aktualisierung** | Wann ist die nächste Aktualisierung geplant? | 01.01.2027 | - |
-| **Zeitraum von & bis** | Ab wann und bis wann liegen Daten vor? Bei Jahresangaben den Stichtag nennen – falls unbekannt, 31.12. des jeweiligen Jahres verwenden. | 31.12.2016, 21.12.2025 | - |
+| **Nächste Aktualisierung** | Wann ist die nächste Aktualisierung geplant? | 2027-01-01 | - |
+| **Zeitraum von & bis** | Ab wann und bis wann liegen Daten vor? Bei Jahresangaben den Stichtag nennen – falls unbekannt, 31.12. des jeweiligen Jahres verwenden. | 2016-12-31, 2026-01-01 | - |
 | **Landingpage** | Link zur primären Anwendung der Daten durch die datenhaltende Stelle - z.B. Karte, Dashboard oder Bericht. | https://... | |
 | **Weitere Informationen** | Ergänzende Links oder Dokumente. | https://... | |
 | **Themen** | Thematische Einordnung gemäss Themenkatalog. | Verkehr, Umwelt | |
 | **Keywords** | Mehrere präzise Begriffe, die das Thema beschreiben. Dazu gehören geografische Bezüge sowie alternative Begriffe, unter denen die Daten gesucht werden könnten. | langsamverkehr, verkehr, velo, messung | |
 | **Verwandte Datensätze** | Verweise auf thematisch verwandte Datensätze im Datenkatalog. | Verkehrszähldaten Veloverkehr in Winterthur | |
-| **Organisation** | Herausgebende Organisation. | Tiefbauamt des Kantons Zürich | Kann ich Admin-Bereich angepasst werden. |
-| **Abteilung** | Zuständige Abteilung innerhalb der Organisation. | Verkehr-Online | Kann ich Admin-Bereich angepasst werden. |
-| **Kontakt** | Ansprechperson oder -stelle für Fragen zum Datensatz. | info@... | Kann ich Admin-Bereich angepasst werden. |
+| **Organisation** | Herausgebende Organisation. | Tiefbauamt des Kantons Zürich | Kann im Admin-Bereich angepasst werden. |
+| **Abteilung** | Zuständige Abteilung innerhalb der Organisation. | Verkehr-Online | Kann im Admin-Bereich angepasst werden. |
+| **Kontakt** | Ansprechperson oder -stelle für Fragen zum Datensatz. | info@... | Kann im Admin-Bereich angepasst werden. |
 
 ### Distribution
 
 | Attribut | Beschreibung | Beispiel | Typische Stolpersteine / Hinweise |
 |----------|--------------|---------|---------|
-| **Titel** | Bezeichnung der Distribution. | Verkehrszähldaten Veloverkehr im Kanton Zürich 2025 | Falls nur eine Distribution vorhanden ist, darf der Titel identisch mit dem Datensatz-Titel sein. |
+| **Titel** | Bezeichnung der Distribution. | Verkehrszähldaten Veloverkehr im Kanton Zürich 2025 | Falls nur eine Distribution vorhanden ist, kann der Titel identisch mit dem Datensatz-Titel sein. |
 | **Beschreibung** | Kurze Beschreibung des Inhalts und Formats der Distribution. | Stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2025 | |
-| **Nutzungsbedingungen** | Lizenz der Distribution. | NonCommercialAllowed-CommercialAllowed-ReferenceRequired | Siehe Kapitel "Lizenzen" |
+| **Nutzungsbedingungen** | Lizenz der Distribution. | NonCommercialAllowed-CommercialAllowed-ReferenceRequired | Siehe [Lizenzen](/ogd-handbook/ogd_grundlagen/ogd-nutzen#quellenangaben-und-lizenzen) |
 | **Dateityp** | Format der Datei. | CSV | Wird beim Hochladen einer Datei automatisch erkannt. |
 | **Medientyp** | MIME-Type der Datei. | text/csv | Wird beim Hochladen einer Datei automatisch erkannt. |
 | **Dateigrösse** | Grösse der Datei in Bytes. | 2 MB | Wird beim Hochladen einer Datei automatisch erkannt. |
