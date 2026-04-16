@@ -93,7 +93,7 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
       <td>
         <ul>
           <li>Du planst und leitest die Publikation offener Behördendaten deiner Verwaltungseinheit.</li>
-          <li>Du beschreibst Datensätze gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](/ogd-handbook/metadaten/metadaten) und machst sie damit einfach auffindbar.</li>
+          <li>Du beschreibst Datensätze gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](/ogd-handbook/metadaten) und machst sie damit einfach auffindbar.</li>
           <li>Mit den 'Data Custodians' deiner Verwaltungseinheit organisierst du die Aufbereitung und laufende Aktualisierung einfach nutzbarer Behördendaten.</li>
         </ul>
       </td>

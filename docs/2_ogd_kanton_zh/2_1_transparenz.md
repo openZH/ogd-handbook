@@ -24,7 +24,7 @@ Unter den juristischen Begriff der Information fallen auch Daten. Um sich die Ar
 Open Data werden von den Eigentümer*innen der Daten zugänglich gemacht. Für Open Government Data (OGD) sind die föderalen Ebenen Bund, Kanton, Gemeinde zuständig, Daten werden daher fragmentiert zugänglich gemacht.
 
 :::tip Datenkatalog Kanton Zürich
-Alle OGD der Kantonsverwaltung Zürich finden sich im Datenkatalog [www.zh.ch/daten](https://www.zh.ch/daten). Die Daten in diesem Katalog stammen aus zwei Quellen: dem [Geolion für Daten](https://geo.zh.ch/) und der Metadatenverwaltung für alle anderen Datenbestände. Die datenhaltende Stelle (das Amt, die Abteilung, die Fachstelle) erfassen, beschreiben und publizieren ihre Daten über diese beiden Metadatensysteme.
+Alle OGD der Kantonsverwaltung Zürich finden sich im Datenkatalog **[www.zh.ch/daten](https://www.zh.ch/daten)**. Die Daten in diesem Katalog stammen aus zwei Quellen: dem **[Geolion für Daten](https://geo.zh.ch/)** und der Metadatenverwaltung für alle anderen Datenbestände. Die datenhaltende Stelle (das Amt, die Abteilung, die Fachstelle) erfassen, beschreiben und publizieren ihre Daten über diese beiden Metadatensysteme.
 :::
 
 :::info Datenkataloge von Zürcher Städten

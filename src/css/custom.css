@@ -159,6 +159,8 @@ code {
 .footer__copyright { text-align: left !important; padding: 0 !important; }
 
 .ft-wrap { padding: 0; }
+.ft-email a, .ft-link a { color: white; text-decoration: underline; }
+.ft-email a:hover, .ft-link a:hover { color: rgba(255,255,255,0.8); }
 
 @media (max-width: 996px) {
   .footer__bottom { padding: 2rem !important; }

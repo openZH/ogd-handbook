@@ -15,27 +15,27 @@ import ProcessStepper from '@site/src/components/ProcessStepper';
   {
     title: "Daten aufbereiten",
     emoji: "📂",
-    text: <>Daten als maschinenlesbare Distribution aufbereiten. Siehe: <a href="/ogd-handbook/daten_struktur_format/dateiformate">Empfehlungen Daten</a> &amp; <a href="/ogd-handbook/anleitungen/r-skript-beispiel">Daten mit R aufbereiten</a>.</>,
+    text: <>Daten als maschinenlesbare Distribution aufbereiten. Siehe: <a href="/ogd-handbook/daten_struktur_format/dateiformate">Empfehlungen Daten</a> &amp; <a href="/ogd-handbook/anleitungen/daten-aufbereiten">Daten mit R aufbereiten</a>.</>,
   },
   {
     title: "Metadaten beschreiben",
     emoji: "🏷️",
-    text: <>Daten mit aussagekräftigen Metadaten beschreiben. Siehe: <a href="/ogd-handbook/metadaten/metadaten">Metadaten</a>.</>,
+    text: <>Daten mit aussagekräftigen Metadaten beschreiben. Siehe: <a href="/ogd-handbook/metadaten">Metadaten</a>.</>,
   },
   {
     title: "In der MDV erfassen",
     emoji: "✏️",
-    text: <>Daten und Metadaten manuell in der Metadatenverwaltung (MDV) erfassen oder per Skript automatisiert einspielen. Siehe: <a href="/ogd-handbook/anleitungen/anleitungen-metadatenverwaltung">MDV Tutorial</a> &amp; <a href="/ogd-handbook/anleitungen/r-skript-beispiel">R-Package</a>.</>,
+    text: <>Daten und Metadaten manuell in der Metadatenverwaltung (MDV) erfassen oder per Skript automatisiert einspielen. Siehe: <a href="/ogd-handbook/anleitungen/metadatenverwaltung">MDV Tutorial</a> &amp; <a href="/ogd-handbook/anleitungen/daten-aufbereiten">R-Package</a>.</>,
   },
   {
     title: "Zur Prüfung freigeben",
     emoji: "🔍",
-    text: <>Datensatz mit Distributionen zur Prüfung freigeben. Ein <a href="/ogd-handbook/ogd_kanton_zh/data-governance">Data Guide</a> prüft den Datensatz bei seiner erstmaligen Publikation und gibt Feedback oder publiziert direkt.</>,
+    text: <>Datensatz mit Distributionen zur Prüfung freigeben. Ein <a href="/ogd-handbook/ogd_kanton_zh/data-governance#rollen-für-open-data">Data Guide</a> prüft den Datensatz bei seiner erstmaligen Publikation und gibt Feedback oder publiziert direkt.</>,
   },
   {
     title: "Aktualisieren",
     emoji: "🔄",
-    text: <>Distributionen und Metadaten <strong>laufend</strong> aktualisieren (manuell oder per Skript) sobald neue Daten oder Änderungen vorliegen.  Siehe: <a href="/ogd-handbook/anleitungen/anleitungen-metadatenverwaltung">MDV Tutorial</a> &amp; <a href="/ogd-handbook/anleitungen/r-skript-beispiel">R-Package</a>.</>,
+    text: <>Distributionen und Metadaten <strong>laufend</strong> aktualisieren (manuell oder per Skript) sobald neue Daten oder Änderungen vorliegen.  Siehe: <a href="/ogd-handbook/anleitungen/metadatenverwaltung">MDV Tutorial</a> &amp; <a href="/ogd-handbook/anleitungen/daten-aufbereiten">R-Package</a>.</>,
   }
 ]} />
 
