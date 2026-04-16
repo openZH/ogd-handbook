@@ -1,7 +1,7 @@
 ---
-id: r-skript-beispiel
-title: Daten nachvollziehbar aufbereiten
-sidebar_label: R-Skript Beispiel
+id: daten-aufbereiten
+title: Daten mit R aufbereiten
+sidebar_label: Daten mit R aufbereiten
 sidebar_position: 1
 ---
 
@@ -34,14 +34,16 @@ export const DataCard = ({ title, header, children, previewHeight = 220 }) => {
   );
 };
 
-# R-Skript-Beispiel: Daten nachvollziehbar aufbereiten
-Die Daten die du als OGD veröffentlichen möchtest liegen jährlich (oder in anderen regelmässigen Abständen) vor? Du möchtest selbst nachvollziehen, wie du die Daten das letzte Jahr aufbereitet hast oder deine Datenaufbereitung in Zukunft einfach übergeben können?
+# R-Skript Vorlage: Daten nachvollziehbar aufbereiten
+Die Daten, die du als OGD veröffentlichen möchtest, liegen jährlich (oder in anderen regelmässigen Abständen) vor? Du möchtest selbst nachvollziehen, wie du die Daten das letzte Jahr aufbereitet hast oder deine Datenaufbereitung in Zukunft einfach übergeben können?
 
 Hier findest du für diesen Fall einige Beispiele, wie du aus einer relativ unstrukturierten Excel-Tabelle in nachvollziehbarer Art und Weise OGD erstellen kannst. Das beste daran? Du kannst die Daten auch direkt per Code in den Datenkatalog laden, ohne den Umweg über die grafische Oberfläche zu nehmen.
 
 Als Tool verwenden wir die Skriptsprache R. Diese ist im Kanton Zürich weit verbreitet und ganz einfach über das Software-Center zu beziehen. Eine Anleitung findest du hier: [Datenanalyse mit R / R-Studio](https://ktzuerich.sharepoint.com/sites/zh-informatik/SitePages/Datenanalyse-mit-R---R-Studio.aspx) (Link funktioniert nur innerhalb des Kantons).
 
+:::info R-Kurs
 Du bist nach diesen Beispielen auf den Geschmack gekommen und möchtest herausfinden was mit R sonst noch so möglich ist? Hier geht's direkt zum R-Kurs für kantonale Angestellte: [rstatsZH](https://rstats.zuerich/)
+:::
 
 ## Ein Beispiel mit kantonalen Fahrzeugdaten
 
@@ -153,7 +155,7 @@ Als Beispiel dienen uns echte Daten zu Neubeschaffungen bei der kantonalen Fahrz
 </table>
 </DataCard>
 
-<DataCard title="Ziel: Eine OGD-konforme CSV-Datei" header={<>Die Datei wurde nach den <a href="/ogd-handbook/daten_struktur_format/datenstruktur">Prinzipien von Tidy Data</a> aufbereitet. Jede Zeile ist eine Beobachtung, jede Spalte eine Variable – keine zusammengefassten Zellen, keine Totale, keine Prozentwerte. So kann die Datei direkt maschinell weiterverarbeitet werden.</>} previewHeight={300}>
+<DataCard title="Ziel: Eine OGD-konforme CSV-Datei" header={<>Die Datei wurde nach den <a href="/ogd-handbook/daten_struktur_format/datenstruktur">Prinzipien von Tidy Data</a> aufbereitet. Jede Zeile ist eine Beobachtung, jede Spalte eine Variable - keine zusammengefassten Zellen, keine Totale, keine Prozentwerte. So kann die Datei direkt maschinell weiterverarbeitet werden.</>} previewHeight={300}>
 <table>
   <thead>
     <tr>
@@ -274,12 +276,12 @@ Als Beispiel dienen uns echte Daten zu Neubeschaffungen bei der kantonalen Fahrz
 </DataCard>
 
 
-## Das R-Script
+## R-Tutorial: Von Excel zur OGD-konformen CSV-Datei
 
 Folgendes R-Script zeigt Schritt für Schritt, wie die Excel-Datei in eine OGD-konforme CSV umgewandelt wird. Es dient als Inspiration und Vorlage für ähnliche Datensätze.
 
 
-<DataCard title="Das vollständige R-Script" previewHeight={500}>
+<DataCard title="R-Tutorial: Excel -> OGD" previewHeight={500}>
 
 ```r
 # ============================================================
@@ -539,15 +541,14 @@ print(utils::head(ogd_daten, 20))
 </DataCard>
 
 
-## R-Script für den automatisierten Upload in den Datenkatalog
+## R-Tutorial: Automatisierter Upload in den Datenkatalog
 
 Die oben erstellte CSV-Datei wäre nun bereit um als OGD-Ressource in die Metadatenverwaltung hochgeladen zu werden. Wozu aber noch mühsam händisch die Datei hochladen, wenn wir doch auch alles in einem Rutsch per R-Skript machen könnten?
 
-Mit nur wenigen Zeilen Code haben wir auch den Upload erledigt. Das Code-Beispiel folgt dabei grösstenteils dem readme des von uns zur Verfügung gestellten zhapir-Packages. Dieses findest du [hier](https://github.com/openZH/zhapir).
+Mit nur wenigen Zeilen Code haben wir auch den Upload erledigt. Das Code-Beispiel folgt dabei grösstenteils dem readme des von uns zur Verfügung gestellten **[zhapir](https://github.com/openZH/zhapir).**
 
 
-<DataCard title="zhapir Beispiel" previewHeight={500}>
-
+<DataCard title="R-Tutorial: zhapir" previewHeight={500}>
 
 ```r
 # -----------------------------
@@ -661,17 +662,6 @@ Prüfe in diesem Fall:
 - Hast du die R-Session nach dem Eintrag in `.Renviron` neu gestartet?
 - Verwendest du die richtige ID für Datensatz oder Distribution?
 - Ist `use_dev = FALSE` gesetzt, wenn du produktiv arbeiten willst?
-
-
-## Gute OGD-Praxis
-
-Beim Aufbereiten von OGD helfen dir diese Grundsätze:
-
-- Verwende klare und konsistente Spaltennamen.
-- Entferne reine Layout-Elemente aus der Quelldatei.
-- Halte Kategorien einheitlich geschrieben.
-- Exportiere in einem einfachen, offenen Format wie CSV.
-- Prüfe vor der Publikation fehlende Werte und offensichtliche Strukturfehler.
 
 
 ## Was du ein LLM fragen kannst
