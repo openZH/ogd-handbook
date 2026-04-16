@@ -1,8 +1,6 @@
 ---
-id: metadaten
-sidebar_position: 2
-sidebar_label: Metadaten
-title: Metadaten
+sidebar_position: 4
+sidebar_label: 4. Metadaten
 ---
 
 # Metadaten
