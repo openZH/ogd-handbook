@@ -2,7 +2,7 @@
 id: fehlende-werte
 title: Unbekannte und fehlende Werte
 sidebar_label: Fehlende Werte
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Unbekannte und fehlende Werte

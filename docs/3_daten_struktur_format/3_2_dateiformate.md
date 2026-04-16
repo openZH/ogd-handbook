@@ -2,12 +2,12 @@
 id: dateiformate
 title: Dateiformate
 sidebar_label: Dateiformate
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Dateiformate
 
-Die Verwendung **offener, maschinenlesbarer Dateiformate** ist eine Pflichtanforderung für OGD im Kanton Zürich. Alle weiteren Empfehlungen in diesem Kapitel verbessern die Qualität und Weiterverwendbarkeit der Daten erheblich - sind aber keine harten Anforderungen. ToDo: Ergänzen was wir nicht akzeptieren. 
+Die Verwendung **offener, maschinenlesbarer Dateiformate** ist eine Pflichtanforderung für OGD im Kanton Zürich. Alle weiteren Empfehlungen in diesem Kapitel verbessern die Qualität und Weiterverwendbarkeit der Daten erheblich - sind aber keine harten Anforderungen.
 
 ## Tabulare Daten
 
@@ -25,8 +25,7 @@ CSV ist das **Standardformat** für tabellarische Daten und wird für die meiste
 - **Zeichenkodierung:** UTF-8, bevorzugt UTF-8 BOM (verbessert die Darstellung in Programmen wie Excel)
 - **Trennzeichen:** Komma `,` (kein Semikolon)
 - **Dezimaltrennzeichen:** Punkt `.` (kein Komma)
-- **Erste Zeile:** Spaltenüberschriften (Header)
-- **Zeilenlänge:** Nicht übermässig lang (technisch max. ~8000 Zeichen)
+- **Erste Zeile:** Spaltenüberschrift (Header)
 
 </td>
 </tr>
@@ -53,9 +52,9 @@ CSV ist das **Standardformat** für tabellarische Daten und wird für die meiste
 
 ## APIs
 
-Eine API (Application Programming Interfaces) ermöglicht den direkten, automatisierten Zugriff auf Daten ohne manuellen Download. APIs sind nicht nur für laufend aktualisierte Daten ideal, sondern grundsätzlich für alle Datensätze empfehlenswert. Sie lösen statische Dateidownloads schrittweise ab und machen Verwaltungsdaten zu jederzeit aktuellen Distributionen. Spannender Blog-Artikel dazu: [APIs für eine wandlungsfähige Verwaltung](https://medium.com/openzh/apis-f%C3%BCr-eine-wandlungsf%C3%A4hige-verwaltung-577ae07b6e55).
+Eine API (Application Programming Interface) ermöglicht den direkten, automatisierten Zugriff auf Daten ohne manuellen Download. APIs sind nicht nur für laufend aktualisierte Daten ideal, sondern grundsätzlich für alle Datensätze empfehlenswert. Sie lösen statische Dateidownloads schrittweise ab und machen Verwaltungsdaten zu jederzeit aktuellen Distributionen. Spannender Blog-Artikel dazu: [APIs für eine wandlungsfähige Verwaltung](https://medium.com/openzh/apis-f%C3%BCr-eine-wandlungsf%C3%A4hige-verwaltung-577ae07b6e55).
 
 :::info API direkt aus der Fachanwendung
-Stammen die Daten aus einer spezifischen Fachapplikationen, bietet die Software häufig bereits eine API an. Es lohnt sich, dies gemeinsam mit dem Softwarehersteller zu prüfen.
+Stammen die Daten aus einer spezifischen Fachapplikation, bietet die Software häufig bereits eine API an. Es lohnt sich, dies gemeinsam mit dem Softwarehersteller zu prüfen.
 :::
 

@@ -2,7 +2,7 @@
 id: datenstruktur
 title: Datenstruktur
 sidebar_label: Datenstruktur
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Datenstruktur
@@ -37,7 +37,7 @@ Das **breite Format** ist für Menschen leicht lesbar, aber für Maschinen schwe
 | Winterthur | 2021 | 115'000 |
 | Winterthur | 2022 | 116'000 |
 
-Das **lange Format** wird für OGD bevorzugt: Es nimmt neue Zeitperioden ohne Strukturänderung auf, hat konsistente Spaltendefinitionen und wird von Analysetools Python, R oder SQL besser verarbeitet.
+Das **lange Format** wird für OGD bevorzugt: Es nimmt neue Zeitperioden ohne Strukturänderung auf, hat konsistente Spaltendefinitionen und wird von Analysetools wie Python, R oder SQL besser verarbeitet.
 
 ## Gute und weniger gute Beispiele
 
@@ -81,7 +81,7 @@ import TidyStepper from '@site/src/components/TidyStepper';
   },
   {
     status: 'ok',
-    title: 'Akmost Tidy - akzeptabel, wenn Spalten konsistent bleiben',
+    title: 'Almost Tidy - akzeptabel, wenn Spalten konsistent bleiben',
     table: {
       headers: ['gemeinde', 'jahr', 'bevoelkerung_reformiert', 'bevoelkerung_katholisch'],
       rows: [
