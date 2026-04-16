@@ -1,13 +1,13 @@
 ---
 id: fair-care
-title: Leitmotiv FAIR & CARE
-sidebar_label: Leitmotiv FAIR & CARE
+title: Leitmotive FAIR & CARE
+sidebar_label: Leitmotive FAIR & CARE
 sidebar_position: 3
 ---
 
-# Leitmotiv "Fair & Care"
+# Leitmotive FAIR & CARE
 
-Die Leitmotive "[FAIR](https://en.wikipedia.org/wiki/FAIR_data) & [CARE](https://www.gida-global.org/care)" konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Dieses Leitmotiv verbindet technische Offenheit mit verantwortungsvollem Handeln.
+Die Leitmotive [FAIR](https://en.wikipedia.org/wiki/FAIR_data) & [CARE](https://www.gida-global.org/care) konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Diese Leitmotive verbinden technische Offenheit mit verantwortungsvollem Handeln.
 
 ## FAIR
 
@@ -50,7 +50,7 @@ CARE ergänzt FAIR um eine gesellschaftliche Perspektive. Offenheit endet dort, 
   <div className="acronym-card">
     <div className="acronym-letter">A</div>
     <strong>Authority to Control</strong>
-    <span>Wahrung von Zuständigkeiten und Rechten</span>
+    <span>Kontrolle und Rechte</span>
   </div>
   <div className="acronym-card">
     <div className="acronym-letter">R</div>

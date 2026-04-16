@@ -12,10 +12,10 @@ import { CardGrid, Card } from '@site/src/components/CardGrid';
 Offene Daten entfalten ihren Nutzen erst, wenn sie auch tatsächlich verwendet werden. Ein aktiver Feedbackloop zwischen Nutzenden und Datenpublizierenden ist dabei zentral: Nur so können fehlende Datensätze identifiziert, bestehende verbessert und das Angebot gezielt weiterentwickelt werden.
 
 :::info Feedback erwünscht
-Wer Daten nutzt, ist eingeladen, an die publizierende Stelle Rückmeldungen zu geben.
+Wer offene Daten nutzt, ist eingeladen, an die publizierende Stelle Rückmeldungen zu geben.
 :::
 
-## 1.5.1 Nutzungsbedingungen
+## Nutzungsbedingungen
 
 Offene Daten sind nicht schützenswerte Daten. Sie verletzen nicht die Privatsphäre, sind nicht sicherheitskritisch und unterliegen keinen Drittrechten (wie Copyrights). Offene Daten dürfen:
 
@@ -23,15 +23,15 @@ Offene Daten sind nicht schützenswerte Daten. Sie verletzen nicht die Privatsph
 - angereichert und bearbeitet werden
 - kommerziell genutzt werden
 
-## 1.5.2 Quellenangaben und Lizenzen
+## Quellenangaben und Lizenzen
 
 Offene Daten stehen unter verschiedenen Lizenzen zur Verfügung:
 
 <CardGrid>
-<Card title="Creative Commons Lizenz CC0 1.0">
+<Card title="Creative Commons Lizenz CC0 1.0" href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
     Eine Quellenangabe wird empfohlen.
 </Card>
-<Card title="Creative Commons Lizenz BY 4.0">
-    Die Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz.
+<Card title="Creative Commons Lizenz BY 4.0" href="https://creativecommons.org/licenses/by/4.0/deed.de">
+    Die Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz. Zusätzlich ist ein Link zur Lizenz selbst anzugeben und falls Änderungen vorgenommen wurden, müssen diese gekennzeichnet werden.
 </Card>
 </CardGrid>

@@ -1,14 +1,14 @@
 ---
-id: was-ist-ogd
-title: Was ist OGD?
-sidebar_label: Was ist OGD?
+id: ogd-in-kuerze
+title: OGD in Kürze
+sidebar_label: OGD in Kürze
 sidebar_position: 1
 ---
 
 import CarrotStepper from '@site/src/components/CarrotStepper';
 import { CardGrid, Card } from '@site/src/components/CardGrid';
 
-# Was ist Open Government Data?
+# OGD in Kürze
 Dieses Kapitel erklärt, was offene Behördendaten (OGD) sind, warum sie wichtig sind und wo sie genutzt werden können.
 
 ## Einführung Open Government Data
@@ -71,7 +71,7 @@ export const carrotSteps = [
 <CardGrid>
 <Card title="Fahrplandaten des öffentlichen Verkehrs">
 
-Der öffentliche Verkehr veröffentlicht Fahrplan- und Echtzeitdaten als OGD - darunter Haltestellen, Linienverläufe, Fahrpläne sowie aktuelle Positions- und Verspätungsinformationen. [opentransportdata.swiss](https://opentransportdata.swiss) stellt diese Daten zur freien Weiterverwendung bereit.
+[opentransportdata.swiss](https://opentransportdata.swiss) veröffentlicht Fahrplan- und Echtzeitdaten als OGD - darunter Haltestellen, Linienverläufe, Fahrpläne sowie aktuelle Positions- und Verspätungsinformationen.
 
 Auf dieser Grundlage entstehen u.a.:
 - Fahrplan-Apps (z.B. [sbb.ch](https://sbb.ch))
@@ -82,7 +82,7 @@ Auf dieser Grundlage entstehen u.a.:
 </Card>
 <Card title="Wetterdaten">
 
-MeteoSchweiz stellt zahlreiche Wetter- und Klimadaten zur freien Weiterverwendung bereit - Temperatur- und Niederschlagsmessungen, Wind- und Luftdruckdaten aus verschiedenen Wetterstationen.
+[MeteoSchweiz](https://opendatadocs.meteoswiss.ch/de/) stellt zahlreiche Wetter- und Klimadaten zur freien Weiterverwendung bereit - darunter Temperatur- und Niederschlagsmessungen, Wind- und Luftdruckdaten aus verschiedenen Wetterstationen.
 
 Auf dieser Grundlage entstehen u.a.:
 - Wetter-Apps und Online-Prognosen

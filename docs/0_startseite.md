@@ -27,7 +27,7 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
 ---
 
-## Inhalte
+## Was findest du in diesem Handbuch?
 
 <CardGrid cols={3}>
   <Card title="1. OGD Grundlagen" href="/ogd-handbook/ogd_grundlagen/was-ist-ogd" emoji="💡">
