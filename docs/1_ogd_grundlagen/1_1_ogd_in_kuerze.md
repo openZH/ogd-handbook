@@ -12,6 +12,8 @@ import { CardGrid, Card } from '@site/src/components/CardGrid';
 # OGD in Kürze
 Dieses Kapitel erklärt, was offene Behördendaten (OGD) sind, warum sie wichtig sind und wo sie genutzt werden können.
 
+---
+
 ## Einführung Open Government Data
 
 Für die Verwaltungsarbeit werden Daten benötigt. In der öffentlichen Verwaltung entstehen zahlreiche Daten, die zur Erfüllung gesetzlicher Aufgaben erhoben und verarbeitet werden. Ein Teil dieser Daten ist nicht schützenswert und kann offen bereitgestellt werden. Dieses Konzept wird als **Open Government Data** (Offene Behördendaten) bezeichnet.
@@ -26,6 +28,7 @@ Open Government Data tragen zu einer transparenten und effizienten Verwaltung be
 Ausgeschlossen sind insbesondere schützenswerte, vertrauliche oder sicherheitsrelevante Daten.
 :::
 
+---
 
 ## Produktsicht auf Daten
 
@@ -66,6 +69,7 @@ export const carrotSteps = [
 
 <CarrotStepper steps={carrotSteps} />
 
+---
 
 ## Beispiele: OGD in der Praxis
 
