@@ -17,14 +17,11 @@ Die Behörden des Kantons Zürich dürfen demnach OGD publizieren, wenn folgende
 
 <CardGrid cols={3}>
 <Card title="Keine schützenswerte Information">
-
-
 </Card>
 <Card title="Eigentum der Verwaltungseinheit">
 ohne Vertragsbestimmungen mit Drittanbietern
 </Card>
 <Card title="Keine entgegenstehenden Spezialgesetze">
-
 </Card>
 </CardGrid>
 

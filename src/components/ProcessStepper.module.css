@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* ── Track row: nav buttons + circles ── */
@@ -34,13 +34,13 @@
 .connector {
   flex: 1;
   height: 2px;
-  background: var(--kzh-violet-light, #ECE2F1);
+  background: var(--kzh-violet-light, #ece2f1);
   margin-bottom: 24px;
   transition: background 0.2s;
 }
 
 .connectorDone {
-  background: var(--kzh-violet, #7F3DA7);
+  background: var(--kzh-violet, #7f3da7);
 }
 
 .stepCol {
@@ -55,32 +55,35 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 2px solid var(--kzh-violet-light, #ECE2F1);
+  border: 2px solid var(--kzh-violet-light, #ece2f1);
   background: white;
-  color: var(--kzh-violet, #7F3DA7);
+  color: var(--kzh-violet, #7f3da7);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .bubble:focus-visible {
-  outline: 2px solid var(--kzh-violet, #7F3DA7);
+  outline: 2px solid var(--kzh-violet, #7f3da7);
   outline-offset: 3px;
 }
 
 .bubbleDone {
-  border-color: var(--kzh-violet, #7F3DA7);
-  background: var(--kzh-violet-light, #ECE2F1);
-  color: var(--kzh-violet, #7F3DA7);
+  border-color: var(--kzh-violet, #7f3da7);
+  background: var(--kzh-violet-light, #ece2f1);
+  color: var(--kzh-violet, #7f3da7);
 }
 
 .bubbleActive {
-  background: var(--kzh-violet, #7F3DA7);
+  background: var(--kzh-violet, #7f3da7);
   color: white;
-  border-color: var(--kzh-violet, #7F3DA7);
+  border-color: var(--kzh-violet, #7f3da7);
 }
 
 .bubbleNum {
@@ -99,15 +102,13 @@
 }
 
 .bubbleLabelActive {
-  color: var(--kzh-violet, #7F3DA7);
+  color: var(--kzh-violet, #7f3da7);
   font-weight: 700;
 }
 
-
-
 .navBtn {
   background: none;
-  color: var(--kzh-violet, #7F3DA7);
+  color: var(--kzh-violet, #7f3da7);
   border: none;
   padding: 0 0.25rem;
   font-size: 1.5rem;
@@ -123,6 +124,22 @@
 .navBtn:disabled {
   opacity: 0.2;
   cursor: default;
+}
+
+.contentPanel {
+  margin-top: 1.5rem;
+}
+
+.linkRow {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.link {
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
