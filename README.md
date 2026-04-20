@@ -1,41 +1,45 @@
-# Website
+# OGD Handbuch Kanton Zürich
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Dieses Repository enthält den Quellcode des **Open Government Data Handbuchs** des Kantons Zürich. Es richtet sich an Data Stewards und Mitarbeitende kantonaler Verwaltungseinheiten, die Daten als OGD publizieren möchten - sowie an alle, die offene Verwaltungsdaten des Kantons Zürich nutzen wollen.
 
-## Installation
+👉 **[openzh.github.io/ogd-handbook](https://openzh.github.io/ogd-handbook/)**
 
-```bash
-yarn
-```
+---
 
-## Local Development
+## Inhalt
 
-```bash
-yarn start
-```
+| Kapitel | Thema                                       |
+| ------- | ------------------------------------------- |
+| 1       | OGD Grundlagen                              |
+| 2       | OGD im Kanton Zürich                        |
+| 3       | Datenstruktur & Format                      |
+| 4       | Metadaten                                   |
+| 5       | Anleitungen (R, Excel, Metadatenverwaltung) |
+| 6       | Kontakt                                     |
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-## Build
+## Technologie
 
-```bash
-yarn build
-```
+Das Handbuch wird mit [Docusaurus](https://docusaurus.io/) gebaut. Inhalte liegen als Markdown-Dateien in [`docs/`](docs/). Interaktive Komponenten sind als React-Komponenten in [`src/components/`](src/components/) ausgelagert.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### Lokale Entwicklung
 
 ```bash
-USE_SSH=true yarn deploy
+npm install    # Abhängigkeiten installieren
+npm start      # Entwicklungsserver starten (http://localhost:3000)
+npm run build  # Produktions-Build erstellen
 ```
 
-Not using SSH:
+---
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## Mitarbeit
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Korrekturen, Ergänzungen und neue Seiten können über Pull Requests eingereicht werden. Fehler und Wünsche bitte als [Issue erfassen](https://github.com/openZH/) oder per E-Mail an [info@open.zh.ch](mailto:info@open.zh.ch). Vielen Dank!
+
+---
+
+## Kontakt
+
+**Statistisches Amt des Kantons Zürich**  
+[Fach- und Koordinationsstelle Open Government Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)
