@@ -36,10 +36,16 @@
 }
 
 /* ── Grid layout ── */
+.wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .grid {
   border: 1px solid var(--kzh-border);
   border-radius: 3px;
   overflow: hidden;
+  min-width: 420px;
 }
 
 .headerRow,

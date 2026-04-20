@@ -31,6 +31,7 @@ function ShieldIcon() {
 export default function DataClassification({ levels }) {
   return (
     <figure className={styles.figure}>
+      <div className={styles.wrapper}>
       <div className={styles.grid}>
 
         {/* Header row */}
@@ -100,6 +101,7 @@ export default function DataClassification({ levels }) {
           ))}
         </div>
 
+      </div>
       </div>
     </figure>
   );

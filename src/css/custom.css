@@ -68,6 +68,24 @@
 .navbar__link:hover { color: rgba(255,255,255,0.75) !important; }
 .navbar__link--active { font-weight: 700; }
 
+/* MOBILE BURGER BUTTON */
+.navbar__toggle {
+  color: white;
+}
+
+/* MOBILE NAV SIDEBAR */
+.navbar-sidebar {
+  background-color: var(--kzh-white) !important;
+}
+
+.navbar-sidebar__brand {
+  background-color: var(--kzh-blue);
+}
+
+.navbar-sidebar__items .menu__link {
+  color: var(--kzh-black);
+}
+
 /* SIDEBAR */
 .menu__link:hover {
   background-image: linear-gradient(120deg, var(--kzh-blue-light) 0%, var(--kzh-blue-light) 100%);
@@ -120,6 +138,12 @@ a:hover { color: var(--kzh-blue); }
 
 /* LAYOUT */
 [class*="docMainContainer"] { padding-left: 2rem; }
+
+@media (max-width: 996px) {
+  [class*="docMainContainer"] { padding-left: 0; }
+}
+[class*="tableOfContents"] { display: none; }
+[class*="tocCollapsible"] { display: none; }
 
 /* DATA CARD */
 .data-card-content table { width: max-content !important; margin: 0; }
