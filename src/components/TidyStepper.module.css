@@ -3,12 +3,12 @@
   flex-direction: column;
   align-items: flex-start;
   margin: 1rem 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .card {
-  border: 1px solid #CCCCCC;
-  border-top: 4px solid #0070B4;
+  border: 1px solid #cccccc;
+  border-top: 4px solid #0070b4;
   border-radius: 4px;
   padding: 2rem 2.5rem;
   width: 100%;
@@ -30,10 +30,25 @@
   align-self: flex-start;
 }
 
+.badgeBad {
+  color: var(--kzh-bordeaux);
+  background: var(--kzh-bordeaux-light);
+}
+
+.badgeOk {
+  color: var(--kzh-violet);
+  background: var(--kzh-violet-light);
+}
+
+.badgeGood {
+  color: var(--kzh-teal);
+  background: var(--kzh-teal-light);
+}
+
 .title {
   font-size: 1.05rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #1a1a1a;
   margin: 0;
   border: none !important;
 }
@@ -50,32 +65,32 @@
 }
 
 .table th {
-  background: #F0F0F0;
+  background: #f0f0f0;
   color: #333;
   font-weight: 600;
   padding: 0.45rem 0.75rem;
   text-align: left;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   white-space: nowrap;
 }
 
 .table td {
   padding: 0.4rem 0.75rem;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   color: #333;
   white-space: nowrap;
 }
 
 .table tr:nth-child(even) td {
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 
 .reason {
   font-size: 0.9rem;
   color: #555;
   line-height: 1.6;
-  background: #F8F8F8;
-  border-left: 3px solid #CCCCCC;
+  background: #f8f8f8;
+  border-left: 3px solid #cccccc;
   padding: 0.6rem 0.9rem;
   border-radius: 0 2px 2px 0;
 }
@@ -88,7 +103,7 @@
 }
 
 .btnPrimary {
-  background: #0070B4;
+  background: #0070b4;
   color: white;
   border: none;
   padding: 0.6rem 1.5rem;
@@ -101,13 +116,13 @@
 }
 
 .btnPrimary:hover {
-  background: #005A90;
+  background: #005a90;
 }
 
 .btnSecondary {
   background: white;
-  color: #0070B4;
-  border: 2px solid #0070B4;
+  color: #0070b4;
+  border: 2px solid #0070b4;
   padding: 0.6rem 1.25rem;
   border-radius: 2px;
   font-size: 0.95rem;
@@ -117,7 +132,7 @@
 }
 
 .btnSecondary:hover {
-  background: #EDF5FA;
+  background: #edf5fa;
 }
 
 .dots {
@@ -134,7 +149,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid #0070B4;
+  border: 2px solid #0070b4;
   background: white;
   cursor: pointer;
   padding: 0;
@@ -142,11 +157,11 @@
 }
 
 .dotActive {
-  background: #0070B4;
+  background: #0070b4;
   transform: scale(1.2);
 }
 
 .dotDone {
-  background: #B0C8E0;
-  border-color: #B0C8E0;
+  background: #b0c8e0;
+  border-color: #b0c8e0;
 }

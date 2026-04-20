@@ -1,9 +1,7 @@
-import styles from './Tag.module.css';
+import styles from "./Tag.module.css";
 
-export default function Tag({ text, color, bg }) {
+export default function Tag({ text, variant }) {
   return (
-    <span className={styles.tag} style={{ color, background: bg }}>
-      {text}
-    </span>
+    <span className={`${styles.tag} ${styles[variant] ?? ""}`}>{text}</span>
   );
 }

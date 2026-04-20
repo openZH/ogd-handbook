@@ -9,6 +9,8 @@ sidebar_position: 7
 
 Fehlende oder unbekannte Werte sollen einheitlich und klar gekennzeichnet sein, damit sie korrekt interpretiert werden.
 
+---
+
 ## Leeres Feld für fehlende Werte
 
 Fehlende und unbekannte Werte werden als **leeres Feld** dargestellt, und nicht als Text wie `NA`, `n/a`, `-` oder ähnliches. Zellen können aus verschiedenen Gründen leer sein:
@@ -22,6 +24,8 @@ Hinweise zur Interpretation leerer Felder gehören in die Metadaten. Ist der Gru
 :::tip Leer = fehlend
 In den meisten Analysewerkzeugen wird ein leeres CSV-Feld automatisch als `NULL` / `NA` / `NaN` interpretiert. Leere Zellen sind daher die bevorzugte Methode.
 :::
+
+---
 
 ## 0 ist kein fehlender Wert
 

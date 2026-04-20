@@ -7,3 +7,13 @@
   letter-spacing: 0.03em;
   white-space: nowrap;
 }
+
+.good {
+  color: var(--kzh-teal);
+  background: var(--kzh-teal-light);
+}
+
+.bad {
+  color: var(--kzh-bordeaux);
+  background: var(--kzh-bordeaux-light);
+}

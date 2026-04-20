@@ -9,6 +9,8 @@ sidebar_position: 2
 
 Die Verwendung **offener, maschinenlesbarer Dateiformate** ist eine Pflichtanforderung für OGD im Kanton Zürich. Alle weiteren Empfehlungen in diesem Kapitel verbessern die Qualität und Weiterverwendbarkeit der Daten erheblich - sind aber keine harten Anforderungen.
 
+---
+
 ## Tabulare Daten
 
 <table>
@@ -41,6 +43,7 @@ CSV ist das **Standardformat** für tabellarische Daten und wird für die meiste
  Excel-Dateien sind im Verwaltungsalltag verbreitet, für OGD jedoch ungeeignet. Das Format ist proprietär, enthält oft Formatierungen, Formeln oder mehrere Tabellenblätter und erschwert damit die maschinelle Verarbeitung.
 :::
 
+---
 
 ## Strukturierte und verschachtelte Daten
 
@@ -49,6 +52,7 @@ CSV ist das **Standardformat** für tabellarische Daten und wird für die meiste
 | **JSON** | `.json` | Verschachtelte oder hierarchische Strukturen |
 | **XML** | `.xml` | Strukturierte Daten |
 
+---
 
 ## APIs
 

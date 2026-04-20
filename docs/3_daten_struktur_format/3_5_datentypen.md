@@ -11,7 +11,7 @@ Jede Spalte enthält Werte eines einzigen Datentyps. Die folgenden Formatvorgabe
 
 import Tag from '@site/src/components/Tag';
 
-| Datentyp | Format | <Tag text="✓ Gut" color="#00797B" bg="#E8F3F2" /> | <Tag text="✗ Vermeiden" color="#B01657" bg="#F6E3EA" /> |
+| Datentyp | Format | <Tag text="✓ Gut" variant="good" /> | <Tag text="✗ Vermeiden" variant="bad" /> |
 |----------|--------|--------------------------------------------------|--------------------------------------------------------|
 | **Text** | Strings können optional in Anführungszeichen gesetzt werden. Pflicht sind sie jedoch, wenn der Text ein Komma enthält - nur so werden sie als zusammengehörend interpretiert `.` | `"Französisch, Deutsch"` | `Französisch, Deutsch` |
 | **Zahl** | Dezimaltrennzeichen Punkt `.`. Keine Tausendertrennzeichen. Vorzeichen: `-` für negative Zahlen, `+` nur wenn kontextüblich. Wissenschaftliche Notation möglichst vermeiden. Allfällige Rundungen in den Metadaten ausweisen. | `1234.56`, `-0.5` | `1'234,56`, `1E-2` |
