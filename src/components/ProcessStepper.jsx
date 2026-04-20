@@ -1,3 +1,13 @@
+/**
+ * Numbered process stepper with clickable bubbles, prev/next navigation,
+ * and an admonition panel showing the active step's title, description, and links.
+ *
+ * Used in:
+ * - `2_5_daten_publizieren.md`: step-by-step guide to publishing data
+ *
+ * @param {{ title: string, text: string, links?: { href: string, label: string }[] }[]} steps
+ *   Array of steps, each with a title, description, and optional links.
+ */
 import { useState } from "react";
 import Admonition from "@theme/Admonition";
 import styles from "./ProcessStepper.module.css";
