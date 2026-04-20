@@ -55,11 +55,15 @@ export const classificationLevels = [
 
 Die Organisation, das Rollenmodell, die Standards und Infrastruktur für Open Government Data sind Teil der Data Governance der Kantonsverwaltung. Der Kanton Zürich hat eine föderierte Data Governance, wir streben keine Zentralisierung an. Stattdessen bieten wir die Beratung, Schulung und Infrastruktur, die Ämter und Fachstellen benötigen, um ihre Daten gut und sicher zu halten und, im Fall von OGD, zu publizieren. Die Data Governance wird momentan im Regierungsrat beraten. Der Regierungsratsantrag mit allen Infos liegt [hier](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/richtlinien-der-regierungspolitik-2023-2027/allgemeine-verwaltung/rrz-10/rrz-10-d.html).
 
+---
+
 ## Vertraulichkeit von Daten
 
 Open Data bildet nur einen kleinen Teil der Daten ab, die im Kanton vorhanden sind. Die Richtlinien zur Informationssicherheit des Kantons (BISR) unterscheiden Daten (und Information) nach ihrem Zugangskreis: öffentliche Daten, interne Daten, vertrauliche Daten und geheime Daten. Open Data sind Daten, die als öffentlich klassiert sind und gemäss [FAIR-Prinzipien](/ogd_grundlagen/fair-care) zugänglich gemacht wurden. Interne und vertrauliche Daten sind nicht frei zugänglich, sie werden ab Inkrafttreten des [totalrevidierten IDG](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=bbb4248013ca433eb50e68677eaaecd0) jedoch im kantonalen Datenkatalog verzeichnet und beschrieben. Die Vorgaben der Data Governance umfassen alle Datenbestände des Kantons, sie sind daher deutlich weitergehend, aber vollständig kompatibel mit den Vorgaben für Open Government Data.
 
 <DataClassification levels={classificationLevels} />
+
+---
 
 ## Rollen für Open Data
 
@@ -135,6 +139,8 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
 </table>
 
 Die Data Governance kennt weitere Rollen.
+
+---
 
 ## Governance von Open Data
 
