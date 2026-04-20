@@ -8,6 +8,7 @@ sidebar_position: 1
 import CarrotStepper from '@site/src/components/CarrotStepper';
 import { CardGrid, Card } from '@site/src/components/CardGrid';
 
+
 # OGD in Kürze
 Dieses Kapitel erklärt, was offene Behördendaten (OGD) sind, warum sie wichtig sind und wo sie genutzt werden können.
 
@@ -70,7 +71,6 @@ export const carrotSteps = [
 
 <CardGrid>
 <Card title="Fahrplandaten des öffentlichen Verkehrs">
-
 [opentransportdata.swiss](https://opentransportdata.swiss) veröffentlicht Fahrplan- und Echtzeitdaten als OGD - darunter Haltestellen, Linienverläufe, Fahrpläne sowie aktuelle Positions- und Verspätungsinformationen.
 
 Auf dieser Grundlage entstehen u.a.:
@@ -78,10 +78,9 @@ Auf dieser Grundlage entstehen u.a.:
 - Echtzeit-Visualisierungen von Bussen und Trams
 - Digitale Abfahrtsanzeigen (z.B. [tramli.ch](https://tramli.com/))
 - Mobilitätsanalysen und wissenschaftliche Auswertungen
-
 </Card>
-<Card title="Wetterdaten">
 
+<Card title="Wetterdaten">
 [MeteoSchweiz](https://opendatadocs.meteoswiss.ch/de/) stellt zahlreiche Wetter- und Klimadaten zur freien Weiterverwendung bereit - darunter Temperatur- und Niederschlagsmessungen, Wind- und Luftdruckdaten aus verschiedenen Wetterstationen.
 
 Auf dieser Grundlage entstehen u.a.:
@@ -89,6 +88,5 @@ Auf dieser Grundlage entstehen u.a.:
 - Visualisierungen von Unwettern
 - Entscheidungsgrundlagen für Landwirtschaft, Bauwesen und Energieversorgung
 - Forschung zu Klima- und Umweltveränderungen
-
 </Card>
 </CardGrid>
