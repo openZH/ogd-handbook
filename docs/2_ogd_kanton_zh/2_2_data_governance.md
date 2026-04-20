@@ -53,7 +53,7 @@ export const classificationLevels = [
 
 # Data Governance
 
-Die Organisation, das Rollenmodell, die Standards und Infrastruktur für Open Government Data ist Teil der Data Governance der Kantonsverwaltung. Der Kanton Zürich hat eine föderierte Data Governance, wir streben keine Zentralisierung an. Stattdessen bieten wir die Beratung, Schulung und Infrastruktur, die Ämter und Fachstellen benötigen, um ihre Daten gut und sicher zu halten und, im Fall von OGD, zu publizieren. Die Data Governance wird momentan im Regierungsrat beraten. Der Regierungsratsantrag mit allen Infos liegt [hier](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/richtlinien-der-regierungspolitik-2023-2027/allgemeine-verwaltung/rrz-10/rrz-10-d.html).
+Die Organisation, das Rollenmodell, die Standards und Infrastruktur für Open Government Data sind Teil der Data Governance der Kantonsverwaltung. Der Kanton Zürich hat eine föderierte Data Governance, wir streben keine Zentralisierung an. Stattdessen bieten wir die Beratung, Schulung und Infrastruktur, die Ämter und Fachstellen benötigen, um ihre Daten gut und sicher zu halten und, im Fall von OGD, zu publizieren. Die Data Governance wird momentan im Regierungsrat beraten. Der Regierungsratsantrag mit allen Infos liegt [hier](https://www.zh.ch/de/politik-staat/gesetze-beschluesse/richtlinien-der-regierungspolitik-2023-2027/allgemeine-verwaltung/rrz-10/rrz-10-d.html).
 
 ## Vertraulichkeit von Daten
 
@@ -79,7 +79,7 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
       <td><strong>Beschreibung</strong></td>
       <td>bereitet die Daten auf und macht sie verfügbar</td>
       <td>erfasst und publiziert Metadaten</td>
-      <td>berätst und unterstützt 'Data Custodians' und 'Data Stewards'</td>
+      <td>berät und unterstützt «Data Custodians» und «Data Stewards»</td>
     </tr>
     <tr>
       <td><strong>Aufgaben</strong></td>
@@ -94,12 +94,12 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
         <ul>
           <li>Du planst und leitest die Publikation offener Behördendaten deiner Verwaltungseinheit.</li>
           <li>Du beschreibst Datensätze gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](/ogd-handbook/metadaten) und machst sie damit einfach auffindbar.</li>
-          <li>Mit den 'Data Custodians' deiner Verwaltungseinheit organisierst du die Aufbereitung und laufende Aktualisierung einfach nutzbarer Behördendaten.</li>
+          <li>Mit den «Data Custodians» deiner Verwaltungseinheit organisierst du die Aufbereitung und laufende Aktualisierung einfach nutzbarer Behördendaten.</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Du berätst und unterstützt 'Data Custodians' und 'Data Stewards' bei der effizienten Organisation und Erfüllung ihrer Aufgaben.</li>
+          <li>Du berätst und unterstützt «Data Custodians» und «Data Stewards» bei der effizienten Organisation und Erfüllung ihrer Aufgaben.</li>
           <li>Du gibst Schulungen, vermittelst Kurse und entwickelst Anleitungen und Hilfsmittel weiter.</li>
           <li>Du analysierst und vermittelst Bedürfnisse und Feedback von Nutzenden.</li>
         </ul>
@@ -111,22 +111,22 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
         <ul>
           <li>Du hast ein hohes Datenverständnis und Kenntnisse in Data Science und Data Management</li>
           <li>Du bist fachverantwortlich für die Applikation, in der die Daten liegen, bist vermutlich sogar Admin.</li>
-          <li>Du tauschst dich (nach Bedarf) mit anderen 'Data Custodians' aus und arbeitest mit den 'Data Stewards' deiner Verwaltungseinheit zusammen.</li>
+          <li>Du tauschst dich (nach Bedarf) mit anderen «Data Custodians» aus und arbeitest mit den «Data Stewards» deiner Verwaltungseinheit zusammen.</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Du hast eine Schulung für 'Data Stewards' absolviert (Aufwand: 2 bis 3 Stunden).</li>
+          <li>Du hast eine Schulung für «Data Stewards» absolviert (Aufwand: 2 bis 3 Stunden).</li>
           <li>Du hast ein hohes Datenverständnis und bist in der Lage, komplexe Daten einfach zu beschreiben.</li>
-          <li>Du bleibst informiert bzgl Standards und Vorgehen und interpretierst diese für deine Datenbestände.</li>
-          <li>Du tauschst dich (nach Bedarf) mit anderen 'Data Stewards' aus.</li>
+          <li>Du bleibst informiert bzgl. Standards und Vorgehen und interpretierst diese für deine Datenbestände.</li>
+          <li>Du tauschst dich (nach Bedarf) mit anderen «Data Stewards» aus.</li>
         </ul>
       </td>
       <td>
         <ul>
           <li>Du bist erfahren im Anwenden der Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten und in der Beschreibung von Datensätzen mittels einfach verständlicher Metadaten.</li>
-          <li>Du tauschst dich laufend mit 'Data Stewards', 'Data Custodians' sowie anderen 'Data Guides' aus.</li>
-          <li>Du nimmst am Fachausschuss für offene Behördendaten teil und vertrittst dort (auf Wunsch) 'Data Stewards' von Verwaltungseinheiten und Organen.</li>
+          <li>Du tauschst dich laufend mit «Data Stewards», «Data Custodians» sowie anderen «Data Guides» aus.</li>
+          <li>Du nimmst am Fachausschuss für offene Behördendaten teil und vertrittst dort (auf Wunsch) «Data Stewards» von Verwaltungseinheiten und Organen.</li>
           <li>Du engagierst dich (bei Interesse) in Arbeitsgruppen zur gemeinsamen bedarfsgerechten Weiterentwicklung bestimmter Themen.</li>
         </ul>
       </td>
