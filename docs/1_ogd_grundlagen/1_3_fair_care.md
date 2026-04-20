@@ -11,6 +11,8 @@ import AcronymGrid from '@site/src/components/AcronymGrid';
 
 Die Leitmotive [FAIR](https://en.wikipedia.org/wiki/FAIR_data) & [CARE](https://www.gida-global.org/care) konkretisieren die Anforderungen an Qualität und verantwortungsvollen Umgang mit Open Government Data. Diese Leitmotive verbinden technische Offenheit mit verantwortungsvollem Handeln.
 
+---
+
 ## FAIR
 
 FAIR beschreibt die Qualitätsanforderungen an offene Daten. Offene Verwaltungsdaten sollen nicht nur veröffentlicht, sondern so bereitgestellt werden, dass sie auffindbar, ohne individuelle Zugangsbeschränkung zugänglich, technisch verarbeitbar und wiederverwendbar sind.

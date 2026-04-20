@@ -15,6 +15,8 @@ Offene Daten entfalten ihren Nutzen erst, wenn sie auch tatsächlich verwendet w
 Wer offene Daten nutzt, ist eingeladen, an die publizierende Stelle Rückmeldungen zu geben.
 :::
 
+---
+
 ## Nutzungsbedingungen
 
 Offene Daten sind nicht schützenswerte Daten. Sie verletzen nicht die Privatsphäre, sind nicht sicherheitskritisch und unterliegen keinen Drittrechten (wie Copyrights). Offene Daten dürfen:
@@ -22,6 +24,8 @@ Offene Daten sind nicht schützenswerte Daten. Sie verletzen nicht die Privatsph
 - vervielfältigt, verbreitet und weiter zugänglich gemacht werden
 - angereichert und bearbeitet werden
 - kommerziell genutzt werden
+
+---
 
 ## Quellenangaben und Lizenzen
 

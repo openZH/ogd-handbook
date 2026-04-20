@@ -3,17 +3,17 @@ sidebar_position: 1
 slug: /
 ---
 
-import { CardGrid, Card } from '@site/src/components/CardGrid';
+import { CardGrid, Card } from "@site/src/components/CardGrid";
+import StartseiteHero from "@site/src/components/StartseiteHero";
 
 # Los geht's
 
-<div className="startseite-hero">
-  <img src={require('/img/intro.png').default} />
-  <div className="startseite-hero-text">
-    Dein Einstieg in Open Government Data (OGD) im Kanton Zürich - für alle, die offene Verwaltungsdaten verstehen, publizieren oder nutzen möchten.
-  </div>
-</div>
-<p className="startseite-hero-source">Quelle Grafik: <a href="https://dribbble.com/shots/5405341-Analizing-data">Diana Traykoc</a></p>
+<StartseiteHero
+image={require('/img/intro.png').default}
+text="Dein Einstieg in Open Government Data (OGD) im Kanton Zürich - für alle, die offene Verwaltungsdaten verstehen, publizieren oder nutzen möchten."
+sourceHref="https://dribbble.com/shots/5405341-Analizing-data"
+sourceLabel="Diana Traykoc"
+/>
 
 ---
 
@@ -55,4 +55,3 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 ## Herausgeberin
 
 Dieses Handbuch wird vom **Statistischen Amt des Kantons Zürich** durch die [**Fach- und Koordinationsstelle OGD**](/ogd-handbook/kontakt) herausgegeben.
-
