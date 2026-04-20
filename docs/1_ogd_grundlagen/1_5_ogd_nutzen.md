@@ -31,6 +31,7 @@ Offene Daten stehen unter verschiedenen Lizenzen zur Verfügung:
 <Card title="Creative Commons Lizenz CC0 1.0" href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
     Eine Quellenangabe wird empfohlen.
 </Card>
+
 <Card title="Creative Commons Lizenz BY 4.0" href="https://creativecommons.org/licenses/by/4.0/deed.de">
     Die Quellenangabe ist Pflicht. Anzugeben sind der Name der Organisation sowie der Link zum Datensatz. Zusätzlich ist ein Link zur Lizenz selbst anzugeben und falls Änderungen vorgenommen wurden, müssen diese gekennzeichnet werden.
 </Card>

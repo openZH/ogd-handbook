@@ -1,16 +1,11 @@
-/* =============================================
-   1. OGD Grundlagen
-   ============================================= */
-
-/* 1_3 FAIR & CARE */
-.acronym-grid {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.25rem;
   margin: 1.5rem 0;
 }
 
-.acronym-card {
+.card {
   border: 1px solid var(--kzh-border);
   border-top: 4px solid var(--kzh-blue);
   border-radius: 4px;
@@ -18,7 +13,7 @@
   background: white;
 }
 
-.acronym-card .acronym-letter {
+.letter {
   font-size: 2rem;
   font-weight: 700;
   color: var(--kzh-blue);
@@ -26,25 +21,22 @@
   margin-bottom: 0.5rem;
 }
 
-.acronym-card strong {
+.term {
   display: block;
   font-size: 1rem;
+  font-weight: 700;
   margin-bottom: 0.25rem;
 }
 
-.acronym-card span {
+.translation {
   font-size: 0.88rem;
   color: var(--ifm-color-content-secondary);
 }
 
 @media (max-width: 768px) {
-  .acronym-grid { grid-template-columns: 1fr 1fr; }
+  .grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 480px) {
-  .acronym-grid { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; }
 }
-
-/* 1_4 OGD Landschaft */
-
-/* 1_5 OGD Nutzen */
