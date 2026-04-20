@@ -187,6 +187,11 @@ a:hover {
   margin: 0;
 }
 
+/* VIDEO */
+.markdown video {
+  margin-bottom: 1.5rem;
+}
+
 /* TABLES */
 table {
   width: 100%;
@@ -338,6 +343,26 @@ code {
   .ft-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* TEAM GRID */
+.team-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.team-member {
+  text-align: center;
+  width: 150px;
+}
+
+.team-avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
 }
 
 /* PAGINATION */

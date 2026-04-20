@@ -5,36 +5,10 @@ sidebar_label: Daten mit R aufbereiten
 sidebar_position: 1
 ---
 
-import React from 'react';
-
-export const DataCard = ({ title, header, children, previewHeight = 220 }) => {
-  const [expanded, setExpanded] = React.useState(false);
-  return (
-    <div style={{border:'1px solid var(--kzh-border)', borderTop:'4px solid var(--kzh-blue)', borderRadius:'4px', marginBottom:'1.5rem', background:'white'}}>
-      <div style={{padding:'1rem 1.5rem 0.25rem', fontWeight:'700', fontSize:'1rem', color:'var(--kzh-black)'}}>
-        {title}
-      </div>
-      {header && <div style={{padding:'0.25rem 1.5rem 0.75rem', fontSize:'0.92rem', color:'var(--kzh-grey)', borderBottom:'1px solid var(--kzh-border)'}}>{header}</div>}
-      <div style={{position:'relative'}}>
-        <div className="data-card-content" style={{maxHeight: expanded ? 'none' : previewHeight + 'px', overflowY:'hidden', overflowX:'auto', padding:0}}>
-          {children}
-        </div>
-        {!expanded && (
-          <div style={{position:'absolute', bottom:0, left:0, right:0, height:'60px', background:'linear-gradient(transparent, var(--ifm-background-color))', pointerEvents:'none'}} />
-        )}
-      </div>
-      <div style={{textAlign:'center', padding:'0.5rem 1rem', borderTop:'1px solid var(--kzh-border)'}}>
-        <button
-          onClick={() => setExpanded(!expanded)}
-          style={{background:'none', border:'none', color:'var(--ifm-color-primary)', cursor:'pointer', fontWeight:'600', fontSize:'0.875rem', padding:'0.25rem 0.75rem'}}>
-          {expanded ? '▲ Weniger anzeigen' : '▼ Alles anzeigen'}
-        </button>
-      </div>
-    </div>
-  );
-};
+import CollapseCard from '@site/src/components/CollapseCard';
 
 # R-Skript Tutorial: Daten nachvollziehbar aufbereiten
+
 Die Daten, die du als OGD veröffentlichen möchtest, liegen jährlich (oder in anderen regelmässigen Abständen) vor? Du möchtest selbst nachvollziehen, wie du die Daten das letzte Jahr aufbereitet hast oder deine Datenaufbereitung in Zukunft einfach übergeben können?
 
 Hier findest du für diesen Fall einige Beispiele, wie du aus einer relativ unstrukturierten Excel-Tabelle in nachvollziehbarer Art und Weise OGD erstellen kannst. Das beste daran? Du kannst die Daten auch direkt per Code in den Datenkatalog laden, ohne den Umweg über die grafische Oberfläche zu nehmen.
@@ -45,11 +19,13 @@ Als Tool verwenden wir die Skriptsprache R. Diese ist im Kanton Zürich weit ver
 Du bist nach diesen Beispielen auf den Geschmack gekommen und möchtest herausfinden was mit R sonst noch so möglich ist? Hier geht's direkt zum R-Kurs für kantonale Angestellte: [rstatsZH](https://rstats.zuerich/)
 :::
 
+---
+
 ## Ein Beispiel mit kantonalen Fahrzeugdaten
 
 Als Beispiel dienen uns echte Daten zu Neubeschaffungen bei der kantonalen Fahrzeugflotte. Diese werden vom Amt für Abfall, Wasser, Energie und Luft (AWEL) des Kantons Zürich erhoben und hier als OGD publiziert: [Datenkatalog | Kanton Zürich](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html). Die Erhebung der Daten startet aber (wie so oft) in Excel...
 
-<DataCard title="Ausgangslage: Die unschöne Excel-Tabelle" header="Für Menschen lesbar, für Maschinen problematisch: zusammengefasste Zellen, doppelte Spalten, gemischte Inhalte (Rohdaten, Totale, Prozentwerte) und mehrstufige Kopfzeilen erschweren die automatische Verarbeitung." previewHeight={400}>
+<CollapseCard title="Ausgangslage: Die unschöne Excel-Tabelle" header="Für Menschen lesbar, für Maschinen problematisch: zusammengefasste Zellen, doppelte Spalten, gemischte Inhalte (Rohdaten, Totale, Prozentwerte) und mehrstufige Kopfzeilen erschweren die automatische Verarbeitung." previewHeight={400}>
 <table>
   <thead>
     <tr>
@@ -153,9 +129,10 @@ Als Beispiel dienen uns echte Daten zu Neubeschaffungen bei der kantonalen Fahrz
     </tr>
   </tbody>
 </table>
-</DataCard>
+</CollapseCard>
 
-<DataCard title="Ziel: Eine OGD-konforme CSV-Datei" header={<>Die Datei wurde nach den <a href="/ogd-handbook/daten_struktur_format/datenstruktur">Prinzipien von Tidy Data</a> aufbereitet. Jede Zeile ist eine Beobachtung, jede Spalte eine Variable - keine zusammengefassten Zellen, keine Totale, keine Prozentwerte. So kann die Datei direkt maschinell weiterverarbeitet werden.</>} previewHeight={300}>
+<CollapseCard title="Ziel: Eine OGD-konforme CSV-Datei" header={<>Die Datei wurde nach den <a href="/ogd-handbook/daten_struktur_format/datenstruktur">Prinzipien von Tidy Data</a> aufbereitet. Jede Zeile ist eine Beobachtung, jede Spalte eine Variable - keine zusammengefassten Zellen, keine Totale, keine Prozentwerte. So kann die Datei direkt maschinell weiterverarbeitet werden.</>} previewHeight={300}>
+
 <table>
   <thead>
     <tr>
@@ -273,15 +250,15 @@ Als Beispiel dienen uns echte Daten zu Neubeschaffungen bei der kantonalen Fahrz
     <tr><td>Schwere Nutzfahrzeuge (N2/N3)</td><td>2024</td><td>Plug-in Hybrid</td><td>0</td></tr>
   </tbody>
 </table>
-</DataCard>
+</CollapseCard>
 
+---
 
 ## R-Tutorial: Von Excel zur OGD-konformen CSV-Datei
 
 Folgendes R-Script zeigt Schritt für Schritt, wie die Excel-Datei in eine OGD-konforme CSV umgewandelt wird. Es dient als Inspiration und Vorlage für ähnliche Datensätze.
 
-
-<DataCard title="R-Tutorial: Excel -> OGD" previewHeight={500}>
+<CollapseCard title="R-Tutorial: Excel -> OGD" previewHeight={500}>
 
 ```r
 # ============================================================
@@ -389,7 +366,7 @@ excel_daten <- excel_relevant |>
 # 7) Summenzeilen entfernen
 # -----------------------------
 # In der Excel-Datei gibt es zusätzlich die Zeile "Alle Fahrzeuge".
-# Diese wird in der publizierten OGD-Datei nicht verwendet. Dient höchstens der Kontrolle der abgeschlossenen Aufbereitung. 
+# Diese wird in der publizierten OGD-Datei nicht verwendet. Dient höchstens der Kontrolle der abgeschlossenen Aufbereitung.
 
 excel_daten <- excel_daten |>
   dplyr::filter(fahrzeugart != "Alle Fahrzeuge")
@@ -538,8 +515,9 @@ cat("Fertig. Die CSV-Datei wurde erstellt:", pfad_csv, "\n")
 print(utils::head(ogd_daten, 20))
 ```
 
-</DataCard>
+</CollapseCard>
 
+---
 
 ## R-Tutorial: Automatisierter Upload in den Datenkatalog
 
@@ -547,8 +525,7 @@ Die oben erstellte CSV-Datei wäre nun bereit um als OGD-Ressource in die Metada
 
 Mit nur wenigen Zeilen Code haben wir auch den Upload erledigt. Das Code-Beispiel folgt dabei grösstenteils dem readme des von uns zur Verfügung gestellten **[zhapir](https://github.com/openZH/zhapir).**
 
-
-<DataCard title="R-Tutorial: zhapir" previewHeight={500}>
+<CollapseCard title="R-Tutorial: zhapir" previewHeight={500}>
 
 ```r
 # -----------------------------
@@ -589,80 +566,55 @@ verteilung_update <- zhapir::update_distribution(
 print(verteilung_update)
 cat("Die Distribution in der MDV wurde aktualisiert.\n")
 ```
-</DataCard>
+
+</CollapseCard>
+
+---
 
 ## Erklärung der wichtigsten Schritte
 
-### Warum lesen wir die Excel-Datei zuerst roh ein?
+- **Warum lesen wir die Excel-Datei zuerst roh ein?** <br /> Viele Excel-Dateien sind nicht so aufgebaut, dass die erste Zeile sofort als sauberer Tabellenkopf verwendet werden kann. In deinem Beispiel gibt es zuerst Überschriften, Strukturzeilen und leere Bereiche. Darum ist es einfacher, zuerst alles einzulesen und danach gezielt die relevanten Teile herauszunehmen.
 
-Viele Excel-Dateien sind nicht so aufgebaut, dass die erste Zeile sofort als sauberer Tabellenkopf verwendet werden kann. In deinem Beispiel gibt es zuerst Überschriften, Strukturzeilen und leere Bereiche. Darum ist es einfacher, zuerst alles einzulesen und danach gezielt die relevanten Teile herauszunehmen.
+- **Warum verwenden wir `janitor::remove_empty()`?** <br /> Excel-Dateien enthalten oft leere Zeilen oder leere Spalten, die nur für das Layout da sind. `janitor::remove_empty()` entfernt diese Elemente früh im Prozess und macht die Tabelle einfacher weiterzuverarbeiten.
 
-### Warum verwenden wir `janitor::remove_empty()`?
-
-Excel-Dateien enthalten oft leere Zeilen oder leere Spalten, die nur für das Layout da sind. `janitor::remove_empty()` entfernt diese Elemente früh im Prozess und macht die Tabelle einfacher weiterzuverarbeiten.
-
-### Warum setzen wir die Spaltennamen hier von Hand?
-
+- **Warum setzen wir die Spaltennamen hier von Hand?** <br /> 
 In dieser Beispieldatei stehen die Daten zwar an einer gut erkennbaren Stelle, aber nicht in einer perfekt vorbereiteten Tabelle mit sofort nutzbaren Spaltennamen. Für ein Einsteiger-Tutorial ist es deshalb einfacher, zuerst die relevanten Spalten auszuwählen und ihnen dann bewusst klare Namen zu geben.
 
-### Warum formen wir von breit nach lang um?
+- **Warum formen wir von breit nach lang um?** <br />
+Breite Tabellen sind für Menschen oft gut lesbar. Für OGD und Datenverarbeitung ist eine lange Tabelle aber meistens besser. Anstatt separater Spalten für Benzin, Diesel und Gas enthält diese eine Spalte für den Technologienamen und eine weitere für den zugehörigen Wert. Das ist sauberer, standardisierter und einfacher auszuwerten.
 
-Breite Tabellen sind für Menschen oft gut lesbar. Für OGD und Datenverarbeitung ist eine lange Tabelle aber meistens besser.
-
-Statt:
-- eine Spalte für Benzin
-- eine Spalte für Diesel
-- eine Spalte für Gas
-
-hast du dann:
-- eine Spalte mit dem Namen der Technologie
-- eine Spalte mit dem zugehörigen Wert
-
-Das ist sauberer, standardisierter und einfacher auszuwerten.
-
-
+---
 
 ## Typische Fehler und wie du damit umgehst
 
-### Fehler 1: Datei wird nicht gefunden
+- **Fehler 1: Datei wird nicht gefunden** <br /> 
+*Beispiel: `Error: path does not exist`.* Dann stimmt meistens der Dateipfad nicht. Prüfe:
+  - Liegt die Excel-Datei im richtigen Ordner?
+  - Ist der Dateiname exakt richtig geschrieben?
+  - Stimmt die Dateiendung `.xlsx`?
 
-Beispiel: `Error: path does not exist`
-
-Dann stimmt meistens der Dateipfad nicht. Prüfe:
-
-- Liegt die Excel-Datei im richtigen Ordner?
-- Ist der Dateiname exakt richtig geschrieben?
-- Stimmt die Dateiendung `.xlsx`?
-
-### Fehler 2: Ein Paket fehlt
-
-Beispiel: `there is no package called ...`
-
+- **Fehler 2: Ein Paket fehlt** <br /> 
+*Beispiel: `there is no package called ...`<br />* 
 Dann installiere das fehlende Paket mit `install.packages(...)`.
 
-### Fehler 3: Die ausgewählten Spalten passen nicht
-
-Das Tutorial basiert auf einer konkreten Excel-Struktur. Wenn sich die Quelldatei im nächsten Jahr verändert, kann es sein, dass die relevanten Daten nicht mehr in den Spalten 3 bis 11 stehen.
-
+- **Fehler 3: Die ausgewählten Spalten passen nicht** <br />
+Das Tutorial basiert auf einer konkreten Excel-Struktur. Wenn sich die Quelldatei im nächsten Jahr verändert, kann es sein, dass die relevanten Daten nicht mehr in den Spalten 3 bis 11 stehen.<br />
 Prüfe dann zuerst die Rohdaten mit: `print(utils::head(excel_roh, 10))` und passe danach die Spaltenauswahl in `dplyr::select()` an.
 
-### Fehler 4: Eine Spalte wird nicht gefunden
-
-Beispiel: `Can't select columns that don't exist`
-
+- **Fehler 4: Eine Spalte wird nicht gefunden** <br />
+*Beispiel: `Can't select columns that don't exist`* <br />
 Dann stimmen die Spaltennamen im Skript nicht mehr zur Excel-Datei. Prüfe mit: `names(excel_relevant)`.
 Passe danach die Namen oder die Auswahl im Skript an.
 
-### Fehler 5: zhapir kann nicht auf die MDV zugreifen. Fehler 401, 404 oder 500. 
-
+- **Fehler 5: zhapir kann nicht auf die MDV zugreifen. Fehler 401, 404 oder 500.** <br />
 Prüfe in diesem Fall:
+  - Ist das Paket `zhapir` installiert?
+  - Ist dein API Key als `ZHAPIR_API_KEY` in der `.Renviron` gespeichert?
+  - Hast du die R-Session nach dem Eintrag in `.Renviron` neu gestartet?
+  - Verwendest du die richtige ID für Datensatz oder Distribution?
+  - Ist `use_dev = FALSE` gesetzt, wenn du produktiv arbeiten willst?
 
-- Ist das Paket `zhapir` installiert?
-- Ist dein API Key als `ZHAPIR_API_KEY` in der `.Renviron` gespeichert?
-- Hast du die R-Session nach dem Eintrag in `.Renviron` neu gestartet?
-- Verwendest du die richtige ID für Datensatz oder Distribution?
-- Ist `use_dev = FALSE` gesetzt, wenn du produktiv arbeiten willst?
-
+---
 
 ## Was du ein LLM fragen kannst
 
@@ -674,14 +626,14 @@ Gerade am Anfang kann ein LLM sehr hilfreich sein. Gute Fragen sind zum Beispiel
 - „Wie prüfe ich in R, ob meine OGD-Datei fehlende Werte enthält?“
 - „Hilf mir, diese Fehlermeldung in R zu verstehen.“
 
-Wichtig ist: Kopiere bei Problemen immer die **vollständige Fehlermeldung** mit. 
-
+Wichtig ist: Kopiere bei Problemen immer die **vollständige Fehlermeldung** mit.
 
 :::danger Noch wichtiger!
 
 Kopiere keine internen oder vertraulichen Daten in das Chatfenster mit dem LLM.
 :::
 
+---
 
 ## Hinweis zum Beispiel
 
