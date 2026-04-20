@@ -4,7 +4,6 @@ Dieses Repository enthält den Quellcode des **Open Government Data Handbuchs** 
 
 👉 **[openzh.github.io/ogd-handbook](https://openzh.github.io/ogd-handbook/)**
 
----
 
 ## Inhalt
 
@@ -17,7 +16,6 @@ Dieses Repository enthält den Quellcode des **Open Government Data Handbuchs** 
 | 5       | Anleitungen (R, Excel, Metadatenverwaltung) |
 | 6       | Kontakt                                     |
 
----
 
 ## Technologie
 
@@ -31,13 +29,9 @@ npm start      # Entwicklungsserver starten (http://localhost:3000)
 npm run build  # Produktions-Build erstellen
 ```
 
----
-
 ## Mitarbeit
 
-Korrekturen, Ergänzungen und neue Seiten können über Pull Requests eingereicht werden. Fehler und Wünsche bitte als [Issue erfassen](https://github.com/openZH/) oder per E-Mail an [info@open.zh.ch](mailto:info@open.zh.ch). Vielen Dank!
-
----
+Korrekturen, Ergänzungen und neue Seiten können über Pull Requests eingereicht werden. Fehler und Wünsche bitte als [Issue erfassen](https://github.com/openZH/ogd-handbook/issues) oder per E-Mail an [info@open.zh.ch](mailto:info@open.zh.ch). Vielen Dank!
 
 ## Kontakt
 
