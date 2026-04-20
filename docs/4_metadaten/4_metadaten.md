@@ -7,11 +7,15 @@ sidebar_label: 4. Metadaten
 
 Metadaten beschreiben einen Datensatz und setzen ihn in Kontext. Sie beschreiben, wofür die Daten erhoben wurden, welche Einschränkungen oder Brüche in der Erhebung zu beachten sind, die zeitliche und räumliche Abdeckung und geben Hinweise auf weitere Hintergrundinformationen.
 
+---
+
 ## Metadatenstandard im Kanton Zürich
 
 Der Kanton Zürich hält sich an die Schweizer Version des internationalen Metadatenstandards [DCAT-AP CH](https://www.dcat-ap.ch/). Dieser Standard legt fest, welche beschreibende Felder ein Datensatz haben muss und welche optional sind. Ergänzend dazu gibt es kantonale Zusatzfelder, die auf die spezifischen Bedürfnisse des Kantons Zürich ausgerichtet sind.
 
 Die Metadaten sind gemäss DCAT in Datensatz und zugehörige Distributionen gegliedert. Ein Datensatz beschreibt die Daten auf konzeptioneller Ebene - also was die Daten enthalten und wer sie herausgibt. Eine Distribution ist die konkrete Bereitstellungsform des Datensatzes, also die eigentliche Datei oder API. Ein Datensatz kann mehrere Distributionen haben.
+
+---
 
 ## Metadatenattribute
 
