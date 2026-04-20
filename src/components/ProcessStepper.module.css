@@ -124,3 +124,9 @@
   opacity: 0.2;
   cursor: default;
 }
+
+@media (max-width: 768px) {
+  .bubbleLabel {
+    display: none;
+  }
+}
