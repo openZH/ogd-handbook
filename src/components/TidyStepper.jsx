@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import styles from './TidyStepper.module.css';
+import { useState } from "react";
+import styles from "./TidyStepper.module.css";
 
 const STATUS = {
-  bad:  { label: '✗ Nicht tidy', color: '#B01657', bg: '#F6E3EA' },
-  ok:   { label: '~ Almost tidy',  color: '#7F3DA7', bg: '#ECE2F1' },
-  good: { label: '✓ Tidy',       color: '#00797B', bg: '#E8F3F2' },
+  bad: { label: "✗ Nicht tidy", className: "badgeBad" },
+  ok: { label: "~ Almost tidy", className: "badgeOk" },
+  good: { label: "✓ Tidy", className: "badgeGood" },
 };
 
 export default function TidyStepper({ steps }) {
@@ -15,8 +15,7 @@ export default function TidyStepper({ steps }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.card}>
-
-        <div className={styles.badge} style={{ color: status.color, background: status.bg }}>
+        <div className={`${styles.badge} ${styles[status.className]}`}>
           {status.label}
         </div>
 
@@ -49,16 +48,25 @@ export default function TidyStepper({ steps }) {
 
         <div className={styles.actions}>
           {current > 0 && (
-            <button className={styles.btnSecondary} onClick={() => setCurrent(c => c - 1)}>
+            <button
+              className={styles.btnSecondary}
+              onClick={() => setCurrent((c) => c - 1)}
+            >
               ← Zurück
             </button>
           )}
           {current < steps.length - 1 ? (
-            <button className={styles.btnPrimary} onClick={() => setCurrent(c => c + 1)}>
+            <button
+              className={styles.btnPrimary}
+              onClick={() => setCurrent((c) => c + 1)}
+            >
               Weiter →
             </button>
           ) : (
-            <button className={styles.btnSecondary} onClick={() => setCurrent(0)}>
+            <button
+              className={styles.btnSecondary}
+              onClick={() => setCurrent(0)}
+            >
               ↺ Neustart
             </button>
           )}
@@ -69,7 +77,7 @@ export default function TidyStepper({ steps }) {
         {steps.map((_, i) => (
           <button
             key={i}
-            className={`${styles.dot} ${i === current ? styles.dotActive : ''} ${i < current ? styles.dotDone : ''}`}
+            className={`${styles.dot} ${i === current ? styles.dotActive : ""} ${i < current ? styles.dotDone : ""}`}
             onClick={() => setCurrent(i)}
             aria-label={`Beispiel ${i + 1}`}
           />

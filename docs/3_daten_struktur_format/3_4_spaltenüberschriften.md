@@ -13,7 +13,7 @@ import Tag from '@site/src/components/Tag';
 
 Die erste Zeile eines Datensatzes enthält immer die Spaltenüberschriften (Header). Für diese Variablennamen gelten folgende Empfehlungen:
 
-| Empfehlung | <Tag text="✓ Gut" color="#00797B" bg="#E8F3F2" /> | <Tag text="✗ Vermeiden" color="#B01657" bg="#F6E3EA" /> |
+| Empfehlung | <Tag text="✓ Gut" variant="good" /> | <Tag text="✗ Vermeiden" variant="bad" /> |
 |------------|------------------------------------------------|------------------------------------------------------|
 | Keine reine Zahlen | `code_3725` | `3725` |
 | Eindeutig und selbsterklärend | `flaeche_ha` | `flaeche` |
@@ -23,11 +23,13 @@ Die erste Zeile eines Datensatzes enthält immer die Spaltenüberschriften (Head
 | Umlaute sind nicht empfohlen | `bevoelkerung` | `bevölkerung` |
 | Maximal 32 Zeichen lang | `bevoelkerung_reformiert` | `bevoelkerung_ohne_oder_andere_konfession` |
 
+---
+
 ## Datenzeilen
 
 Ab der zweiten Zeile folgen die eigentlichen Daten. Für Datenzeilen gelten weniger strenge Regeln als für Spaltenüberschriften:
 
-| Empfehlung | <Tag text="✓ Gut" color="#00797B" bg="#E8F3F2" /> | <Tag text="✗ Vermeiden" color="#B01657" bg="#F6E3EA" /> |
+| Empfehlung | <Tag text="✓ Gut" variant="good" /> | <Tag text="✗ Vermeiden" variant="bad" /> |
 |------------|------------------------------------------------|------------------------------------------------------|
 | Sonderzeichen und Umlaute erlaubt | `Zürich`, `Ärztekammer` | - |
 | Nicht übermässig lange Zeilen | Max. ~160 Zeichen | Mehr als 8000 Zeichen (technisches max.) |

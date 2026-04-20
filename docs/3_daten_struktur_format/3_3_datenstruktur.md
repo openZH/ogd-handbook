@@ -15,6 +15,8 @@ Eine gute Datenstruktur ist die Grundlage für maschinenlesbare und weiterverwen
 2. Jede **Beobachtung** bildet eine **Zeile**
 3. Jede **Zelle** enthält genau einen **Wert**
 
+---
+
 ## Langes vs. breites Format
 
 ### Breites Format (Wide)
@@ -38,6 +40,8 @@ Das **breite Format** ist für Menschen leicht lesbar, aber für Maschinen schwe
 | Winterthur | 2022 | 116'000 |
 
 Das **lange Format** wird für OGD bevorzugt: Es nimmt neue Zeitperioden ohne Strukturänderung auf, hat konsistente Spaltendefinitionen und wird von Analysetools wie Python, R oder SQL besser verarbeitet.
+
+---
 
 ## Gute und weniger gute Beispiele
 
@@ -81,7 +85,7 @@ import TidyStepper from '@site/src/components/TidyStepper';
   },
   {
     status: 'ok',
-    title: 'Almost Tidy - akzeptabel, wenn Spalten konsistent bleiben',
+    title: 'Almost Tidy: akzeptabel, wenn Spalten konsistent bleiben',
     table: {
       headers: ['gemeinde', 'jahr', 'bevoelkerung_reformiert', 'bevoelkerung_katholisch'],
       rows: [

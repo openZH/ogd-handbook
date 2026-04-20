@@ -21,6 +21,7 @@ Daten lassen sich für mehr Überblick zusammenfassen, wenn
 - denselben Entstehungszusammenhang haben
 :::
 
+---
 
 ## Aktualisierungsstrategie von Distributionen
 
