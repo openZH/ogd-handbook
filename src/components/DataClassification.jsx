@@ -1,11 +1,38 @@
-import styles from './DataClassification.module.css';
+import styles from "./DataClassification.module.css";
 
-// Colors only — no text
+/**
+ * Displays the four data classification levels of Canton Zurich as a column grid:
+ * header, bullet points, access level, FAIR banner, and OGD tag / shield icon.
+ * Colors are hardcoded; text content comes via the `levels` prop.
+ *
+ * Used in:
+ * - `2_2_data_governance.md`
+ *
+ * @param {{ key: string, label: string, bullets: string[], access: string, bottom: { type: 'tag'|'text'|'shield', label?: string } }[]} levels
+ *   Array of exactly 4 classification levels.
+ */
+
 const COLORS = [
-  { headerBg: 'var(--kzh-violet)',      headerText: 'white',              bgColor: 'var(--kzh-violet-light)' },
-  { headerBg: 'var(--kzh-grey-light)',  headerText: 'var(--kzh-black)',   bgColor: 'var(--kzh-white)' },
-  { headerBg: 'var(--kzh-grey-light)',  headerText: 'var(--kzh-black)',   bgColor: 'var(--kzh-white)' },
-  { headerBg: 'var(--kzh-grey-light)',  headerText: 'var(--kzh-black)',   bgColor: 'var(--kzh-white)' },
+  {
+    headerBg: "var(--kzh-violet)",
+    headerText: "white",
+    bgColor: "var(--kzh-violet-light)",
+  },
+  {
+    headerBg: "var(--kzh-grey-light)",
+    headerText: "var(--kzh-black)",
+    bgColor: "var(--kzh-white)",
+  },
+  {
+    headerBg: "var(--kzh-grey-light)",
+    headerText: "var(--kzh-black)",
+    bgColor: "var(--kzh-white)",
+  },
+  {
+    headerBg: "var(--kzh-grey-light)",
+    headerText: "var(--kzh-black)",
+    bgColor: "var(--kzh-white)",
+  },
 ];
 
 function ShieldIcon() {
@@ -22,8 +49,24 @@ function ShieldIcon() {
         className={styles.shieldStroke}
         strokeWidth="1.5"
       />
-      <line x1="9" y1="9" x2="15" y2="15" className={styles.shieldStroke} strokeWidth="2" strokeLinecap="round" />
-      <line x1="15" y1="9" x2="9" y2="15" className={styles.shieldStroke} strokeWidth="2" strokeLinecap="round" />
+      <line
+        x1="9"
+        y1="9"
+        x2="15"
+        y2="15"
+        className={styles.shieldStroke}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="15"
+        y1="9"
+        x2="9"
+        y2="15"
+        className={styles.shieldStroke}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }
@@ -32,76 +75,79 @@ export default function DataClassification({ levels }) {
   return (
     <figure className={styles.figure}>
       <div className={styles.wrapper}>
-      <div className={styles.grid}>
+        <div className={styles.grid}>
+          {/* Header row */}
+          <div className={styles.headerRow}>
+            {levels.map((level, i) => (
+              <div
+                key={level.key}
+                className={styles.headerCell}
+                style={{
+                  backgroundColor: COLORS[i].headerBg,
+                  color: COLORS[i].headerText,
+                }}
+              >
+                {level.label}
+              </div>
+            ))}
+          </div>
 
-        {/* Header row */}
-        <div className={styles.headerRow}>
-          {levels.map((level, i) => (
-            <div
-              key={level.key}
-              className={styles.headerCell}
-              style={{ backgroundColor: COLORS[i].headerBg, color: COLORS[i].headerText }}
-            >
-              {level.label}
-            </div>
-          ))}
+          {/* Bullet points row */}
+          <div className={styles.contentRow}>
+            {levels.map((level, i) => (
+              <div
+                key={level.key}
+                className={styles.contentCell}
+                style={{ backgroundColor: COLORS[i].bgColor }}
+              >
+                <ul className={styles.bulletList}>
+                  {level.bullets.map((b) => (
+                    <li key={b}>{b}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          {/* Access level row */}
+          <div className={styles.accessRow}>
+            {levels.map((level, i) => (
+              <div
+                key={level.key}
+                className={styles.accessCell}
+                style={{ backgroundColor: COLORS[i].bgColor }}
+              >
+                {level.access}
+              </div>
+            ))}
+          </div>
+
+          {/* FAIR banner */}
+          <div className={styles.fairBanner}>+ «FAIR» =</div>
+
+          {/* Bottom row */}
+          <div className={styles.bottomRow}>
+            {levels.map((level, i) => (
+              <div
+                key={level.key}
+                className={styles.bottomCell}
+                style={{ backgroundColor: COLORS[i].bgColor }}
+              >
+                {level.bottom.type === "tag" && (
+                  <span className={styles.openDataTag}>
+                    {level.bottom.label}
+                  </span>
+                )}
+                {level.bottom.type === "text" && (
+                  <span className={styles.bottomText}>
+                    {level.bottom.label}
+                  </span>
+                )}
+                {level.bottom.type === "shield" && <ShieldIcon />}
+              </div>
+            ))}
+          </div>
         </div>
-
-        {/* Bullet points row */}
-        <div className={styles.contentRow}>
-          {levels.map((level, i) => (
-            <div
-              key={level.key}
-              className={styles.contentCell}
-              style={{ backgroundColor: COLORS[i].bgColor }}
-            >
-              <ul className={styles.bulletList}>
-                {level.bullets.map((b) => (
-                  <li key={b}>{b}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-
-        {/* Access level row */}
-        <div className={styles.accessRow}>
-          {levels.map((level, i) => (
-            <div
-              key={level.key}
-              className={styles.accessCell}
-              style={{ backgroundColor: COLORS[i].bgColor }}
-            >
-              {level.access}
-            </div>
-          ))}
-        </div>
-
-        {/* FAIR banner */}
-        <div className={styles.fairBanner}>
-          + «FAIR» =
-        </div>
-
-        {/* Bottom row */}
-        <div className={styles.bottomRow}>
-          {levels.map((level, i) => (
-            <div
-              key={level.key}
-              className={styles.bottomCell}
-              style={{ backgroundColor: COLORS[i].bgColor }}
-            >
-              {level.bottom.type === 'tag' && (
-                <span className={styles.openDataTag}>{level.bottom.label}</span>
-              )}
-              {level.bottom.type === 'text' && (
-                <span className={styles.bottomText}>{level.bottom.label}</span>
-              )}
-              {level.bottom.type === 'shield' && <ShieldIcon />}
-            </div>
-          ))}
-        </div>
-
-      </div>
       </div>
     </figure>
   );

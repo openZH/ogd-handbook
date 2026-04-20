@@ -1,3 +1,16 @@
+/**
+ * Card with a title, optional subtitle header, and collapsible content area.
+ * Shows a fade overlay and "show all" button when collapsed.
+ * The `data-card-content` class is applied to the inner content div so that `custom.css` can override table widths inside it.
+ *
+ * Used in:
+ * - `5_1_daten_nachvollziehbar_aufbereiten.md`: collapsible previews of Excel tables and R code
+ *
+ * @param {string} title Card title
+ * @param {React.ReactNode} [header] Optional subtitle shown below the title
+ * @param {React.ReactNode} children Card content (tables, code blocks, etc.)
+ * @param {number} [previewHeight=220] Height in px of the collapsed preview
+ */
 import { useState } from "react";
 import styles from "./CollapseCard.module.css";
 

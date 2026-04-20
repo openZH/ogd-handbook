@@ -1,3 +1,13 @@
+/**
+ * Interactive stepper showing a table at each step with a tidy-data status badge
+ * (bad / ok / good), a title, a reason, and prev/next navigation.
+ *
+ * Used in:
+ * - `3_3_datenstruktur.md`: step-by-step illustration of Tidy Data transformations
+ *
+ * @param {{ title: string, status: 'bad'|'ok'|'good', reason: string, table: { headers: string[], rows: string[][] } }[]} steps
+ *   Array of steps, each with a status, title, reason, and table data.
+ */
 import { useState } from "react";
 import styles from "./TidyStepper.module.css";
 

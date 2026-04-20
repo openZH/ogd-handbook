@@ -6,7 +6,6 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* ── Track row: nav buttons + circles ── */
 .trackRow {
   display: flex;
   align-items: center;
@@ -14,7 +13,6 @@
   width: 100%;
 }
 
-/* ── Track: circles + connectors ── */
 .track {
   display: flex;
   align-items: flex-start;
@@ -50,7 +48,6 @@
   gap: 8px;
 }
 
-/* ── Bubbles ── */
 .bubble {
   width: 48px;
   height: 48px;
