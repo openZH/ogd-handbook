@@ -28,7 +28,7 @@ Alle OGD der Kantonsverwaltung Zürich finden sich im Datenkatalog **[www.zh.ch/
 :::
 
 :::info Datenkataloge von Zürcher Städten
-Im Kanton Zürich publizieren die Städte [Winterthur](https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/open-data) und [Zürich](https://data.stadt-zuerich.ch/dataset) ebenfalls Open Data. 
+Im Kanton Zürich publizieren die Städte [Winterthur](https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/open-data), [Zürich](https://data.stadt-zuerich.ch/dataset) und [Uster](https://www.uster.ch/opendata) ebenfalls Open Data.
 :::
 
 Für Open Data, die über die Metadatenverwaltung publiziert werden, erhebt die Fach- und Koordinationsstelle Open Government Data Nutzungszahlen und publiziert diese als [OGD](https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2522@statistisches-amt-kanton-zuerich) und visualisiert sie in einem [Dashboard](https://openzh.shinyapps.io/OGD_Analytics/).
@@ -53,7 +53,7 @@ Das digitale Nachschlagewerk der Zürcher Behörden mit Kontaktstellen.
 Räumliche Daten des Kantons visualisiert.
 
 </Card>
-<Card title="Informationsbestände gemäss IDG" href="https://www.zh.ch/de.html">
+<Card title="Informationsbestände gemäss IDG" href="https://www.zh.ch/de/suche.html?q=Informationsbest%C3%A4nde">
 
 Verzeichnisse pro Amt und Organisationseinheit auf der kantonalen Webseite.
 
