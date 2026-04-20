@@ -1,0 +1,80 @@
+/* NAVBAR */
+.navbar {
+  background-color: var(--kzh-blue);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 0 1.5rem;
+}
+
+.navbar__logo {
+  height: 32px;
+  margin-right: 0.5rem;
+}
+
+.navbar__title {
+  color: white;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.navbar__title::after {
+  content: " › Open Government Data Handbuch";
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.navbar__link {
+  color: white !important;
+  font-size: 0.9rem;
+}
+.navbar__link:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.navbar__link--active {
+  font-weight: 700;
+}
+
+/* MOBILE BURGER BUTTON */
+.navbar__toggle {
+  color: white;
+}
+
+/* MOBILE NAV SIDEBAR */
+.navbar-sidebar {
+  background-color: var(--kzh-white) !important;
+}
+
+.navbar-sidebar__brand {
+  background-color: var(--kzh-blue);
+}
+
+.navbar-sidebar__items .menu__link {
+  color: var(--kzh-black);
+}
+
+/* SIDEBAR */
+.menu__link:hover {
+  background-image: linear-gradient(
+    120deg,
+    var(--kzh-blue-light) 0%,
+    var(--kzh-blue-light) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 45%;
+  background-position: 0 95%;
+  background-color: transparent !important;
+  font-weight: 500;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-image: linear-gradient(
+    120deg,
+    var(--kzh-blue-light) 0%,
+    var(--kzh-blue-light) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 45%;
+  background-position: 0 95%;
+  background-color: transparent !important;
+  font-weight: 700;
+  color: var(--kzh-black);
+}
