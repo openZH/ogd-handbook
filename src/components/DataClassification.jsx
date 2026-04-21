@@ -74,9 +74,9 @@ function ShieldIcon() {
 export default function DataClassification({ levels }) {
   return (
     <figure className={styles.figure}>
+      {/* Desktop grid layout */}
       <div className={styles.wrapper}>
         <div className={styles.grid}>
-          {/* Header row */}
           <div className={styles.headerRow}>
             {levels.map((level, i) => (
               <div
@@ -92,7 +92,6 @@ export default function DataClassification({ levels }) {
             ))}
           </div>
 
-          {/* Bullet points row */}
           <div className={styles.contentRow}>
             {levels.map((level, i) => (
               <div
@@ -109,7 +108,6 @@ export default function DataClassification({ levels }) {
             ))}
           </div>
 
-          {/* Access level row */}
           <div className={styles.accessRow}>
             {levels.map((level, i) => (
               <div
@@ -122,10 +120,8 @@ export default function DataClassification({ levels }) {
             ))}
           </div>
 
-          {/* FAIR banner */}
           <div className={styles.fairBanner}>+ «FAIR» =</div>
 
-          {/* Bottom row */}
           <div className={styles.bottomRow}>
             {levels.map((level, i) => (
               <div
@@ -148,6 +144,54 @@ export default function DataClassification({ levels }) {
             ))}
           </div>
         </div>
+      </div>
+
+      {/* Mobile card layout */}
+      <div className={styles.mobileCards}>
+        {levels.map((level, i) => (
+          <div
+            key={level.key}
+            className={styles.mobileCard}
+            style={{ borderColor: COLORS[i].headerBg }}
+          >
+            <div
+              className={styles.mobileCardHeader}
+              style={{
+                backgroundColor: COLORS[i].headerBg,
+                color: COLORS[i].headerText,
+              }}
+            >
+              {level.label}
+            </div>
+            <div
+              className={styles.mobileCardBody}
+              style={{ backgroundColor: COLORS[i].bgColor }}
+            >
+              <ul className={styles.bulletList}>
+                {level.bullets.map((b) => (
+                  <li key={b}>{b}</li>
+                ))}
+              </ul>
+              <div className={styles.mobileAccess}>{level.access}</div>
+              <div className={styles.mobileBottom}>
+                {level.bottom.type !== "shield" && (
+                  <span className={styles.mobileFair}>+ «FAIR» =</span>
+                )}
+                {level.bottom.type === "tag" && (
+                  <span className={styles.openDataTag}>
+                    {level.bottom.label}
+                  </span>
+                )}
+                {level.bottom.type === "text" && (
+                  <span className={styles.bottomText}>
+                    {level.bottom.label}
+                  </span>
+                )}
+                {level.bottom.type === "shield" && <ShieldIcon />}
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </figure>
   );

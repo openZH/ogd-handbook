@@ -18,7 +18,7 @@ import ProcessStepper from '@site/src/components/ProcessStepper';
     text: <>Daten als maschinenlesbare Distribution aufbereiten. Siehe: <a href="/ogd-handbook/daten_struktur_format/dateiformate">Empfehlungen Daten</a> &amp; <a href="/ogd-handbook/anleitungen/daten-aufbereiten">Daten mit R aufbereiten</a>.</>,
   },
   {
-    title: "Metadaten beschreiben",
+    title: "Mit Metadaten beschreiben",
     emoji: "🏷️",
     text: <>Daten mit aussagekräftigen Metadaten beschreiben. Siehe: <a href="/ogd-handbook/metadaten">Metadaten</a>.</>,
   },
