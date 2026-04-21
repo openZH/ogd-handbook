@@ -165,11 +165,62 @@
   line-height: 1.35;
 }
 
-@media (max-width: 600px) {
-  .headerRow,
-  .contentRow,
-  .accessRow,
-  .bottomRow {
-    grid-template-columns: repeat(2, 1fr);
+/* Mobile card layout */
+.mobileCards {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .wrapper {
+    display: none;
+  }
+
+  .mobileCards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .mobileCard {
+    border: 1px solid var(--kzh-border);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .mobileCardHeader {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.75rem;
+    text-align: center;
+  }
+
+  .mobileCardBody {
+    padding: 0.6rem 0.75rem;
+  }
+
+  .mobileAccess {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--kzh-border);
+    color: var(--kzh-black);
+    font-size: 0.85rem;
+  }
+
+  .mobileBottom {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--kzh-border);
+    min-height: 36px;
+  }
+
+  .mobileFair {
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: var(--kzh-black);
+    white-space: nowrap;
   }
 }
