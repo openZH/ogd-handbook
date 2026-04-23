@@ -116,3 +116,9 @@ rows: [
 reason: 'Jede Variable hat genau eine Spalte, jede Beobachtung genau eine Zeile, jede Zelle genau einen Wert. Die Konfession ist explizit als Variable erfasst - neue Konfessionen lassen sich ohne Strukturänderung ergänzen.'
 },
 ]} />
+
+---
+
+:::tip CSV mit KI prüfen
+Mit dem [CSV-Check](./csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
+:::

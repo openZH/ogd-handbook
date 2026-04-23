@@ -34,3 +34,9 @@ Ab der zweiten Zeile folgen die eigentlichen Daten. Für Datenzeilen gelten weni
 | Sonderzeichen und Umlaute erlaubt | `Zürich`, `Ärztekammer` | - |
 | Nicht übermässig lange Zeilen | Max. ~160 Zeichen | Mehr als 8000 Zeichen (technisches max.) |
 | Keine Nicht-Daten-Zeilen | Nur Header + Datenzeilen | Leerzeilen, Kommentare, Fussnoten |
+
+---
+
+:::tip CSV mit KI prüfen
+Mit dem [CSV-Check](./csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
+:::

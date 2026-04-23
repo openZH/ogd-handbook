@@ -23,3 +23,9 @@ import Tag from '@site/src/components/Tag';
 :::tip Einheit
 Wert und Einheit sollten in separaten Spalten aufgeführt werden. Wenn alle Werte einer Spalte dieselbe Einheit haben, kann die Einheit weggelassen und im Spaltennamen (z.B. `laenge_cm`) oder in den Metadaten dokumentiert werden.
 :::
+
+---
+
+:::tip CSV mit KI prüfen
+Mit dem [CSV-Check](./csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
+:::

@@ -30,3 +30,9 @@ In den meisten Analysewerkzeugen wird ein leeres CSV-Feld automatisch als `NULL`
 ## 0 ist kein fehlender Wert
 
 `0` ist ein gültiger Wert und bedeutet «nicht vorhanden» (z.B. 0 Gesuche eingereicht) und soll nicht mit einem fehlenden Wert verwechselt werden.
+
+---
+
+:::tip CSV mit KI prüfen
+Mit dem [CSV-Check](./csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
+:::
