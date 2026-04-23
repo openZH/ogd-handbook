@@ -28,5 +28,5 @@ Enthält die Distribution nur einen Gebietstyp, kann die Gebietstyp-Spalte wegge
 ---
 
 :::tip CSV mit KI prüfen
-Mit dem [CSV-Check](./csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
+Mit dem [CSV-Check](/anleitungen/csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
 :::
