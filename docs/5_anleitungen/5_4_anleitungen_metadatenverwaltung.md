@@ -2,7 +2,7 @@
 id: metadatenverwaltung
 title: Metadatenverwaltung Tutorials
 sidebar_label: Metadatenverwaltung
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Metadatenverwaltung Tutorials
