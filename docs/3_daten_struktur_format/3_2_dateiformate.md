@@ -62,3 +62,9 @@ Eine API (Application Programming Interface) ermöglicht den direkten, automatis
 Stammen die Daten aus einer spezifischen Fachapplikation, bietet die Software häufig bereits eine API an. Es lohnt sich, dies gemeinsam mit dem Softwarehersteller zu prüfen.
 :::
 
+---
+
+:::tip CSV mit KI prüfen
+Mit dem [CSV-Check](./csv-mit-ki-pruefen) kannst du deine Distribution auf die Einhaltung des OGD-Datenstandards prüfen.
+:::
+
