@@ -78,13 +78,10 @@ Prüfe das unten eingefügte CSV auf die Einhaltung der folgenden Vorgaben.
 
 | Nr  | Kriterium        | Beschreibung          |
 | --- | ---------------- | --------------------- |
-| 1   | Zeichenkodierung | UTF-8 oder UTF-8 BOM. |
-
-Hinweis: Nicht prüfbar anhand eines Textauszugs. Markiere dieses Kriterium immer als ❓ und weise den Nutzer darauf hin,
-die Kodierung lokal zu prüfen: CSV-Datei per Rechtsklick öffnen mit Notepad++, Prüfen ob Kodierung UTF-8 ist (Menü «Kodierung»)|
-| 2 | Trennzeichen | Komma `,` - kein Semikolon oder Tab |
-| 3 | Dezimaltrennzeichen | Punkt `.` - kein Komma |
-| 4 | Erste Zeile ist Header | Die erste Zeile enthält Spaltenüberschriften, keine Datenwerte |
+| 1   | Zeichenkodierung | UTF-8 oder UTF-8 BOM. | Hinweis: Nicht prüfbar anhand eines Textauszugs. Markiere dieses Kriterium immer als ❓ und weise den Nutzer darauf hin, die Kodierung lokal zu prüfen: CSV-Datei per Rechtsklick öffnen mit Notepad++, Prüfen ob Kodierung UTF-8 ist (Menü «Kodierung»)|
+| 2   | Trennzeichen | Komma `,` - kein Semikolon oder Tab. Nur das Trennzeichen prüfen, nicht das Quoting (→ siehe Nr. 19). |
+| 3   | Dezimaltrennzeichen | Punkt `.` - kein Komma |
+| 4   | Erste Zeile ist Header | Die erste Zeile enthält Spaltenüberschriften, keine Datenwerte |
 
 ### B - Empfehlungen (Verletzung → ⚠️)
 
