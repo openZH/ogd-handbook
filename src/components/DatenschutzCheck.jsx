@@ -12,7 +12,7 @@ const RESULT_COLORS = {
  * Interactive yes/no decision tree leading to one of three result screens.
  *
  * Used in:
- * - `2_4_datenschutz.md`
+ * - `5_1_sind_deine_daten_ogd_ready.md`
  *
  * @param {{ [id: string]: { question?: string, infobox?: string, yes?: string, no?: string, type?: 'result', variant?: string, title?: string, text?: string, img?: string } }} nodes
  *   Map of node id → node. Question nodes have `question`, `yes`, `no` (and optional `infobox`).
