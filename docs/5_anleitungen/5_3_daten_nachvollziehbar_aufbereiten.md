@@ -2,7 +2,7 @@
 id: daten-aufbereiten
 title: Daten mit R aufbereiten
 sidebar_label: Daten mit R aufbereiten
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 import CollapseCard from '@site/src/components/CollapseCard';
