@@ -59,3 +59,5 @@
 [class*="tocCollapsible"] {
   display: none;
 }
+
+[class*="searchBarShortcutHint"] { display: none; }
