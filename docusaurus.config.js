@@ -4,15 +4,15 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Open Government Data Handbuch - Kanton Zürich',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.svg',
+  title: "Open Government Data Handbuch - Kanton Zürich",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/favicon.svg",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -20,52 +20,63 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://openZH.github.io',
+  url: "https://openZH.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ogd-handbook/',
+  baseUrl: "/ogd-handbook/",
 
   // GitHub pages deployment config.
-  organizationName: 'openZH',
-  projectName: 'ogd-handbook',
+  organizationName: "openZH",
+  projectName: "ogd-handbook",
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
 
-  clientModules: ['./src/clientModules/newTabLinks.js'],
+  clientModules: ["./src/clientModules/newTabLinks.js"],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
+
+  plugins: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        hashed: true,
+        language: ["de"],
+        docsRouteBasePath: "/",
+      },
+    ],
+  ],
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          sidebarPath: "./sidebars.js",
+          routeBasePath: "/",
           breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -79,32 +90,36 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-       tableOfContents: {
-       minHeadingLevel: 4,
-       maxHeadingLevel: 4,
+      tableOfContents: {
+        minHeadingLevel: 4,
+        maxHeadingLevel: 4,
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       colorMode: {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'Kanton Zürich',
+        title: "Kanton Zürich",
         logo: {
-          alt: 'Kanton Zürich',
-          src: 'img/logo.svg',
+          alt: "Kanton Zürich",
+          src: "img/logo.svg",
         },
         items: [
           {
-            href: 'https://github.com/openZH/ogd-handbook',
-            label: 'GitHub',
-            position: 'right',
+            type: "search",
+            position: "right",
+          },
+          {
+            href: "https://github.com/openZH/ogd-handbook",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [],
         copyright: `
           <div class="ft-wrap">

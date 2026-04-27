@@ -4,7 +4,6 @@ Dieses Repository enthält den Quellcode des **Open Government Data Handbuchs** 
 
 👉 **[openzh.github.io/ogd-handbook](https://openzh.github.io/ogd-handbook/)**
 
-
 ## Inhalt
 
 | Kapitel | Thema                                       |
@@ -16,7 +15,6 @@ Dieses Repository enthält den Quellcode des **Open Government Data Handbuchs** 
 | 5       | Anleitungen (R, Excel, Metadatenverwaltung) |
 | 6       | Kontakt                                     |
 
-
 ## Technologie
 
 Das Handbuch wird mit [Docusaurus](https://docusaurus.io/) gebaut. Inhalte liegen als Markdown-Dateien in [`docs/`](docs/). Interaktive Komponenten sind als React-Komponenten in [`src/components/`](src/components/) ausgelagert.
@@ -25,8 +23,9 @@ Das Handbuch wird mit [Docusaurus](https://docusaurus.io/) gebaut. Inhalte liege
 
 ```bash
 npm install    # Abhängigkeiten installieren
-npm start      # Entwicklungsserver starten (http://localhost:3000)
 npm run build  # Produktions-Build erstellen
+npm run serve  # Build lokal im Browser öffnen
+
 ```
 
 ## Mitarbeit
