@@ -4,7 +4,7 @@
  * The `data-card-content` class is applied to the inner content div so that `custom.css` can override table widths inside it.
  *
  * Used in:
- * - `5_1_daten_nachvollziehbar_aufbereiten.md`: collapsible previews of Excel tables and R code
+ * - `5_3_daten_nachvollziehbar_aufbereiten.md`: collapsible previews of Excel tables and R code
  *
  * @param {string} title Card title
  * @param {React.ReactNode} [header] Optional subtitle shown below the title
