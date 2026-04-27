@@ -19,7 +19,7 @@ Das Statistische Amt entwickelt derzeit eine Visualisierungslibrary, mit der sic
 
 ---
 
-## Beispiele
+## Beispiele Daten-Visualisierung
 
 <CardGrid cols={2}>
 
@@ -45,3 +45,10 @@ Die Entwicklung der Leerwohnungsziffer im Kanton und in den Regionen wird mit Ba
 </Card>
 
 </CardGrid>
+
+## Kontakt Daten-Visualisierung
+
+Für Mitarbeitende der Kantonsverwaltung Zürich: Bei der Visualisierung deiner Daten hilft das Visualisierungs-Team des Statistischen Amts dir gerne weiter:
+
+- Corinna Grobe (corinna.grobe@zh.ch)
+- Dan Büschlen (dan.bueschlen@zh.ch).
