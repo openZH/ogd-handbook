@@ -36,11 +36,11 @@ Die Entwicklung der Bevölkerung wird mit einem Flächendiagramm dargestellt. Er
 
 <Card title="Visualisierung: Leerwohnungen" href="https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/leerwohnungen.html">
 
-<img src="/ogd-handbook/img/datavis_leerwohnung.png" alt="Screenshot Leerwohnungsvisualisierung auf zh.ch" style={{width: '83%', borderRadius: '4px', marginBottom: '0.75rem'}} />
+<img src="/ogd-handbook/img/datavis_leerwohnung.png" alt="Screenshot Leerwohnungsvisualisierung auf zh.ch" style={{width: '83%', borderRadius: '4px', marginBottom: '0.75rem', display: 'block', margin: '0 auto 0.75rem'}} />
 
 Die Entwicklung der Leerwohnungsziffer im Kanton und in den Regionen wird mit Balken- und Liniendiagrammen dargestellt. Zusätzlich ermöglicht eine interaktive Karte den Vergleich zwischen den Gemeinden.
 <br />
-**OGD-Grundlage:** <a href="https://datenkatalog.statistik.zh.ch/datasets/110@statistisches-amt-kanton-zuerich">Leerwohnungsbestand</a>
+**OGD-Grundlage:** <a href="https://datenkatalog.statistik.zh.ch/datasets/110@statistisches-amt-kanton-zuerich">Leerwohnungsquote</a>
 
 </Card>
 
