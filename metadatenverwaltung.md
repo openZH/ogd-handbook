@@ -104,7 +104,7 @@ Ist alles bereit, erstmals publiziert zu werden, planen sie mit den 'Data Stewar
 
 Handelt es sich um tabellarische Daten, folgen Sie bei der Aufbereitung den technischen und formalen Grundsätzen, Vorgaben und Empfehlungen in den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md).
 
-Handelt es sich um Daten mit anderen und/oder komplexen Strukturen, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
+Handelt es sich um Daten mit anderen und/oder komplexen Strukturen, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
 
 ### 2. 'Ressourcen' offen zugänglich bereitstellen
 
@@ -117,7 +117,7 @@ Handelt es sich um eine Ressource, die Nutzende als Datei herunterladen können,
 
 Ist eine Organisationseinheit noch nicht in der kantonalen Metadatenverwaltung erfasst, erstellt ein 'Data Guide' im Menu "Einstellungen" unter "Organisationen" eine neue 'Organisation'.
 
-> - Der offizielle Name der Organisation (zB. "Statistisches Amt") wird einheitlich ergänzt um den geografischen Bezug "... des Kantons Zürich" oder "... der Stadt Uster".
+> - Der offizielle Name der Organisation (zB. "Amt für Statistik und Daten") wird einheitlich ergänzt um den geografischen Bezug "... des Kantons Zürich" oder "... der Stadt Uster".
 > - **Wichtig:** Darauf beim Erstellen des 'Publisher'-Slugs darauf achten, alle Umlaute im Slug zu änern auf `ae`, `oe`, `ue`.
 > - Allfällige Abteilungen der Organisation hinzufügen, sofern diese als Kontakt für einzelne 'Datensätze' erscheinen sollen.
 > - Kontakt-eMail-Adressen zur Oragnisation und allen Abteilungen hinzufügen.
@@ -129,7 +129,7 @@ Melden Sie sich als 'Data Steward' mit Ihrem Login in der Metadaten-Verwaltung a
 Klicken Sie rechts oben auf "Neuen Datensatz erstellen".
 
 > - Wählen Sie einen aussagekräftigen Titel, ergänzt um den geografischen Bezug (zB. "... des Kantons Zürich" oder "... der Stadt Uster") und allenfalls weitere abgrenzende Merkmale zu anderen Datensätzen.
-> - Wählen Sie als "Publisher" die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
+> - Wählen Sie als "Publisher" die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
 > - Wählen Sie als Kontakt diejenige Stelle, die fachliche Auskunft zu den entsprechenden Daten geben können.
 > - Wählen Sie mindestens eine der Themenkatagorien aus.
 
@@ -142,8 +142,8 @@ Neue Datensätze und Ressourcen werden im 4-Augenprinzip von Data Guides geprüf
 ## D. Beratung und Unterstützung
 
 ### 1. Kontakte für Fragen und Bedürfnisse
-- Zu offenen Behördendaten steht die [Fach- und Koordinationsstelle OGD im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) zur Verfügung: info@open.zh.ch
-- Zur Metadaten-Verwaltung und zu Behördendaten generell steht die [Abteilung 'Data Shop' im Statistischen Amt](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data-shop.html) zur Verfügung: datashop@statistik.zh.ch
+- Zu offenen Behördendaten steht die [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) zur Verfügung: info@open.zh.ch
+- Zur Metadaten-Verwaltung und zu Behördendaten generell steht die [Abteilung 'Data Shop' im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data-shop.html) zur Verfügung: datashop@statistik.zh.ch
 
 ### 2. Hilfsmittel 
 - Begriffsdefinitionen im [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
