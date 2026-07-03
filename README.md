@@ -28,7 +28,7 @@ Die Fach- und Koordinationsstelle OGD bietet den datenhaltenden Stellen im Kanto
    - [Interoperability: A practitioner’s guide to joining-up data in the development sector](https://www.data4sdgs.org/resources/interoperability-practitioners-guide-joining-data-development-sector), Chapter 4 "Open data formats and standard interfaces"
 
 ## Kontakt
-Statistisches Amt des Kantons Zürich <br>
+Amt für Statistik und Daten des Kantons Zürich <br>
 **[Fach- und Koordinationsstelle Open Government Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
