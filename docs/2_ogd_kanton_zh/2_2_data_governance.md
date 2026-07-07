@@ -144,4 +144,4 @@ Die Data Governance kennt weitere Rollen.
 
 ## Governance von Open Data
 
-Der [OGD-Fachausschuss](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) verankert Open Government Data in den Direktionen, steuert die OGD-Initiative des Kantons Zürich, entscheidet über gemeinsame Standards und entscheidet in unklaren oder strittigen Fällen über die Publikation von Daten. Die Fach- und Koordinationsstelle OGD organisiert den Fachausschuss, berät, arbeitet Vorschläge aus und sorgt für die Vernetzung und Bekanntmachung von OGD in der Verwaltung und in der Öffentlichkeit.
+Der [OGD-Fachausschuss](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html) verankert Open Government Data in den Direktionen, steuert die OGD-Initiative des Kantons Zürich, entscheidet über gemeinsame Standards und entscheidet in unklaren oder strittigen Fällen über die Publikation von Daten. Die Fach- und Koordinationsstelle OGD organisiert den Fachausschuss, berät, arbeitet Vorschläge aus und sorgt für die Vernetzung und Bekanntmachung von OGD in der Verwaltung und in der Öffentlichkeit.
