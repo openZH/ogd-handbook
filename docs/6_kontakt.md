@@ -9,7 +9,7 @@ sidebar_label: 6. Kontakt
 
 Die Fach- und Koordinationsstelle OGD des Kantons Zürich ist die zentrale Anlaufstelle für alle Fragen rund um offene Verwaltungsdaten im Kanton Zürich. Sie unterstützt Verwaltungseinheiten bei der Bereitstellung und Publikation von Daten und koordiniert die OGD-Aktivitäten kantonal. Wir werden unterstützt vom OGD Fachausschuss, welcher aus Mitgliedern der OGD Community und aus mindestens einer Person pro Direktion und aus der Staatskanzlei besteht.
 
-Mehr Informationen zu unserem Auftrag, dem Team, den Mitgliedern des Fachausschusses OGD und den Arbeitsgruppen findest du hier: [zh.ch – Open Government Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html)
+Mehr Informationen zu unserem Auftrag, dem Team, den Mitgliedern des Fachausschusses OGD und den Arbeitsgruppen findest du hier: [zh.ch – Open Government Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html)
 
 <div className="team-grid">
   <div className="team-member">
