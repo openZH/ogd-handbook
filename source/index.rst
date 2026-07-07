@@ -18,7 +18,7 @@ Dieses Handbuch hilft Verwaltungseinheiten und Organen
 des Kantons Zürich dabei, im Datenkatalog ihre Daten 
 selbst als Open Government Data (OGD) zu veröffentlichen  
 und zu aktualisieren.
-Das Handbuch wird von der `Fach- und Koordinationsstelle OGD <https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html>`__ 
+Das Handbuch wird von der `Fach- und Koordinationsstelle OGD <https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html>`__ 
 im Statistischen Amt betrieben. Es ist ein dynamisches 
 Dokument, das mit Hilfe seiner Anwendenden laufend 
 aktualisiert und verbessert wird.
@@ -26,7 +26,7 @@ aktualisiert und verbessert wird.
 Wie nutze ich dieses Handbuch?
 ==============================
 
-Alle Inhalte sind nach dem `Publikationsprozess <https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/leitlinien.html#1447717659>`__ gegliedert: Zuerst 
+Alle Inhalte sind nach dem `Publikationsprozess <https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data/leitlinien.html#1447717659>`__ gegliedert: Zuerst 
 werden die Daten als maschinenlesbare Ressourcen für die 
 Publikation aufbereitet__, danach werden sie im 
 Datenkatalog mit Metadaten beschrieben__ und die 

@@ -1,7 +1,7 @@
 
 Version, Datum: **v1.0, 2022-01-31** <br>
 Status: **in Review** <br>
-Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
+Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html#1128196644)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
@@ -19,7 +19,7 @@ Rolle, die für eine Verwaltungseinheit bzw. Organisation Daten erhebt und/oder 
 Rolle, die ['Data Custodians'](#data-custodian-datenverwaltende) und ['Data Stewards'](#data-steward-metadatenverwaltende) bei der effizienten Organisation und Erfüllung ihrer Aufgaben berät, unterstützt sowie (auf Wunsch) vertritt.
 
 ## 'Data Steward' (Metadatenverwaltende)
-Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet. Sie beschreibt [Datensätze](#datensatz-dataset) und [Ressourcen](#ressource-resource-oder-distribution) in der [Metadaten-Verwaltung](#metadaten-verwaltung) gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#780472813) und macht Behördendaten so einfach findbar. Im Austausch mit der ['Data Custodian'](#data-custodian-datenverwaltende)-Rolle organisiert sie die laufende Aktualisierung der publizierten Datensätze.
+Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet. Sie beschreibt [Datensätze](#datensatz-dataset) und [Ressourcen](#ressource-resource-oder-distribution) in der [Metadaten-Verwaltung](#metadaten-verwaltung) gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data/fachausschuss-open-government-data.html#780472813) und macht Behördendaten so einfach findbar. Im Austausch mit der ['Data Custodian'](#data-custodian-datenverwaltende)-Rolle organisiert sie die laufende Aktualisierung der publizierten Datensätze.
 
 ## Datenkatalog
 Öffentlich zugänglicher Metadaten-Katalog, in dem Interessierte Behördendaten finden und beziehen können.

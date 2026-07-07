@@ -1,7 +1,7 @@
 
 Version, Datum: **v1.1, 2025-03-19** <br>
 Status: **in Kraft** <br>
-Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html#1128196644)**
+Verwalterin: **[Fach- und Koordinationsstelle Open Government Data des Kantons Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html#1128196644)**
 
 > **Feedback (Hinweise, Wünsche und Fragen)** bitte [als Issue erfassen](https://github.com/openZH/mdd-ogd-handbook/issues) oder per E-Mail senden an: info@open.zh.ch
 
@@ -65,7 +65,7 @@ Dementsprechend stellt der Kanton Zürich offene Behördendaten unter [zwei offe
 
 
 ## B. Rollen und Verantwortlichkeiten im Publikationsprozess
-![Rollen und Aufgaben beim Bereitstellen von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Datenkatalog_MDD_OGD-Rollen_Aufgaben.png.zhweb-transform/content-picture-small-large/Datenkatalog_MDD_OGD-Rollen_Aufgaben.1636051109668.png "Rollen und Aufgaben")
+![Rollen und Aufgaben beim Bereitstellen von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data/Datenkatalog_MDD_OGD-Rollen_Aufgaben.png.zhweb-transform/content-picture-small-large/Datenkatalog_MDD_OGD-Rollen_Aufgaben.1636051109668.png "Rollen und Aufgaben")
 
 ### 1. 'Data Custodians' bereiten Daten auf und stellen sie bereit
 
@@ -79,7 +79,7 @@ Sie halten die publizierten Ressourcen aktuell und stellt ihre Zugänglichkeit s
 
 Rolle, die für eine Verwaltungseinheit bzw. Organisation die Publikation von Behördendaten plant und leitet.
 
-Sie beschreiben [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) und [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) in der Metadaten-Verwaltung gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/fachausschuss-open-government-data.html#780472813) und machen Behördendaten so einfach findbar. 
+Sie beschreiben [Datensätze](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#datensatz-dataset) und [Ressourcen](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md#ressource-resource-oder-distribution) in der Metadaten-Verwaltung gemäss des [Schweizer Metadatenstandards für Datenportale und Kataloge (DCAT-AP CH)](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data/fachausschuss-open-government-data.html#780472813) und machen Behördendaten so einfach findbar. 
 
 Im Austausch mit den ['Data Custodians'](#1-data-custodians-bereiten-daten-auf-und-stellen-sie-bereit) organisieren sie die laufende Aktualisierung der publizierten Datensätze.
 
@@ -98,13 +98,13 @@ Ist alles bereit, erstmals publiziert zu werden, planen sie mit den 'Data Stewar
 'Guests' haben lediglich Lese-Zugang zur Metadaten-Verwaltung. Sie interessieren sich unter Umständen für die Übernahme einer Rolle, haben aber noch keine entsprechende Schulung gemacht.
 
 ## C. Offene Behördendaten bereitstellen, publizieren und aktualisieren
-![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
+![Fünf Schritte zum Bereitstellen und Aktualisieren von offenen Behördendaten](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/organisation/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data/Open-Data-Zyklus.png.zhweb-transform/content-picture-small-large/Open-Data-Zyklus.1628757879829.png "Publikationsprozess")
 
 ### 1. Daten als einfach nutzbare, maschinenlesbare 'Ressourcen' aufbereiten
 
 Handelt es sich um tabellarische Daten, folgen Sie bei der Aufbereitung den technischen und formalen Grundsätzen, Vorgaben und Empfehlungen in den [Leitlinien des Kantons Zürich für einfach nutzbare Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/publikationsleitlinien.md).
 
-Handelt es sich um Daten mit anderen und/oder komplexen Strukturen, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
+Handelt es sich um Daten mit anderen und/oder komplexen Strukturen, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html) Kontakt auf: info@open.zh.ch
 
 ### 2. 'Ressourcen' offen zugänglich bereitstellen
 
@@ -129,7 +129,7 @@ Melden Sie sich als 'Data Steward' mit Ihrem Login in der Metadaten-Verwaltung a
 Klicken Sie rechts oben auf "Neuen Datensatz erstellen".
 
 > - Wählen Sie einen aussagekräftigen Titel, ergänzt um den geografischen Bezug (zB. "... des Kantons Zürich" oder "... der Stadt Uster") und allenfalls weitere abgrenzende Merkmale zu anderen Datensätzen.
-> - Wählen Sie als "Publisher" die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) Kontakt auf: info@open.zh.ch
+> - Wählen Sie als "Publisher" die Verwaltungseinheit oder Organisation, unter deren Name der Datensatz publiziert werden soll. Steht die Verwaltungseinheit oder Organisation noch nicht zur Auswahl, nehmen Sie bitte mit der [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html) Kontakt auf: info@open.zh.ch
 > - Wählen Sie als Kontakt diejenige Stelle, die fachliche Auskunft zu den entsprechenden Daten geben können.
 > - Wählen Sie mindestens eine der Themenkatagorien aus.
 
@@ -142,8 +142,8 @@ Neue Datensätze und Ressourcen werden im 4-Augenprinzip von Data Guides geprüf
 ## D. Beratung und Unterstützung
 
 ### 1. Kontakte für Fragen und Bedürfnisse
-- Zu offenen Behördendaten steht die [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/open-government-data.html) zur Verfügung: info@open.zh.ch
-- Zur Metadaten-Verwaltung und zu Behördendaten generell steht die [Abteilung 'Data Shop' im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data-shop.html) zur Verfügung: datashop@statistik.zh.ch
+- Zu offenen Behördendaten steht die [Fach- und Koordinationsstelle OGD im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html) zur Verfügung: info@open.zh.ch
+- Zur Metadaten-Verwaltung und zu Behördendaten generell steht die [Abteilung 'Data Shop' im Amt für Statistik und Daten](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/data-shop.html) zur Verfügung: datashop@statistik.zh.ch
 
 ### 2. Hilfsmittel 
 - Begriffsdefinitionen im [Glossar des Kantons Zürich zur Metadaten-Verwaltung und offenen Behördendaten](https://github.com/openZH/mdd-ogd-handbook/blob/main/glossar.md)
