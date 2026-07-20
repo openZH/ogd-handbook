@@ -15,7 +15,7 @@ import { CardGrid, Card } from '@site/src/components/CardGrid';
 
 <BoatStaircase />
 
-Der Kanton Zürich kennt seit 2006 das [Öffentlichkeitsprinzip](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html), das Verwaltungshandeln auch für Aussenstehende nachvollziehbar machen will. Mit Einführung des Öffentlichkeitsprinzips fiel auch das Amtsgeheimnis, das Verwaltungshandeln bis dahin prägte. Heute wird unterschieden zwischen Information die öffentlich sein darf, Information, die intern bleiben sollte, Information, die vertraulich ist und Information, die geheim bleiben muss. Diese Klassifizierung bestimmt den Personenkreis, dem die Information per se zugänglich ist. Das Öffentlichkeitsprinzip verpflichtet einerseits staatliche Stellen, mit Information von **allgemeinem Interesse** von sich aus an die Öffentlichkeit zu gelangen, also eine aktive Informationspolitik zu betreiben. Andererseits hat jede Person grundsätzlich das Recht auf Zugang zu Informationen, die bei staatlichen Stellen vorhanden sind. Angefragte staatliche Stellen sind verpflichtet, solche Anfragen zu beantworten.
+Der Kanton Zürich kennt seit 2006 das [Öffentlichkeitsprinzip](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/oeffentlichkeitsprinzip.html), das Verwaltungshandeln auch für Aussenstehende nachvollziehbar machen will. Die Kantonsverwaltung unterscheidet zwischen Information die öffentlich sein darf, Information, die intern bleiben sollte, Information, die vertraulich ist und Information, die geheim bleiben muss. Diese Klassifizierung bestimmt den Personenkreis, dem die Information per se zugänglich ist. Das Öffentlichkeitsprinzip verpflichtet einerseits staatliche Stellen, mit Information von **allgemeinem Interesse** von sich aus an die Öffentlichkeit zu gelangen, also eine aktive Informationspolitik zu betreiben. Andererseits hat jede Person grundsätzlich das Recht auf Zugang zu Informationen, die bei staatlichen Stellen vorhanden sind. Angefragte staatliche Stellen sind verpflichtet, solche Anfragen zu beantworten.
 
 Unter den juristischen Begriff der Information fallen auch Daten. Um sich die Arbeit zu erleichtern, darf die Verwaltung nicht-schützenswerte Daten proaktiv und offen publizieren. Bei Anfragen kann sie auf die Open Data verweisen, datenbasierte Prozesse können auf die Daten aufbauen.
 
@@ -23,7 +23,7 @@ Unter den juristischen Begriff der Information fallen auch Daten. Um sich die Ar
 
 ## Open Data im Kanton Zürich
 
-Open Data werden von den Eigentümer*innen der Daten zugänglich gemacht. Für Open Government Data (OGD) sind die föderalen Ebenen Bund, Kanton, Gemeinde zuständig, Daten werden daher fragmentiert zugänglich gemacht.
+Open Data werden von den Eigner*innen der Daten zugänglich gemacht. Für Open Government Data (OGD) sind die föderalen Ebenen Bund, Kanton, Gemeinde zuständig, Daten werden daher fragmentiert zugänglich gemacht.
 
 :::tip Datenkatalog Kanton Zürich
 Alle OGD der Kantonsverwaltung Zürich finden sich im Datenkatalog **[www.zh.ch/daten](https://www.zh.ch/daten)**. Die Daten in diesem Katalog stammen aus zwei Quellen: dem **[Geolion für Daten](https://geo.zh.ch/)** und der Metadatenverwaltung für alle anderen Datenbestände. Die datenhaltende Stelle (das Amt, die Abteilung, die Fachstelle) erfassen, beschreiben und publizieren ihre Daten über diese beiden Metadatensysteme.
