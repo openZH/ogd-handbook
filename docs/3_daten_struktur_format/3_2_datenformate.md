@@ -1,13 +1,13 @@
 ---
-id: dateiformate
-title: Dateiformate
-sidebar_label: Dateiformate
+id: datenformate
+title: Datenformate
+sidebar_label: Datenformate
 sidebar_position: 2
 ---
 
-# Dateiformate
+# Datenformate
 
-Die Verwendung **offener, maschinenlesbarer Dateiformate** ist eine Pflichtanforderung für OGD im Kanton Zürich. Alle weiteren Empfehlungen in diesem Kapitel verbessern die Qualität und Weiterverwendbarkeit der Daten erheblich - sind aber keine harten Anforderungen.
+OGD müssen in einem offenen, maschinenlesbaren Format angeboten werden. Am effektivsten ist dafür eine gut dokumentierte, einfach anzuwendende offene Schnittstelle (API). Alternativ eignen sich offene (nicht-proprietäre) Dateiformate. Dafür haben sich einige Dateiformate als Standard durchgesetzt. Auch andere offene Dateiformate sind denkbar.
 
 ---
 
