@@ -90,7 +90,7 @@ Open Government Data sind eine ständige Aufgabe, die OGD sind ein Produkt, das 
       <td>
         <ul>
           <li>Du erhebst und/oder bereinigst Daten für deine oder eine andere Verwaltungseinheit.</li>
-          <li>Du bereitest Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](/ogd-handbook/daten_struktur_format/dateiformate) zu einfach nutzbaren Behördendaten auf.</li>
+          <li>Du bereitest Daten gemäss [technischen und formalen Grundsätzen, Vorgaben und Empfehlungen](/ogd-handbook/daten_struktur_format/datenformate) zu einfach nutzbaren Behördendaten auf.</li>
           <li>Du hältst die aufbereiteten Daten aktuell und stellst ihre Zugänglichkeit sicher.</li>
         </ul>
       </td>

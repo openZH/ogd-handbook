@@ -15,7 +15,7 @@ import ProcessStepper from '@site/src/components/ProcessStepper';
   {
     title: "Daten aufbereiten",
     emoji: "📂",
-    text: <>Daten als maschinenlesbare Distribution aufbereiten. Siehe: <a href="/ogd-handbook/daten_struktur_format/dateiformate">Empfehlungen Daten</a> &amp; <a href="/ogd-handbook/anleitungen/daten-aufbereiten">Daten mit R aufbereiten</a>.</>,
+    text: <>Daten als maschinenlesbare Distribution aufbereiten. Siehe: <a href="/ogd-handbook/daten_struktur_format/datenformate">Empfehlungen Daten</a> &amp; <a href="/ogd-handbook/anleitungen/daten-aufbereiten">Daten mit R aufbereiten</a>.</>,
   },
   {
     title: "Mit Metadaten beschreiben",

@@ -7,7 +7,7 @@ sidebar_position: 4
 
 # Excel zu CSV konvertieren
 
-Für die Publikation als OGD müssen Excel-Dateien als CSV exportiert werden. Die Anforderungen an das Format sind in den [Dateiformatvorgaben](/ogd-handbook/daten_struktur_format/dateiformate) beschrieben.
+Für die Publikation als OGD müssen Excel-Dateien als CSV exportiert werden. Die Anforderungen an das Format sind in den [Dateiformatvorgaben](/ogd-handbook/daten_struktur_format/datenformate) beschrieben.
 
 ---
 

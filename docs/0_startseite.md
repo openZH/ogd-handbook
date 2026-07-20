@@ -36,8 +36,8 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
   <Card title="2. OGD im Kanton Zürich" href="/ogd-handbook/ogd_kanton_zh/zugang" emoji="🦁">
     Transparenz, Datenkatalog und weitere Datenzugänge, Data Governance, rechtliche Grundlagen, Datenschutz und Publikationsprozess im Kanton Zürich.
   </Card>
-  <Card title="3. Daten" href="/ogd-handbook/daten_struktur_format/dateiformate" emoji="🗂️">
-    Dateiformate, Datenstruktur, Spaltenüberschriften, Datentypen, geografische Referenzierung und Aktualisierungsstrategien.
+  <Card title="3. Daten" href="/ogd-handbook/daten_struktur_format/datenformate" emoji="🗂️">
+    Datenformate, Datenstruktur, Spaltenüberschriften, Datentypen, geografische Referenzierung und Aktualisierungsstrategien.
   </Card>
   <Card title="4. Metadaten" href="/ogd-handbook/metadaten" emoji="🏷️">
     Datensätze und ihre Distributionen, benötigte Attribute nach DCAT-AP CH und korrekte Erfassung in der Metadatenverwaltung.
