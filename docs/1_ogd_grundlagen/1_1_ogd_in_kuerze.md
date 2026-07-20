@@ -32,6 +32,8 @@ Ausgeschlossen sind insbesondere schützenswerte, vertrauliche oder sicherheitsr
 
 ## Produktsicht auf Daten
 
+Daten werden als Produkt behandelt, das gepflegt, genutzt und weiterentwickelt wird. Wir veröffentlichen OGD so, dass sie viele Zwecke erfüllen und in unterschiedliche Datenprodukte einfliessen können. Das lässt sich mit anderen Produkten verdeutlichen.
+
 export const carrotSteps = [
   {
     title: 'Was haben Rüebli mit Daten zu tun?',
