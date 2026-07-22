@@ -13,8 +13,8 @@ export const classificationLevels = [
     key: 'oeffentlich',
     label: 'öffentlich',
     bullets: [
-      'Daten (die keine Personenidentifikation ermöglichen)',
-      'Wahrung der öffentlichen Sicherheit',
+      'Daten, die keine Personenidentifikation ermöglichen und nicht die öffentliche Sicherheit gefährden',
+      'oder: hohes Publizitätsinteresse liegt vor',
     ],
     access: 'für Alle',
     bottom: { label: 'Open Data', type: 'tag' },
@@ -23,10 +23,9 @@ export const classificationLevels = [
     key: 'intern',
     label: 'intern',
     bullets: [
-      'Personendaten, die Identifikation ermöglichen',
-      '«default»',
+      'nicht kritische oder schädliche (Personen)daten',
     ],
-    access: 'Innerhalb der Verwaltung',
+    access: 'Innerhalb der Organisationseinheit, z.B. des Amtes',
     bottom: { label: 'Mehrfachverwendung von Daten', type: 'text' },
   },
   {
@@ -63,7 +62,7 @@ Open Data bildet nur einen kleinen Teil der Daten ab, die im Kanton vorhanden si
 
 Als Open Data publizieren wir Behördendaten nur, wenn keine rechtliche Bestimmung und kein überwiegendes öffentliches oder privates Interesse entgegensteht (vgl. [§ 16 nIDG](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/7c3a7aefd9884bef8fac45580ea9a018-332/1/pdf)). Um die Bestimmung zu operationalisieren, können wir die Vertraulichkeitsstufen der BISR zu Hilfe nehmen. Open Data sind Daten, die als öffentlich klassiert sind und gemäss [FAIR-Prinzipien](/ogd_grundlagen/fair-care) zugänglich gemacht wurden. Interne und vertrauliche Daten sind nicht frei zugänglich, sie werden ab Inkrafttreten des [totalrevidierten IDG](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=bbb4248013ca433eb50e68677eaaecd0) jedoch im kantonalen Datenkatalog verzeichnet und beschrieben. Die Vorgaben der Data Governance umfassen alle Datenbestände des Kantons, sie sind daher deutlich weitergehend, aber vollständig kompatibel mit den Vorgaben für Open Government Data.
 
-Die Klassifikation von Daten ist von der datenhaltenden Stelle zu prüfen und eine Frage der Abwägung zwischen öffentlichem und privatem Interesse.
+Die Klassifikation von Daten ist von der datenhaltenden Stelle zu prüfen und eine Frage der Abwägung zwischen öffentlichem und privatem Interesse. Die Zuteilung zu einer Vertraulichkeitsstufe ist nicht eindeutig: Die folgende Darstellung ist eine starke Vereinfachung und kann im Einzelfall falsch sein. Eine automatische Zuordnung ist nicht möglich. Gleichzeitig stärkt der Kantonsrat mit der Einführung von «open by default» für die Kantonsverwaltung deren Transparenz (vgl. [§ 44a Gesetz über die Organisation des Regierungsrates und der kantonalen Verwaltung in nIDG](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/7c3a7aefd9884bef8fac45580ea9a018-332/1/pdf)). Das setzt voraus, dass Daten wenn möglich als öffentlich klassifiziert werden.
 
 <DataClassification levels={classificationLevels} />
 
