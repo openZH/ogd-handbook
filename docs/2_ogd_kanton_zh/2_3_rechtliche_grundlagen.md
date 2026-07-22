@@ -20,7 +20,7 @@ Die Behörden des Kantons Zürich dürfen heute (mit Bezug auf RRB 776/2017) und
 <CardGrid cols={3}>
 <Card title="Daten liegen strukturiert und elektronisch vor">
 </Card>
-<Card title="Datenschutz- oder Sicherheitsinteressen überwiegen nicht gegenüber dem Publizitätsinteresse">
+<Card title="Publizitätsinteresse überwiegt gegenüber Datenschutz- oder Sicherheitsinteressen">
 </Card>
 <Card title="Kein entgegenstehendes Spezialgesetz oder Drittrechte (z.B. Urheberrechte)">
 </Card>
