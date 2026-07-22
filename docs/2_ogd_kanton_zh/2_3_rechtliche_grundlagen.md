@@ -30,17 +30,17 @@ Wenn dem nichts im Wege steht, dürfen wir in der Kantonsverwaltung Zürich also
 
 ## Situation ab Inkrafttreten des neuen, totalrevidierten IDG
 
-Auch der Kanton Zürich wird für seine Verwaltung im [Zuge der Totalrevision des IDG das Prinzip "open-by-default" einführen](https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/b5722262463b471a9bb0b9ffac3231cb-332/3/pdf). Dies wird ein Paradigmenwechsel sein: grundsätzlich sind dann Daten und Information als öffentlich klassiert und der Öffentlichkeit frei zugänglich zu machen. Nur wenn Datenschutzinteressen stärker sind als das öffentliche Interesse, wird der Kreis der Zugriffsberechtigten eingeschränkt auf intern, vertraulich oder gar geheim.
+Auch der Kanton Zürich wird für seine Verwaltung im [Zuge der Totalrevision des IDG das Prinzip "open-by-default" einführen](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=bbb4248013ca433eb50e68677eaaecd0). Dies wird ein Paradigmenwechsel sein: grundsätzlich sind dann Daten und Information als öffentlich klassiert und der Öffentlichkeit frei zugänglich zu machen. Nur wenn Datenschutzinteressen stärker sind als das öffentliche Interesse, wird der Kreis der Zugriffsberechtigten eingeschränkt auf intern, vertraulich oder gar geheim.
 
-> **§ 15 Abs. 1 IDG (Entwurf)**
+> **§ 16 Abs. 1 nIDG**
 >
 > Die öffentlichen Organe können Informationen, die strukturiert und elektronisch gespeichert sind, als offene Behördendaten veröffentlichen, wenn keine rechtliche Bestimmung und kein überwiegendes öffentliches oder privates Interesse entgegenstehen.
 
-Die Formulierung in Art. 15 im Entwurf des neuen IDG ist eine "Kann"-Formulierung, weil das IDG für alle Verwaltungen im Kanton Zürich gilt. Bei Inkrafttreten des totalrevidierten IDG, wird in einer Nebenänderung im "Gesetz über die Organisation des Regierungsrates und der kantonalen Verwaltung" (OG RR) für die Kantonsverwaltung eine Vorgabe zu Open Data eingeführt:
+Die Formulierung in Art. 16 im Entwurf des neuen IDG ist eine "Kann"-Formulierung, weil das IDG für alle Verwaltungen im Kanton Zürich gilt. Bei Inkrafttreten des totalrevidierten IDG, wird in einer Nebenänderung im "Gesetz über die Organisation des Regierungsrates und der kantonalen Verwaltung" (OG RR) für die Kantonsverwaltung eine Vorgabe zu Open Data eingeführt:
 
 > **§ 44b Abs. 1 OG RR (Entwurf)**
 >
-> Die kantonale Verwaltung veröffentlicht ihre Informationen als offene Behördendaten, wenn die Voraussetzungen gemäss § 15 Abs. 1 des Gesetzes über die Information und den Datenschutz vom XXXX (IDG) erfüllt sind.
+> Die kantonale Verwaltung veröffentlicht ihre Informationen als offene Behördendaten, wenn die Voraussetzungen gemäss § 16 Abs. 1 des Gesetzes über die Information und den Datenschutz vom XXXX (IDG) erfüllt sind.
 
 
 :::info Ausnahmen vom Informationszugang
