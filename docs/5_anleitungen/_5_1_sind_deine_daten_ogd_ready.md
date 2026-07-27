@@ -26,7 +26,7 @@ import imgNichtOgd from '@site/static/img/datenschutz_nicht_ogd.png';
 export const nodes = {
 INTRO: { type: "intro", title: "OGD-Check", text: "Finde heraus, ob deine Daten als Open Government Data veröffentlicht werden können.", img: imgIntro, next: "Q1" },
 Q1: { question: "Liegen die Daten strukturiert (oder strukturierbar) und elektronisch vor?",
-infobox: "Damit Daten verwendet und ausgewertet werden können, müssen sie einer Struktur folgen und elektronisch vorliegen. Dies sind auch die Voraussetzungen dafür, dass öffentliche Daten als open data zur Verfügung gestellt werden (müssen). Art. 15 IDGrev",
+infobox: "Damit Daten verwendet und ausgewertet werden können, müssen sie einer Struktur folgen und elektronisch vorliegen. Dies sind auch die Voraussetzungen dafür, dass öffentliche Daten als open data zur Verfügung gestellt werden (müssen). Art. 16 nIDG",
 summaryYes: "Die Daten liegen strukturiert und elektronisch vor.",
 summaryNo: "Die Daten liegen nicht strukturiert oder elektronisch vor.",
 yes: "Q2", no: "R3" },
