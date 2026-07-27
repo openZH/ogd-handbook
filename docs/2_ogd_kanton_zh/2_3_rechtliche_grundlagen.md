@@ -13,7 +13,7 @@ Die Verwaltungen des Kantons Zürich dürfen, basierend auf dem [Informations- u
 
 Im März 2026 hat der Kantonsrat das totalrevidierte IDG erlassen. Es stärkt Open Government Data weiter, indem es für alle Verwaltungen im Kanton Zürich einheitlich definiert, was OGD sind: "Die öffentlichen Organe können Informationen, die strukturiert und elektronisch gespeichert sind, als offene Behördendaten veröffentlichen, wenn keine rechtliche Bestimmung und kein überwiegendes öffentliches oder privates Interesse entgegenstehen." (§ 16 nIDG)
 
-Für die Kantonsverwaltung gilt neu, analog zu Bund und Stadt Zürich, das "open-by-default"-Prinzip. Das neue IDG gilt voraussichtlich ab Mitte 2027.
+Für die Kantonsverwaltung gilt neu, analog zu Bund und Stadt Zürich, das «open by default»-Prinzip. Das neue IDG gilt voraussichtlich ab Mitte 2027.
 
 Die Behörden des Kantons Zürich dürfen heute (mit Bezug auf RRB 776/2017) und künftig (nach nIDG) OGD publizieren, wenn folgende Bedingungen erfüllt sind:
 
@@ -26,11 +26,11 @@ Die Behörden des Kantons Zürich dürfen heute (mit Bezug auf RRB 776/2017) und
 </Card>
 </CardGrid>
 
-Wenn dem nichts im Wege steht, dürfen wir in der Kantonsverwaltung Zürich also Open Data publizieren. Die Stadt Zürich und die Bundesverwaltung hingegen, kennen bereits ein "open-by-default"-Prinzip: sie publizieren Daten grundsätzlich als Open Data, ausser die Daten sind schützenswert.
+Wenn dem nichts im Wege steht, dürfen wir in der Kantonsverwaltung Zürich also Open Data publizieren. Die Stadt Zürich und die Bundesverwaltung hingegen, kennen bereits ein «open by default»-Prinzip: sie publizieren Daten grundsätzlich als Open Data, ausser die Daten sind schützenswert.
 
 ## Situation ab Inkrafttreten des neuen, totalrevidierten IDG
 
-Auch der Kanton Zürich wird für seine Verwaltung im [Zuge der Totalrevision des IDG das Prinzip "open-by-default" einführen](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=bbb4248013ca433eb50e68677eaaecd0). Dies wird ein Paradigmenwechsel sein: grundsätzlich sind dann Daten und Information als öffentlich klassiert und der Öffentlichkeit frei zugänglich zu machen. Nur wenn Datenschutzinteressen stärker sind als das öffentliche Interesse, wird der Kreis der Zugriffsberechtigten eingeschränkt auf intern, vertraulich oder gar geheim.
+Auch der Kanton Zürich wird für seine Verwaltung im [Zuge der Totalrevision des IDG das Prinzip «open by default» einführen](https://www.kantonsrat.zh.ch/geschaefte/geschaeft/?id=bbb4248013ca433eb50e68677eaaecd0). Dies wird ein Paradigmenwechsel sein: grundsätzlich sind dann Daten und Information als öffentlich klassiert und der Öffentlichkeit frei zugänglich zu machen. Nur wenn Datenschutzinteressen stärker sind als das öffentliche Interesse, wird der Kreis der Zugriffsberechtigten eingeschränkt auf intern, vertraulich oder gar geheim.
 
 > **§ 16 Abs. 1 nIDG**
 >
