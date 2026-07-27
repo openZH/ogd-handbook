@@ -26,10 +26,10 @@ Viele Verwaltungsdaten sind in dieser Hinsicht völlig unbedenklich – etwa die
 
 ## Bei Fragen stehen folgende Stellen zur Verfügung
 
-- [**Fach- und Koordinationsstelle OGD**](mailto:info@open.zh.ch) für **die Beratung bei Grenzfällen**
-- **Fachstelle IDG des Kantons Zürich** für **eine Triage und Fragen zum Öffentlichkeitsprinzip**
-- **Jurist\*innen der jeweiligen Organisationseinheit** für **Fragen zu Spezialgesetzen und zum Datenschutz**
-- **Datenschutzberater\*innen der eigenen Direktion bzw. der Staatskanzlei** für **Fragen zum Datenschutz**
-- **Datenschutzbeauftragte des Kantons Zürich** für **Fragen aus der Bevölkerung**
+- [**Fach- und Koordinationsstelle OGD**](mailto:info@open.zh.ch) für die Beratung **bei Grenzfällen**
+- **Fachstelle IDG** des Kantons Zürich für eine **Triage** und Fragen zum **Öffentlichkeitsprinzip**
+- **Jurist\*innen** der jeweiligen Organisationseinheit für Fragen **zu Spezialgesetzen und zum Datenschutz**
+- **Datenschutzberater\*innen** der eigenen Direktion bzw. der Staatskanzlei für Fragen zum Datenschutz
+- **Datenschutzbeauftragte** des Kantons Zürich für Fragen aus der **Bevölkerung**
 
 
