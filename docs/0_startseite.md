@@ -23,7 +23,7 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
 **Mitarbeitende der Verwaltung** - ob du dich über Open Government Data informieren möchtest oder konkret Daten publizieren willst. Das Handbuch führt durch alle relevanten Themen: von rechtlichen Grundlagen über Daten-Standards bis hin zu Datenaufbereitungsvorlagen mit R.
 
-**Alle, die OGD-Daten nutzen möchten** - ob aus Wissenschaft, Wirtschaft, Medien oder der Bevölkerung: Hier findest du Orientierung, [was](/ogd-handbook/ogd_grundlagen/ogd-in-kuerze) offene Verwaltungsdaten sind, [wo](/ogd-handbook/ogd_kanton_zh/zugang) sie im Kanton Zürich zu finden sind und [wie](/ogd-handbook/ogd_grundlagen/ogd-nutzen) du sie verwenden kannst.
+**Alle, die OGD-Daten nutzen möchten** - ob aus Wissenschaft, Wirtschaft, Medien oder der Bevölkerung: Hier findest du Orientierung, [was](/ogd-handbook/ogd_grundlagen/ogd-in-kuerze) offene Verwaltungsdaten sind, [wo](/ogd-handbook/ogd_grundlagen/zugang) sie im Kanton Zürich zu finden sind und [wie](/ogd-handbook/ogd_kanton_zh/ogd-nutzen) du sie verwenden kannst.
 
 ---
 
@@ -31,10 +31,10 @@ Dieses Handbuch richtet sich an zwei Zielgruppen:
 
 <CardGrid cols={3}>
   <Card title="1. OGD Grundlagen" href="/ogd-handbook/ogd_grundlagen/ogd-in-kuerze" emoji="💡">
-    Grundlagen zu Open Government Data, Prinzipien, FAIR & CARE, Schweizer OGD-Landschaft und Nutzung offener Daten.
+    Grundlagen zu Open Government Data, Informations- und Datenzugang, Prinzipien, FAIR & CARE und Schweizer OGD-Landschaft.
   </Card>
-  <Card title="2. OGD im Kanton Zürich" href="/ogd-handbook/ogd_kanton_zh/zugang" emoji="🦁">
-    Transparenz, Datenkatalog und weitere Datenzugänge, Data Governance, rechtliche Grundlagen, Datenschutz und Publikationsprozess im Kanton Zürich.
+  <Card title="2. OGD im Kanton Zürich" href="/ogd-handbook/ogd_kanton_zh/daten-publizieren" emoji="🦁">
+    Publikation, Nutzung und Visualisierung offener Daten, rechtliche Grundlagen, Data Governance und Datenschutz im Kanton Zürich.
   </Card>
   <Card title="3. Daten" href="/ogd-handbook/daten_struktur_format/datenformate" emoji="🗂️">
     Datenformate, Datenstruktur, Spaltenüberschriften, Datentypen, geografische Referenzierung und Aktualisierungsstrategien.

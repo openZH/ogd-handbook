@@ -2,7 +2,7 @@
 id: daten-visualisieren
 title: Offene Daten visualisieren
 sidebar_label: Offene Daten visualisieren
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 import { CardGrid, Card } from '@site/src/components/CardGrid';

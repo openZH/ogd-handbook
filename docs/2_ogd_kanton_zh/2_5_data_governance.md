@@ -2,7 +2,7 @@
 id: data-governance
 title: Data Governance
 sidebar_label: Data Governance
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 import { CardGrid, Card } from '@site/src/components/CardGrid';

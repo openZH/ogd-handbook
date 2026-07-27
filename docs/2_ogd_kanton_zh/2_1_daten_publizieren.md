@@ -2,7 +2,7 @@
 id: daten-publizieren
 title: Offene Daten publizieren
 sidebar_label: Offene Daten publizieren
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 import ProcessStepper from '@site/src/components/ProcessStepper';
