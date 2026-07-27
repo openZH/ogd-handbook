@@ -2,7 +2,7 @@
 id: rechtliche-grundlagen
 title: Rechtliche Grundlagen
 sidebar_label: Rechtliche Grundlagen
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 import { CardGrid, Card } from '@site/src/components/CardGrid';

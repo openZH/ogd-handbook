@@ -2,7 +2,7 @@
 id: ogd-landschaft
 title: OGD-Landschaft Schweiz
 sidebar_label: OGD-Landschaft Schweiz
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # OGD-Landschaft Schweiz

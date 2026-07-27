@@ -2,7 +2,7 @@
 id: fair-care
 title: Leitmotive FAIR & CARE
 sidebar_label: Leitmotive FAIR & CARE
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 import AcronymGrid from '@site/src/components/AcronymGrid';

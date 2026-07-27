@@ -47,7 +47,7 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 |----------|--------------|---------|---------|
 | **Titel** | Bezeichnung der Distribution. | Verkehrszähldaten Veloverkehr im Kanton Zürich 2025 | Falls nur eine Distribution vorhanden ist, kann der Titel identisch mit dem Datensatz-Titel sein. |
 | **Beschreibung** | Kurze Beschreibung des Inhalts und Formats der Distribution. | Stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich für das Jahr 2025 | |
-| **Nutzungsbedingungen** | Lizenz der Distribution. | NonCommercialAllowed-CommercialAllowed-ReferenceRequired | Siehe [Lizenzen](/ogd-handbook/ogd_grundlagen/ogd-nutzen#quellenangaben-und-lizenzen) |
+| **Nutzungsbedingungen** | Lizenz der Distribution. | NonCommercialAllowed-CommercialAllowed-ReferenceRequired | Siehe [Lizenzen](/ogd-handbook/ogd_kanton_zh/ogd-nutzen#quellenangaben-und-lizenzen) |
 | **Dateityp** | Format der Datei. | CSV | Wird beim Hochladen einer Datei automatisch erkannt. |
 | **Medientyp** | MIME-Type der Datei. | text/csv | Wird beim Hochladen einer Datei automatisch erkannt. |
 | **Dateigrösse** | Grösse der Datei in Bytes. | 2 MB | Wird beim Hochladen einer Datei automatisch erkannt. |

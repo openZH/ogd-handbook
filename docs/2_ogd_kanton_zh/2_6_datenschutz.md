@@ -2,7 +2,7 @@
 id: datenschutz
 title: Datenschutz
 sidebar_label: Datenschutz
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 import DatenschutzCheck from '@site/src/components/DatenschutzCheck';

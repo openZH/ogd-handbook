@@ -2,7 +2,7 @@
 id: zugang
 title: Informations- und Datenzugang
 sidebar_label: Informations- und Datenzugang
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import BoatStaircase from '@site/src/components/BoatStaircase';

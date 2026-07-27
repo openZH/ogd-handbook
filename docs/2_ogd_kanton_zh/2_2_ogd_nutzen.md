@@ -1,8 +1,8 @@
 ---
 id: ogd-nutzen
-title: OGD Nutzen
-sidebar_label: OGD Nutzen
-sidebar_position: 5
+title: Offene Daten nutzen
+sidebar_label: Offene Daten nutzen
+sidebar_position: 2
 ---
 
 import { CardGrid, Card } from '@site/src/components/CardGrid';
