@@ -16,3 +16,17 @@ Auf nationaler Ebene bündelt [**opendata.swiss**](https://opendata.swiss) diese
 :::
 
 Den strategischen Rahmen für diese Landschaft in der Schweiz bildet der [**OGD-Masterplan 2024-2027**](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie/masterplan.html). Mit dem Inkrafttreten des **EMBAG** (Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben) wurde das Prinzip «Open by Default» erstmals rechtlich verankert: Bundesverwaltungen sind seither verpflichtet, ihre Daten standardmässig als OGD zu veröffentlichen. Der Masterplan dient gleichzeitig als Referenzdokument für Kantone, Gemeinden und staatsnahe Betriebe.
+
+---
+
+## Weitere Open Data
+
+Open Government Data ist ein Angebot von Behörden und Verwaltungen. Im Kanton Zürich publizieren neben dem Kanton auch folgende Gemeinden OGD:
+
+- [Stadt Zürich](https://data.stadt-zuerich.ch/dataset)
+- [Stadt Winterthur](https://stadt.winterthur.ch/themen/die-stadt/winterthur/statistik/open-data)
+
+Auch andere Institutionen und Organisationen publizieren open data. Eine vollständige Sammlung ist nicht möglich. Wenn Datenkataloge fehlen, melde uns das und wir tragen es nach.
+
+- [Historische Statistik der Schweiz (HSSO)](https://hsso.ch/en)
+- [opentransportdata.swiss](https://opentransportdata.swiss/de/)
