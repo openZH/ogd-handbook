@@ -13,8 +13,8 @@ Offene Daten bilden die Grundlage für Datenprodukte wie Visualisierungen, die I
 
 Die folgenden Beispiele laden die Daten direkt aus dem Datenkatalog. Das vereinfacht die Pflege und Aktualisierung der Visualisierungen, da die Daten nur an einer zentralen Stelle verwaltet werden müssen.
 
-:::info Visualisierungslibrary des Statistischen Amts
-Das Statistische Amt entwickelt derzeit eine Visualisierungslibrary, mit der sich Daten einfach visualisieren und auf der Website des Kantons veröffentlichen lassen. Sobald die Library verfügbar ist, wird sie in diesem Handbuch verlinkt.
+:::info Visualisierungslibrary des Amts für Statistik und Daten
+Das Amt für Statistik und Daten entwickelt derzeit eine Visualisierungslibrary, mit der sich Daten einfach visualisieren und auf der Website des Kantons veröffentlichen lassen. Sobald die Library verfügbar ist, wird sie in diesem Handbuch verlinkt.
 :::
 
 ---
@@ -48,7 +48,7 @@ Die Entwicklung der Leerwohnungsziffer im Kanton und in den Regionen wird mit Ba
 
 ## Kontakt Daten-Visualisierung
 
-Für Mitarbeitende der Kantonsverwaltung Zürich: Bei der Visualisierung deiner Daten hilft das Visualisierungs-Team des Statistischen Amts dir gerne weiter:
+Für Mitarbeitende der Kantonsverwaltung Zürich: Bei der Visualisierung deiner Daten hilft das Visualisierungs-Team des Amts für Statistik und Daten dir gerne weiter:
 
 - Corinna Grobe (corinna.grobe@zh.ch)
 - Dan Büschlen (dan.bueschlen@zh.ch).

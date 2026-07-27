@@ -31,7 +31,7 @@ Mehr Informationen zu unserem Auftrag, dem Team, den Mitgliedern des Fachausschu
 :::
 
 :::info 🎙️ Hör von uns
-Der Podcast ["Statistisch gesehen"](https://statistisch-gesehen.captivate.fm) des Statistischen Amts Kanton Zürich bietet Einblicke in Daten, Analysen und Themen rund um den Kanton.
+Der Podcast ["Statistisch gesehen"](https://statistisch-gesehen.captivate.fm) des Amts für Statistik und Daten Kanton Zürich bietet Einblicke in Daten, Analysen und Themen rund um den Kanton.
 :::
 
 ---
