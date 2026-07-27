@@ -9,13 +9,12 @@ import StartseiteHero from "@site/src/components/StartseiteHero";
 # Los geht's
 
 <StartseiteHero
-image={require('/img/intro.png').default}
+image={require('/img/intro_cristina_gaidau.jpg').default}
 text="Dein Einstieg in Open Government Data (OGD) im Kanton Zürich - für alle, die offene Verwaltungsdaten verstehen, publizieren oder nutzen möchten."
-sourceHref="https://dribbble.com/shots/5405341-Analizing-data"
-sourceLabel="Diana Traykoc"
+sourceHref="https://www.istockphoto.com"
+sourceLabel="Cristina Gaidau / iStockphoto"
+layout="stacked"
 />
-
----
 
 ## Für wen ist dieses Handbuch?
 
