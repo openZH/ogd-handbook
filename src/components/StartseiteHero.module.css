@@ -17,6 +17,21 @@
   order: 1;
 }
 
+.heroStacked {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.heroStacked img {
+  width: 100%;
+  order: 2;
+}
+
+.heroStacked .text {
+  order: 1;
+}
+
 .source {
   font-size: 0.75rem;
   color: var(--ifm-color-emphasis-600);
