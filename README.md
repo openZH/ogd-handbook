@@ -34,5 +34,5 @@ Korrekturen, Ergänzungen und neue Seiten können über Pull Requests eingereich
 
 ## Kontakt
 
-**Statistisches Amt des Kantons Zürich**  
+**Amt für Statistik und Daten des Kantons Zürich**  
 [Fach- und Koordinationsstelle Open Government Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html#1128196644)
