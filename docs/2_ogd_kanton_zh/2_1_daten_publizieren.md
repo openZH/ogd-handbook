@@ -43,9 +43,9 @@ import ProcessStepper from '@site/src/components/ProcessStepper';
 
 ## Du möchtest Daten veröffentlichen?
 
-Der einfachste Weg zur Veröffentlichung von Daten als OGD im Kanton Zürich ist die Kontaktaufnahme mit dem [Data Steward der eigenen Verwaltungseinheit](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html). Data Stewards sind die erste Anlaufstelle für die Bereitstellung offener Daten - sie kennen den Prozess, können dich beraten und haben Zugang zur Metadaten-Verwaltung. 
+Für die Publikation von OGD sind Data Stewards zuständig. Der einfachste Weg zur Veröffentlichung von Daten als OGD im Kanton Zürich ist die Kontaktaufnahme mit einem [Mitglied des Fachausschusses OGD der eigenen Direktion](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/amt-fuer-statistik-und-daten/open-government-data.html). Die Mitglieder des Fachausschusses sind die erste Anlaufstelle für die Bereitstellung offener Daten - sie kennen den Prozess, können dich beraten und sind selbst Data Stewards.
 
-In Ämtern ohne bestehende oder aktive Data Stewards besteht die Möglichkeit, diese Rolle selbst zu übernehmen. Dafür stehen folgende Unterstützungsangebote zur Verfügung:
+In Ämtern ohne bestehende oder aktive Data Stewards besteht die Möglichkeit, [diese Rolle selbst zu übernehmen](/ogd-handbook/ogd_kanton_zh/data-governance#rollen-für-open-data). Dafür stehen folgende Unterstützungsangebote zur Verfügung:
 
 - Beratung durch die Fach- und Koordinationsstelle OGD: info@open.zh.ch
 - Einführungsschulung zur Metadaten-Verwaltung, um die Datensätze im Datenkatalog selber zu verwalten.
