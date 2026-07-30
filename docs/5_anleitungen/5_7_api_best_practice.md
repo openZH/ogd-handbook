@@ -32,11 +32,10 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
     ✅ `/gemeinden` ➡️ Liste aller Gemeinden
 
     ✅ `/gemeinden/120` ➡️ Eine spezifische Gemeinde
-    
-Ab der dritten Verschachtelung wird der Inhalt oft unklar. Somit sind zu tiefe Verschachtelungen zu vermeiden:
+
+    Ab der dritten Verschachtelung wird der Inhalt oft unklar. Somit sind zu tiefe Verschachtelungen zu vermeiden:
 
     ❎ `/users/123/orders` ➡️ Sämtliche Bestellungen eines spezifischen Users
 
     ❎ `/orders/456/items` ➡️ Sämtliche Elemente einer spezifischen Bestellung
 
-    ✅ `/products?search=kabellos` ➡️ Suche alle Produkte mit der Bezeichnung «kabellos» im Namen.
