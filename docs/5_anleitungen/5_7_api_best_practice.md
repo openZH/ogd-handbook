@@ -53,4 +53,12 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
 GET darf niemals verwendet werden, um Daten zu ändern!
 :::
 
-Die weiteren Methoden können [hier](https://de.wikipedia.org/wiki/Representational_State_Transfer#Umsetzung) gefunden werden.
+    Die weiteren Methoden können [hier](https://de.wikipedia.org/wiki/Representational_State_Transfer#Umsetzung) gefunden werden.
+
+- Standard-HTTP-Statuscodes verwenden. Jede Anfrage (Request) erhält eine Antwort (Response). Bei einer REST API wird erwartet, dass immer ein standardisierter Response-Code zurückgegeben wird. Die häufigsten HTTP-Codes können [hier](https://do4ds.com/chapters/append/cheatsheets.html) gefunden werden.
+
+- Sinnvolle und konsistente Fehlermeldungen implementieren. Suchen Nutzende beispielsweise nach einem Endpunkt, den es nicht gibt, soll eine Fehlermeldung zurückgegeben werden. Diese Fehlermeldungen sind über die gesamte API hinweg identisch zu halten. Zudem sollten mehrere Fehler gleichzeitig abgefangen werden können. Ein Beispiel für eine Fehlermeldung kann [hier](https://api.gov.au/sections/error-handling.html) gefunden werden.
+
+- API versionieren. Eine Schnittstelle ist als evolvierendes Produkt zu betrachten, das sich laufend weiterentwickeln und wandeln kann. Um diesem Fakt Rechnung zu tragen und sicherzustellen, dass eine API auffindbar bleibt, ist eine Versionsnummer nötig. Diese kann beispielsweise der folgenden Versionskonvention folgen: `<major>.<minor>.<patch>`. Geübte Nutzende erkennen umgehend, wie die neue Version zu interpretieren ist; eine Erklärung dazu findet sich [hier](https://r-pkgs.org/lifecycle.html). Zudem muss die Versionsnummer zwingend angepasst werden, wenn die API verändert wird. Ein beiliegendes Changelog informiert die Nutzenden über die vorgenommenen Änderungen.
+
+- Die API dokumentieren. Wer seine API nicht ausreichend dokumentiert, riskiert, dass Nutzende die Daten nicht finden oder nicht korrekt verwenden können. Es hat sich der Standard durchgesetzt, dass für jeden Endpunkt folgende Informationen beschrieben werden: 
