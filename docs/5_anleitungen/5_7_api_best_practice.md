@@ -28,13 +28,14 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
 :::
 
 - Endpunkte nicht zu tief verschachteln. Bis zu einer zweifachen Verschachtelung lässt sich der Inhalt leicht aus der URL ableiten:
-✅ `/gemeinden` ➡️ Liste aller Gemeinden
 
-✅ `/gemeinden/120` ➡️ Eine spezifische Gemeinde
+    ✅ `/gemeinden` ➡️ Liste aller Gemeinden
+
+    ✅ `/gemeinden/120` ➡️ Eine spezifische Gemeinde
 Ab der dritten Verschachtelung wird der Inhalt oft unklar. Somit sind zu tiefe Verschachtelungen zu vermeiden:
 
-❎ `/users/123/orders` ➡️ Sämtliche Bestellungen eines spezifischen Users
+    ❎ `/users/123/orders` ➡️ Sämtliche Bestellungen eines spezifischen Users
 
-❎ `/orders/456/items` ➡️ Sämtliche Elemente einer spezifischen Bestellung
+    ❎ `/orders/456/items` ➡️ Sämtliche Elemente einer spezifischen Bestellung
 
-✅ `/products?search=kabellos` ➡️ Suche alle Produkte mit der Bezeichnung «kabellos» im Namen.
+    ✅ `/products?search=kabellos` ➡️ Suche alle Produkte mit der Bezeichnung «kabellos» im Namen.
