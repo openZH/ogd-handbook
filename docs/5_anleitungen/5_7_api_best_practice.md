@@ -76,3 +76,10 @@ GET darf niemals verwendet werden, um Daten zu ändern!
 - REST API [Best Practice Guide](https://blog.postman.com/rest-api-best-practices/)
 - [API Design Standards](https://api.gov.au/) der australischen Behörden
 - Beispiel im Kanton Zürich: [Gebietsstammdaten API](https://gebietsstammdaten.statistik.zh.ch/api/__docs__/) und das R-Paket, welches die Abfragen standardisiert: [zhGebiete](https://github.com/statistikZH/zhGebiete).
+
+## Abschliessende Empfehlung
+Wie im ersten Teil beschrieben, handelt es sich bei einer API um ein Werkzeug für die «Machine-to-Machine»-Kommunikation. Bei der Entwicklung des Wrapper-Pakets [zhGebiete](https://github.com/statistikZH/zhGebiete), welches benutzerfreundliche und standardisierte Abfragen der Gebietsstammdaten-API ermöglicht, konnten wertvolle Erkenntnisse im API-Design gewonnen werden.
+
+Es ist absolut empfehlenswert, nicht nur die API zu implementieren, sondern auch die Perspektive der Nutzenden einzunehmen und automatisierte Abfragen zu schreiben. So lassen sich vor der Veröffentlichung der API noch Ideen und Anpassungen für die Schnittstelle sammeln.
+
+In R wird [`{plumber}`](https://www.rplumber.io/) verwendet, um aus R-Funktionen eine REST API zu generieren mit Swagger UI. Um auf die Schnittstellen zuzugreifen und Daten abzurufen, wird [`{httr2}`](https://httr2.r-lib.org/) als HTTP-Client genutzt.
