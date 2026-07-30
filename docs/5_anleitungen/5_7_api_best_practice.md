@@ -39,3 +39,13 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
 
     ❎ `/orders/456/items` ➡️ Sämtliche Elemente einer spezifischen Bestellung
 
+- Filtern, Sortieren und Suchen ermöglichen. Diese Features ermöglichen es den Nutzenden, den Output über die Abfrage zu organisieren. Technisch betrachtet sind Filtern, Sortieren und Suchen KEIN ENDPUNKT, sondern Query-Parameter. Ein klarer Parametername (z. B. vor dem Filter) eignet sich, um die URL für Nutzende leicht verständlich zu machen. Gute Beispiele sind: 
+
+    ✅ `/products?category=electronics&price_min=100&price_max=500` ➡️ Filter nach Produkten der Kategorie Elektronik mit einem Preis zwischen 100 und 500 CHF.
+
+    ✅ `/products?sort=category:asc,price:desc` ➡️ Produkte aufsteigend nach Kategorie sortieren und absteigend nach Preis.
+
+    ✅ `/products?search=kabellos` ➡️ Suche alle Produkte mit der Bezeichnung «kabellos» im Namen.
+
+- Nur vordefinierte Methoden verwenden. In einer REST API sind nur neun HTTP-Methoden erlaubt. Für OGD ist in den allermeisten Fällen die GET-Methode relevant. Diese Methode fordert die angegebene Ressource vom Server an (ohne Nebeneffekte zu verursachen). 
+
