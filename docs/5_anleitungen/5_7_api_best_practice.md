@@ -70,3 +70,9 @@ GET darf niemals verwendet werden, um Daten zu ändern!
 - Rückwärtskompatibel entwickeln. Sobald eine API veröffentlicht ist, muss damit gerechnet werden, dass Nutzende alle Endpunkte verwenden. Das heisst für die Weiterentwicklung: Lieber neue Endpunkte hinzufügen als ältere entfernen! Das Entfernen bestehender Endpunkte führt auf Seiten der Nutzenden zu Unannehmlichkeiten (z. B. Skripte, Pipelines oder ganze Analysen, die nicht mehr funktionsfähig sind).
 
 - HTTPS verwenden. Sämtliche API-Aufrufe müssen zwingend über HTTPS verschlüsselt erfolgen, um Authentifizierungsdaten und sensible Informationen während der Übertragung zu schützen. Da HTTP die Daten im Klartext überträgt, besteht ein Risiko, dass diese abgefangen und ausgelesen werden können.
+
+## Weiterführende Ressourcen
+
+- REST API [Best Practice Guide](https://blog.postman.com/rest-api-best-practices/)
+- [API Design Standards](https://api.gov.au/) der australischen Behörden
+- Beispiel im Kanton Zürich: [Gebietsstammdaten API](https://gebietsstammdaten.statistik.zh.ch/api/__docs__/) und das R-Paket, welches die Abfragen standardisiert: [zhGebiete](https://github.com/statistikZH/zhGebiete).
