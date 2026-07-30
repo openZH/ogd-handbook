@@ -49,3 +49,8 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
 
 - Nur vordefinierte Methoden verwenden. In einer REST API sind nur neun HTTP-Methoden erlaubt. Für OGD ist in den allermeisten Fällen die GET-Methode relevant. Diese Methode fordert die angegebene Ressource vom Server an (ohne Nebeneffekte zu verursachen). 
 
+:::warning Wichtig!
+GET darf niemals verwendet werden, um Daten zu ändern!
+:::
+
+Die weiteren Methoden können [hier](https://de.wikipedia.org/wiki/Representational_State_Transfer#Umsetzung) gefunden werden.
