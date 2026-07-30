@@ -21,4 +21,11 @@ APIs sind eine standardisierte Art, wie Computer miteinander kommunizieren. Die 
 
 Es gibt einige Best-Practice-Tipps, die helfen, die REST API noch einheitlicher und leichter zugänglich zu gestalten:
 
-- Sinnvolle und konsistente URL-Benennung. Es hat sich durchgesetzt, dass die Endpunkte durch Nomen im Plural beschrieben werden. Sinn und Zweck ist es, den Endpunkt gleich wie die Ressource zu benennen (da es sich um ein Objekt handelt, wird ein Nomen verwendet). 
+- Sinnvolle und konsistente URL-Benennung. Es hat sich durchgesetzt, dass die Endpunkte durch Nomen im Plural beschrieben werden. Sinn und Zweck ist es, den Endpunkt gleich wie die Ressource zu benennen (da es sich um ein Objekt handelt, wird ein Nomen verwendet).
+
+:::warning Wichtig!
+Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
+:::
+
+- Endpunkte nicht zu tief verschachteln. Bis zu einer zweifachen Verschachtelung lässt sich der Inhalt leicht aus der URL ableiten:
+✅ `/gemeinden` --> Liste aller Gemeinden
