@@ -17,3 +17,8 @@ Vor der Entwicklung einer API ist es sinnvoll, sich ein letztes Mal zu fragen: I
 
 APIs sind eine standardisierte Art, wie Computer miteinander kommunizieren. Die Empfehlungen fokussieren sich auf eine REST API. REST (Representational State Transfer) ist ein Architekturstil insbesondere für Programmierschnittstellen (API). REST APIs eignen sich sehr gut für OGD, da ihr Hauptmerkmal eine «einheitliche Schnittstelle» ist. Dies zahlt stark auf die FAIR-Prinzipien der Zugänglichkeit und Interoperabilität ein.
 
+## Best Practice
+
+Es gibt einige Best-Practice-Tipps, die helfen, die REST API noch einheitlicher und leichter zugänglich zu gestalten:
+
+- Sinnvolle und konsistente URL-Benennung. Es hat sich durchgesetzt, dass die Endpunkte durch Nomen im Plural beschrieben werden. Sinn und Zweck ist es, den Endpunkt gleich wie die Ressource zu benennen (da es sich um ein Objekt handelt, wird ein Nomen verwendet). 
