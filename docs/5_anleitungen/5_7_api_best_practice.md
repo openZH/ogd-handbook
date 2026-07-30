@@ -12,3 +12,8 @@ Um Daten effizient für den maschinellen Verbrauch bereitzustellen, ist die Entw
 ## Wann braucht es eine API?
 
 Vor der Entwicklung einer API ist es sinnvoll, sich ein letztes Mal zu fragen: Ist eine API das richtige Werkzeug? Wie in «[DevOps for Data](https://do4ds.com/chapters/sec1/1-2-proj-arch.html#choose-the-right-presentation-layer)» beschrieben, ist eine API die richtige Wahl, wenn Daten (unter anderem) für den maschinellen Verbrauch gedacht sind.
+
+## Die REST API
+
+APIs sind eine standardisierte Art, wie Computer miteinander kommunizieren. Die Empfehlungen fokussieren sich auf eine REST API. REST (Representational State Transfer) ist ein Architekturstil insbesondere für Programmierschnittstellen (API). REST APIs eignen sich sehr gut für OGD, da ihr Hauptmerkmal eine «einheitliche Schnittstelle» ist. Dies zahlt stark auf die FAIR-Prinzipien der Zugänglichkeit und Interoperabilität ein.
+
