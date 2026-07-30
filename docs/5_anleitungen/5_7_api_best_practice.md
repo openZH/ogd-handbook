@@ -28,4 +28,4 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
 :::
 
 - Endpunkte nicht zu tief verschachteln. Bis zu einer zweifachen Verschachtelung lässt sich der Inhalt leicht aus der URL ableiten:
-✅ `/gemeinden` --> Liste aller Gemeinden
+✅ `/gemeinden` -> Liste aller Gemeinden
