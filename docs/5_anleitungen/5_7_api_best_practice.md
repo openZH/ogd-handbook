@@ -47,13 +47,11 @@ Kein Verb verwenden, da dies in der HTTP-Methode integriert ist!
 
     ✅ `/products?search=kabellos` ➡️ Suche alle Produkte mit der Bezeichnung «kabellos» im Namen.
 
-- Nur vordefinierte Methoden verwenden. In einer REST API sind nur neun HTTP-Methoden erlaubt. Für OGD ist in den allermeisten Fällen die GET-Methode relevant. Diese Methode fordert die angegebene Ressource vom Server an (ohne Nebeneffekte zu verursachen). 
+- Nur vordefinierte Methoden verwenden. In einer REST API sind nur neun HTTP-Methoden erlaubt. Für OGD ist in den allermeisten Fällen die GET-Methode relevant. Diese Methode fordert die angegebene Ressource vom Server an (ohne Nebeneffekte zu verursachen). Die weiteren Methoden können [hier](https://de.wikipedia.org/wiki/Representational_State_Transfer#Umsetzung) gefunden werden.
 
 :::warning Wichtig!
 GET darf niemals verwendet werden, um Daten zu ändern!
 :::
-
-    Die weiteren Methoden können [hier](https://de.wikipedia.org/wiki/Representational_State_Transfer#Umsetzung) gefunden werden.
 
 - Standard-HTTP-Statuscodes verwenden. Jede Anfrage (Request) erhält eine Antwort (Response). Bei einer REST API wird erwartet, dass immer ein standardisierter Response-Code zurückgegeben wird. Die häufigsten HTTP-Codes können [hier](https://do4ds.com/chapters/append/cheatsheets.html) gefunden werden.
 
@@ -62,3 +60,13 @@ GET darf niemals verwendet werden, um Daten zu ändern!
 - API versionieren. Eine Schnittstelle ist als evolvierendes Produkt zu betrachten, das sich laufend weiterentwickeln und wandeln kann. Um diesem Fakt Rechnung zu tragen und sicherzustellen, dass eine API auffindbar bleibt, ist eine Versionsnummer nötig. Diese kann beispielsweise der folgenden Versionskonvention folgen: `<major>.<minor>.<patch>`. Geübte Nutzende erkennen umgehend, wie die neue Version zu interpretieren ist; eine Erklärung dazu findet sich [hier](https://r-pkgs.org/lifecycle.html). Zudem muss die Versionsnummer zwingend angepasst werden, wenn die API verändert wird. Ein beiliegendes Changelog informiert die Nutzenden über die vorgenommenen Änderungen.
 
 - Die API dokumentieren. Wer seine API nicht ausreichend dokumentiert, riskiert, dass Nutzende die Daten nicht finden oder nicht korrekt verwenden können. Es hat sich der Standard durchgesetzt, dass für jeden Endpunkt folgende Informationen beschrieben werden: 
+
+    - HTTP-Methode(n) und zugehörige URL mit Kurzbeschrieb.
+
+    - Falls zutreffend: benötigte Parameter (Feldname, Kurzbeschrieb und Parameter-Typ).
+
+    - API-Antworten (HTTP-Codes, Beschreibung zum Code, Format-Typ der Antwort und ein Beispiel). Zur allgemeinen Beschreibung der API wird immer häufiger Swagger UI verwendet. Ein sehr detailliert beschriebenes Beispiel einer REST API kann [hier](https://api.gov.au/assets/APIs/api-example.html) gefunden werden.
+
+- Rückwärtskompatibel entwickeln. Sobald eine API veröffentlicht ist, muss damit gerechnet werden, dass Nutzende alle Endpunkte verwenden. Das heisst für die Weiterentwicklung: Lieber neue Endpunkte hinzufügen als ältere entfernen! Das Entfernen bestehender Endpunkte führt auf Seiten der Nutzenden zu Unannehmlichkeiten (z. B. Skripte, Pipelines oder ganze Analysen, die nicht mehr funktionsfähig sind).
+
+- HTTPS verwenden. Sämtliche API-Aufrufe müssen zwingend über HTTPS verschlüsselt erfolgen, um Authentifizierungsdaten und sensible Informationen während der Übertragung zu schützen. Da HTTP die Daten im Klartext überträgt, besteht ein Risiko, dass diese abgefangen und ausgelesen werden können.
