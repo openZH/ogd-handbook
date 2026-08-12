@@ -29,5 +29,5 @@ Open Government Data ist ein Angebot von Behörden und Verwaltungen. Im Kanton Z
 Auch andere Institutionen und Organisationen publizieren open data. Eine vollständige Sammlung ist nicht möglich. Wenn Datenkataloge fehlen, melde uns das und wir tragen es nach.
 
 - [Historische Statistik der Schweiz (HSSO)](https://hsso.ch/en)
-- [opentransportdata.swiss](https://opentransportdata.swiss/de/)
-- [dataseries.org](https://dataseries.org/)
+- [opentransportdata.swiss – Daten zum öffentlichen Verkehr](https://opentransportdata.swiss/de/)
+- [dataseries.org - Schweizer Wirtschaftsdaten (SNB, KOF, BFS und SECO)](https://dataseries.org/)
