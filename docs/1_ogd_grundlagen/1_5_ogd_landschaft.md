@@ -30,4 +30,4 @@ Auch andere Institutionen und Organisationen publizieren open data. Eine vollst√
 
 - [Historische Statistik der Schweiz (HSSO)](https://hsso.ch/en)
 - [opentransportdata.swiss](https://opentransportdata.swiss/de/)
-- [https://opentransportdata.swiss/de/](https://dataseries.org/)
+- [dataseries.org](https://dataseries.org/)
