@@ -28,7 +28,7 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 | Attribut | Beschreibung | Beispiel | Typische Stolpersteine / Hinweise |
 |----------|--------------|---------|---------|
 | **Titel** | Knapp und allgemein verständlicher Titel. Nennt den Inhalt (z. B. „...Verkehrszähldaten Veloverkehr"), den geografischen Raum (z. B. „…im Kanton Zürich") und falls nötig eine zeitliche Abgrenzung (z. B. „…bis 2022"). | Verkehrszähldaten Veloverkehr im Kanton Zürich | Keine Abkürzungen |
-| **Beschreibung** | Überblick zu Inhalt, Kontext, Erhebungsmethode und allfälligen Einschränkungen. Titel und Beschreibung sollen unterschiedlich formuliert sein (verbessert SEO). | Der Datensatz enthält stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich. Die Daten werden mittels automatischer Sensoren erhoben und umfassen alle permanenten Zählstellen des Kantons seit 2016. Es handelt sich um Rohdaten, die weder plausibilisiert noch korrigiert sind. Technische Ausfälle oder temporäre Ausserbetriebnahme der Sensoren können zu Messlücken führen. | Brüche in Zeitreihen, Lücken oder Qualitätsprobleme explizit erwähnen. <br /> **Eine Hilfestellung für eine sinnvolle Beschreibung: [metafairy.datazh.ch](https://metafairy.datazh.ch/).** |
+| **Beschreibung** | Überblick zu Inhalt, Kontext, Erhebungsmethode und allfälligen Einschränkungen.<br />Brüche in Zeitreihen, Lücken oder Qualitätsprobleme explizit erwähnen. <br /> **Eine Hilfestellung für eine sinnvolle Beschreibung: [metafairy.datazh.ch](https://metafairy.datazh.ch/).** | Der Datensatz enthält stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich. Die Daten werden mittels automatischer Sensoren erhoben und umfassen alle permanenten Zählstellen des Kantons seit 2016. Es handelt sich um Rohdaten, die weder plausibilisiert noch korrigiert sind. Technische Ausfälle oder temporäre Ausserbetriebnahme der Sensoren können zu Messlücken führen. | <ul><li>Verschiedene Begriffe in Titel und Beschreibung wählen (verbessert Findbarkeit)</li><li>Mit Kontext beginnen, den ersten Satz allgemein halten für alle, die den Kontext des Kantons Zürich nicht kennen oder nicht vom Fach sind</li><li>Siehe [Infobox unten](#beschreibung-leitfragen) für Leitfragen zur Beschreibung</li></ul> |
 | **Periodizität** | In welchem Intervall werden die Daten aktualisiert? | Jährlich | Falls die Daten kontinuierlich aktualisiert werden, das Attribut "Nächste Aktualisierung" entsprechend aktuell halten. |
 | **Nächste Aktualisierung** | Wann ist die nächste Aktualisierung geplant? | 2027-01-01 | - |
 | **Zeitraum von & bis** | Ab wann und bis wann liegen Daten vor? Bei Jahresangaben den Stichtag nennen – falls unbekannt, 31.12. des jeweiligen Jahres verwenden. | 2016-12-31, 2026-01-01 | - |
@@ -40,6 +40,13 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 | **Organisation** | Herausgebende Organisation. | Tiefbauamt des Kantons Zürich | Kann im Admin-Bereich angepasst werden. |
 | **Abteilung** | Zuständige Abteilung innerhalb der Organisation. | Verkehr-Online | Kann im Admin-Bereich angepasst werden. |
 | **Kontakt** | Ansprechperson oder -stelle für Fragen zum Datensatz. | info@... | Kann im Admin-Bereich angepasst werden. |
+
+<a id="beschreibung-leitfragen"></a>
+
+:::info Leitfragen für die Beschreibung
+Beschreibungen der Datensätze sollten folgende Fragen allgemein verständlich beantworten:
+- Dateninhalt: Worum geht es? Was finde ich in diesen Daten?
+:::
 
 ### Distribution
 
