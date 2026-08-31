@@ -43,7 +43,7 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 
 ### Datensatz-Beschreibung
 
-Die Beschreibung des Datensatzes liefert den Kontext für den gesamten Datensatz. Sie sollte den Datensatz- und die Distributionstitel ergänzen und gemeinsam auch den Laien erläutern, welche Daten hier zu finden sind und warum. Die Beschreibung beginnt allgemein, nutzt möglichst keine Fachbegriffe oder Abkürzungen und erklärt verständlich, aber knapp.
+Die Beschreibung des Datensatzes liefert den Kontext für den gesamten Datensatz. Sie sollte den Datensatz- und die Distributionstitel ergänzen und gemeinsam auch Laien erläutern, welche Daten hier zu finden sind und warum. Die Beschreibung beginnt allgemein, nutzt möglichst keine Fachbegriffe oder Abkürzungen und erklärt verständlich, aber knapp.
 
 Beschreibungen der Datensätze sollten folgende Fragen allgemein verständlich beantworten:
 - **Dateninhalt**: Worum geht es? Was finde ich in diesen Daten?
