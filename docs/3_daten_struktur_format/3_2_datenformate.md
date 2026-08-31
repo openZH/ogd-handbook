@@ -7,7 +7,7 @@ sidebar_position: 2
 
 # Datenformate
 
-OGD müssen in einem offenen, maschinenlesbaren Format angeboten werden. Am effektivsten ist dafür eine gut dokumentierte, einfach anzuwendende offene Schnittstelle (API). Alternativ eignen sich offene (nicht-proprietäre) Dateiformate. Dafür haben sich einige Dateiformate als Standard durchgesetzt. Auch andere offene Dateiformate sind denkbar.
+OGD müssen in einem offenen, maschinenlesbaren Format angeboten werden. Maschinenlesbar bedeutet, dass Daten so strukturiert bereitgestellt werden, dass sie von Computersystemen mit wenig Zeitaufwand und automatisiert eingelesen, verarbeitet und ausgewertet werden können. Am effektivsten ist dafür eine gut dokumentierte, einfach anzuwendende offene Schnittstelle (API). Alternativ eignen sich offene (nicht-proprietäre) Dateiformate. Dafür haben sich einige Dateiformate als Standard durchgesetzt. Auch andere offene Dateiformate sind denkbar.
 
 ---
 
