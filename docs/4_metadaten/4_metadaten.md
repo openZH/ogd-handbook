@@ -43,9 +43,13 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 
 <a id="beschreibung-leitfragen"></a>
 
-:::info Leitfragen für die Beschreibung
+:::info Leitfragen für die Datensatz-Beschreibung
 Beschreibungen der Datensätze sollten folgende Fragen allgemein verständlich beantworten:
-- Dateninhalt: Worum geht es? Was finde ich in diesen Daten?
+- **Dateninhalt**: Worum geht es? Was finde ich in diesen Daten?
+- **Entstehungszusammenhang**: Wie wurden die Daten gemessen und wofür? Was ist die Quelle?
+- **Datenqualität**: Sind die Daten vollständig? Gibt es Änderungen in der Erhebung? Welche Rückschlüsse lassen sich aus den Daten ziehen und welche nicht?
+- <span style={{color: 'var(--ifm-color-emphasis-600)'}}>**Räumlicher Bezug**: Wie sind die Daten räumlich aggregiert? Auf Gemeinden, Bezirke, Raumplanungsregionen? Oder andere Aggregationen?</span>
+- <span style={{color: 'var(--ifm-color-emphasis-600)'}}>**Zeitintervall**: Wie sind die Daten zeitlich aggregiert? Auf die Minute? Live? Auf den Monat, das Jahr?</span>
 :::
 
 ### Distribution
