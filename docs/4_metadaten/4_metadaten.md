@@ -28,7 +28,7 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 | Attribut | Beschreibung | Beispiel | Typische Stolpersteine / Hinweise |
 |----------|--------------|---------|---------|
 | **Titel** | Knapp und allgemein verständlicher Titel. Nennt den Inhalt (z. B. „...Verkehrszähldaten Veloverkehr"), den geografischen Raum (z. B. „…im Kanton Zürich") und falls nötig eine zeitliche Abgrenzung (z. B. „…bis 2022"). | Verkehrszähldaten Veloverkehr im Kanton Zürich | Keine Abkürzungen |
-| **Beschreibung** | Überblick zu Inhalt, Kontext, Erhebungsmethode und allfälligen Einschränkungen.<br />Brüche in Zeitreihen, Lücken oder Qualitätsprobleme explizit erwähnen. <br /> **Eine Hilfestellung für eine sinnvolle Beschreibung: [metafairy.datazh.ch](https://metafairy.datazh.ch/).** | Der Datensatz enthält stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich. Die Daten werden mittels automatischer Sensoren erhoben und umfassen alle permanenten Zählstellen des Kantons seit 2016. Es handelt sich um Rohdaten, die weder plausibilisiert noch korrigiert sind. Technische Ausfälle oder temporäre Ausserbetriebnahme der Sensoren können zu Messlücken führen. | <ul><li>Verschiedene Begriffe in Titel und Beschreibung wählen (verbessert Findbarkeit)</li><li>Mit Kontext beginnen, den ersten Satz allgemein halten für alle, die den Kontext des Kantons Zürich nicht kennen oder nicht vom Fach sind</li><li>Siehe [Infobox unten](#beschreibung-leitfragen) für Leitfragen zur Beschreibung</li></ul> |
+| **Beschreibung** | Überblick zu Inhalt, Kontext, Erhebungsmethode und allfälligen Einschränkungen.<br />Brüche in Zeitreihen, Lücken oder Qualitätsprobleme explizit erwähnen. <br /> **Eine Hilfestellung für eine sinnvolle Beschreibung: [metafairy.datazh.ch](https://metafairy.datazh.ch/).** | Der Datensatz enthält stündliche Velozähldaten des kantonalen Velonetzes im Kanton Zürich. Die Daten werden mittels automatischer Sensoren erhoben und umfassen alle permanenten Zählstellen des Kantons seit 2016. Es handelt sich um Rohdaten, die weder plausibilisiert noch korrigiert sind. Technische Ausfälle oder temporäre Ausserbetriebnahme der Sensoren können zu Messlücken führen. | <ul><li>Verschiedene Begriffe in Titel und Beschreibung wählen (verbessert Findbarkeit)</li><li>Mit Kontext beginnen, den ersten Satz allgemein halten für alle, die den Kontext des Kantons Zürich nicht kennen oder nicht vom Fach sind</li><li>Siehe [Leitfragen unten](#datensatz-beschreibung) für die Beschreibung</li></ul> |
 | **Periodizität** | In welchem Intervall werden die Daten aktualisiert? | Jährlich | Falls die Daten kontinuierlich aktualisiert werden, das Attribut "Nächste Aktualisierung" entsprechend aktuell halten. |
 | **Nächste Aktualisierung** | Wann ist die nächste Aktualisierung geplant? | 2027-01-01 | - |
 | **Zeitraum von & bis** | Ab wann und bis wann liegen Daten vor? Bei Jahresangaben den Stichtag nennen – falls unbekannt, 31.12. des jeweiligen Jahres verwenden. | 2016-12-31, 2026-01-01 | - |
@@ -41,15 +41,19 @@ Alle aufgeführten Metadaten müssen/können im MDV ausgefüllt werden. Weitere 
 | **Abteilung** | Zuständige Abteilung innerhalb der Organisation. | Verkehr-Online | Kann im Admin-Bereich angepasst werden. |
 | **Kontakt** | Ansprechperson oder -stelle für Fragen zum Datensatz. | info@... | Kann im Admin-Bereich angepasst werden. |
 
-<a id="beschreibung-leitfragen"></a>
+### Datensatz-Beschreibung
 
-:::info Leitfragen für die Datensatz-Beschreibung
+Die Beschreibung des Datensatzes liefert den Kontext für den gesamten Datensatz. Sie sollte den Datensatz- und die Distributionstitel ergänzen und gemeinsam auch den Laien erläutern, welche Daten hier zu finden sind und warum. Die Beschreibung beginnt allgemein, nutzt möglichst keine Fachbegriffe oder Abkürzungen und erklärt verständlich, aber knapp.
+
 Beschreibungen der Datensätze sollten folgende Fragen allgemein verständlich beantworten:
 - **Dateninhalt**: Worum geht es? Was finde ich in diesen Daten?
 - **Entstehungszusammenhang**: Wie wurden die Daten gemessen und wofür? Was ist die Quelle?
 - **Datenqualität**: Sind die Daten vollständig? Gibt es Änderungen in der Erhebung? Welche Rückschlüsse lassen sich aus den Daten ziehen und welche nicht?
 - <span style={{color: 'var(--ifm-color-emphasis-600)'}}>**Räumlicher Bezug**: Wie sind die Daten räumlich aggregiert? Auf Gemeinden, Bezirke, Raumplanungsregionen? Oder andere Aggregationen?</span>
 - <span style={{color: 'var(--ifm-color-emphasis-600)'}}>**Zeitintervall**: Wie sind die Daten zeitlich aggregiert? Auf die Minute? Live? Auf den Monat, das Jahr?</span>
+
+:::tip Tipp
+Mit Hilfe dieser Leitfragen lässt sich ein guter erster Entwurf für eine Datensatzbeschreibung durch ein LLM prompten.
 :::
 
 ### Distribution
