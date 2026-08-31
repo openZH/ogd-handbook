@@ -53,7 +53,20 @@ Beschreibungen der Datensätze sollten folgende Fragen allgemein verständlich b
 - <span style={{color: 'var(--ifm-color-emphasis-600)'}}>**Zeitintervall**: Wie sind die Daten zeitlich aggregiert? Auf die Minute? Live? Auf den Monat, das Jahr?</span>
 
 :::tip Tipp
-Mit Hilfe dieser Leitfragen lässt sich ein guter erster Entwurf für eine Datensatzbeschreibung durch ein LLM prompten.
+Mit Hilfe dieser Leitfragen lässt sich ein guter erster Entwurf für eine Datensatzbeschreibung durch ein LLM prompten. Kopiere den folgenden Prompt, ersetze die Platzhalter in eckigen Klammern mit deinen Angaben und sende ihn an ein LLM deiner Wahl.
+
+```markdown
+Entwirf eine verständliche, prägnante Datensatzbeschreibung für einen neuen Datensatz im Datenkatalog des Kantons Zürich www.zh.ch/daten.
+
+Beschreibe in dieser Reihenfolge:
+1. **Dateninhalt**: [Worum geht es? Was finde ich in diesen Daten?]
+2. **Entstehungszusammenhang**: [Wie wurden die Daten gemessen und wofür? Was ist die Quelle?]
+3. **Datenqualität**: [Sind die Daten vollständig? Gibt es Änderungen in der Erhebung? Welche Rückschlüsse lassen sich aus den Daten ziehen und welche nicht?]
+4. **Räumlicher Bezug**: [Wie sind die Daten räumlich aggregiert? Auf Gemeinden, Bezirke, Raumplanungsregionen? Oder andere Aggregationen?]
+5. **Zeitintervall**: [Wie sind die Daten zeitlich aggregiert? Auf die Minute? Live? Auf den Monat, das Jahr?]
+
+Halte dich so knapp wie möglich. Gestalte den ersten Satz der Beschreibung allgemein, sodass er für Unkundige den Kontext der Daten erläutert. Nutze Schweizer Rechtschreibung und deutsche Sprache. Formuliere alles aus; wenn zu einem Punkt keine Angaben vorliegen, lass diesen weg. Nutze wo möglich genderneutrale Ausdrücke; ist das nicht möglich, schreibe zwei Geschlechter aus und verbinde sie mit "und". Gib ausschliesslich die fertige Beschreibung als Fliesstext aus, ohne Einleitung, Kommentare oder Formatierung.
+```
 :::
 
 ### Distribution
